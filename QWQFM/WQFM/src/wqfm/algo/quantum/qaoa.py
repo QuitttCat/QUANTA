@@ -539,8 +539,8 @@ def find_min_energy(Q, n, taxa_to_idx):
             right_partition,
         )
 
-    if n > 18:
-        print("Using the D-Wave QPU for n > 18.", flush=True)
+    if n > 20:
+        print("Using the D-Wave QPU for n > 20.", flush=True)
         # best_x, best_energy = simulated_annealing(Q)
         best_x, best_energy = dwave_quantum_annealing(Q, num_reads=1000)
         # Build partition result

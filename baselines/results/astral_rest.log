@@ -9,3 +9,31 @@ converted 583740 quartets
 converted 576660 quartets
 [6/10] biological avian-intron.weighted_quartets: time 2943.070 s, RSS 934.7 MB, quartet score 0.608903, RF -
 converted 581782 quartets
+=== restarted after WSL restart Sun Oct 25 19:50:50 +06 2026
+10 inputs, 1 in parallel
+[1/10] biological aminota-aa.weighted_quartets: time 3.840 s, RSS 12.6 MB, quartet score 0.666635, RF -
+[2/10] biological aminota-nt.weighted_quartets: time 2.220 s, RSS 11.7 MB, quartet score 0.780547, RF -
+[3/10] biological angiosperm.weighted_quartets: time 1179.640 s, RSS 712.9 MB, quartet score 0.796785, RF -
+[4/10] biological avian-all.weighted_quartets: time 2944.170 s, RSS 945.8 MB, quartet score 0.500381, RF -
+[5/10] biological avian-exon.weighted_quartets: time 2903.420 s, RSS 946.0 MB, quartet score 0.437230, RF -
+[6/10] biological avian-intron.weighted_quartets: time 2943.070 s, RSS 934.7 MB, quartet score 0.608903, RF -
+converted 581782 quartets
+[7/10] biological avian-uce.weighted_quartets: time 2881.690 s, RSS 943.1 MB, quartet score 0.573156, RF -
+converted 186645 quartets
+[8/10] biological mamalian.weighted_quartets: time 648.400 s, RSS 304.5 MB, quartet score 0.911575, RF -
+[9/10] 144 insect_gene_tree_0713: time 0.680 s, RSS 4.8 MB, quartet score 1.000000, RF 0.000000000000
+[10/10] 200 s200_rep01_true_gene_tree_001: time 0.690 s, RSS 4.8 MB, quartet score 1.000000, RF 0.000000000000
+Saved /home/niloy/Downloads/dwave/baselines/results/astral_results.csv
+=== restarted after WSL restart Sun Oct 25 21:47:45 +06 2026
+10 inputs, 1 in parallel
+[1/10] biological aminota-aa.weighted_quartets: time 3.840 s, RSS 12.6 MB, quartet score 0.666635, RF -
+[2/10] biological aminota-nt.weighted_quartets: time 2.220 s, RSS 11.7 MB, quartet score 0.780547, RF -
+[3/10] biological angiosperm.weighted_quartets: time 1179.640 s, RSS 712.9 MB, quartet score 0.796785, RF -
+[4/10] biological avian-all.weighted_quartets: time 2944.170 s, RSS 945.8 MB, quartet score 0.500381, RF -
+[5/10] biological avian-exon.weighted_quartets: time 2903.420 s, RSS 946.0 MB, quartet score 0.437230, RF -
+[6/10] biological avian-intron.weighted_quartets: time 2943.070 s, RSS 934.7 MB, quartet score 0.608903, RF -
+[7/10] biological avian-uce.weighted_quartets: time 2881.690 s, RSS 943.1 MB, quartet score 0.573156, RF -
+[8/10] biological mamalian.weighted_quartets: time 648.400 s, RSS 304.5 MB, quartet score 0.911575, RF -
+[9/10] 144 insect_gene_tree_0713: time 0.680 s, RSS 4.8 MB, quartet score 1.000000, RF 0.000000000000
+[10/10] 200 s200_rep01_true_gene_tree_001: time 0.690 s, RSS 4.8 MB, quartet score 1.000000, RF 0.000000000000
+Saved /home/niloy/Downloads/dwave/baselines/results/astral_results.csv

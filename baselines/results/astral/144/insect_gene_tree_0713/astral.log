@@ -1,0 +1,221 @@
+Accurate Species TRee ALgorithm IV (ASTRAL-IV)
+*** NOW with integrated CASTLES-2 ***
+Version: v1.25.4.8
+#Genetrees: 1
+#Species: 144
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+Use two-step algorithm!
+Guide Tree 0/21
+#NNI moves:0/192
+Guide Tree 1/21
+#NNI moves:0/192
+Guide Tree 2/21
+#NNI moves:0/192
+Guide Tree 3/21
+#NNI moves:0/192
+Guide Tree 4/21
+#NNI moves:0/192
+Guide Tree 5/21
+#NNI moves:0/192
+Guide Tree 6/21
+#NNI moves:0/192
+Guide Tree 7/21
+#NNI moves:0/192
+Guide Tree 8/21
+#NNI moves:0/192
+Guide Tree 9/21
+#NNI moves:0/192
+Guide Tree 10/21
+#NNI moves:0/192
+Guide Tree 11/21
+#NNI moves:0/192
+Guide Tree 12/21
+#NNI moves:0/192
+Guide Tree 13/21
+#NNI moves:0/192
+Guide Tree 14/21
+#NNI moves:0/192
+Guide Tree 15/21
+#NNI moves:0/192
+Guide Tree 16/21
+#NNI moves:0/192
+Guide Tree 17/21
+#NNI moves:0/192
+Guide Tree 18/21
+#NNI moves:0/192
+Guide Tree 19/21
+#NNI moves:0/192
+Guide Tree 20/21
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((((Okanagana_villosa,Cercopis_vulnerata),(((Ranatra_linearis,Acanthosoma_haemorrhoidale),(Notostira_elongata,Velia_caprai)),Xenophysella_greensladeae)),Nilaparvata_lugens),((((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida),Anurida_maritima),(DAPHNIA_PULEX,((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis)))),(((((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri),(Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis))),(Frankliniella_cephalica,Gynaikothrips_ficorum))),((Campodea_augens,Occasjapyx_japonicus),(Atelura_formicaria,Zorotypus_caudelli))),((Cordulegaster_boltonii,Calopteryx_splendens),Epiophlebia_superstes)),((((Forficula_auricularia,(Apachyus_charteceus,Gryllotalpa_sp)),(Cosmioperla_kuna,(Perla_marginata,Leuctra_sp))),((Ceuthophilus_sp,((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus)),((Blaberus_atropos,((Mastotermes_darwiniensis,((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS)),Cryptocercus_wrighti)),Periplaneta_americana))),((Ephemera_danica,(Isonychia_bicolor,Eurylophella_sp)),Baetis_pumilus))),(((Exoneura_robusta,(Bombus_terrestris,APIS_MELLIFERA)),((((Tenthredo_koehleri,Orussus_abietinus),((Leptopilina_clavipes,(Cotesia_vestalis,Dichochrysa_prasina)),((Liposcelis_bostrychophila,NASONIA_VITRIPENNIS),Thrips_palmi))),Chrysis_viridula),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator))),(Tanzaniophasma_sp,((Galloisiana_yuasai,Grylloblatta_bifratrilecta),((Aposthonia_japonica,Haploembia_palaui),((Peruphasma_schultei,Aretaon_asperrimus),Timema_cristinae)))))),(Thermobia_domestica,Tricholepidion_gertschi)),(Meinertellus_cundinamarcensis,Machilis_hrabei)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),(((((((ANOPHELES_GAMBIAE,Aedes_AEGYpti),(((((Rhagoletis_pomonella,Triarthria_setipennis),Sarcophaga_crassipalpis),Glossina_morsitans),DROSOPHILA_MELANOGASTER),Lipara_lucens)),((Bibio_marci,((Priacma_serrata,Tipula_maxima),Trichocera_fuscata)),Phlebotomus_papatasi)),(((ACYRTOSIPHON_PISUM,Rhyacophila_fasciata),Aphis_gossypii),Essigella_californica)),((((Sarsinebalia_urgorii,(Litopenaeus_vannamei,Celuca_puligator)),Cypridininae_sp),((Symphylella_vulgaris,Glomeris_pustulata),Acerentomon_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),(((Carabus_granulatus,Gyrinus_marinus),(((TRIBOLIUM_CASTANEUM,Meloe_violaceus),Dendroctonus_ponderosae),Aleochara_curtula)),(((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus),((Inocellia_crassicornis,Xanthostigma_xanthostigma),(Sminthurus_vir_nig,Euroleon_nostras))))),((Boreus_hyemalis,(Lepicerus_sp,Bittacus_pilicornis)),Panorpa_vulgaris)),((Bombylius_major,IXODES_SCAPULARIS),Ectopsocus_briggsi)),(Ceratophyllus_gallinae,(Ctenocephalides_felis,Archaeopsylla_erinacei))),Platycentropus_radiatus),(((((Zygaena_fausta,(BOMBYX_MORI,Manduca_sexta)),((Parides_arcas,Polyommatus_icarus),Yponomeuta_evonymella)),Cheumatopsyche_sp),Triodia_sylvina),Nemophora_deegerella)),Philopotamus_ludificatus),Micropterix_calthella);
+Guide Tree 0/21
+#NNI moves:0/192
+Guide Tree 1/21
+#NNI moves:0/192
+Guide Tree 2/21
+#NNI moves:0/192
+Guide Tree 3/21
+#NNI moves:0/192
+Guide Tree 4/21
+#NNI moves:0/192
+Guide Tree 5/21
+#NNI moves:0/192
+Guide Tree 6/21
+#NNI moves:0/192
+Guide Tree 7/21
+#NNI moves:0/192
+Guide Tree 8/21
+#NNI moves:0/192
+Guide Tree 9/21
+#NNI moves:0/192
+Guide Tree 10/21
+#NNI moves:0/192
+Guide Tree 11/21
+#NNI moves:0/192
+Guide Tree 12/21
+#NNI moves:0/192
+Guide Tree 13/21
+#NNI moves:0/192
+Guide Tree 14/21
+#NNI moves:0/192
+Guide Tree 15/21
+#NNI moves:0/192
+Guide Tree 16/21
+#NNI moves:0/192
+Guide Tree 17/21
+#NNI moves:0/192
+Guide Tree 18/21
+#NNI moves:0/192
+Guide Tree 19/21
+#NNI moves:0/192
+Guide Tree 20/21
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((((Xenophysella_greensladeae,((Notostira_elongata,Velia_caprai),(Acanthosoma_haemorrhoidale,Ranatra_linearis))),(Cercopis_vulnerata,Okanagana_villosa)),Nilaparvata_lugens),((((Pogonognathellus_lon_fla,Tetrodontophora_bielanensis),Folsomia_candida),Anurida_maritima),(((Bemisia_tabaci,Trialeurodes_vaporariorum),Speleonectes_tulumensis),DAPHNIA_PULEX))),(((((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri),(Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis))),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Zorotypus_caudelli,Atelura_formicaria),(Campodea_augens,Occasjapyx_japonicus))),((Cordulegaster_boltonii,Calopteryx_splendens),Epiophlebia_superstes)),(((((Metallyticus_splendidus,(Mantis_religiosa,Empusa_pennata)),Ceuthophilus_sp),(((Cryptocercus_wrighti,(((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS),Mastotermes_darwiniensis)),Blaberus_atropos),Periplaneta_americana)),(((Gryllotalpa_sp,Apachyus_charteceus),Forficula_auricularia),((Leuctra_sp,Perla_marginata),Cosmioperla_kuna))),(((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus))),((((((((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes),((NASONIA_VITRIPENNIS,Liposcelis_bostrychophila),Thrips_palmi)),(Orussus_abietinus,Tenthredo_koehleri)),Chrysis_viridula),(Harpegnathos_SALTator,ACROMYRMEX_ECHINATIOR)),((APIS_MELLIFERA,Bombus_terrestris),Exoneura_robusta)),((((Timema_cristinae,(Peruphasma_schultei,Aretaon_asperrimus)),(Haploembia_palaui,Aposthonia_japonica)),(Galloisiana_yuasai,Grylloblatta_bifratrilecta)),Tanzaniophasma_sp))),(Tricholepidion_gertschi,Thermobia_domestica)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),((Stenobothrus_lineatus,Prosarthria_teretrirostris),Tetrix_subulata)),((((((((DROSOPHILA_MELANOGASTER,((Sarcophaga_crassipalpis,(Rhagoletis_pomonella,Triarthria_setipennis)),Glossina_morsitans)),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti)),(((Trichocera_fuscata,(Priacma_serrata,Tipula_maxima)),Bibio_marci),Phlebotomus_papatasi)),(Essigella_californica,((ACYRTOSIPHON_PISUM,Rhyacophila_fasciata),Aphis_gossypii))),((((Glomeris_pustulata,Symphylella_vulgaris),Acerentomon_sp),((Sarsinebalia_urgorii,(Litopenaeus_vannamei,Celuca_puligator)),Cypridininae_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((((Dendroctonus_ponderosae,(TRIBOLIUM_CASTANEUM,Meloe_violaceus)),Aleochara_curtula),(Carabus_granulatus,Gyrinus_marinus)),(((Euroleon_nostras,Sminthurus_vir_nig),(Inocellia_crassicornis,Xanthostigma_xanthostigma)),((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus)))),(Panorpa_vulgaris,((Bittacus_pilicornis,Lepicerus_sp),Boreus_hyemalis))),(Ectopsocus_briggsi,(IXODES_SCAPULARIS,Bombylius_major))),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),((((((BOMBYX_MORI,Manduca_sexta),Zygaena_fausta),((Polyommatus_icarus,Parides_arcas),Yponomeuta_evonymella)),Cheumatopsyche_sp),Triodia_sylvina),Nemophora_deegerella)),Philopotamus_ludificatus),Micropterix_calthella);
+Guide Tree 0/21
+#NNI moves:0/192
+Guide Tree 1/21
+#NNI moves:0/192
+Guide Tree 2/21
+#NNI moves:0/192
+Guide Tree 3/21
+#NNI moves:0/192
+Guide Tree 4/21
+#NNI moves:0/192
+Guide Tree 5/21
+#NNI moves:0/192
+Guide Tree 6/21
+#NNI moves:0/192
+Guide Tree 7/21
+#NNI moves:0/192
+Guide Tree 8/21
+#NNI moves:0/192
+Guide Tree 9/21
+#NNI moves:0/192
+Guide Tree 10/21
+#NNI moves:0/192
+Guide Tree 11/21
+#NNI moves:0/192
+Guide Tree 12/21
+#NNI moves:0/192
+Guide Tree 13/21
+#NNI moves:0/192
+Guide Tree 14/21
+#NNI moves:0/192
+Guide Tree 15/21
+#NNI moves:0/192
+Guide Tree 16/21
+#NNI moves:0/192
+Guide Tree 17/21
+#NNI moves:0/192
+Guide Tree 18/21
+#NNI moves:0/192
+Guide Tree 19/21
+#NNI moves:0/192
+Guide Tree 20/21
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((Peruphasma_schultei,Aretaon_asperrimus),Timema_cristinae),(Aposthonia_japonica,Haploembia_palaui)),(Galloisiana_yuasai,Grylloblatta_bifratrilecta)),Tanzaniophasma_sp),(((((((Liposcelis_bostrychophila,NASONIA_VITRIPENNIS),Thrips_palmi),((Cotesia_vestalis,Dichochrysa_prasina),Leptopilina_clavipes)),(Tenthredo_koehleri,Orussus_abietinus)),Chrysis_viridula),(Harpegnathos_SALTator,ACROMYRMEX_ECHINATIOR)),(Exoneura_robusta,(APIS_MELLIFERA,Bombus_terrestris)))),((((((((Okanagana_villosa,Cercopis_vulnerata),(((Velia_caprai,Notostira_elongata),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae)),Nilaparvata_lugens),(((Speleonectes_tulumensis,(Trialeurodes_vaporariorum,Bemisia_tabaci)),DAPHNIA_PULEX),(((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida),Anurida_maritima))),(((Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)),(Planococcus_citri,((Menopon_gallinae,Mengenilla_moldrzyki),PEDICULUS_HUMANUS))),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Zorotypus_caudelli,Atelura_formicaria),(Occasjapyx_japonicus,Campodea_augens))),((Calopteryx_splendens,Cordulegaster_boltonii),Epiophlebia_superstes)),(((((Gryllotalpa_sp,Apachyus_charteceus),Forficula_auricularia),((Leuctra_sp,Perla_marginata),Cosmioperla_kuna)),((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS),Mastotermes_darwiniensis),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana))),(((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus)))),(Tricholepidion_gertschi,Thermobia_domestica)),(Meinertellus_cundinamarcensis,Machilis_hrabei)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),((((((((((Sarcophaga_crassipalpis,(Triarthria_setipennis,Rhagoletis_pomonella)),Glossina_morsitans),DROSOPHILA_MELANOGASTER),Lipara_lucens),(Aedes_AEGYpti,ANOPHELES_GAMBIAE)),((Bibio_marci,((Tipula_maxima,Priacma_serrata),Trichocera_fuscata)),Phlebotomus_papatasi)),(Essigella_californica,((Rhyacophila_fasciata,ACYRTOSIPHON_PISUM),Aphis_gossypii))),((((Glomeris_pustulata,Symphylella_vulgaris),Acerentomon_sp),(((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((((Sialis_lutaria,Corydalus_cornutus),Osmylus_fulvicephalus),((Xanthostigma_xanthostigma,Inocellia_crassicornis),(Euroleon_nostras,Sminthurus_vir_nig))),((((Meloe_violaceus,TRIBOLIUM_CASTANEUM),Dendroctonus_ponderosae),Aleochara_curtula),(Carabus_granulatus,Gyrinus_marinus)))),(Panorpa_vulgaris,((Lepicerus_sp,Bittacus_pilicornis),Boreus_hyemalis))),((IXODES_SCAPULARIS,Bombylius_major),Ectopsocus_briggsi)),((Ctenocephalides_felis,Archaeopsylla_erinacei),Ceratophyllus_gallinae)),Platycentropus_radiatus),(((Cheumatopsyche_sp,((Yponomeuta_evonymella,(Polyommatus_icarus,Parides_arcas)),(Zygaena_fausta,(Manduca_sexta,BOMBYX_MORI)))),Triodia_sylvina),Nemophora_deegerella)),Philopotamus_ludificatus),Micropterix_calthella);
+Guide Tree 0/21
+#NNI moves:0/192
+Guide Tree 1/21
+#NNI moves:0/192
+Guide Tree 2/21
+#NNI moves:0/192
+Guide Tree 3/21
+#NNI moves:0/192
+Guide Tree 4/21
+#NNI moves:0/192
+Guide Tree 5/21
+#NNI moves:0/192
+Guide Tree 6/21
+#NNI moves:0/192
+Guide Tree 7/21
+#NNI moves:0/192
+Guide Tree 8/21
+#NNI moves:0/192
+Guide Tree 9/21
+#NNI moves:0/192
+Guide Tree 10/21
+#NNI moves:0/192
+Guide Tree 11/21
+#NNI moves:0/192
+Guide Tree 12/21
+#NNI moves:0/192
+Guide Tree 13/21
+#NNI moves:0/192
+Guide Tree 14/21
+#NNI moves:0/192
+Guide Tree 15/21
+#NNI moves:0/192
+Guide Tree 16/21
+#NNI moves:0/192
+Guide Tree 17/21
+#NNI moves:0/192
+Guide Tree 18/21
+#NNI moves:0/192
+Guide Tree 19/21
+#NNI moves:0/192
+Guide Tree 20/21
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((Gynaikothrips_ficorum,Frankliniella_cephalica),((((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri),((Stylops_melittae,Lepeophtheirus_salmonis),Acanthocasuarina_muellerianae))),((Nilaparvata_lugens,((((Velia_caprai,Notostira_elongata),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata))),((((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis),DAPHNIA_PULEX),(((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida),Anurida_maritima)))),((Occasjapyx_japonicus,Campodea_augens),(Zorotypus_caudelli,Atelura_formicaria))),((Calopteryx_splendens,Cordulegaster_boltonii),Epiophlebia_superstes)),(((((Metallyticus_splendidus,(Mantis_religiosa,Empusa_pennata)),Ceuthophilus_sp),((((((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS),Mastotermes_darwiniensis),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Leuctra_sp,Perla_marginata),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))),(((Isonychia_bicolor,Eurylophella_sp),Ephemera_danica),Baetis_pumilus))),((((Bombus_terrestris,APIS_MELLIFERA),Exoneura_robusta),(((((Thrips_palmi,(NASONIA_VITRIPENNIS,Liposcelis_bostrychophila)),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Orussus_abietinus,Tenthredo_koehleri)),Chrysis_viridula),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator))),(((Galloisiana_yuasai,Grylloblatta_bifratrilecta),(((Aretaon_asperrimus,Peruphasma_schultei),Timema_cristinae),(Haploembia_palaui,Aposthonia_japonica))),Tanzaniophasma_sp))),(Thermobia_domestica,Tricholepidion_gertschi)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),(((((((Lipara_lucens,(((Sarcophaga_crassipalpis,(Triarthria_setipennis,Rhagoletis_pomonella)),Glossina_morsitans),DROSOPHILA_MELANOGASTER)),(ANOPHELES_GAMBIAE,Aedes_AEGYpti)),((Bibio_marci,((Tipula_maxima,Priacma_serrata),Trichocera_fuscata)),Phlebotomus_papatasi)),(((ACYRTOSIPHON_PISUM,Rhyacophila_fasciata),Aphis_gossypii),Essigella_californica)),(((((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp),((Symphylella_vulgaris,Glomeris_pustulata),Acerentomon_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((((Sialis_lutaria,Corydalus_cornutus),Osmylus_fulvicephalus),((Xanthostigma_xanthostigma,Inocellia_crassicornis),(Sminthurus_vir_nig,Euroleon_nostras))),((Gyrinus_marinus,Carabus_granulatus),(((Meloe_violaceus,TRIBOLIUM_CASTANEUM),Dendroctonus_ponderosae),Aleochara_curtula)))),((Boreus_hyemalis,(Lepicerus_sp,Bittacus_pilicornis)),Panorpa_vulgaris)),((IXODES_SCAPULARIS,Bombylius_major),Ectopsocus_briggsi)),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),(((Cheumatopsyche_sp,(((BOMBYX_MORI,Manduca_sexta),Zygaena_fausta),((Parides_arcas,Polyommatus_icarus),Yponomeuta_evonymella))),Triodia_sylvina),Nemophora_deegerella)),Philopotamus_ludificatus),Micropterix_calthella);
+Initial score: 1.71789e+07
+Initial tree: (((((((((((((((((((Gynaikothrips_ficorum,Frankliniella_cephalica),((((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri),((Stylops_melittae,Lepeophtheirus_salmonis),Acanthocasuarina_muellerianae))),((Nilaparvata_lugens,((((Velia_caprai,Notostira_elongata),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata))),((((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis),DAPHNIA_PULEX),(((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida),Anurida_maritima)))),((Occasjapyx_japonicus,Campodea_augens),(Zorotypus_caudelli,Atelura_formicaria))),((Calopteryx_splendens,Cordulegaster_boltonii),Epiophlebia_superstes)),(((((Metallyticus_splendidus,(Mantis_religiosa,Empusa_pennata)),Ceuthophilus_sp),((((((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS),Mastotermes_darwiniensis),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Leuctra_sp,Perla_marginata),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))),(((Isonychia_bicolor,Eurylophella_sp),Ephemera_danica),Baetis_pumilus))),((((Bombus_terrestris,APIS_MELLIFERA),Exoneura_robusta),(((((Thrips_palmi,(NASONIA_VITRIPENNIS,Liposcelis_bostrychophila)),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Orussus_abietinus,Tenthredo_koehleri)),Chrysis_viridula),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator))),(((Galloisiana_yuasai,Grylloblatta_bifratrilecta),(((Aretaon_asperrimus,Peruphasma_schultei),Timema_cristinae),(Haploembia_palaui,Aposthonia_japonica))),Tanzaniophasma_sp))),(Thermobia_domestica,Tricholepidion_gertschi)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),(((((((Lipara_lucens,(((Sarcophaga_crassipalpis,(Triarthria_setipennis,Rhagoletis_pomonella)),Glossina_morsitans),DROSOPHILA_MELANOGASTER)),(ANOPHELES_GAMBIAE,Aedes_AEGYpti)),((Bibio_marci,((Tipula_maxima,Priacma_serrata),Trichocera_fuscata)),Phlebotomus_papatasi)),(((ACYRTOSIPHON_PISUM,Rhyacophila_fasciata),Aphis_gossypii),Essigella_californica)),(((((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp),((Symphylella_vulgaris,Glomeris_pustulata),Acerentomon_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((((Sialis_lutaria,Corydalus_cornutus),Osmylus_fulvicephalus),((Xanthostigma_xanthostigma,Inocellia_crassicornis),(Sminthurus_vir_nig,Euroleon_nostras))),((Gyrinus_marinus,Carabus_granulatus),(((Meloe_violaceus,TRIBOLIUM_CASTANEUM),Dendroctonus_ponderosae),Aleochara_curtula)))),((Boreus_hyemalis,(Lepicerus_sp,Bittacus_pilicornis)),Panorpa_vulgaris)),((IXODES_SCAPULARIS,Bombylius_major),Ectopsocus_briggsi)),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),(((Cheumatopsyche_sp,(((BOMBYX_MORI,Manduca_sexta),Zygaena_fausta),((Parides_arcas,Polyommatus_icarus),Yponomeuta_evonymella))),Triodia_sylvina),Nemophora_deegerella)),Philopotamus_ludificatus),Micropterix_calthella);
+*** Subsample Process ***
+Use two-step algorithm!
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((IXODES_SCAPULARIS,Bombylius_major),Ectopsocus_briggsi),(((((((((BOMBYX_MORI,Manduca_sexta),Zygaena_fausta),((Polyommatus_icarus,Parides_arcas),Yponomeuta_evonymella)),Cheumatopsyche_sp),Triodia_sylvina),Nemophora_deegerella),(Philopotamus_ludificatus,Micropterix_calthella)),Platycentropus_radiatus),(Ceratophyllus_gallinae,(Archaeopsylla_erinacei,Ctenocephalides_felis)))),(((Lepicerus_sp,Bittacus_pilicornis),Boreus_hyemalis),Panorpa_vulgaris)),((((Sminthurus_vir_nig,Euroleon_nostras),(Xanthostigma_xanthostigma,Inocellia_crassicornis)),((Sialis_lutaria,Corydalus_cornutus),Osmylus_fulvicephalus)),((Gyrinus_marinus,Carabus_granulatus),(Aleochara_curtula,((TRIBOLIUM_CASTANEUM,Meloe_violaceus),Dendroctonus_ponderosae))))),(((((((((((Triarthria_setipennis,Rhagoletis_pomonella),Sarcophaga_crassipalpis),Glossina_morsitans),DROSOPHILA_MELANOGASTER),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti)),((Bibio_marci,(Trichocera_fuscata,(Tipula_maxima,Priacma_serrata))),Phlebotomus_papatasi)),(Essigella_californica,((ACYRTOSIPHON_PISUM,Rhyacophila_fasciata),Aphis_gossypii))),(((((Litopenaeus_vannamei,Celuca_puligator),Sarsinebalia_urgorii),Cypridininae_sp),((Glomeris_pustulata,Symphylella_vulgaris),Acerentomon_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),(Tricholepidion_gertschi,Thermobia_domestica)),((((((((NASONIA_VITRIPENNIS,Liposcelis_bostrychophila),Thrips_palmi),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Tenthredo_koehleri,Orussus_abietinus)),Chrysis_viridula),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator)),((Bombus_terrestris,APIS_MELLIFERA),Exoneura_robusta)),((((Timema_cristinae,(Peruphasma_schultei,Aretaon_asperrimus)),(Haploembia_palaui,Aposthonia_japonica)),(Grylloblatta_bifratrilecta,Galloisiana_yuasai)),Tanzaniophasma_sp))),(((((Metallyticus_splendidus,(Mantis_religiosa,Empusa_pennata)),Ceuthophilus_sp),(((((ZOOTERMOPSIS_NEVADENSIS,(Prorhinotermes_simplex,Eriocrania_subpurpurella)),Mastotermes_darwiniensis),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),((Forficula_auricularia,(Apachyus_charteceus,Gryllotalpa_sp)),(Cosmioperla_kuna,(Leuctra_sp,Perla_marginata)))),(((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus))),((Calopteryx_splendens,Cordulegaster_boltonii),Epiophlebia_superstes)),((Atelura_formicaria,Zorotypus_caudelli),(Campodea_augens,Occasjapyx_japonicus))),(((((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida),Anurida_maritima),((Speleonectes_tulumensis,(Trialeurodes_vaporariorum,Bemisia_tabaci)),DAPHNIA_PULEX)),(((((Velia_caprai,Notostira_elongata),(Acanthosoma_haemorrhoidale,Ranatra_linearis)),Xenophysella_greensladeae),(Cercopis_vulnerata,Okanagana_villosa)),Nilaparvata_lugens))),(Gynaikothrips_ficorum,Frankliniella_cephalica)),(Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis))),Planococcus_citri),(Mengenilla_moldrzyki,Menopon_gallinae)),PEDICULUS_HUMANUS);
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+((((((((((((((((((((((((((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes),((NASONIA_VITRIPENNIS,Liposcelis_bostrychophila),Thrips_palmi)),(Orussus_abietinus,Tenthredo_koehleri)),Chrysis_viridula),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator)),((Bombus_terrestris,APIS_MELLIFERA),Exoneura_robusta)),((((Aposthonia_japonica,Haploembia_palaui),(Timema_cristinae,(Peruphasma_schultei,Aretaon_asperrimus))),(Galloisiana_yuasai,Grylloblatta_bifratrilecta)),Tanzaniophasma_sp)),(((((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS),Mastotermes_darwiniensis),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),((Forficula_auricularia,(Apachyus_charteceus,Gryllotalpa_sp)),((Leuctra_sp,Perla_marginata),Cosmioperla_kuna))),(((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus)),((((Atelura_formicaria,Zorotypus_caudelli),(Campodea_augens,Occasjapyx_japonicus)),(((((((Acanthosoma_haemorrhoidale,Ranatra_linearis),(Velia_caprai,Notostira_elongata)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata)),Nilaparvata_lugens),((((Pogonognathellus_lon_fla,Tetrodontophora_bielanensis),Folsomia_candida),Anurida_maritima),((Speleonectes_tulumensis,(Trialeurodes_vaporariorum,Bemisia_tabaci)),DAPHNIA_PULEX))),((Gynaikothrips_ficorum,Frankliniella_cephalica),((((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri),(Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)))))),(Epiophlebia_superstes,(Cordulegaster_boltonii,Calopteryx_splendens))))),(Tricholepidion_gertschi,Thermobia_domestica)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),((((((((Trichocera_fuscata,(Tipula_maxima,Priacma_serrata)),Bibio_marci),Phlebotomus_papatasi),((Lipara_lucens,((Glossina_morsitans,((Triarthria_setipennis,Rhagoletis_pomonella),Sarcophaga_crassipalpis)),DROSOPHILA_MELANOGASTER)),(Aedes_AEGYpti,ANOPHELES_GAMBIAE))),(((Rhyacophila_fasciata,ACYRTOSIPHON_PISUM),Aphis_gossypii),Essigella_californica)),(((((Litopenaeus_vannamei,Celuca_puligator),Sarsinebalia_urgorii),Cypridininae_sp),(Acerentomon_sp,(Glomeris_pustulata,Symphylella_vulgaris))),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti)),((((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus),((Sminthurus_vir_nig,Euroleon_nostras),(Xanthostigma_xanthostigma,Inocellia_crassicornis))),((Carabus_granulatus,Gyrinus_marinus),((Dendroctonus_ponderosae,(TRIBOLIUM_CASTANEUM,Meloe_violaceus)),Aleochara_curtula)))),(((Lepicerus_sp,Bittacus_pilicornis),Boreus_hyemalis),Panorpa_vulgaris)),((Bombylius_major,IXODES_SCAPULARIS),Ectopsocus_briggsi)),((Ctenocephalides_felis,Archaeopsylla_erinacei),Ceratophyllus_gallinae)),Platycentropus_radiatus),(Philopotamus_ludificatus,Micropterix_calthella)),Nemophora_deegerella),Triodia_sylvina),Cheumatopsyche_sp),((Manduca_sexta,BOMBYX_MORI),Zygaena_fausta)),Yponomeuta_evonymella),Parides_arcas),Polyommatus_icarus);
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((Mastotermes_darwiniensis,((Prorhinotermes_simplex,Eriocrania_subpurpurella),ZOOTERMOPSIS_NEVADENSIS)),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Leuctra_sp,Perla_marginata),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))),(((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus)),(((((((Cercopis_vulnerata,Okanagana_villosa),(((Ranatra_linearis,Acanthosoma_haemorrhoidale),(Velia_caprai,Notostira_elongata)),Xenophysella_greensladeae)),Nilaparvata_lugens),((Anurida_maritima,((Tetrodontophora_bielanensis,Pogonognathellus_lon_fla),Folsomia_candida)),((Speleonectes_tulumensis,(Bemisia_tabaci,Trialeurodes_vaporariorum)),DAPHNIA_PULEX))),(((((Menopon_gallinae,Mengenilla_moldrzyki),PEDICULUS_HUMANUS),Planococcus_citri),((Lepeophtheirus_salmonis,Stylops_melittae),Acanthocasuarina_muellerianae)),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Zorotypus_caudelli,Atelura_formicaria),(Campodea_augens,Occasjapyx_japonicus))),((Cordulegaster_boltonii,Calopteryx_splendens),Epiophlebia_superstes))),(((((((((((((((Rhagoletis_pomonella,Triarthria_setipennis),Sarcophaga_crassipalpis),Glossina_morsitans),DROSOPHILA_MELANOGASTER),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti)),((((Priacma_serrata,Tipula_maxima),Trichocera_fuscata),Bibio_marci),Phlebotomus_papatasi)),((Aphis_gossypii,(Rhyacophila_fasciata,ACYRTOSIPHON_PISUM)),Essigella_californica)),((((Glomeris_pustulata,Symphylella_vulgaris),Acerentomon_sp),((Sarsinebalia_urgorii,(Celuca_puligator,Litopenaeus_vannamei)),Cypridininae_sp)),Hydroptilidae_sp)),Conwentzia_psociformis),Nannochorista_philpotti),((((Gyrinus_marinus,Carabus_granulatus),(((Meloe_violaceus,TRIBOLIUM_CASTANEUM),Dendroctonus_ponderosae),Aleochara_curtula)),(((Xanthostigma_xanthostigma,Inocellia_crassicornis),(Sminthurus_vir_nig,Euroleon_nostras)),(Osmylus_fulvicephalus,(Sialis_lutaria,Corydalus_cornutus)))),(((((((((((Manduca_sexta,BOMBYX_MORI),Zygaena_fausta),((Parides_arcas,Polyommatus_icarus),Yponomeuta_evonymella)),Cheumatopsyche_sp),Triodia_sylvina),Nemophora_deegerella),(Philopotamus_ludificatus,Micropterix_calthella)),Platycentropus_radiatus),((Ctenocephalides_felis,Archaeopsylla_erinacei),Ceratophyllus_gallinae)),((IXODES_SCAPULARIS,Bombylius_major),Ectopsocus_briggsi)),(((Lepicerus_sp,Bittacus_pilicornis),Boreus_hyemalis),Panorpa_vulgaris)))),((Prosarthria_teretrirostris,Stenobothrus_lineatus),Tetrix_subulata)),(Meinertellus_cundinamarcensis,Machilis_hrabei)),(Tricholepidion_gertschi,Thermobia_domestica))),((((Timema_cristinae,(Peruphasma_schultei,Aretaon_asperrimus)),(Aposthonia_japonica,Haploembia_palaui)),(Grylloblatta_bifratrilecta,Galloisiana_yuasai)),Tanzaniophasma_sp)),(Exoneura_robusta,(Bombus_terrestris,APIS_MELLIFERA))),(ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator)),Chrysis_viridula),(Orussus_abietinus,Tenthredo_koehleri)),(Thrips_palmi,(NASONIA_VITRIPENNIS,Liposcelis_bostrychophila))),Leptopilina_clavipes),Cotesia_vestalis),Dichochrysa_prasina);
+#NNI moves:0/192
+Remaining: 0
+#NNI moves:0/192
+#NNI moves:0/192
+(((((((((((((((((((((((((((Pogonognathellus_lon_fla,Tetrodontophora_bielanensis),Folsomia_candida),Anurida_maritima),(DAPHNIA_PULEX,((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis))),(((((Notostira_elongata,Velia_caprai),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata)),Nilaparvata_lugens)),(((Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)),(((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri)),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Campodea_augens,Occasjapyx_japonicus),(Atelura_formicaria,Zorotypus_caudelli))),(Epiophlebia_superstes,(Cordulegaster_boltonii,Calopteryx_splendens))),((((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus),(((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((Mastotermes_darwiniensis,((Eriocrania_subpurpurella,Prorhinotermes_simplex),ZOOTERMOPSIS_NEVADENSIS)),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Perla_marginata,Leuctra_sp),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))))),((((ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator),((((Thrips_palmi,(Liposcelis_bostrychophila,NASONIA_VITRIPENNIS)),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Tenthredo_koehleri,Orussus_abietinus)),Chrysis_viridula)),((APIS_MELLIFERA,Bombus_terrestris),Exoneura_robusta)),(((Galloisiana_yuasai,Grylloblatta_bifratrilecta),(((Peruphasma_schultei,Aretaon_asperrimus),Timema_cristinae),(Aposthonia_japonica,Haploembia_palaui))),Tanzaniophasma_sp))),(Thermobia_domestica,Tricholepidion_gertschi)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),(Tetrix_subulata,(Prosarthria_teretrirostris,Stenobothrus_lineatus))),((((((((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp),(Acerentomon_sp,(Glomeris_pustulata,Symphylella_vulgaris))),Hydroptilidae_sp),((((((Tipula_maxima,Priacma_serrata),Trichocera_fuscata),Bibio_marci),Phlebotomus_papatasi),((((Glossina_morsitans,(Sarcophaga_crassipalpis,(Rhagoletis_pomonella,Triarthria_setipennis))),DROSOPHILA_MELANOGASTER),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti))),((Aphis_gossypii,(Rhyacophila_fasciata,ACYRTOSIPHON_PISUM)),Essigella_californica))),Conwentzia_psociformis),Nannochorista_philpotti)),((((Inocellia_crassicornis,Xanthostigma_xanthostigma),(Sminthurus_vir_nig,Euroleon_nostras)),((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus)),((Aleochara_curtula,((TRIBOLIUM_CASTANEUM,Meloe_violaceus),Dendroctonus_ponderosae)),(Carabus_granulatus,Gyrinus_marinus)))),((Boreus_hyemalis,(Bittacus_pilicornis,Lepicerus_sp)),Panorpa_vulgaris)),(Ectopsocus_briggsi,(IXODES_SCAPULARIS,Bombylius_major))),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),(Micropterix_calthella,Philopotamus_ludificatus)),Nemophora_deegerella),Triodia_sylvina),Cheumatopsyche_sp),(Yponomeuta_evonymella,(Parides_arcas,Polyommatus_icarus))),Zygaena_fausta),BOMBYX_MORI),Manduca_sexta);
+Current score: 1.71789e+07
+Current tree: ((Philopotamus_ludificatus,((((((((((((((((((((Pogonognathellus_lon_fla,Tetrodontophora_bielanensis),Folsomia_candida),Anurida_maritima),(DAPHNIA_PULEX,((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis))),(((((Notostira_elongata,Velia_caprai),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata)),Nilaparvata_lugens)),(((Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)),(((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri)),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Campodea_augens,Occasjapyx_japonicus),(Atelura_formicaria,Zorotypus_caudelli))),(Epiophlebia_superstes,(Cordulegaster_boltonii,Calopteryx_splendens))),((((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus),(((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((Mastotermes_darwiniensis,((Eriocrania_subpurpurella,Prorhinotermes_simplex),ZOOTERMOPSIS_NEVADENSIS)),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Perla_marginata,Leuctra_sp),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))))),((((ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator),((((Thrips_palmi,(Liposcelis_bostrychophila,NASONIA_VITRIPENNIS)),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Tenthredo_koehleri,Orussus_abietinus)),Chrysis_viridula)),((APIS_MELLIFERA,Bombus_terrestris),Exoneura_robusta)),(((Galloisiana_yuasai,Grylloblatta_bifratrilecta),(((Peruphasma_schultei,Aretaon_asperrimus),Timema_cristinae),(Aposthonia_japonica,Haploembia_palaui))),Tanzaniophasma_sp))),(Thermobia_domestica,Tricholepidion_gertschi)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),(Tetrix_subulata,(Prosarthria_teretrirostris,Stenobothrus_lineatus))),((((((((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp),(Acerentomon_sp,(Glomeris_pustulata,Symphylella_vulgaris))),Hydroptilidae_sp),((((((Tipula_maxima,Priacma_serrata),Trichocera_fuscata),Bibio_marci),Phlebotomus_papatasi),((((Glossina_morsitans,(Sarcophaga_crassipalpis,(Rhagoletis_pomonella,Triarthria_setipennis))),DROSOPHILA_MELANOGASTER),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti))),((Aphis_gossypii,(Rhyacophila_fasciata,ACYRTOSIPHON_PISUM)),Essigella_californica))),Conwentzia_psociformis),Nannochorista_philpotti)),((((Inocellia_crassicornis,Xanthostigma_xanthostigma),(Sminthurus_vir_nig,Euroleon_nostras)),((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus)),((Aleochara_curtula,((TRIBOLIUM_CASTANEUM,Meloe_violaceus),Dendroctonus_ponderosae)),(Carabus_granulatus,Gyrinus_marinus)))),((Boreus_hyemalis,(Bittacus_pilicornis,Lepicerus_sp)),Panorpa_vulgaris)),(Ectopsocus_briggsi,(IXODES_SCAPULARIS,Bombylius_major))),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),(Nemophora_deegerella,(Triodia_sylvina,(Cheumatopsyche_sp,((Yponomeuta_evonymella,(Parides_arcas,Polyommatus_icarus)),(Zygaena_fausta,(BOMBYX_MORI,Manduca_sexta)))))))),Micropterix_calthella);
+Final Tree: ((Philopotamus_ludificatus,((((((((((((((((((((Pogonognathellus_lon_fla,Tetrodontophora_bielanensis),Folsomia_candida),Anurida_maritima),(DAPHNIA_PULEX,((Trialeurodes_vaporariorum,Bemisia_tabaci),Speleonectes_tulumensis))),(((((Notostira_elongata,Velia_caprai),(Ranatra_linearis,Acanthosoma_haemorrhoidale)),Xenophysella_greensladeae),(Okanagana_villosa,Cercopis_vulnerata)),Nilaparvata_lugens)),(((Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)),(((Mengenilla_moldrzyki,Menopon_gallinae),PEDICULUS_HUMANUS),Planococcus_citri)),(Gynaikothrips_ficorum,Frankliniella_cephalica))),((Campodea_augens,Occasjapyx_japonicus),(Atelura_formicaria,Zorotypus_caudelli))),(Epiophlebia_superstes,(Cordulegaster_boltonii,Calopteryx_splendens))),((((Eurylophella_sp,Isonychia_bicolor),Ephemera_danica),Baetis_pumilus),(((((Mantis_religiosa,Empusa_pennata),Metallyticus_splendidus),Ceuthophilus_sp),((((Mastotermes_darwiniensis,((Eriocrania_subpurpurella,Prorhinotermes_simplex),ZOOTERMOPSIS_NEVADENSIS)),Cryptocercus_wrighti),Blaberus_atropos),Periplaneta_americana)),(((Perla_marginata,Leuctra_sp),Cosmioperla_kuna),((Apachyus_charteceus,Gryllotalpa_sp),Forficula_auricularia))))),((((ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator),((((Thrips_palmi,(Liposcelis_bostrychophila,NASONIA_VITRIPENNIS)),((Dichochrysa_prasina,Cotesia_vestalis),Leptopilina_clavipes)),(Tenthredo_koehleri,Orussus_abietinus)),Chrysis_viridula)),((APIS_MELLIFERA,Bombus_terrestris),Exoneura_robusta)),(((Galloisiana_yuasai,Grylloblatta_bifratrilecta),(((Peruphasma_schultei,Aretaon_asperrimus),Timema_cristinae),(Aposthonia_japonica,Haploembia_palaui))),Tanzaniophasma_sp))),(Thermobia_domestica,Tricholepidion_gertschi)),(Machilis_hrabei,Meinertellus_cundinamarcensis)),(Tetrix_subulata,(Prosarthria_teretrirostris,Stenobothrus_lineatus))),((((((((Celuca_puligator,Litopenaeus_vannamei),Sarsinebalia_urgorii),Cypridininae_sp),(Acerentomon_sp,(Glomeris_pustulata,Symphylella_vulgaris))),Hydroptilidae_sp),((((((Tipula_maxima,Priacma_serrata),Trichocera_fuscata),Bibio_marci),Phlebotomus_papatasi),((((Glossina_morsitans,(Sarcophaga_crassipalpis,(Rhagoletis_pomonella,Triarthria_setipennis))),DROSOPHILA_MELANOGASTER),Lipara_lucens),(ANOPHELES_GAMBIAE,Aedes_AEGYpti))),((Aphis_gossypii,(Rhyacophila_fasciata,ACYRTOSIPHON_PISUM)),Essigella_californica))),Conwentzia_psociformis),Nannochorista_philpotti)),((((Inocellia_crassicornis,Xanthostigma_xanthostigma),(Sminthurus_vir_nig,Euroleon_nostras)),((Corydalus_cornutus,Sialis_lutaria),Osmylus_fulvicephalus)),((Aleochara_curtula,((TRIBOLIUM_CASTANEUM,Meloe_violaceus),Dendroctonus_ponderosae)),(Carabus_granulatus,Gyrinus_marinus)))),((Boreus_hyemalis,(Bittacus_pilicornis,Lepicerus_sp)),Panorpa_vulgaris)),(Ectopsocus_briggsi,(IXODES_SCAPULARIS,Bombylius_major))),((Archaeopsylla_erinacei,Ctenocephalides_felis),Ceratophyllus_gallinae)),Platycentropus_radiatus),(Nemophora_deegerella,(Triodia_sylvina,(Cheumatopsyche_sp,((Yponomeuta_evonymella,(Parides_arcas,Polyommatus_icarus)),(Zygaena_fausta,(BOMBYX_MORI,Manduca_sexta)))))))),Micropterix_calthella);
+Score: 17178876

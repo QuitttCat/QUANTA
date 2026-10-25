@@ -62,6 +62,10 @@ a fresh run.
 
 ## Redraw the figure only
 
+The figure compares QUANTA (the brute-force QUBO solution), wQFM, wQMC and ASTRAL.
+wQMC and ASTRAL are read from `baselines/results/wqmc_results.csv` and
+`astral_results.csv` (see `baselines/commands.md`).
+
 ```bash
 QWQFM/.venv/bin/python "result_analysis/15 Taxa/graph.py" \
   --csv "result_analysis/15 Taxa/result/results_15_taxa.csv" \

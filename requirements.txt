@@ -1,0 +1,28 @@
+# Python packages for QUANTA, the benchmarks and the figures (Python 3.12).
+# Pinned to the versions used for the experiments (QWQFM/.venv):
+#   python3 -m venv QWQFM/.venv
+#   QWQFM/.venv/bin/pip install -r requirements.txt
+#
+# Not installed by pip: Java (JDK 17+) and Apache Ant to build and run wQFM,
+# and the ASTRAL (ASTER) and wQMC baselines (see baselines/commands.md).
+
+# QUBO solvers: D-Wave QPU and Leap Hybrid (dwave-system), simulated annealing
+# and tabu search (dwave-samplers); qaoa.py also imports dwave-neal
+dwave-ocean-sdk==9.4.0
+dwave-neal==0.6.0
+
+# QUBO construction, Robinson-Foulds distances and figures
+numpy==2.5.1
+dendropy==5.0.10
+matplotlib==3.11.1
+
+# wQFM helper scripts, tree drawing and QPU inspection
+pandas==3.0.3
+scipy==1.18.0
+biopython==1.87
+requests==2.34.2
+
+# Optional: IBM Quantum QAOA experiment (ibm_quantum_qaoa_setup.py only)
+# qiskit==2.5.0
+# qiskit-ibm-runtime==0.48.0
+# qiskit-aer==0.17.2

@@ -23,3 +23,5 @@ baselines/results/*.lock
 
 # Paper drafts
 writing/
+
+paper/

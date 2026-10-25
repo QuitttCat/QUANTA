@@ -81,12 +81,36 @@ def timed(cmd, time_file, log_file):
     return float(wall), int(rss_kb) / 1024
 
 
+def read_json(path):
+    """Parsed JSON, or None if the file is missing or was cut short by a crash."""
+    try:
+        return json.loads(Path(path).read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def fsync_file(path):
+    with open(path, "rb") as handle:
+        os.fsync(handle.fileno())
+
+
+def write_synced(path, text):
+    """Write and flush to disk: a WSL crash once left just-written results empty."""
+    with open(path, "w") as handle:
+        handle.write(text)
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
 def run_one(spec):
     out = OUT_DIR / spec["group"] / spec["name"]
     out.mkdir(parents=True, exist_ok=True)
     tree_file = out / "astral.tre"
     meta_file = out / "run.json"
-    if not meta_file.exists():
+    score_file = out / "score.json"
+    meta = read_json(meta_file)
+    if meta is None or not tree_file.exists() or tree_file.stat().st_size == 0:
+        score_file.unlink(missing_ok=True)
         for stale in out.glob("tmp*"):  # left by an interrupted run
             shutil.rmtree(stale)
         conversion = 0.0
@@ -103,17 +127,18 @@ def run_one(spec):
                 cmd = [str(ASTER / "astral4"), "-t", "1", "-u", "0", "-o", str(tree_file), str(spec["input"])]
                 method = "astral4"
             wall, rss = timed(cmd, out / "time.txt", out / "astral.log")
-        meta_file.write_text(json.dumps(dict(method=method, end_to_end_seconds=wall,
-                                             conversion_seconds=conversion, max_rss_mb=rss)))
-    meta = json.loads(meta_file.read_text())
+        fsync_file(tree_file)
+        meta = dict(method=method, end_to_end_seconds=wall, conversion_seconds=conversion, max_rss_mb=rss)
+        write_synced(meta_file, json.dumps(meta))
 
-    score_file = out / "score.json"
-    if not score_file.exists():
+    score = read_json(score_file)
+    if score is None:
         cmd = [str(PYTHON), str(SCORE), "--tree", str(tree_file), "--quartets", str(spec["quartets"])]
         if spec["reference"]:
             cmd += ["--reference", str(spec["reference"])]
-        score_file.write_text(subprocess.run(cmd, check=True, capture_output=True, text=True).stdout)
-    score = json.loads(score_file.read_text())
+        output = subprocess.run(cmd, check=True, capture_output=True, text=True).stdout
+        write_synced(score_file, output)
+        score = json.loads(output)
 
     taxa = score["tree"].count(",") + 1
     return {
@@ -147,6 +172,8 @@ def write_csv(new_rows):
             writer = csv.DictWriter(handle, fieldnames=FIELDS)
             writer.writeheader()
             writer.writerows(sorted(rows.values(), key=lambda r: (r["group"], r["input_file"])))
+            handle.flush()
+            os.fsync(handle.fileno())
         os.replace(tmp, CSV_PATH)
 
 

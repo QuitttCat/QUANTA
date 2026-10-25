@@ -36,12 +36,37 @@ uses Leap QPU time from your account.
 `result_analysis/37 Taxa/result/results_37_taxa_qpu_plus_bruteforce_n>20.csv`
 is the CSV from our QPU run (threshold n > 20). The figure
 `result_analysis/37 Taxa/figure/results_37_taxa_qpu_plus_bruteforce_n_gt_20.pdf`
-is drawn from it. To redraw it without the QPU:
+is drawn from it, together with the wQMC and ASTRAL results in
+`baselines/results/` (see `baselines/commands.md`). To redraw it without the QPU:
 
 ```bash
 QWQFM/.venv/bin/python "result_analysis/37 Taxa/graph.py" \
   --csv "result_analysis/37 Taxa/result/results_37_taxa_qpu_plus_bruteforce_n>20.csv" \
   --out "result_analysis/37 Taxa/figure/results_37_taxa_qpu_plus_bruteforce_n_gt_20.pdf"
+```
+
+## Solver comparison (QPU vs simulated annealing vs tabu search)
+
+QUANTA was also run with a classical QUBO solver in place of the QPU for
+partitions with n > 20 taxa (simulated annealing or tabu search from
+dwave-samplers, 1000 reads, same sample selection); smaller partitions are
+still solved by brute force. No D-Wave token is used. `JOBS` runs that many
+quartet files at once:
+
+```bash
+JOBS=6 bash "result_analysis/37 Taxa/run_37_taxa_classical.sh" sa
+JOBS=6 bash "result_analysis/37 Taxa/run_37_taxa_classical.sh" tabu
+```
+
+Results: `result/results_37_taxa_{simulated_annealing,tabu_search}_plus_bruteforce_n>20.csv`.
+The figure comparing the three solvers:
+
+```bash
+QWQFM/.venv/bin/python "result_analysis/37 Taxa/graph_solvers.py" \
+  --qpu-csv "result_analysis/37 Taxa/result/results_37_taxa_qpu_plus_bruteforce_n>20.csv" \
+  --sa-csv "result_analysis/37 Taxa/result/results_37_taxa_simulated_annealing_plus_bruteforce_n>20.csv" \
+  --tabu-csv "result_analysis/37 Taxa/result/results_37_taxa_tabu_search_plus_bruteforce_n>20.csv" \
+  --out "result_analysis/37 Taxa/figure/results_37_taxa_solver_comparison.pdf"
 ```
 
 ## Reproduce the benchmark (one command, needs the token)

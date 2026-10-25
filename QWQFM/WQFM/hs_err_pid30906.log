@@ -1,0 +1,37 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007eb38e897562, pid=30906, tid=30964
+#
+# JRE version: OpenJDK Runtime Environment (21.0.12.1+1) (build 21.0.12.1+1-1-24.04.4-Ubuntu)
+# Java VM: OpenJDK 64-Bit Server VM (21.0.12.1+1-1-24.04.4-Ubuntu, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# 
+[error occurred during error reporting (printing problematic frame), id 0x7, SIGBUS (0x7) at pc=0x00007eb38f8a00d4]
+# Core dump will be written. Default location: Determined by the following: "/wsl-capture-crash %t %E %p %s" (alternatively, falling back to /home/niloy/Downloads/dwave/QWQFM/WQFM/core.30906)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-21
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xmx1g wqfm.main.Main -i /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/48-taxa-weighted-quartets/0.5X-1000-500_R2_weighted_quartets -o /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_simulated_annealing_n_gt_20/0.5X-1000-500_R2_weighted_quartets/quantum.tre.tmp -algo 2
+
+Host: 13th Gen Intel(R) Core(TM) i5-1335U, 12 cores, 7G, Ubuntu 24.04.3 LTS
+
+[error occurred during error reporting (printing date and time), id 0x7, SIGBUS (0x7) at pc=0x00007eb38f8487e5]
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007eb3880191b0):  JavaThread "main"             [_thread_in_vm, id=30964, stack(0x00007eb38e100000,0x00007eb38e200000) (1024K)]
+
+Stack: [0x00007eb38e100000,0x00007eb38e200000],  sp=0x00007eb38e1fae50,  free space=1003k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+[error occurred during error reporting (printing native stack (with source info)), id 0x7, SIGBUS (0x7) at pc=0x00007eb38f8a00d4]
+
+Retrying call stack printing without source information...
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+[error occurred during error reporting (retry printing native stack (no source info)), id 0x7, SIGBUS (0x7) at pc=0x00007eb38f8a00d4]

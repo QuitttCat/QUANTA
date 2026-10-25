@@ -1,0 +1,159 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007e79376e6ba9, pid=30873, tid=31067
+#
+# JRE version: OpenJDK Runtime Environment (21.0.12.1+1) (build 21.0.12.1+1-1-24.04.4-Ubuntu)
+# Java VM: OpenJDK 64-Bit Server VM (21.0.12.1+1-1-24.04.4-Ubuntu, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# V  [libjvm.so+0x8e6ba9]
+[error occurred during error reporting (printing problematic frame), id 0x7, SIGBUS (0x7) at pc=0x00007e79384ad8c1]
+# Core dump will be written. Default location: Determined by the following: "/wsl-capture-crash %t %E %p %s" (alternatively, falling back to /home/niloy/Downloads/dwave/QWQFM/WQFM/core.30873)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-21
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xmx1g wqfm.main.Main -i /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/48-taxa-weighted-quartets/0.5X-1000-500_R16_weighted_quartets -o /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_simulated_annealing_n_gt_20/0.5X-1000-500_R16_weighted_quartets/quantum.tre.tmp -algo 2
+
+Host: 
+[error occurred during error reporting (printing summary machine and OS info), id 0x7, SIGBUS (0x7) at pc=0x00007e79384ad8c1]
+
+[error occurred during error reporting (printing date and time), id 0x7, SIGBUS (0x7) at pc=0x00007e79384487e5]
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007e79301398c0):  JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=31067, stack(0x00007e7909b00000,0x00007e7909c00000) (1024K)]
+
+
+Current CompileTask:
+C2:69966 1051       4       wqfm.ds.Quartet::getNamedQuartet (116 bytes)
+
+Stack: [0x00007e7909b00000,0x00007e7909c00000],  sp=0x00007e7909bfbc00,  free space=1007k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x8e6ba9]
+[error occurred during error reporting (printing native stack (with source info)), id 0x7, SIGBUS (0x7) at pc=0x00007e79384ad8c1]
+
+Retrying call stack printing without source information...
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x8e6ba9]
+[error occurred during error reporting (retry printing native stack (no source info)), id 0x7, SIGBUS (0x7) at pc=0x00007e79384ad8c1]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007e78bbc0bcbc
+Error accessing class data sharing archive. Mapped file inaccessible during execution, possible disk/network problem.
+Registers:
+RAX=0x00007e78bbc0bc98, RBX=0x0000000000000037, RCX=0x0000000000000040, RDX=0x0000000000000036
+RSP=0x00007e7909bfbc00, RBP=0x00007e7909bfbc10, RSI=0x00007e78bb48cc68, RDI=0x00007e78bbc09cc0
+R8 =0x000000000000002c, R9 =0x00007e78bb487de0, R10=0x0000000000000000, R11=0x0000000000000001
+R12=0x00000000000001dc, R13=0x00007e78bb0084d8, R14=0x00007e78bb487de0, R15=0x00007e78bb0084d8
+RIP=0x00007e79376e6ba9, EFLAGS=0x0000000000010206, CSGSFS=0x002b000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+XMM[0]=0x0000000000000000 0x0000000000000000
+XMM[1]=0x0000000000000000 0x00007e79301398c0
+XMM[2]=0x0000000000000000 0x0000000000000002
+XMM[3]=0x26ea2b2300990008 0xb23b00a70001eb00
+XMM[4]=0x00007e78902ce490 0x00007e78902cd750
+XMM[5]=0x00007e789c463ad0 0x00007e789c4625b0
+XMM[6]=0x00007e78900daa60 0x00007e789c803fe8
+XMM[7]=0x00007e789c7fd740 0x00007e789c7fc5d0
+XMM[8]=0x00007e78902d0630 0x00007e78902ce490
+XMM[9]=0x0000000000000000 0x46293e5939a08cea
+XMM[10]=0x0000000000000000 0x4376345785d8a000
+XMM[11]=0x00007e789c22a4d0 0x00007e789c22a590
+XMM[12]=0x00007e789c22a410 0x00007e789c22a3b0
+XMM[13]=0x550c7dc3243185be 0x12835b01d807aa98
+XMM[14]=0xab1c5ed5923f82a4 0x59f111f13956c25b
+XMM[15]=0x0000000000000000 0x0000000000000000
+  MXCSR=0x00001fa2
+
+
+Register to memory mapping:
+
+RAX=0x00007e78bbc0bc98 is pointing into metadata
+RBX=
+[error occurred during error reporting (printing register info), id 0x7, SIGBUS (0x7) at pc=0x00007e7938785010]
+RCX=
+[error occurred during error reporting (printing register info, attempt 2), id 0x7, SIGBUS (0x7) at pc=0x00007e7938785010]
+RDX=
+[error occurred during error reporting (printing register info, attempt 3), id 0x7, SIGBUS (0x7) at pc=0x00007e7938785010]
+Top of Stack: (sp=0x00007e7909bfbc00)
+0x00007e7909bfbc00:   0000000000000000 00007e78bb487de0   .........}H.x~..
+0x00007e7909bfbc10:   00007e7909bfbc40 00007e79376e6df2   @...y~...mn7y~..
+0x00007e7909bfbc20:   00007e7909bfbd90 0000000000000000   ....y~..........
+0x00007e7909bfbc30:   0000000000000001 00007e78bb48cc68   ........h.H.x~..
+0x00007e7909bfbc40:   00007e7909bfbc80 00007e793798fb9f   ....y~.....7y~..
+0x00007e7909bfbc50:   00007e78bb474be8 00007e79301398c0   .KG.x~.....0y~..
+0x00007e7909bfbc60:   00007e78bb0084d8 00007e7909bfbf08   ....x~......y~..
+0x00007e7909bfbc70:   00007e7909bfbf40 00007e789c006708   @...y~...g..x~..
+0x00007e7909bfbc80:   00007e7909bfbdf0 00007e7937991719   ....y~.....7y~..
+0x00007e7909bfbc90:   00007e7909bfbd20 00007e7938449950    ...y~..P.D8y~..
+0x00007e7909bfbca0:   0000000000000001 00007e789d0d2d90   .........-..x~..
+0x00007e7909bfbcb0:   00007e7909bfbdb0 0000000000000008   ....y~..........
+0x00007e7909bfbcc0:   00007e7937da7760 0000000000000000   `w.7y~..........
+0x00007e7909bfbcd0:   00007e7909bfbd50 0000000000000000   P...y~..........
+0x00007e7909bfbce0:   0000000000000002 00007e789d0d2d80   .........-..x~..
+0x00007e7909bfbcf0:   00007e7909bfbdb0 00007e789d0d2d90   ....y~...-..x~..
+0x00007e7909bfbd00:   00007e7909bfbd70 00007e7938449950   p...y~..P.D8y~..
+0x00007e7909bfbd10:   0000000000000002 00007e789d0d2d80   .........-..x~..
+0x00007e7909bfbd20:   00007e7909bfbdb0 0000000000000008   ....y~..........
+0x00007e7909bfbd30:   00007e7937da7760 0000000000000000   `w.7y~..........
+0x00007e7909bfbd40:   00007e7909bfbd50 0000000000000008   P...y~..........
+0x00007e7909bfbd50:   0000000000000004 00007e789d0d2d80   .........-..x~..
+0x00007e7909bfbd60:   00007e7909bfbde0 00007e79301398c0   ....y~.....0y~..
+0x00007e7909bfbd70:   00007e7909bfbf40 00007e7909bfe6b0   @...y~......y~..
+0x00007e7909bfbd80:   00007e79301398c0 00007e78bb000e90   ...0y~......x~..
+0x00007e7909bfbd90:   00007e7909bfbe90 00007e793799360d   ....y~...6.7y~..
+0x00007e7909bfbda0:   00007e793013a450 0000000000000000   P..0y~..........
+0x00007e7909bfbdb0:   0000000000000008 00007e7900000000   ............y~..
+0x00007e7909bfbdc0:   00007e7937da7760 00007e7909bfbf40   `w.7y~..@...y~..
+0x00007e7909bfbdd0:   00007e79301398c0 00007e7909bfbf08   ...0y~......y~..
+0x00007e7909bfbde0:   00007e79301398c0 00007e789c006708   ...0y~...g..x~..
+0x00007e7909bfbdf0:   00007e7909bfbef0 00007e793799459b   ....y~...E.7y~..
+
+Instructions: (pc=0x00007e79376e6ba9)
+0x00007e79376e6aa9:   db 00 00 00 e8 9e ff ff ff 89 c2 83 fa ff 0f 84
+0x00007e79376e6ab9:   0a 01 00 00 48 63 ca 48 83 c1 01 4c 8b 04 cf 49
+0x00007e79376e6ac9:   8b 40 08 44 0f b7 60 26 48 8b 58 08 4e 3b 4c e3
+0x00007e79376e6ad9:   48 0f 84 00 01 00 00 41 89 d0 41 83 e8 01 0f 88
+0x00007e79376e6ae9:   a6 02 00 00 41 83 fb 01 0f 84 06 01 00 00 41 83
+0x00007e79376e6af9:   fa 01 0f 84 ef 01 00 00 49 63 c0 eb 22 66 2e 0f
+0x00007e79376e6b09:   1f 84 00 00 00 00 00 45 0f b7 40 26 4f 3b 4c c2
+0x00007e79376e6b19:   48 0f 84 ac 00 00 00 48 83 e8 01 85 c0 78 19 4c
+0x00007e79376e6b29:   8b 44 c7 08 4d 8b 40 08 4d 8b 50 08 45 0f b7 58
+0x00007e79376e6b39:   24 4b 3b 74 da 48 74 cf 44 8b 07 83 c2 01 41 39
+0x00007e79376e6b49:   d0 7f 0d eb 79 66 90 48 83 c1 01 41 39 c8 7e 6e
+0x00007e79376e6b59:   48 8b 44 cf 08 48 8b 40 08 48 8b 50 08 44 0f b7
+0x00007e79376e6b69:   50 24 4a 3b 74 d2 48 75 55 0f b7 40 26 4c 3b 4c
+0x00007e79376e6b79:   c2 48 75 d3 89 c8 5b 41 5c 5d c3 0f 1f 40 00 8b
+0x00007e79376e6b89:   07 45 31 c0 8d 48 ff 41 39 c8 7f 32 41 8d 14 08
+0x00007e79376e6b99:   d1 fa 8d 5a 01 48 63 c3 48 8b 04 c7 48 8b 40 08
+0x00007e79376e6ba9:   44 0f b7 60 24 48 8b 40 08 4a 39 74 e0 48 72 1f
+0x00007e79376e6bb9:   0f 84 f5 fe ff ff 8d 4a ff 41 39 c8 7e ce b8 ff
+0x00007e79376e6bc9:   ff ff ff 5b 41 5c 5d c3 0f 1f 80 00 00 00 00 41
+0x00007e79376e6bd9:   89 d8 eb b3 0f 1f 00 41 83 fb 01 0f 85 ce 00 00
+0x00007e79376e6be9:   00 f6 40 1c 40 0f 84 c4 00 00 00 41 89 d0 41 83
+0x00007e79376e6bf9:   e8 01 78 53 4d 63 c0 eb 0f 66 0f 1f 44 00 00 49
+0x00007e79376e6c09:   83 e8 01 45 85 c0 78 3f 4a 8b 5c c7 08 48 8b 43
+0x00007e79376e6c19:   08 4c 8b 58 08 44 0f b7 60 24 4b 3b 74 e3 48 75
+0x00007e79376e6c29:   26 44 0f b7 60 26 4f 3b 4c e3 48 75 d2 f6 40 1c
+0x00007e79376e6c39:   40 75 cc 44 89 c0 41 83 fa 01 75 87 f6 43 28 02
+0x00007e79376e6c49:   75 bd 5b 41 5c 5d c3 44 8b 07 83 c2 01 41 39 d0
+0x00007e79376e6c59:   7f 12 e9 67 ff ff ff 48 83 c1 01 41 39 c8 0f 8e
+0x00007e79376e6c69:   5a ff ff ff 4c 8b 5c cf 08 49 8b 43 08 48 8b 50
+0x00007e79376e6c79:   08 0f b7 58 24 48 3b 74 da 48 0f 85 3e ff ff ff
+0x00007e79376e6c89:   0f b7 58 26 4c 3b 4c da 48 75 cc f6 40 1c 40 75
+0x00007e79376e6c99:   c6 89 c8 41 83 fa 01 0f 85 26 ff ff ff 41 f6 43
+
+
+Stack slot to memory mapping:
+
+stack at sp + 0 slots: 0x0 is null
+stack at sp + 1 slots: 0x00007e78bb487de0 is pointing into metadata
+stack at sp + 2 slots: 0x00007e7909bfbc40 is pointing into the stack for thread: 0x00007e79301398c0
+stack at sp + 3 slots: 0x00007e79376e6df2: <offset 0x00000000008e6df2> in /usr/lib/jvm/java-21-openjdk-amd64/lib/server/libjvm.so at 0x00007e7936e00000
+stack at sp + 4 slots: 0x00007e7909bfbd90 is pointing into the stack for thread: 0x00007e79301398c0
+stack at sp + 5 slots: 0x0 is null
+stack at sp + 6 slots: 
