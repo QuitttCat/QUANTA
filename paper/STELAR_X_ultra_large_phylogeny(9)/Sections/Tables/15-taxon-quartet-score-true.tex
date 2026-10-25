@@ -1,0 +1,58 @@
+% \setlength\LTleft{-1.0cm}% 2.5cm into the left margin
+% \setlength\LTright{0pt plus 1fill minus 1fill}% whatever is needed at the right
+
+\begin{table}[H]
+  \small
+  \centering
+    \addtolength{\leftskip} {-2cm} % increase (absolute) value if needed
+    \addtolength{\rightskip}{-2cm}
+    \caption{Average quartet scores (over 10 replicates) of the estimated and true species trees with respect to true gene trees for the 15-Taxon dataset.  The quartet scores that are equal to the true species tree score are shown in bold and the highest quartet scores are shown in italic.}
+    \label{tab:qscore-15-true}
+\begin{tabularx}{1.2\textwidth}{|X|X|X|X|X|X|X|X|}
+
+
+\hline
+    Model & Number of Missing Taxa  & Complete (Astral)  & Complete (WQFM) & Incomplete (Astral) & Incomplete (WQFM)  &	Imputed (WQFM) & True species Tree \\
+    \hline\hline
+    \multirow{4}{0.25\textwidth}{100gene-\\100bp} 
+    & 0   & 82158.6 & \textit{82708.3} & --- & --- & --- & \multirow{4}{0.25\textwidth}{ 84634.9}  \\ \cline{2-7}
+    & 1-2 & --- & --- &	81790.7 & 82713.1	
+    & \textit{83549.3} &  \\ \cline{2-7}
+    & 2-3 & --- & ---  &	81947.2 &	82231.6 
+    & \textit{84627.5} & \\ \cline{2-7}
+    & 4-5 & ---	& ---  &	81213.6 & 80831.3	
+    & \textbf{\textit{84634.9}} & \\ \cline{2-7}
+    & 5-6 & --- &	---	 &	80699.4	& 80624  
+    &	\textbf{\textit{84634.9}} & \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{100gene-\\1000bp} 
+    & 0 & 84345.1 & \textit{84366.1} & --- & --- & --- & \multirow{4}{0.25\textwidth}{84634.9}  \\ \cline{2-7}
+    & 1-2 & --- & ---  &	82166.6 &	82146.4 
+    &	\textbf{\textit{84634.9}} &  \\ \cline{2-7}
+    & 2-3 & --- &	---	 &	82106 &	82083 
+    & \textbf{\textit{84634.9}} &  \\ \cline{2-7}
+    & 4-5 & --- &	---  & 81998.1	 &	82022.5  &	\textbf{\textit{84634.9}} &   \\ \cline{2-7}
+    & 5-6 & --- &	---  &	81682.7 &	81761.3  &	\textbf{\textit{84634.9}} & \\ \cline{2-8}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1000gene-\\100bp} 
+    & 0 & 827970.1	& \textit{834890.2} & --- & --- & --- & \multirow{4}{0.25\textwidth}{844184.3}  \\ \cline{2-7}
+    & 1-2 & --- &	---  &	826981.3 &	833742.8  &	\textbf{\textit{844184.3}} & \\ \cline{2-7}
+    & 2-3 & --- &	---  &	825679.5 &	832472.8  &	\textbf{\textit{844184.3}} &  \\ \cline{2-7}
+    & 4-5 & --- &	---  &	824174.4 &	830065.4  &	\textbf{\textit{844184.3}} &  \\ \cline{2-7}
+    & 5-6 & --- &	---  &	824202.9 &	831620.6  &	\textbf{\textit{844184.3}} & \\ \cline{2-7}
+    \hline
+        
+    \multirow{4}{0.25\textwidth}{1000gene-\\1000bp} 
+    & 0  & 843362.8 &	\textit{843791.8} & --- & --- & --- &
+    \multirow{4}{0.25\textwidth}{844184.3}  \\ \cline{2-7}
+    & 1-2 & --- &	---- &	818021 &	8187994  &	\textbf{\textit{844184.3}} &  \\ \cline{2-7}
+    & 2-3 & --- &	--- &	842977 &	843791.8  &	\textbf{\textit{844184.3}} &  \\ \cline{2-7}
+    & 4-5 & --- & ---  &	843362.8 &	843791.8  &	\textbf{\textit{844184.3}} &  \\ \cline{2-7}
+    & 5-6 & --- &	--- &	843162.5 &	843791.8  &	\textbf{\textit{844184.3}} & \\ \cline{2-7}
+    \hline
+    
+\end{tabularx}
+
+\end{table}

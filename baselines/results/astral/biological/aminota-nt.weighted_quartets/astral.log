@@ -1,0 +1,33 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 4736
+#Species: 16
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:2/52
+((((((((chelonoidis,emys),caretta),phrynops),((caiman,alligator),(Gallus,Taeniopygia))),((Anolis,python),podarcis)),((Homo,Monodelphis),Ornithorhynchus)),protopterus),Xenopus);
+#NNI moves:2/52
+(((((((((Homo,Monodelphis),Ornithorhynchus),(protopterus,Xenopus)),((python,Anolis),podarcis)),((Gallus,Taeniopygia),(alligator,caiman))),phrynops),caretta),chelonoidis),emys);
+#NNI moves:0/52
+((((((((Homo,Monodelphis),Ornithorhynchus),(Xenopus,protopterus)),((Anolis,python),podarcis)),(((chelonoidis,emys),caretta),phrynops)),(Gallus,Taeniopygia)),alligator),caiman);
+#NNI moves:2/52
+(((((((((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus)),((Anolis,python),podarcis)),((Gallus,Taeniopygia),(alligator,caiman))),phrynops),caretta),chelonoidis),emys);
+Initial score: 97890
+Initial tree: ((python,(podarcis,((((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus)),(((Gallus,Taeniopygia),(alligator,caiman)),(phrynops,(caretta,(chelonoidis,emys))))))),Anolis);
+*** Subsample Process ***
+#NNI moves:0/52
+(((((((((emys,chelonoidis),caretta),phrynops),((caiman,alligator),(Taeniopygia,Gallus))),((Anolis,python),podarcis)),(Xenopus,protopterus)),Ornithorhynchus),Homo),Monodelphis);
+#NNI moves:2/52
+((((((((emys,chelonoidis),caretta),phrynops),((alligator,caiman),(Gallus,Taeniopygia))),((Anolis,python),podarcis)),(Xenopus,protopterus)),(Monodelphis,Homo)),Ornithorhynchus);
+#NNI moves:0/52
+((((((((emys,chelonoidis),caretta),phrynops),((Gallus,Taeniopygia),(caiman,alligator))),(((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus))),podarcis),Anolis),python);
+#NNI moves:0/52
+(((((((alligator,caiman),(Gallus,Taeniopygia)),(((chelonoidis,emys),caretta),phrynops)),(((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus))),podarcis),python),Anolis);
+Current score: 97890
+Current tree: (((((((alligator,caiman),(Gallus,Taeniopygia)),(((chelonoidis,emys),caretta),phrynops)),(((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus))),podarcis),python),Anolis);
+Final Tree: (((((((alligator,caiman),(Gallus,Taeniopygia)),(((chelonoidis,emys),caretta),phrynops)),(((Monodelphis,Homo),Ornithorhynchus),(Xenopus,protopterus))),podarcis),python),Anolis);
+Score: 97890

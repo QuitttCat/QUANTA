@@ -1,0 +1,73 @@
+\newcommand{\rc}{blue}
+
+% \begin{table}[h]
+%     \centering
+%      \renewcommand{\arraystretch}{1.2}
+%     \begin{tabular}{|c|c|}
+%         \hline
+%         \textbf{Group} & \textbf{Conflicting Quartets} \\ \hline
+%         \multirow{6}{*}{ $ab|cd$ \& ($ae|bd$ $||$ $ae|bc$)} & $ab|ce$ \\ \cline{2-2}
+%                                  & $ac|be$ \\ \cline{2-2}
+%                                  & $ac|de$ \\ \cline{2-2}
+%                                  & $ad|ce$ \\ \cline{2-2}
+%                                  & $bc|de$ \\ \cline{2-2}
+%                                  & $bd|ce$ \\ \hline
+%         \multirow{6}{*}{$ab|cd$ \& ($ac|be$ $||$ $ad|be$)} & $ac|de$ \\ \cline{2-2}
+%                                  & $ad|ce$ \\ \cline{2-2}
+%                                  & $ab|de$ \\ \cline{2-2}
+%                                  & $ae|bd$ \\ \cline{2-2}
+%                                  & $bc|de$ \\ \cline{2-2}
+%                                  & $bd|ce$ \\ \hline
+%         \multirow{6}{*}{$ab|cd$ \& ($ad|ce$ $||$ $bd|ce$)} & $ae|bc$ \\ \cline{2-2}
+%                                  & $bc|de$ \\ \cline{2-2}
+%                                  & $be|cd$ \\ \cline{2-2}
+%                                  & $ad|be$ \\ \cline{2-2}
+%                                  & $ae|bd$ \\ \cline{2-2}
+%                                  & $ac|be$ \\ \hline
+%         \multirow{6}{*}{$ab|cd$ \& ($ac|de$ $||$ $bc|de$)} & $bd|ce$ \\ \cline{2-2}
+%                                  & $be|cd$ \\ \cline{2-2}
+%                                  & $ac|be$ \\ \cline{2-2}
+%                                  & $ae|bc$ \\ \cline{2-2}
+%                                  & $ad|be$ \\ \cline{2-2}
+%                                  & $ae|bd$ \\ \hline
+%     \end{tabular}
+%     \caption{Conflicting Quartets}
+%     \label{table:conflicttable}
+% \end{table}
+
+
+\begin{table}[h]
+    \centering
+     \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Canonical Pair} & \textbf{Conflicting Quartets} \\ \hline
+        
+        $ab|cd$ \& $ae|bd$ 
+        & $ab|ce$ $||$ $ac|be$ $||$ $ac|de$ $||$ $ad|ce$ $||$ $bc|de$ $||$ $bd|ce$\\ \hline
+        
+        $ab|cd$ \& $ae|bc$ 
+        & $ab|de$ $||$ $ad|be$ $||$ $ac|de$ $||$ $ad|ce$ $||$ $bc|de$ $||$ $bd|ce$\\ \hline
+
+        $ab|cd$ \& $ac|be$ 
+        & $ab|de$ $||$ \textcolor{\rc}{$ae|bd$} $||$ $ac|de$ $||$ $ad|ce$ $||$ $bc|de$ $||$ $bd|ce$\\ \hline
+
+        $ab|cd$ \& $ad|be$ 
+        & $ab|ce$ $||$ \textcolor{\rc}{$ae|bc$} $||$ $ac|de$ $||$ $ad|ce$ $||$ $bc|de$ $||$ $bd|ce$\\ \hline
+
+        $ab|cd$ \& $ad|ce$ 
+        & \textcolor{\rc}{$ac|be$} $||$ \textcolor{\rc}{$ae|bc$} $||$ \textcolor{\rc}{$ad|be$} $||$ \textcolor{\rc}{$ae|bd$} $||$ $bc|de$ $||$ $be|cd$\\ \hline
+
+        $ab|cd$ \& $bd|ce$ 
+        & \textcolor{\rc}{$ac|be$} $||$ \textcolor{\rc}{$ae|bc$} $||$ \textcolor{\rc}{$ad|be$} $||$ \textcolor{\rc}{$ae|bd$} $||$ $ac|de$ $||$ $ae|cd$\\ \hline
+
+        $ab|cd$ \& $ac|de$ 
+        & \textcolor{\rc}{$ac|be$} $||$ \textcolor{\rc}{$ae|bc$} $||$ \textcolor{\rc}{$ad|be$} $||$ \textcolor{\rc}{$ae|bd$} $||$ \textcolor{\rc}{$bd|ce$} $||$ $be|cd$\\ \hline
+
+        $ab|cd$ \& $bc|de$ 
+        & \textcolor{\rc}{$ac|be$} $||$ \textcolor{\rc}{$ae|bc$} $||$ \textcolor{\rc}{$ad|be$} $||$ \textcolor{\rc}{$ae|bd$} $||$ \textcolor{\rc}{$ad|ce$} $||$ $ae|cd$\\ \hline
+        
+    \end{tabular}
+    \caption{List of conflicting quartets for eight canonical quartet pairs containing $ab|cd$. The items marked in blue are part of sets that were already encountered in a previous row. For example, the second quartet on the third row, $ae|bd$, constitutes the conflicting set $\{ab|cd, ac|be, ae|bd\}$. This set has already been encountered before. In the first row, by considering the second quartet $ac|be$, we obtain the conflicting set $\{ab|cd, ae|bd, ac|be\}$, which is identical to the set in consideration.}
+    \label{table:conflicttable}
+\end{table}

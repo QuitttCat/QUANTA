@@ -1,0 +1,1116 @@
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file <input_files/avian_exon_weighted_quartets> done.
+Initial-Num-Quartets = 583740
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+48
+{FULGL=20, ANAPL=1, COLLI=13, MESUN=31, GALGA=21, HALAL=24, PHALE=37, TAUER=45, BUCRH=5, TINMA=46, MELUN=29, PYGAD=42, MELGA=28, PHORU=38, TYTAL=47, COLST=14, CALAN=6, NESNO=32, STRCA=43, PODCR=40, TAEGU=44, GAVST=22, APAVI=2, MERNU=30, NIPNI=33, CAPCA=7, FALPE=19, BALRE=4, CHAPE=10, PELCR=35, PTEGU=41, CORBR=15, CATAU=9, CHAVO=11, PICPU=39, EGRGA=17, EURHE=18, CARCR=8, PHACA=36, OPHHO=34, CHLUN=12, GEOFO=23, LEPDI=26, MANVI=27, ACACH=0, APTFO=3, CUCCA=16, HALLE=25}
+{0=ACACH, 1=ANAPL, 2=APAVI, 3=APTFO, 4=BALRE, 5=BUCRH, 6=CALAN, 7=CAPCA, 8=CARCR, 9=CATAU, 10=CHAPE, 11=CHAVO, 12=CHLUN, 13=COLLI, 14=COLST, 15=CORBR, 16=CUCCA, 17=EGRGA, 18=EURHE, 19=FALPE, 20=FULGL, 21=GALGA, 22=GAVST, 23=GEOFO, 24=HALAL, 25=HALLE, 26=LEPDI, 27=MANVI, 28=MELGA, 29=MELUN, 30=MERNU, 31=MESUN, 32=NESNO, 33=NIPNI, 34=OPHHO, 35=PELCR, 36=PHACA, 37=PHALE, 38=PHORU, 39=PICPU, 40=PODCR, 41=PTEGU, 42=PYGAD, 43=STRCA, 44=TAEGU, 45=TAUER, 46=TINMA, 47=TYTAL}
+Total Num-Taxa = 48
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [ANAPL, APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GALGA, GAVST, HALAL, HALLE, LEPDI, MELGA, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA, TYTAL]
+QAOA Right partition: [ACACH, CORBR, GEOFO, MANVI, TAEGU]
+Final Bipartition Map at level 1:
+ACACH -> 1
+ANAPL -> -1
+APAVI -> -1
+APTFO -> -1
+BALRE -> -1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CORBR -> 1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> -1
+FULGL -> -1
+GALGA -> -1
+GAVST -> -1
+GEOFO -> 1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MANVI -> 1
+MELGA -> -1
+MELUN -> -1
+MERNU -> -1
+MESUN -> -1
+NESNO -> -1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> -1
+STRCA -> -1
+TAEGU -> 1
+TAUER -> -1
+TINMA -> -1
+TYTAL -> -1
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GALGA, GAVST, HALAL, HALLE, LEPDI, MELGA, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA, TYTAL, DUM_49}
+Number of Quartets in Qa: 407253
+Pb (Right Partition): {ACACH, CORBR, GEOFO, MANVI, TAEGU, DUM_49}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [ANAPL, GALGA, MELGA, STRCA, TINMA]
+QAOA Right partition: [APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, DUM_49, EGRGA, EURHE, FALPE, FULGL, GAVST, HALAL, HALLE, LEPDI, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, TAUER, TYTAL]
+Final Bipartition Map at level 2:
+ANAPL -> -1
+APAVI -> 1
+APTFO -> 1
+BALRE -> 1
+BUCRH -> 1
+CALAN -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GALGA -> -1
+GAVST -> 1
+HALAL -> 1
+HALLE -> 1
+LEPDI -> 1
+MELGA -> -1
+MELUN -> 1
+MERNU -> 1
+MESUN -> 1
+NESNO -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> 1
+PICPU -> 1
+PODCR -> 1
+PTEGU -> 1
+PYGAD -> 1
+STRCA -> -1
+TAUER -> 1
+TINMA -> -1
+TYTAL -> 1
+DUM_49 -> 1
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, GALGA, MELGA, STRCA, TINMA, DUM_50}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, HALAL, HALLE, LEPDI, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, TAUER, TYTAL, DUM_49, DUM_50}
+Number of Quartets in Qb: 274170
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_50, STRCA, TINMA]
+QAOA Right partition: [ANAPL, GALGA, MELGA]
+Final Bipartition Map at level 3:
+ANAPL -> 1
+DUM_50 -> -1
+GALGA -> 1
+STRCA -> -1
+MELGA -> 1
+TINMA -> -1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, STRCA, TINMA, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ANAPL, GALGA, MELGA, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [STRCA, TINMA]
+QAOA Right partition: [DUM_50, DUM_51]
+Final Bipartition Map at level 4:
+DUM_50 -> 1
+DUM_51 -> 1
+STRCA -> -1
+TINMA -> -1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {STRCA, TINMA, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [GALGA, MELGA]
+QAOA Right partition: [ANAPL, DUM_51]
+Final Bipartition Map at level 4:
+ANAPL -> 1
+DUM_51 -> 1
+GALGA -> -1
+MELGA -> -1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {GALGA, MELGA, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ANAPL, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 1
+QAOA Left partition: []
+QAOA Right partition: []
+Final Bipartition Map at level 3:
+APAVI -> -1
+APTFO -> -1
+BALRE -> 1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> 1
+CARCR -> -1
+CATAU -> 1
+CHAPE -> -1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> -1
+COLST -> -1
+CUCCA -> 1
+EGRGA -> -1
+EURHE -> 1
+FALPE -> 1
+FULGL -> -1
+GAVST -> -1
+HALAL -> -1
+HALLE -> 1
+LEPDI -> 1
+MELUN -> 1
+MERNU -> -1
+MESUN -> -1
+NESNO -> -1
+NIPNI -> -1
+OPHHO -> 1
+PELCR -> -1
+PHACA -> -1
+PHALE -> 1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> -1
+DUM_50 -> 1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, APTFO, BUCRH, CALAN, CARCR, CHAPE, COLLI, COLST, EGRGA, FULGL, GAVST, HALAL, MERNU, MESUN, NESNO, NIPNI, PELCR, PHACA, PHORU, PICPU, PODCR, PTEGU, DUM_49, DUM_51}
+Number of Quartets in Qa: 31878
+Pb (Right Partition): {BALRE, CAPCA, CATAU, CHAVO, CHLUN, CUCCA, EURHE, FALPE, HALLE, LEPDI, MELUN, OPHHO, PHALE, PYGAD, TAUER, TYTAL, DUM_50, DUM_51}
+Number of Quartets in Qb: 9180
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 1
+QAOA Left partition: []
+QAOA Right partition: []
+Final Bipartition Map at level 4:
+NESNO -> 1
+NIPNI -> -1
+APAVI -> 1
+APTFO -> -1
+PELCR -> 1
+PHACA -> 1
+BUCRH -> -1
+CALAN -> -1
+PHORU -> 1
+PICPU -> -1
+CARCR -> 1
+PODCR -> -1
+PTEGU -> -1
+CHAPE -> -1
+COLLI -> 1
+COLST -> 1
+EGRGA -> 1
+DUM_49 -> -1
+DUM_51 -> -1
+FULGL -> 1
+GAVST -> 1
+HALAL -> 1
+MERNU -> -1
+MESUN -> 1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {NIPNI, APTFO, BUCRH, CALAN, PICPU, PODCR, PTEGU, CHAPE, DUM_49, DUM_51, MERNU, DUM_52}
+Number of Quartets in Qa: 1485
+Pb (Right Partition): {NESNO, APAVI, PELCR, PHACA, PHORU, CARCR, COLLI, COLST, EGRGA, FULGL, GAVST, HALAL, MESUN, DUM_52}
+Number of Quartets in Qb: 3003
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [CALAN, CHAPE]
+QAOA Right partition: [APTFO, BUCRH, DUM_49, DUM_51, DUM_52, MERNU, NIPNI, PICPU, PODCR, PTEGU]
+Final Bipartition Map at level 5:
+NIPNI -> 1
+DUM_49 -> 1
+APTFO -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+BUCRH -> 1
+CALAN -> -1
+PICPU -> 1
+PODCR -> 1
+PTEGU -> 1
+CHAPE -> -1
+MERNU -> 1
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CALAN, CHAPE, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NIPNI, DUM_49, APTFO, DUM_51, DUM_52, BUCRH, PICPU, PODCR, PTEGU, MERNU, DUM_53}
+Number of Quartets in Qb: 990
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BUCRH, DUM_49, DUM_53, MERNU, PICPU]
+QAOA Right partition: [APTFO, DUM_51, DUM_52, NIPNI, PODCR, PTEGU]
+Final Bipartition Map at level 6:
+NIPNI -> 1
+DUM_49 -> -1
+APTFO -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+BUCRH -> -1
+DUM_53 -> -1
+PICPU -> -1
+PODCR -> 1
+PTEGU -> 1
+MERNU -> -1
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, BUCRH, DUM_53, PICPU, MERNU, DUM_54}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {NIPNI, APTFO, DUM_51, DUM_52, PODCR, PTEGU, DUM_54}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_49, DUM_53, DUM_54]
+QAOA Right partition: [BUCRH, MERNU, PICPU]
+Final Bipartition Map at level 7:
+DUM_49 -> -1
+BUCRH -> 1
+DUM_53 -> -1
+DUM_54 -> -1
+PICPU -> 1
+MERNU -> 1
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {BUCRH, PICPU, MERNU, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_49, DUM_55]
+QAOA Right partition: [DUM_53, DUM_54]
+Final Bipartition Map at level 8:
+DUM_49 -> -1
+DUM_53 -> 1
+DUM_54 -> 1
+DUM_55 -> -1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_55, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, DUM_54, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [MERNU, PICPU]
+QAOA Right partition: [BUCRH, DUM_55]
+Final Bipartition Map at level 8:
+BUCRH -> 1
+PICPU -> -1
+DUM_55 -> 1
+MERNU -> -1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {PICPU, MERNU, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {BUCRH, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [APTFO, NIPNI]
+QAOA Right partition: [DUM_51, DUM_52, DUM_54, PODCR, PTEGU]
+Final Bipartition Map at level 7:
+NIPNI -> -1
+APTFO -> -1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_54 -> 1
+PODCR -> 1
+PTEGU -> 1
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {NIPNI, APTFO, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_54, PODCR, PTEGU, DUM_55}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_54, PTEGU]
+QAOA Right partition: [DUM_51, DUM_52, DUM_55, PODCR]
+Final Bipartition Map at level 8:
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_54 -> -1
+DUM_55 -> 1
+PODCR -> 1
+PTEGU -> -1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_54, PTEGU, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_55, PODCR, DUM_56}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_52, DUM_55, PODCR]
+QAOA Right partition: [DUM_51, DUM_56]
+Final Bipartition Map at level 9:
+DUM_51 -> 1
+DUM_52 -> -1
+DUM_55 -> -1
+PODCR -> -1
+DUM_56 -> 1
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, DUM_55, PODCR, DUM_57}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_51, DUM_56, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_57, PODCR]
+QAOA Right partition: [DUM_52, DUM_55]
+Final Bipartition Map at level 10:
+DUM_52 -> 1
+DUM_55 -> 1
+PODCR -> -1
+DUM_57 -> -1
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {PODCR, DUM_57, DUM_58}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_55, DUM_58}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [APAVI, CARCR, COLLI, COLST, DUM_52, FULGL, GAVST, HALAL, MESUN, NESNO, PHACA, PHORU]
+QAOA Right partition: [EGRGA, PELCR]
+Final Bipartition Map at level 5:
+NESNO -> -1
+APAVI -> -1
+PELCR -> 1
+PHACA -> -1
+PHORU -> -1
+CARCR -> -1
+COLLI -> -1
+COLST -> -1
+EGRGA -> 1
+FULGL -> -1
+DUM_52 -> -1
+GAVST -> -1
+HALAL -> -1
+MESUN -> -1
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, APAVI, PHACA, PHORU, CARCR, COLLI, COLST, FULGL, DUM_52, GAVST, HALAL, MESUN, DUM_53}
+Number of Quartets in Qa: 2145
+Pb (Right Partition): {PELCR, EGRGA, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_53, PHACA]
+QAOA Right partition: [APAVI, CARCR, COLLI, COLST, DUM_52, FULGL, GAVST, HALAL, MESUN, NESNO, PHORU]
+Final Bipartition Map at level 6:
+NESNO -> 1
+APAVI -> 1
+PHACA -> -1
+PHORU -> 1
+CARCR -> 1
+COLLI -> 1
+COLST -> 1
+FULGL -> 1
+DUM_52 -> 1
+DUM_53 -> -1
+GAVST -> 1
+HALAL -> 1
+MESUN -> 1
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {PHACA, DUM_53, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NESNO, APAVI, PHORU, CARCR, COLLI, COLST, FULGL, DUM_52, GAVST, HALAL, MESUN, DUM_54}
+Number of Quartets in Qb: 1485
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_54, FULGL]
+QAOA Right partition: [APAVI, CARCR, COLLI, COLST, DUM_52, GAVST, HALAL, MESUN, NESNO, PHORU]
+Final Bipartition Map at level 7:
+NESNO -> 1
+APAVI -> 1
+FULGL -> -1
+DUM_52 -> 1
+PHORU -> 1
+GAVST -> 1
+DUM_54 -> -1
+CARCR -> 1
+HALAL -> 1
+COLLI -> 1
+COLST -> 1
+MESUN -> 1
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {FULGL, DUM_54, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NESNO, APAVI, DUM_52, PHORU, GAVST, CARCR, HALAL, COLLI, COLST, MESUN, DUM_55}
+Number of Quartets in Qb: 990
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [APAVI, CARCR, COLLI, COLST, DUM_52, HALAL, MESUN, NESNO, PHORU]
+QAOA Right partition: [DUM_55, GAVST]
+Final Bipartition Map at level 8:
+NESNO -> -1
+APAVI -> -1
+DUM_52 -> -1
+PHORU -> -1
+GAVST -> 1
+DUM_55 -> 1
+CARCR -> -1
+HALAL -> -1
+COLLI -> -1
+COLST -> -1
+MESUN -> -1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, APAVI, DUM_52, PHORU, CARCR, HALAL, COLLI, COLST, MESUN, DUM_56}
+Number of Quartets in Qa: 630
+Pb (Right Partition): {GAVST, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [APAVI, COLLI, COLST, DUM_52, DUM_56, MESUN, NESNO, PHORU]
+QAOA Right partition: [CARCR, HALAL]
+Final Bipartition Map at level 9:
+NESNO -> -1
+APAVI -> -1
+DUM_52 -> -1
+PHORU -> -1
+CARCR -> 1
+HALAL -> 1
+DUM_56 -> -1
+COLLI -> -1
+COLST -> -1
+MESUN -> -1
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, APAVI, DUM_52, PHORU, DUM_56, COLLI, COLST, MESUN, DUM_57}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {CARCR, HALAL, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [APAVI, COLLI, COLST, DUM_52, DUM_57, MESUN, NESNO]
+QAOA Right partition: [DUM_56, PHORU]
+Final Bipartition Map at level 10:
+NESNO -> -1
+APAVI -> -1
+DUM_52 -> -1
+PHORU -> 1
+DUM_56 -> 1
+DUM_57 -> -1
+COLLI -> -1
+COLST -> -1
+MESUN -> -1
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, APAVI, DUM_52, DUM_57, COLLI, COLST, MESUN, DUM_58}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {PHORU, DUM_56, DUM_58}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 11, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_57, DUM_58]
+QAOA Right partition: [APAVI, COLLI, COLST, DUM_52, MESUN, NESNO]
+Final Bipartition Map at level 11:
+NESNO -> 1
+APAVI -> 1
+DUM_52 -> 1
+DUM_57 -> -1
+DUM_58 -> -1
+COLLI -> 1
+COLST -> 1
+MESUN -> 1
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_57, DUM_58, DUM_59}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NESNO, APAVI, DUM_52, COLLI, COLST, MESUN, DUM_59}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 12, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [COLLI, MESUN]
+QAOA Right partition: [APAVI, COLST, DUM_52, DUM_59, NESNO]
+Final Bipartition Map at level 12:
+NESNO -> 1
+APAVI -> 1
+DUM_52 -> 1
+DUM_59 -> 1
+COLLI -> -1
+COLST -> 1
+MESUN -> -1
+
+========== LEVEL 12 BIPARTITION RESULT ==========
+Pa (Left Partition): {COLLI, MESUN, DUM_60}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NESNO, APAVI, DUM_52, DUM_59, COLST, DUM_60}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 13, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_52, DUM_59, DUM_60, NESNO]
+QAOA Right partition: [APAVI, COLST]
+Final Bipartition Map at level 13:
+NESNO -> -1
+APAVI -> 1
+DUM_52 -> -1
+DUM_59 -> -1
+DUM_60 -> -1
+COLST -> 1
+
+========== LEVEL 13 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, DUM_52, DUM_59, DUM_60, DUM_61}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {APAVI, COLST, DUM_61}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 14, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_61, NESNO]
+QAOA Right partition: [DUM_52, DUM_59, DUM_60]
+Final Bipartition Map at level 14:
+NESNO -> -1
+DUM_52 -> 1
+DUM_59 -> 1
+DUM_60 -> 1
+DUM_61 -> -1
+
+========== LEVEL 14 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, DUM_61, DUM_62}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_59, DUM_60, DUM_62}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 15, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_59, DUM_62]
+QAOA Right partition: [DUM_52, DUM_60]
+Final Bipartition Map at level 15:
+DUM_52 -> 1
+DUM_59 -> -1
+DUM_60 -> 1
+DUM_62 -> -1
+
+========== LEVEL 15 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_59, DUM_62, DUM_63}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_60, DUM_63}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, EURHE, FALPE, LEPDI, MELUN, OPHHO, PHALE, PYGAD, TAUER, TYTAL]
+QAOA Right partition: [CATAU, HALLE]
+Final Bipartition Map at level 4:
+OPHHO -> -1
+BALRE -> -1
+PHALE -> -1
+CAPCA -> -1
+CATAU -> 1
+PYGAD -> -1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+TYTAL -> -1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+FALPE -> -1
+DUM_51 -> -1
+HALLE -> 1
+LEPDI -> -1
+MELUN -> -1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, PHALE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, TYTAL, CUCCA, EURHE, DUM_50, FALPE, DUM_51, LEPDI, MELUN, DUM_52}
+Number of Quartets in Qa: 7140
+Pb (Right Partition): {CATAU, HALLE, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, EURHE, FALPE, LEPDI, MELUN, OPHHO, PHALE, PYGAD, TAUER]
+QAOA Right partition: [DUM_52, TYTAL]
+Final Bipartition Map at level 5:
+OPHHO -> -1
+BALRE -> -1
+PHALE -> -1
+CAPCA -> -1
+PYGAD -> -1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+TYTAL -> 1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+FALPE -> -1
+DUM_51 -> -1
+DUM_52 -> 1
+LEPDI -> -1
+MELUN -> -1
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, PHALE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, CUCCA, EURHE, DUM_50, FALPE, DUM_51, LEPDI, MELUN, DUM_53}
+Number of Quartets in Qa: 5460
+Pb (Right Partition): {TYTAL, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [FALPE, MELUN]
+QAOA Right partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, DUM_53, EURHE, LEPDI, OPHHO, PHALE, PYGAD, TAUER]
+Final Bipartition Map at level 6:
+OPHHO -> 1
+BALRE -> 1
+PHALE -> 1
+CAPCA -> 1
+PYGAD -> 1
+CHAVO -> 1
+CHLUN -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+FALPE -> -1
+DUM_51 -> 1
+DUM_53 -> 1
+LEPDI -> 1
+MELUN -> -1
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {FALPE, MELUN, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, BALRE, PHALE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, CUCCA, EURHE, DUM_50, DUM_51, DUM_53, LEPDI, DUM_54}
+Number of Quartets in Qb: 4095
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_53, LEPDI]
+QAOA Right partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, DUM_54, EURHE, OPHHO, PHALE, PYGAD, TAUER]
+Final Bipartition Map at level 7:
+OPHHO -> 1
+BALRE -> 1
+PHALE -> 1
+CAPCA -> 1
+PYGAD -> 1
+CHAVO -> 1
+CHLUN -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_53 -> -1
+DUM_54 -> 1
+LEPDI -> -1
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_53, LEPDI, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, BALRE, PHALE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, CUCCA, EURHE, DUM_50, DUM_51, DUM_54, DUM_55}
+Number of Quartets in Qb: 3003
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, EURHE, OPHHO, PHALE, PYGAD, TAUER]
+QAOA Right partition: [DUM_54, DUM_55]
+Final Bipartition Map at level 8:
+OPHHO -> -1
+BALRE -> -1
+PHALE -> -1
+CAPCA -> -1
+PYGAD -> -1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_54 -> 1
+DUM_55 -> 1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, PHALE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, CUCCA, EURHE, DUM_50, DUM_51, DUM_56}
+Number of Quartets in Qa: 2145
+Pb (Right Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_51, DUM_56, OPHHO, PYGAD, TAUER]
+QAOA Right partition: [EURHE, PHALE]
+Final Bipartition Map at level 9:
+OPHHO -> -1
+BALRE -> -1
+PHALE -> 1
+CAPCA -> -1
+PYGAD -> -1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+CUCCA -> -1
+EURHE -> 1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_56 -> -1
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, CAPCA, PYGAD, CHAVO, CHLUN, TAUER, CUCCA, DUM_50, DUM_51, DUM_56, DUM_57}
+Number of Quartets in Qa: 1485
+Pb (Right Partition): {PHALE, EURHE, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, CUCCA, DUM_50, DUM_56, DUM_57, OPHHO, TAUER]
+QAOA Right partition: [DUM_51, PYGAD]
+Final Bipartition Map at level 10:
+CUCCA -> -1
+OPHHO -> -1
+DUM_50 -> -1
+DUM_51 -> 1
+BALRE -> -1
+CAPCA -> -1
+DUM_56 -> -1
+DUM_57 -> -1
+PYGAD -> 1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, OPHHO, DUM_50, BALRE, CAPCA, DUM_56, DUM_57, CHAVO, CHLUN, TAUER, DUM_58}
+Number of Quartets in Qa: 990
+Pb (Right Partition): {DUM_51, PYGAD, DUM_58}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 11, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, DUM_56, DUM_57, DUM_58, OPHHO, TAUER]
+QAOA Right partition: [CUCCA, DUM_50]
+Final Bipartition Map at level 11:
+CUCCA -> 1
+OPHHO -> -1
+DUM_50 -> 1
+BALRE -> -1
+CAPCA -> -1
+DUM_56 -> -1
+DUM_57 -> -1
+DUM_58 -> -1
+CHAVO -> -1
+CHLUN -> -1
+TAUER -> -1
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, CAPCA, DUM_56, DUM_57, DUM_58, CHAVO, CHLUN, TAUER, DUM_59}
+Number of Quartets in Qa: 630
+Pb (Right Partition): {CUCCA, DUM_50, DUM_59}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 12, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CAPCA, CHAVO, DUM_56, DUM_57, DUM_58, DUM_59, OPHHO]
+QAOA Right partition: [CHLUN, TAUER]
+Final Bipartition Map at level 12:
+OPHHO -> -1
+BALRE -> -1
+CAPCA -> -1
+DUM_56 -> -1
+DUM_57 -> -1
+DUM_58 -> -1
+CHAVO -> -1
+DUM_59 -> -1
+CHLUN -> 1
+TAUER -> 1
+
+========== LEVEL 12 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, CAPCA, DUM_56, DUM_57, DUM_58, CHAVO, DUM_59, DUM_60}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {CHLUN, TAUER, DUM_60}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 13, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [CAPCA, DUM_60]
+QAOA Right partition: [BALRE, CHAVO, DUM_56, DUM_57, DUM_58, DUM_59, OPHHO]
+Final Bipartition Map at level 13:
+OPHHO -> 1
+BALRE -> 1
+CAPCA -> -1
+DUM_56 -> 1
+DUM_57 -> 1
+DUM_58 -> 1
+CHAVO -> 1
+DUM_59 -> 1
+DUM_60 -> -1
+
+========== LEVEL 13 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAPCA, DUM_60, DUM_61}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, BALRE, DUM_56, DUM_57, DUM_58, CHAVO, DUM_59, DUM_61}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 14, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [BALRE, CHAVO, DUM_56, DUM_57, DUM_58, OPHHO]
+QAOA Right partition: [DUM_59, DUM_61]
+Final Bipartition Map at level 14:
+OPHHO -> -1
+BALRE -> -1
+DUM_56 -> -1
+DUM_57 -> -1
+DUM_58 -> -1
+CHAVO -> -1
+DUM_59 -> 1
+DUM_61 -> 1
+
+========== LEVEL 14 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, BALRE, DUM_56, DUM_57, DUM_58, CHAVO, DUM_62}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {DUM_59, DUM_61, DUM_62}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 15, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_62, OPHHO]
+QAOA Right partition: [BALRE, CHAVO, DUM_56, DUM_57, DUM_58]
+Final Bipartition Map at level 15:
+OPHHO -> -1
+BALRE -> 1
+DUM_56 -> 1
+DUM_57 -> 1
+DUM_58 -> 1
+CHAVO -> 1
+DUM_62 -> -1
+
+========== LEVEL 15 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_62, DUM_63}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {BALRE, DUM_56, DUM_57, DUM_58, CHAVO, DUM_63}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 16, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_56, DUM_58]
+QAOA Right partition: [BALRE, CHAVO, DUM_57, DUM_63]
+Final Bipartition Map at level 16:
+BALRE -> 1
+DUM_56 -> -1
+DUM_57 -> 1
+DUM_58 -> -1
+CHAVO -> 1
+DUM_63 -> 1
+
+========== LEVEL 16 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_56, DUM_58, DUM_64}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {BALRE, DUM_57, CHAVO, DUM_63, DUM_64}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 17, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [CHAVO, DUM_63, DUM_64]
+QAOA Right partition: [BALRE, DUM_57]
+Final Bipartition Map at level 17:
+DUM_64 -> -1
+BALRE -> 1
+DUM_57 -> 1
+CHAVO -> -1
+DUM_63 -> -1
+
+========== LEVEL 17 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_64, CHAVO, DUM_63, DUM_65}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {BALRE, DUM_57, DUM_65}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 18, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [CHAVO, DUM_65]
+QAOA Right partition: [DUM_63, DUM_64]
+Final Bipartition Map at level 18:
+DUM_64 -> 1
+DUM_65 -> -1
+CHAVO -> -1
+DUM_63 -> 1
+
+========== LEVEL 18 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_65, CHAVO, DUM_66}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_64, DUM_63, DUM_66}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [CORBR, GEOFO, TAEGU]
+QAOA Right partition: [ACACH, DUM_49, MANVI]
+Final Bipartition Map at level 2:
+ACACH -> 1
+DUM_49 -> 1
+GEOFO -> -1
+MANVI -> 1
+TAEGU -> -1
+CORBR -> -1
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {GEOFO, TAEGU, CORBR, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ACACH, DUM_49, MANVI, DUM_50}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [GEOFO, TAEGU]
+QAOA Right partition: [CORBR, DUM_50]
+Final Bipartition Map at level 3:
+DUM_50 -> 1
+GEOFO -> -1
+TAEGU -> -1
+CORBR -> 1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {GEOFO, TAEGU, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, CORBR, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+QAOA process exited with code: 0
+QAOA Left partition: [DUM_50, MANVI]
+QAOA Right partition: [ACACH, DUM_49]
+Final Bipartition Map at level 3:
+ACACH -> 1
+DUM_49 -> 1
+DUM_50 -> -1
+MANVI -> -1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, MANVI, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ACACH, DUM_49, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+(((BUCRH,(PICPU,MERNU)),((CALAN,CHAPE),(PTEGU,((PODCR,((NIPNI,APTFO),((COLLI,MESUN),((NESNO,(APAVI,COLST)),((CARCR,HALAL),(PHORU,(GAVST,(FULGL,(PHACA,(PELCR,EGRGA)))))))))),(PYGAD,(((FALPE,MELUN),(LEPDI,(TYTAL,(CATAU,HALLE)))),((CHAVO,(BALRE,(PHALE,EURHE))),(OPHHO,((CAPCA,(CHLUN,TAUER)),(CUCCA,((STRCA,TINMA),(ANAPL,(GALGA,MELGA))))))))))))),(ACACH,(MANVI,(CORBR,(GEOFO,TAEGU)))));
+>-> Successfully written to output-file /tmp/wqfm_out_2065.tre
+Tree saved to: /home/niloy/wQFM-2020/WQFM/src/wqfm/algo/quantum/tree_output.png
+Tree visualization saved successfully.
+
+Time taken = 40245 ms ==> 0 minutes and 40 seconds.
+================= **** ======================== **** ====================
+No annotations used.

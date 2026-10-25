@@ -1,0 +1,12 @@
+{
+  "better": "1",
+  "quantum_annealing_tree": "(((PHALE,EURHE),((((PTEGU,MESUN),(COLLI,(PHORU,PODCR))),((CUCCA,(TAUER,CHLUN)),((STRCA,TINMA),(ANAPL,(GALGA,MELGA))))),((OPHHO,(BALRE,CHAVO)),((CAPCA,(CALAN,CHAPE)),(GAVST,(FULGL,((APTFO,PYGAD),(PHACA,(PELCR,(EGRGA,NIPNI)))))))))),((COLST,((APAVI,LEPDI),(BUCRH,(PICPU,MERNU)))),((TYTAL,(CATAU,(HALAL,HALLE))),(CARCR,(FALPE,((MELUN,NESNO),(ACACH,(MANVI,(CORBR,(GEOFO,TAEGU))))))))));",
+  "quantum_bruteforce_time_seconds": "13.902576648",
+  "quantum_qpu_access_time_seconds": "0.465944680",
+  "quantum_time_seconds": "14.368521328",
+  "quartet_file_name": "1X-50-500_R9_weighted_quartets",
+  "rf_quantum_wrt_base": "0.222222222222",
+  "rf_wqfm_wrt_base": "0.288888888889",
+  "wqfm_bipartition_time_seconds": "15.980618159",
+  "wqfm_tree": "(((COLST,((APAVI,LEPDI),(BUCRH,(MERNU,PICPU)))),(TYTAL,((CATAU,(HALAL,HALLE)),(CARCR,(FALPE,((MELUN,NESNO),(ACACH,(MANVI,(CORBR,(GEOFO,TAEGU)))))))))),(((BALRE,CHAVO),(TAUER,CHLUN)),(((TINMA,STRCA),(ANAPL,(GALGA,MELGA))),(((OPHHO,CUCCA),((PHALE,EURHE),((PTEGU,MESUN),(COLLI,(PHORU,PODCR))))),((CAPCA,(CHAPE,CALAN)),(GAVST,(FULGL,((APTFO,PYGAD),(PHACA,(PELCR,(EGRGA,NIPNI)))))))))));"
+}

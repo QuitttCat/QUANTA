@@ -1,0 +1,18 @@
+{
+  "absolute_gap": 45297,
+  "charge_time_microseconds": 9994351,
+  "client_wait_seconds": 1.3246957040391862,
+  "edges": 800,
+  "instance": "t2g20_5555",
+  "leap_hybrid_cut": 24793645,
+  "matched_exact_value": false,
+  "problem_data_id": "38726dc7-6890-40b9-9b2d-03d625915023",
+  "problem_id": "0198562e-4bd8-4438-ba9f-d10964f33ce5",
+  "published_exact_cut": 24838942,
+  "qpu_access_time_microseconds": 725317,
+  "relative_gap_percent": 0.18236283976990647,
+  "run_time_microseconds": 9994351,
+  "time_limit_seconds": 10.0,
+  "timestamp_utc": "2026-07-27T06:56:13.457413+00:00",
+  "variables": 400
+}

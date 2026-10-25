@@ -1,0 +1,173 @@
+# QWQFM common commands
+#
+# Copy and paste ONE complete block at a time.
+# Every run block is independent: it changes directory, safely loads the
+# D-Wave token, supplies the Python path, and starts Algorithm 2.
+#
+# Algorithm 2 is the quantum/QUBO algorithm. In the current code, recursive
+# partitions with n > 20 use the D-Wave QPU; smaller partitions use brute force.
+#
+# Change INPUT_FILE in a block to run a different weighted-quartet file.
+
+
+# ===========================================================================
+# SINGLE QUANTUM RUN: CONSOLE ONLY (no tree or log file)
+# ===========================================================================
+
+cd /root/dwave/QWQFM/WQFM
+source /root/dwave/load-dwave-token.sh
+INPUT_FILE="/root/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/noscale.100g.500b_R10_weighted_quartets"
+WQFM_PYTHON=/root/dwave/QWQFM/.venv/bin/python \
+bash run-wqfm.sh -i "$INPUT_FILE" -o /dev/null -algo 2
+
+
+# ===========================================================================
+# SINGLE QUANTUM RUN: SAVE TREE FILE (logs remain visible in console)
+# ===========================================================================
+
+cd /root/dwave/QWQFM/WQFM
+source /root/dwave/load-dwave-token.sh
+mkdir -p /root/dwave/QWQFM/benchmark/single_runs
+INPUT_FILE="/root/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/noscale.100g.500b_R10_weighted_quartets"
+TREE_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_tree.tre"
+WQFM_PYTHON=/root/dwave/QWQFM/.venv/bin/python \
+bash run-wqfm.sh -i "$INPUT_FILE" -o "$TREE_FILE" -algo 2
+cat "$TREE_FILE"
+
+
+# ===========================================================================
+# SINGLE QUANTUM RUN: SAVE TREE + LOG, AND SHOW LOG IN CONSOLE
+# ===========================================================================
+
+cd /root/dwave/QWQFM/WQFM
+source /root/dwave/load-dwave-token.sh
+mkdir -p /root/dwave/QWQFM/benchmark/single_runs
+INPUT_FILE="/root/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/noscale.100g.500b_R10_weighted_quartets"
+TREE_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_tree.tre"
+LOG_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.log"
+set -o pipefail
+WQFM_PYTHON=/root/dwave/QWQFM/.venv/bin/python \
+bash run-wqfm.sh -i "$INPUT_FILE" -o "$TREE_FILE" -algo 2 2>&1 |
+tee "$LOG_FILE"
+
+
+# ===========================================================================
+# SINGLE QUANTUM RUN: BACKGROUND, SAVING TREE + LOG
+# ===========================================================================
+
+cd /root/dwave/QWQFM/WQFM
+source /root/dwave/load-dwave-token.sh
+mkdir -p /root/dwave/QWQFM/benchmark/single_runs
+INPUT_FILE="/root/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/noscale.100g.500b_R10_weighted_quartets"
+TREE_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_tree.tre"
+LOG_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.log"
+PID_FILE="/root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.pid"
+nohup env WQFM_PYTHON=/root/dwave/QWQFM/.venv/bin/python \
+  bash run-wqfm.sh -i "$INPUT_FILE" -o "$TREE_FILE" -algo 2 \
+  > "$LOG_FILE" 2>&1 &
+echo $! > "$PID_FILE"
+echo "Started PID $(cat "$PID_FILE"); log: $LOG_FILE"
+
+
+# ===========================================================================
+# CHECK A BACKGROUND RUN
+# ===========================================================================
+
+tail -f /root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.log
+
+# Press Ctrl+C to stop following the log; this does not stop the actual run.
+
+ps -p "$(cat /root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.pid)" \
+  -o pid,stat,etime,time,%cpu,%mem,rss,cmd
+
+
+# ===========================================================================
+# SHOW SAVED QPU JOB IDS AND TIMING
+# ===========================================================================
+
+grep -E "QPU solver:|QPU problem ID:|QPU timing:" \
+  /root/dwave/QWQFM/benchmark/single_runs/single_quantum_run.log
+
+
+# ===========================================================================
+# D-WAVE QPU PROBLEM INSPECTOR + PORT FORWARDING
+# ===========================================================================
+#
+# STEP 1 — Run this block in the REMOTE server terminal.
+#
+# This submits one fresh inspection QPU job, saves its artifacts under
+# benchmark/QPU_inspection, starts the Inspector on remote port 18000, and
+# keeps the server active. Keep this terminal open.
+
+cd /root/dwave/QWQFM
+source /root/dwave/load-dwave-token.sh
+/root/dwave/QWQFM/.venv/bin/python \
+  benchmark/scripts/capture_qpu_inspection.py --serve
+
+# The command prints an address similar to:
+# http://127.0.0.1:18000/?problemId=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+#
+# STEP 2 — Forward remote port 18000 through VS Code.
+#
+# 1. Open the PORTS tab in the bottom panel.
+# 2. Click "Add Port".
+# 3. Enter: 18000
+# 4. Wait until "localhost:18000" appears under Forwarded Address.
+# 5. Ctrl+click that address, or paste the complete Inspector URL printed by
+#    STEP 1 into the browser on your own computer.
+#
+# The browser URL stays 127.0.0.1 because the port tunnel carries the request
+# from your computer to port 18000 on the remote server.
+
+
+# ---------------------------------------------------------------------------
+# Alternative to VS Code: create the tunnel from a LOCAL computer terminal
+# ---------------------------------------------------------------------------
+#
+# Run this on your own computer, not inside the remote SSH terminal. Keep it
+# running while viewing the Inspector. Replace SERVER_IP if the server changes.
+
+ssh -N -L 18000:127.0.0.1:18000 root@2.25.83.243
+
+# Then open the complete URL from STEP 1 in the local browser:
+# http://127.0.0.1:18000/?problemId=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+
+# ---------------------------------------------------------------------------
+# Print the latest saved Inspector URL from the REMOTE server
+# ---------------------------------------------------------------------------
+
+INSPECTION_ROOT="/root/dwave/QWQFM/benchmark/QPU_inspection"
+LATEST_INSPECTION="$(cat "$INSPECTION_ROOT/LATEST")"
+cat "$INSPECTION_ROOT/$LATEST_INSPECTION/inspector_url.txt"
+
+
+# ---------------------------------------------------------------------------
+# Optional: keep the Inspector running in the background
+# ---------------------------------------------------------------------------
+#
+# This also submits one fresh inspection QPU job. The URL will appear in
+# inspector_server.log after the submission finishes.
+
+cd /root/dwave/QWQFM
+source /root/dwave/load-dwave-token.sh
+INSPECTOR_LOG="/root/dwave/QWQFM/benchmark/QPU_inspection/inspector_server.log"
+INSPECTOR_PID="/root/dwave/QWQFM/benchmark/QPU_inspection/inspector_server.pid"
+nohup /root/dwave/QWQFM/.venv/bin/python \
+  benchmark/scripts/capture_qpu_inspection.py --serve \
+  > "$INSPECTOR_LOG" 2>&1 &
+echo $! > "$INSPECTOR_PID"
+echo "Inspector PID $(cat "$INSPECTOR_PID"); log: $INSPECTOR_LOG"
+
+# Follow startup and copy the printed Inspector URL.
+tail -f "$INSPECTOR_LOG"
+
+# Press Ctrl+C after the URL appears. This stops tail only; the Inspector
+# continues running in the background.
+
+# Check whether the background Inspector process is alive.
+ps -p "$(cat /root/dwave/QWQFM/benchmark/QPU_inspection/inspector_server.pid)" \
+  -o pid,stat,etime,time,%cpu,%mem,rss,cmd
+
+# Stop the background Inspector when it is no longer needed.
+kill "$(cat /root/dwave/QWQFM/benchmark/QPU_inspection/inspector_server.pid)"

@@ -1,0 +1,48 @@
+% \setlength\LTleft{-1.0cm}% 2.5cm into the left margin
+% \setlength\LTright{0pt plus 1fill minus 1fill}% whatever is needed at the right
+
+\begin{table}[H]
+  \small
+  \centering
+    \addtolength{\leftskip} {-2cm} % increase (absolute) value if needed
+    \addtolength{\rightskip}{-2cm}
+    \caption{Average quartet scores (over 20 replicates) of the estimated species trees and the true species tree with respect to true gene trees for 37-Taxon datasets. %The quartet scores that are equal to the true species tree score are shown in bold. 
+    The highest quartet scores are shown in italic.}
+    \label{tab:qscore-37-true}
+\begin{tabularx}{1.2\textwidth}{|X|X|X|X|X|X|X|X|}
+
+
+\hline
+    Model & Number of Missing Taxa  & Complete (Astral)  & Complete (WQFM) & Incomplete (Astral) & Incomplete (WQFM)  &	Imputed (WQFM) & True \\
+    \hline\hline
+    \multirow{4}{0.25\textwidth}{0.5X} 
+    & 0   & 11717528.6	& \textit{11719898.1} & --- & --- & --- & \multirow{4}{0.25\textwidth}{11735843.2}  \\ \cline{2-7}
+    & 1-2 & --- & --- &	11717528.6	 & 	11720236.7
+    & \textit{11721154.4} &  \\ \cline{2-7}
+    & 2-3 & --- & ---  &	11713398.2	& 11712811.8
+    & \textit{11713814.4} & \\ \cline{2-7}
+    & 3-4 & ---	& ---  &	11709382.1		
+    & 11709370.5	& \textit{11710978.9} & \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1X} 
+    & 0 & 11730467.8 & \textit{11730710} & --- & --- & --- & \multirow{4}{0.25\textwidth}{11736367.4}  \\ \cline{2-7}
+    & 1-2 & --- & ---  &	11731675.3 & 11731322.85
+    &	\textit{11734827.2} &  \\ \cline{2-7}
+    & 2-3 & --- &	---	 &	11729895    & 11730710.6 
+    & \textit{11731448.8} \\ \cline{2-7}
+    & 3-4 & --- &	---  & 11727661.7	& 11730502.4  &	\textit{11733830} &   \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{2X} 
+    & 0 & 11745806.42	&	\textit{11747526.3} & --- & --- & --- & \multirow{4}{0.25\textwidth}{11748585.4}  \\ \cline{2-7}
+    & 1-2 & --- &	---  &	11745484   &	\textit{11747408.2}  &	11746526.3 & \\ \cline{2-7}
+    & 2-3 & --- &	---  &	11746648   &	\textit{11747028.7} &	11745633.6 &  \\ \cline{2-7}
+    & 3-4 & --- &	---  &	11745714  &	   \textit{11747301.85}  & 11742943.9 &  \\ \cline{2-7}
+    
+    \hline
+        
+    
+\end{tabularx}
+
+\end{table}

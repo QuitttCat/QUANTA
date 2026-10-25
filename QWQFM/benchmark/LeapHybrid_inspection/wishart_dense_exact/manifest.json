@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-07-27T07:01:09.096573+00:00",
+  "ensemble": "Wishart planted ensemble (Hamze et al., Phys. Rev. E 101, 052102)",
+  "instances": [
+    {
+      "M": 80,
+      "alpha": 0.2,
+      "chook_version": "0.2.0",
+      "coefficient_max": 0.10337021958726862,
+      "coefficient_min": -0.1061433545259421,
+      "couplers": 79800,
+      "data_file": "wishart_K400_alpha_0p2_seed_20267400.npz",
+      "density": 1.0,
+      "generator": "Chook wishart_planting_wrapper",
+      "instance": "Wishart_K400_alpha_0p2_seed_20267400",
+      "known_ground_energy": -39.93839336165452,
+      "nonzero_couplers": 79800,
+      "planted_energy_recomputed": -39.93839336165452,
+      "seed_gauge": 20267401,
+      "seed_numpy": 20267400,
+      "sha256": "601945f5c330b54d66e7f26abaf5f8cfb0cc96f0e660e17dd99c2f2b6e8df64b",
+      "variables": 400
+    },
+    {
+      "M": 100,
+      "alpha": 0.2,
+      "chook_version": "0.2.0",
+      "coefficient_max": 0.09015271949088717,
+      "coefficient_min": -0.08987400057195631,
+      "couplers": 124750,
+      "data_file": "wishart_K500_alpha_0p2_seed_20267500.npz",
+      "density": 1.0,
+      "generator": "Chook wishart_planting_wrapper",
+      "instance": "Wishart_K500_alpha_0p2_seed_20267500",
+      "known_ground_energy": -50.10458505961596,
+      "nonzero_couplers": 124750,
+      "planted_energy_recomputed": -50.10458505961596,
+      "seed_gauge": 20267501,
+      "seed_numpy": 20267500,
+      "sha256": "d15418a4ec6c7a9711c86aff718118e1de180932a86305a71e0f72bbac745ce1",
+      "variables": 500
+    }
+  ],
+  "note": "Fully connected, weighted, zero-field Ising. Ground state is known by construction; random gauge conceals it."
+}

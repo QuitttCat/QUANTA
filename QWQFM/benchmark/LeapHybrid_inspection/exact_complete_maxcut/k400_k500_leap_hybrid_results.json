@@ -1,0 +1,52 @@
+{
+  "description": "Standard unweighted complete-graph Max-Cut; exact optimum floor(n^2/4)",
+  "results": [
+    {
+      "absolute_gap": 0,
+      "charge_time_microseconds": 2993671,
+      "client_wait_seconds": 1.7177709660027176,
+      "density": 1.0,
+      "edges": 79800,
+      "instance": "unweighted_K400_MaxCut",
+      "leap_hybrid_cut": 40000,
+      "matched_exact_value": true,
+      "partition_sizes": [
+        200,
+        200
+      ],
+      "problem_data_id": "1392ef81-7768-4c0c-a216-0cebf99995af",
+      "problem_id": "8d398ac6-d021-4496-87b8-e06f98707822",
+      "published_or_analytic_exact_cut": 40000,
+      "qpu_access_time_microseconds": 98192,
+      "relative_gap_percent": 0.0,
+      "run_time_microseconds": 2993671,
+      "time_limit_seconds": 3.0,
+      "timestamp_utc": "2026-07-27T06:52:20.900923+00:00",
+      "variables": 400
+    },
+    {
+      "absolute_gap": 0,
+      "charge_time_microseconds": 2993814,
+      "client_wait_seconds": 1.7632142738439143,
+      "density": 1.0,
+      "edges": 124750,
+      "instance": "unweighted_K500_MaxCut",
+      "leap_hybrid_cut": 62500,
+      "matched_exact_value": true,
+      "partition_sizes": [
+        250,
+        250
+      ],
+      "problem_data_id": "4bdef0a2-dabd-4604-97c0-d5955285213b",
+      "problem_id": "49101f9f-3bad-4e68-8427-a3c6852efadd",
+      "published_or_analytic_exact_cut": 62500,
+      "qpu_access_time_microseconds": 97850,
+      "relative_gap_percent": 0.0,
+      "run_time_microseconds": 2993814,
+      "time_limit_seconds": 3.0,
+      "timestamp_utc": "2026-07-27T06:53:07.422357+00:00",
+      "variables": 500
+    }
+  ],
+  "warning": "These instances test dense scale and exact recovery but are not frustrated spin-glass instances."
+}

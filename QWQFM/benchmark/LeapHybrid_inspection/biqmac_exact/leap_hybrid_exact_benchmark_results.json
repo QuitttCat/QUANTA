@@ -1,0 +1,44 @@
+{
+  "objective": "weighted Max-Cut; minimize BQM energy = -cut weight",
+  "reference": "Biq Mac Library exact solution table, ising3.0 seed 5555",
+  "results": [
+    {
+      "absolute_gap": 0,
+      "charge_time_microseconds": 2985308,
+      "density": 1.0,
+      "edges": 31125,
+      "instance": "ising3.0-250_5555",
+      "leap_hybrid_cut": 7823791,
+      "matched_exact_value": true,
+      "problem_data_id": "bcd71cc3-b651-4ab2-958b-44a3b5bffc8a",
+      "problem_id": "8f751ba8-f7e7-42e8-a9ef-75718b41bb25",
+      "published_exact_cut": 7823791,
+      "qpu_access_time_microseconds": 254523,
+      "relative_gap_percent": 0.0,
+      "run_time_microseconds": 2985308,
+      "time_limit_seconds": 3.0,
+      "variables": 250,
+      "wall_seconds": 1.64091255213134
+    },
+    {
+      "absolute_gap": 3387,
+      "charge_time_microseconds": 2987732,
+      "density": 1.0,
+      "edges": 44850,
+      "instance": "ising3.0-300_5555",
+      "leap_hybrid_cut": 8489786,
+      "matched_exact_value": false,
+      "problem_data_id": "a98e5c6a-d588-419a-b041-0891a52571cd",
+      "problem_id": "012afee8-7e1c-4e10-9f62-56fde5b268eb",
+      "published_exact_cut": 8493173,
+      "qpu_access_time_microseconds": 201880,
+      "relative_gap_percent": 0.03987908876929741,
+      "run_time_microseconds": 2987732,
+      "time_limit_seconds": 3.0,
+      "variables": 300,
+      "wall_seconds": 1.67448099097237
+    }
+  ],
+  "solver": "hybrid_binary_quadratic_model_version2p",
+  "timestamp_utc": "2026-07-27T04:58:11.685328+00:00"
+}

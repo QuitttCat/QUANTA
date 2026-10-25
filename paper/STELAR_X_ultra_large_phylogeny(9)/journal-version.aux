@@ -1,0 +1,236 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand \oddpage@label [2]{}
+\@input{tikz_defs.aux}
+\citation{roch2015likelihood,consensus-inconsistent}
+\citation{kubatko-degnan-2007}
+\citation{mpest,astral,larget-bioinf2010,glass,stem,svdquartet,steac,njst,wqfm,astrid,stelar}
+\citation{kingman}
+\citation{bayzid2013naive,liu2009coalescent}
+\citation{bayzid2013naive,lanier2014low,roch2015likelihood,blom2017accounting,xi2015genes}
+\citation{xi2015genetreeerror,cai2021perfectstorm}
+\citation{bayzid2013naive,statistical-binning,bayzid2015weighted}
+\citation{wickett2014phylotranscriptomic,1kp}
+\citation{sayyari2017fragmentary}
+\citation{arcila2017genome}
+\citation{zhang2018astral}
+\citation{jarvis2014}
+\citation{tarver-placentalmammal-2016}
+\citation{malmstrom2016fishes}
+\citation{lyu2024frogs}
+\citation{blaimer2016phylogenomics,branstetter2017phylogenomic,jevsovnik2017phylogenomic,platt2018bats}
+\citation{streicher2018evaluating,adams2019statisticalbinning}
+\citation{notung,treefix,rasmussen2011bayesian,traction,profilenj,tt,treefix-dtl-bansal2015improved,nguyen2012accounting,jacox2017resolution,lafond2017gene}
+\citation{zhiyan}
+\citation{best}
+\citation{heled-drummond}
+\citation{boussau2013genome}
+\citation{bayzid2013naive,smith2013target,bayzid-incomplete,leache-rannala,szollHosi2015inference}
+\citation{astral,wqfm-tree-rafi2025}
+\citation{DR06,DR09,degnan2013anomalous}
+\citation{snir_quartets_2008,qfm,qfm-fi,wqfm,wqmc}
+\citation{wqfm}
+\citation{wqmc}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Quartet Distribution Correction Problem}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Problem Definition}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Proposed Methodology: Identifying Quartet Conflicts}{2}{subsection.2.2}\protected@file@percent }
+\newlabel{sec:qt-conflict}{{2.2}{2}{Proposed Methodology: Identifying Quartet Conflicts}{subsection.2.2}{}}
+\newlabel{thm:conflict}{{1}{2}{}{theorem.2.1}{}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:place_e}{{1a}{4}{Placements of $e$ on the quartet $ab|cd$}{figure.caption.1}{}}
+\newlabel{sub@fig:place_e}{{a}{4}{Placements of $e$ on the quartet $ab|cd$}{figure.caption.1}{}}
+\newlabel{fig:place_d}{{1b}{4}{Placements of $d$ on the quartet $ab|ce$}{figure.caption.1}{}}
+\newlabel{sub@fig:place_d}{{b}{4}{Placements of $d$ on the quartet $ab|ce$}{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Placements for $e$ and $d$ on $q_1$ and $q_2$ respectively.}}{4}{figure.caption.1}\protected@file@percent }
+\newlabel{fig:place_both}{{1}{4}{Placements for $e$ and $d$ on $q_1$ and $q_2$ respectively}{figure.caption.1}{}}
+\newlabel{fig:place_e_on_ab|cd}{{2a}{5}{Placement of $e$ on the quartet $ab|cd$}{figure.caption.2}{}}
+\newlabel{sub@fig:place_e_on_ab|cd}{{a}{5}{Placement of $e$ on the quartet $ab|cd$}{figure.caption.2}{}}
+\newlabel{fig:place_c_on_ae|bd}{{2b}{5}{Placement of $c$ on the quartet $ae|bd$}{figure.caption.2}{}}
+\newlabel{sub@fig:place_c_on_ae|bd}{{b}{5}{Placement of $c$ on the quartet $ae|bd$}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Unrooted trees satisfying both quartets $ab|cd$ and $ae|bd$.}}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:comparison_e_and_c}{{2}{5}{Unrooted trees satisfying both quartets $ab|cd$ and $ae|bd$}{figure.caption.2}{}}
+\newlabel{fig:unrooted_tree_1}{{3a}{5}{Only unrooted tree satisfying $ab|cd$ and $ae|bd$}{figure.caption.3}{}}
+\newlabel{sub@fig:unrooted_tree_1}{{a}{5}{Only unrooted tree satisfying $ab|cd$ and $ae|bd$}{figure.caption.3}{}}
+\newlabel{fig:unrooted_tree_2}{{3b}{5}{Only unrooted tree satisfying $ab|cd$ and $ac|be$}{figure.caption.3}{}}
+\newlabel{sub@fig:unrooted_tree_2}{{b}{5}{Only unrooted tree satisfying $ab|cd$ and $ac|be$}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Unrooted trees satisfying canonical quartet pairs.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{cor:six_conflict}{{1.1}{5}{}{corollary.2.1.1}{}}
+\newlabel{cor:two-pair-quartets}{{1.2}{5}{}{corollary.2.1.2}{}}
+\newlabel{cor:eight-pairs}{{1.3}{5}{}{corollary.2.1.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces List of conflicting quartets for eight canonical quartet pairs containing $ab|cd$. The items marked in blue are part of sets that were already encountered in a previous row. For example, the second quartet on the third row, $ae|bd$, constitutes the conflicting set $\{ab|cd, ac|be, ae|bd\}$. This set has already been encountered before. In the first row, by considering the second quartet $ac|be$, we obtain the conflicting set $\{ab|cd, ae|bd, ac|be\}$, which is identical to the set in consideration.}}{6}{table.caption.4}\protected@file@percent }
+\newlabel{table:conflicttable}{{1}{6}{List of conflicting quartets for eight canonical quartet pairs containing $ab|cd$. The items marked in blue are part of sets that were already encountered in a previous row. For example, the second quartet on the third row, $ae|bd$, constitutes the conflicting set $\{ab|cd, ac|be, ae|bd\}$. This set has already been encountered before. In the first row, by considering the second quartet $ac|be$, we obtain the conflicting set $\{ab|cd, ae|bd, ac|be\}$, which is identical to the set in consideration}{table.caption.4}{}}
+\newlabel{cor:unique-conflict}{{1.4}{6}{}{corollary.2.1.4}{}}
+\newlabel{cor:total_unique_conflict}{{1.5}{6}{}{corollary.2.1.5}{}}
+\newlabel{eq:conflict_score}{{1}{6}{Proposed Methodology: Identifying Quartet Conflicts}{equation.2.1}{}}
+\newlabel{eq:min_conflict_score}{{2}{6}{Proposed Methodology: Identifying Quartet Conflicts}{equation.2.2}{}}
+\citation{song-mammal}
+\citation{jarvis2014}
+\citation{statistical-binning,bayzid2015weighted}
+\citation{jarvis2014}
+\citation{bossert2021gene}
+\@writefile{toc}{\contentsline {paragraph}{Quartet consistency vs. quartet conflict}{7}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Algorithm: QT-WEAVER}{7}{subsection.2.3}\protected@file@percent }
+\newlabel{sec:qt-weaver-algorithm}{{2.3}{7}{Algorithm: QT-WEAVER}{subsection.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimental Study}{7}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Datasets}{7}{subsection.3.1}\protected@file@percent }
+\newlabel{lt}{{\caption@xref {lt}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\newlabel{forins}{{\caption@xref {forins}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\newlabel{forins}{{\caption@xref {forins}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\newlabel{forins}{{\caption@xref {forins}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\newlabel{lt}{{\caption@xref {lt}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\newlabel{forins}{{\caption@xref {forins}{ on input line 602}}{8}{Algorithm: QT-WEAVER}{algocf.caption.6}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces QT-WEAVER}}{8}{algocf.1}\protected@file@percent }
+\newlabel{qtweaver-algo}{{1}{8}{Algorithm: QT-WEAVER}{algocf.1}{}}
+\citation{wqfm}
+\citation{astral,zhang2018astral}
+\citation{robinson_comparison_1981}
+\citation{fuglede2004jensen}
+\citation{wqfm,mahbub2022qt}
+\citation{wqfm,mahbub2022qt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Species tree estimation methods}{9}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}QT-WEAVER configurations}{9}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:qt-weaver-configuration}{{3.3}{9}{QT-WEAVER configurations}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Measurements}{9}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results and Discussion}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Results on 37-taxon dataset}{9}{subsection.4.1}\protected@file@percent }
+\citation{spterrace,farah2020phylogenomic,hasan2024leveraging}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Results on 37-taxon dataset.} (a)-(c) We show the average RF rates with standard errors over 20 replicates for the methods ASTRAL, wQFM (wQFM-uncorrected), and wQFM+QT-WEAVER (wQFM-corrected). (a) The amount of ILS was varied from high to low, keeping the number of genes fixed at 200 and sequence length at 500bp. (b) The number of genes was varied keeping ILS fixed at moderate (1X) and the sequence length at 500bp. (c) Varying sequence lengths with moderate ILS and 200 genes. We also include true gene trees with no GTEE. (d)-(f) Average Jensen-Shannon divergence of the quartet distributions before and after correction with respect to the true quartet distributions. }}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:rf_37_taxon_methods}{{4}{11}{\textbf {Results on 37-taxon dataset.} (a)-(c) We show the average RF rates with standard errors over 20 replicates for the methods ASTRAL, wQFM (wQFM-uncorrected), and wQFM+QT-WEAVER (wQFM-corrected). (a) The amount of ILS was varied from high to low, keeping the number of genes fixed at 200 and sequence length at 500bp. (b) The number of genes was varied keeping ILS fixed at moderate (1X) and the sequence length at 500bp. (c) Varying sequence lengths with moderate ILS and 200 genes. We also include true gene trees with no GTEE. (d)-(f) Average Jensen-Shannon divergence of the quartet distributions before and after correction with respect to the true quartet distributions}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Results on 15-taxon dataset}{12}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Results on 15-taxon dataset.} (a)-(b) Average RF rates of ASTRAL, wQFM, and wQFM+QT-WEAVER on varying model conditions with varying sequence lengths and numbers of genes. (c)-(d) Average Jensen-Shannon divergence for the uncorrected and corrected quartet distributions.}}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:rf_15_taxon_methods}{{5}{12}{\textbf {Results on 15-taxon dataset.} (a)-(b) Average RF rates of ASTRAL, wQFM, and wQFM+QT-WEAVER on varying model conditions with varying sequence lengths and numbers of genes. (c)-(d) Average Jensen-Shannon divergence for the uncorrected and corrected quartet distributions}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Results on 48-taxon dataset}{12}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \textbf  {Results on 48-taxon dataset.} (a)-(b) We show the average RF rates with standard errors over 20 replicates for the methods ASTRAL, wQFM (wQFM-uncorrected), and wQFM+QT-WEAVER (wQFM-corrected). (a) The amount of ILS was varied from high to low, keeping the number of genes fixed at 1000 and sequence length at 500bp. (b) The number of genes was varied keeping ILS fixed at moderate (1X) and the sequence length at 500bp. (c)-(d) Average Jensen-Shannon divergence of the quartet distributions before and after correction with respect to the true quartet distributions. }}{13}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:rf_48_taxon_methods}{{6}{13}{\textbf {Results on 48-taxon dataset.} (a)-(b) We show the average RF rates with standard errors over 20 replicates for the methods ASTRAL, wQFM (wQFM-uncorrected), and wQFM+QT-WEAVER (wQFM-corrected). (a) The amount of ILS was varied from high to low, keeping the number of genes fixed at 1000 and sequence length at 500bp. (b) The number of genes was varied keeping ILS fixed at moderate (1X) and the sequence length at 500bp. (c)-(d) Average Jensen-Shannon divergence of the quartet distributions before and after correction with respect to the true quartet distributions}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Iterative corrections using QT-WEAVER}{13}{subsection.4.4}\protected@file@percent }
+\citation{jarvis2014}
+\citation{wqfm}
+\citation{jarvis2014}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {Iterative corrections on the 15-taxon dataset.} We show the changes in RF rates and quartet scores (with respect to true gene trees) of wQFM+QT-WEVER over 50 iterations of weight corrections using QT-WEAVER. ASTRAL's RF rates are indicated by dashed horizontal lines in (a). }}{14}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:rf_15_taxon_iterative}{{7}{14}{\textbf {Iterative corrections on the 15-taxon dataset.} We show the changes in RF rates and quartet scores (with respect to true gene trees) of wQFM+QT-WEVER over 50 iterations of weight corrections using QT-WEAVER. ASTRAL's RF rates are indicated by dashed horizontal lines in (a)}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Results on biological datasets}{14}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Avian dataset.}{14}{section*.12}\protected@file@percent }
+\citation{sayyari2016fast}
+\citation{sayyari2016fast}
+\citation{bossert2021gene}
+\citation{minh2020iq}
+\citation{lartillot2009phylobayes}
+\citation{ronquist2012mrbayes}
+\citation{huelsenbeck2004bayesian}
+\citation{kalyaanamoorthy2017modelfinder}
+\citation{bayzid2013naive,molloy2018include,mirarab2019species}
+\citation{bossert2021gene}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textbf  {Iterative corrections on the 15-taxon dataset.} We show the changes in (a) Jensen-Shannon divergence with respect to the true quartet distribution and (b) the quartet score of the estimated species tree with respect to its corresponding corrected quartet distribution over 50 iterations. }}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:rf_15_taxon_iterative_2}{{8}{15}{\textbf {Iterative corrections on the 15-taxon dataset.} We show the changes in (a) Jensen-Shannon divergence with respect to the true quartet distribution and (b) the quartet score of the estimated species tree with respect to its corresponding corrected quartet distribution over 50 iterations}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {paragraph}{Pseudapis dataset.}{15}{section*.14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \textbf  {Analyses of the avian dataset using ASTRAL and wQFM (before and after correction).} Branch supports are computed based on quartet-based local posterior probability~\cite  {sayyari2016fast} (multiplied by 100). All BS values are 100\% except where noted.}}{16}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:avian}{{9}{16}{\textbf {Analyses of the avian dataset using ASTRAL and wQFM (before and after correction).} Branch supports are computed based on quartet-based local posterior probability~\cite {sayyari2016fast} (multiplied by 100). All BS values are 100\% except where noted}{figure.caption.13}{}}
+\citation{bossert2021gene}
+\citation{sayyari2016fast}
+\citation{sayyari2016fast}
+\citation{bayzid2013naive,bayzid2015weighted,bossert2021gene,xi2015genetreeerror,roch-gtee-robust,meiklejohn2016analysis}
+\citation{gatesy2013concatenation,gatesy2014phylogenetic,springer2016gene}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Results on the Pseudapis dataset.} Topological comparison between the concatenation tree and the ASTRAL, wQFM, and wQFM+QT-WEAVER-based species trees paired with all six sets of gene trees. Match or mismatch with the concatenation tree is indicated by a tick or cross respectively.}}{17}{table.caption.15}\protected@file@percent }
+\newlabel{tab:pseudapis}{{2}{17}{\textbf {Results on the Pseudapis dataset.} Topological comparison between the concatenation tree and the ASTRAL, wQFM, and wQFM+QT-WEAVER-based species trees paired with all six sets of gene trees. Match or mismatch with the concatenation tree is indicated by a tick or cross respectively}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Running Time}{17}{section.5}\protected@file@percent }
+\citation{astral}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \textbf  {Analyses of the Pseudapis dataset using Concatenation and wQFM+QT-WEAVER.} (a) PhyloBayes consensus tree of Pseudapis s.l. along with closely related Nomiinae (b) The most common topology inferred by wQFM+QT-WEAVER (five out of six sets of gene trees). The set of species shaded in blue belongs to Pseudapis s.l. The two methods differ only in the placement of Ruginomia rugiventris (marked in red). }}{18}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:pseudapis}{{10}{18}{\textbf {Analyses of the Pseudapis dataset using Concatenation and wQFM+QT-WEAVER.} (a) PhyloBayes consensus tree of Pseudapis s.l. along with closely related Nomiinae (b) The most common topology inferred by wQFM+QT-WEAVER (five out of six sets of gene trees). The set of species shaded in blue belongs to Pseudapis s.l. The two methods differ only in the placement of Ruginomia rugiventris (marked in red)}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{18}{section.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textbf  {Analyses of the Pseudapis dataset.} Alternate topologies inferred by ASTRAL, wQFM, and wQFM+QT-WEAVER paired with different gene trees, along with support values. The names of methods with congruent topologies to the concatenation tree have been marked in blue. Support values are computed based on quartet-based local posterior probability~\cite  {sayyari2016fast}. All BS values are 1 except where noted.}}{19}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:pseudapis-nodes}{{11}{19}{\textbf {Analyses of the Pseudapis dataset.} Alternate topologies inferred by ASTRAL, wQFM, and wQFM+QT-WEAVER paired with different gene trees, along with support values. The names of methods with congruent topologies to the concatenation tree have been marked in blue. Support values are computed based on quartet-based local posterior probability~\cite {sayyari2016fast}. All BS values are 1 except where noted}{figure.caption.17}{}}
+\citation{maddison1997}
+\bibstyle{unsrt}
+\bibstyle{IEEEtran}
+\bibdata{references.bib}
+\bibcite{roch2015likelihood}{1}
+\bibcite{consensus-inconsistent}{2}
+\bibcite{kubatko-degnan-2007}{3}
+\bibcite{mpest}{4}
+\bibcite{astral}{5}
+\bibcite{larget-bioinf2010}{6}
+\bibcite{glass}{7}
+\bibcite{stem}{8}
+\bibcite{svdquartet}{9}
+\bibcite{steac}{10}
+\bibcite{njst}{11}
+\bibcite{wqfm}{12}
+\bibcite{astrid}{13}
+\bibcite{stelar}{14}
+\bibcite{kingman}{15}
+\bibcite{bayzid2013naive}{16}
+\bibcite{liu2009coalescent}{17}
+\bibcite{lanier2014low}{18}
+\bibcite{blom2017accounting}{19}
+\bibcite{xi2015genes}{20}
+\bibcite{xi2015genetreeerror}{21}
+\bibcite{cai2021perfectstorm}{22}
+\bibcite{statistical-binning}{23}
+\bibcite{bayzid2015weighted}{24}
+\bibcite{wickett2014phylotranscriptomic}{25}
+\bibcite{1kp}{26}
+\bibcite{sayyari2017fragmentary}{27}
+\bibcite{arcila2017genome}{28}
+\bibcite{zhang2018astral}{29}
+\bibcite{jarvis2014}{30}
+\bibcite{tarver-placentalmammal-2016}{31}
+\bibcite{malmstrom2016fishes}{32}
+\bibcite{lyu2024frogs}{33}
+\bibcite{blaimer2016phylogenomics}{34}
+\bibcite{branstetter2017phylogenomic}{35}
+\bibcite{jevsovnik2017phylogenomic}{36}
+\bibcite{platt2018bats}{37}
+\bibcite{streicher2018evaluating}{38}
+\bibcite{adams2019statisticalbinning}{39}
+\bibcite{notung}{40}
+\bibcite{treefix}{41}
+\bibcite{rasmussen2011bayesian}{42}
+\bibcite{traction}{43}
+\bibcite{profilenj}{44}
+\bibcite{tt}{45}
+\bibcite{treefix-dtl-bansal2015improved}{46}
+\bibcite{nguyen2012accounting}{47}
+\bibcite{jacox2017resolution}{48}
+\bibcite{lafond2017gene}{49}
+\bibcite{zhiyan}{50}
+\bibcite{best}{51}
+\bibcite{heled-drummond}{52}
+\bibcite{boussau2013genome}{53}
+\bibcite{smith2013target}{54}
+\bibcite{bayzid-incomplete}{55}
+\bibcite{leache-rannala}{56}
+\bibcite{szollHosi2015inference}{57}
+\bibcite{wqfm-tree-rafi2025}{58}
+\bibcite{DR06}{59}
+\bibcite{DR09}{60}
+\bibcite{degnan2013anomalous}{61}
+\bibcite{snir_quartets_2008}{62}
+\bibcite{qfm}{63}
+\bibcite{qfm-fi}{64}
+\bibcite{wqmc}{65}
+\bibcite{song-mammal}{66}
+\bibcite{bossert2021gene}{67}
+\bibcite{robinson_comparison_1981}{68}
+\bibcite{fuglede2004jensen}{69}
+\bibcite{mahbub2022qt}{70}
+\bibcite{spterrace}{71}
+\bibcite{farah2020phylogenomic}{72}
+\bibcite{hasan2024leveraging}{73}
+\bibcite{sayyari2016fast}{74}
+\bibcite{minh2020iq}{75}
+\bibcite{lartillot2009phylobayes}{76}
+\bibcite{ronquist2012mrbayes}{77}
+\bibcite{huelsenbeck2004bayesian}{78}
+\bibcite{kalyaanamoorthy2017modelfinder}{79}
+\bibcite{molloy2018include}{80}
+\bibcite{mirarab2019species}{81}
+\bibcite{roch-gtee-robust}{82}
+\bibcite{meiklejohn2016analysis}{83}
+\bibcite{gatesy2013concatenation}{84}
+\bibcite{gatesy2014phylogenetic}{85}
+\bibcite{springer2016gene}{86}
+\bibcite{maddison1997}{87}
+\gdef \@abspage@last{26}

@@ -1,0 +1,92 @@
+\setlength\LTleft{-1.0cm}% 2.5cm into the left margin
+\setlength\LTright{0pt plus 1fill minus 1fill}% whatever is needed at the right
+\begin{table}[H]
+        \centering
+    \caption{T-test Statistics and P-value of 37-Taxon models}
+    \label{Tabl:T-test}
+\begin{longtable}{|p{0.10\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.14\textwidth}|p{0.11\textwidth}|p{0.12\textwidth}|p{0.14\textwidth}|p{0.11\textwidth}|}
+\hline 
+ \multirow{3}{*}{
+        \textbf{Model}
+    } & \multirow{3}{*}{
+    \makecell[l]{\textbf{Removal} \\ \textbf{Rate}}
+} & \multicolumn{3}{c|}{
+    \textbf{T-test statistic}
+} & \multicolumn{3}{c|}{
+    \textbf{P-Value}
+} \\
+\cline{3-8} 
+& &
+% \textbf{True-Complete}
+\makecell[c]{ \textbf{True}-\\ \textbf{Complete}}
+
+ & 
+\makecell[c]{ \textbf{True}-\\ \textbf{Incomplete}}
+
+ & 
+\makecell[c]{ \textbf{True}-\\ \textbf{Imputed}}
+
+
+ & 
+\makecell[c]{ \textbf{True}-\\ \textbf{Complete}}
+
+ & 
+\makecell[c]{ \textbf{True}-\\ \textbf{Incomplete}}
+
+ & 
+\makecell[c]{ \textbf{True}-\\ \textbf{Imputed}}
+
+
+ \\
+\hline 
+ \multirow{3}{*}{1X} & %noscale
+1-2
+
+ & 3.7022 & 202.254  & 3.8306 & 0.0002 & 0.0 & 0.0001 \\
+\cline{2-8} 
+   & 
+2-3
+
+ & 3.4428 & 567.2316 & 11.2024 &  0.0006 & 0.0 & 0.0 \\
+\cline{2-8} 
+   & 
+   
+3-4
+
+ & 3.0761 & 849.8537 & 11.9546 & 0.0021 & 0.0 & 0.0 \\
+
+\hline 
+ \multirow{3}{*}{0.5X} & %scale2D
+1-2
+
+ & 17.5579 & 217.2649  & 19.4798 & 0.0 & 0.0 & 0.0 \\
+\cline{2-8} 
+   & 
+2-3
+
+ & 17.5822 & 627.5924 & 23.3319 & 0.0 & 0.0 & 0.0 \\
+\cline{2-8} 
+   & 
+3-4
+
+ & 17.1153 & 1021.2897 & 26.6178 & 0.0 & 0.0 & 0.0 \\
+
+\hline 
+ \multirow{3}{*}{2X} & %scale2U
+1-2
+
+ & -0.1179 & 190.619 & 3.6412 & 0.9061 & 0.0 & 0.0003 \\
+\cline{2-8} 
+   & 
+2-3
+
+ & -0.2491 & 553.9656 & 8.424 & 0.8033 & 0.0 & 0.0 \\
+\cline{2-8} 
+   & 
+3-4
+
+ & -0.0128 & 876.9224 & 1.8871 & 0.9898 & 0.0 & 0.0591 \\\hline 
+
+\end{longtable}
+        
+\end{table}

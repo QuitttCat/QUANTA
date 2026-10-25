@@ -1,0 +1,60 @@
+29 inputs, 1 in parallel
+[1/29] biological aminota-aa.weighted_quartets: time 0.060 s, quartet score 0.666635, RF -
+[2/29] biological aminota-nt.weighted_quartets: time 0.050 s, quartet score 0.780547, RF -
+[3/29] biological angiosperm.weighted_quartets: time 1.310 s, quartet score 0.796708, RF -
+[4/29] biological avian-all.weighted_quartets: time 1.390 s, quartet score 0.496963, RF -
+[5/29] biological avian-exon.weighted_quartets: time 1.600 s, quartet score 0.436540, RF -
+[6/29] biological avian-intron.weighted_quartets: time 1.400 s, quartet score 0.608702, RF -
+[7/29] biological avian-uce.weighted_quartets: time 1.470 s, quartet score 0.572257, RF -
+[8/29] biological mamalian.weighted_quartets: time 0.580 s, quartet score 0.911575, RF -
+[9/29] 101 01.true.wqrts: time 34.020 s, quartet score 0.660173, RF 0.030612244898
+[10/29] 101 02.true.wqrts: time 24.960 s, quartet score 0.712106, RF 0.020408163265
+[11/29] 101 03.true.wqrts: time 25.080 s, quartet score 0.628928, RF 0.020408163265
+[12/29] 101 04.true.wqrts: time 24.910 s, quartet score 0.604635, RF 0.040816326531
+[13/29] 101 06.true.wqrts: time 23.830 s, quartet score 0.665802, RF 0.000000000000
+[14/29] 101 07.true.wqrts: time 26.840 s, quartet score 0.664858, RF 0.030612244898
+[15/29] 101 08.true.wqrts: time 26.910 s, quartet score 0.629964, RF 0.040816326531
+[16/29] 101 09.true.wqrts: time 24.390 s, quartet score 0.722774, RF 0.020408163265
+[17/29] 101 10.true.wqrts: time 26.830 s, quartet score 0.662695, RF 0.010204081633
+[18/29] 101 41.true.wqrts: time 27.720 s, quartet score 0.599721, RF 0.081632653061
+[19/29] 101 42.true.wqrts: time 28.280 s, quartet score 0.639114, RF 0.071428571429
+[20/29] 101 43.true.wqrts: time 29.430 s, quartet score 0.611124, RF 0.051020408163
+[21/29] 101 44.true.wqrts: time 28.640 s, quartet score 0.616720, RF 0.040816326531
+[22/29] 101 45.true.wqrts: time 25.050 s, quartet score 0.612615, RF 0.051020408163
+[23/29] 101 46.true.wqrts: time 23.890 s, quartet score 0.661311, RF 0.030612244898
+[24/29] 101 47.true.wqrts: time 25.060 s, quartet score 0.648729, RF 0.051020408163
+[25/29] 101 48.true.wqrts: time 23.680 s, quartet score 0.736060, RF 0.020408163265
+[26/29] 101 49.true.wqrts: time 26.850 s, quartet score 0.598929, RF 0.040816326531
+[27/29] 101 50.true.wqrts: time 87.400 s, quartet score 0.609843, RF 0.061224489796
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/niloy/Downloads/dwave/baselines/scripts/run_wqmc.py", line 118, in run_one
+    score_file.write_text(subprocess.run(cmd, check=True, capture_output=True, text=True).stdout)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/niloy/Downloads/dwave/QWQFM/.venv/bin/python', '/home/niloy/Downloads/dwave/baselines/scripts/score_tree.py', '--tree', '/home/niloy/Downloads/dwave/baselines/results/wqmc/144/insect_gene_tree_0713/wqmc.tre', '--quartets', '/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/144-taxa-insect-single-gene-weighted-quartets/insect_gene_tree_0713.weighted_quartets', '--reference', '/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/144-taxa-insect-single-gene/insect_gene_tree_0713.tre']' returned non-zero exit status 1.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/niloy/Downloads/dwave/baselines/scripts/run_wqmc.py", line 166, in <module>
+    main()
+  File "/home/niloy/Downloads/dwave/baselines/scripts/run_wqmc.py", line 152, in main
+    row = future.result()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+subprocess.CalledProcessError: Command '['/home/niloy/Downloads/dwave/QWQFM/.venv/bin/python', '/home/niloy/Downloads/dwave/baselines/scripts/score_tree.py', '--tree', '/home/niloy/Downloads/dwave/baselines/results/wqmc/144/insect_gene_tree_0713/wqmc.tre', '--quartets', '/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/144-taxa-insect-single-gene-weighted-quartets/insect_gene_tree_0713.weighted_quartets', '--reference', '/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/144-taxa-insect-single-gene/insect_gene_tree_0713.tre']' returned non-zero exit status 1.
+2 inputs, 1 in parallel
+[1/2] 144 insect_gene_tree_0713: time 35.710 s, quartet score 1.000000, RF 0.000000000000
+[2/2] 200 s200_rep01_true_gene_tree_001: time 156.410 s, quartet score 1.000000, RF 0.000000000000
+Saved /home/niloy/Downloads/dwave/baselines/results/wqmc_results.csv

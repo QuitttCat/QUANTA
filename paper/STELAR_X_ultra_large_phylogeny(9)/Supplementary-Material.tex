@@ -1,0 +1,142 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fullpage}
+
+%\usepackage{lineno}
+%\linenumbers
+
+\usepackage{authblk}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,bm}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{units}
+
+
+
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{graphicx}
+\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage[table]{xcolor}
+\usepackage{amssymb}
+\usepackage{footnote}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{cite}
+\usepackage{natbib}
+\usepackage{threeparttable}
+\usepackage{amsmath}
+% \include{main.tex}
+\usepackage{xr}
+\usepackage{longtable}
+%\externaldocument{main}
+\usepackage{subfiles} 
+\usepackage{xcolor}
+\newcommand{\add}[1]{{\color{black} #1}}
+\newcommand{\addb}[1]{{\color{red} #1}}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+%\usepackage{booktabs, caption, makecell}
+%\renewcommand\theadfont{\bfseries}
+% \usepackage{algcompatible}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+% \usepackage{algorithmicx}
+
+\usepackage{setspace} % 24 July
+
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+
+\hypersetup{
+    urlcolor=blue,
+}
+
+
+% for moving the page number to left or right
+
+\usepackage{fancyhdr}
+\fancyhf{} % clear all header and footers
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\fancyfoot[LE,RO]{\thepage} % Left side on Even pages; Right side on Odd pages
+\pagestyle{fancy}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhf[lef,rof]{\thepage}%
+}
+% end of page numbering related task
+
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords:}} #1}
+
+\providecommand{\runningtitle}[1]{\textbf{\textit{Running title:}} #1}
+
+%Self-Attention Augmented Inception-Inside-Inception Network Improves Protein Secondary Structure Prediction
+\title{Supplementary Material to\\title
+\author[1,*]{\author[1,*]{Author list}}
+}
+
+%\affil[1]{Department of Computer Science and Engineering\\Bangladesh University of Engineering and Technology
+%}
+
+%\affil[*]{Corresponding author}
+\affil[1]{Department of Computer Science and Engineering\protect\\
+Bangladesh University of Engineering and Technology
+\protect\\ Dhaka-1205, Bangladesh
+}
+\affil[$\dag$]{These authors contributed equally to this work}
+\affil[*]{Corresponding author: shams\_bayzid@cse.buet.ac.bd, rimpi@cse.buet.ac.bd}
+\date{}
+
+%\date{July 2019}
+
+%SAINT: Self Attention Augmented Inception Inside Inception Network Improves Protein Secondary Structure Prediction
+
+
+
+\begin{document}
+
+\maketitle
+
+%\runningtitle{SAINT: Accurate and interpretable secondary structure prediction.}\\
+
+%\runningtitle{SAINT: A secondary structure prediction tool.}\\
+
+
+%\keywords{Protein secondary structure, deep learning, self-attention.}
+
+
+%\newpage
+\pagestyle{plain}
+	\tableofcontents
+
+\clearpage
+\section{Overview}
+
+These supplementary materials present additional details about the datasets analyzed in this study (Sec. 2), results on simulated and real biological datasets (Sec. 3), running time information (Sec. 6), and also additional tables and figures (Secs. 5 and 7). We also present a comparison between QFM and wQFM, showing the positive impact of including weights in estimating trees by amalgamating quartets (Sec. 4).
+
+\subsection{15-taxa}
+
+\input{Sections/Supplementary/Supplementary-15-taxa}
+
+
+
+\subsection{37-taxa}
+
+\input{Sections/Supplementary/Supplementary-37-taxa}
+
+\bibliographystyle{unsrt}
+\bibliography{references.bib}
+
+\end{document}
+

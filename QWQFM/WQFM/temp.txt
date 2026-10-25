@@ -1,0 +1,1408 @@
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file <input_files/avian_exon_weighted_quartets> done.
+Initial-Num-Quartets = 583740
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+48
+{FULGL=20, ANAPL=1, COLLI=13, MESUN=31, GALGA=21, HALAL=24, PHALE=37, TAUER=45, BUCRH=5, TINMA=46, MELUN=29, PYGAD=42, MELGA=28, PHORU=38, TYTAL=47, COLST=14, CALAN=6, NESNO=32, STRCA=43, PODCR=40, TAEGU=44, GAVST=22, APAVI=2, MERNU=30, NIPNI=33, CAPCA=7, FALPE=19, BALRE=4, CHAPE=10, PELCR=35, PTEGU=41, CORBR=15, CATAU=9, CHAVO=11, PICPU=39, EGRGA=17, EURHE=18, CARCR=8, PHACA=36, OPHHO=34, CHLUN=12, GEOFO=23, LEPDI=26, MANVI=27, ACACH=0, APTFO=3, CUCCA=16, HALLE=25}
+{0=ACACH, 1=ANAPL, 2=APAVI, 3=APTFO, 4=BALRE, 5=BUCRH, 6=CALAN, 7=CAPCA, 8=CARCR, 9=CATAU, 10=CHAPE, 11=CHAVO, 12=CHLUN, 13=COLLI, 14=COLST, 15=CORBR, 16=CUCCA, 17=EGRGA, 18=EURHE, 19=FALPE, 20=FULGL, 21=GALGA, 22=GAVST, 23=GEOFO, 24=HALAL, 25=HALLE, 26=LEPDI, 27=MANVI, 28=MELGA, 29=MELUN, 30=MERNU, 31=MESUN, 32=NESNO, 33=NIPNI, 34=OPHHO, 35=PELCR, 36=PHACA, 37=PHALE, 38=PHORU, 39=PICPU, 40=PODCR, 41=PTEGU, 42=PYGAD, 43=STRCA, 44=TAEGU, 45=TAUER, 46=TINMA, 47=TYTAL}
+Total Num-Taxa = 48
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 1:
+ACACH -> 1
+ANAPL -> -1
+APAVI -> -1
+APTFO -> -1
+BALRE -> -1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CORBR -> 1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> -1
+FULGL -> -1
+GALGA -> -1
+GAVST -> -1
+GEOFO -> 1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MANVI -> 1
+MELGA -> -1
+MELUN -> -1
+MERNU -> -1
+MESUN -> -1
+NESNO -> -1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> -1
+STRCA -> -1
+TAEGU -> 1
+TAUER -> -1
+TINMA -> -1
+TYTAL -> -1
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GALGA, GAVST, HALAL, HALLE, LEPDI, MELGA, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA, TYTAL, DUM_49}
+Number of Quartets in Qa: 407253
+Pb (Right Partition): {ACACH, CORBR, GEOFO, MANVI, TAEGU, DUM_49}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+ANAPL -> 1
+APAVI -> -1
+APTFO -> -1
+BALRE -> -1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> -1
+FULGL -> -1
+GALGA -> 1
+GAVST -> -1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MELGA -> 1
+MELUN -> -1
+MERNU -> -1
+MESUN -> -1
+NESNO -> -1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> -1
+STRCA -> 1
+TAUER -> -1
+TINMA -> 1
+TYTAL -> -1
+DUM_49 -> -1
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, APTFO, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, HALAL, HALLE, LEPDI, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, PYGAD, TAUER, TYTAL, DUM_49, DUM_50}
+Number of Quartets in Qa: 274170
+Pb (Right Partition): {ANAPL, GALGA, MELGA, STRCA, TINMA, DUM_50}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+APAVI -> -1
+APTFO -> 1
+BALRE -> -1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> -1
+FULGL -> -1
+GAVST -> -1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MELUN -> -1
+MERNU -> -1
+MESUN -> -1
+NESNO -> -1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> 1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, HALAL, HALLE, LEPDI, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51}
+Number of Quartets in Qa: 246753
+Pb (Right Partition): {APTFO, PYGAD, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CALAN -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GAVST -> 1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> 1
+MELUN -> 1
+MERNU -> 1
+MESUN -> 1
+NESNO -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> 1
+PICPU -> 1
+PODCR -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {HALAL, HALLE, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, LEPDI, MELUN, MERNU, MESUN, NESNO, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 221445
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+APAVI -> -1
+BALRE -> -1
+BUCRH -> -1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> -1
+FULGL -> -1
+GAVST -> -1
+LEPDI -> -1
+MELUN -> 1
+MERNU -> -1
+MESUN -> -1
+NESNO -> 1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> -1
+PODCR -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, BUCRH, CALAN, CAPCA, CARCR, CATAU, CHAPE, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, LEPDI, MERNU, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52, DUM_53}
+Number of Quartets in Qa: 198135
+Pb (Right Partition): {MELUN, NESNO, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CALAN -> -1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAPE -> -1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GAVST -> 1
+LEPDI -> 1
+MERNU -> 1
+MESUN -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> 1
+PICPU -> 1
+PODCR -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {CALAN, CHAPE, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, LEPDI, MERNU, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PICPU, PODCR, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52, DUM_53, DUM_54}
+Number of Quartets in Qb: 176715
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GAVST -> 1
+LEPDI -> 1
+MERNU -> 1
+MESUN -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> -1
+PICPU -> 1
+PODCR -> -1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {PHORU, PODCR, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EGRGA, EURHE, FALPE, FULGL, GAVST, LEPDI, MERNU, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PICPU, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qb: 157080
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EGRGA -> -1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GAVST -> 1
+LEPDI -> 1
+MERNU -> 1
+MESUN -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> -1
+PHACA -> 1
+PHALE -> 1
+PICPU -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {EGRGA, PELCR, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, FULGL, GAVST, LEPDI, MERNU, MESUN, NIPNI, OPHHO, PHACA, PHALE, PICPU, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52, DUM_53, DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 139128
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> 1
+GAVST -> 1
+LEPDI -> 1
+MERNU -> 1
+MESUN -> 1
+NIPNI -> -1
+OPHHO -> 1
+PHACA -> 1
+PHALE -> 1
+PICPU -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+DUM_56 -> -1
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {NIPNI, DUM_56, DUM_57}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, FULGL, GAVST, LEPDI, MERNU, MESUN, OPHHO, PHACA, PHALE, PICPU, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_51, DUM_52, DUM_53, DUM_54, DUM_55, DUM_57}
+Number of Quartets in Qb: 122760
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+APAVI -> 1
+BALRE -> 1
+BUCRH -> 1
+CAPCA -> 1
+CARCR -> 1
+CATAU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EURHE -> 1
+FALPE -> 1
+FULGL -> -1
+GAVST -> 1
+LEPDI -> 1
+MERNU -> 1
+MESUN -> 1
+OPHHO -> 1
+PHACA -> 1
+PHALE -> 1
+PICPU -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> -1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+DUM_57 -> 1
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {FULGL, DUM_51, DUM_58}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MERNU, MESUN, OPHHO, PHACA, PHALE, PICPU, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_52, DUM_53, DUM_54, DUM_55, DUM_57, DUM_58}
+Number of Quartets in Qb: 107880
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 11, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 11:
+APAVI -> -1
+BALRE -> -1
+BUCRH -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MERNU -> 1
+MESUN -> -1
+OPHHO -> -1
+PHACA -> -1
+PHALE -> -1
+PICPU -> 1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_57 -> -1
+DUM_58 -> -1
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHACA, PHALE, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_52, DUM_53, DUM_54, DUM_55, DUM_57, DUM_58, DUM_59}
+Number of Quartets in Qa: 94395
+Pb (Right Partition): {MERNU, PICPU, DUM_59}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 12, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 12:
+APAVI -> -1
+BALRE -> -1
+BUCRH -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MESUN -> -1
+OPHHO -> -1
+PHACA -> 1
+PHALE -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_57 -> 1
+DUM_58 -> -1
+DUM_59 -> -1
+
+========== LEVEL 12 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_52, DUM_53, DUM_54, DUM_55, DUM_58, DUM_59, DUM_60}
+Number of Quartets in Qa: 82215
+Pb (Right Partition): {PHACA, DUM_57, DUM_60}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 13, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 13:
+APAVI -> -1
+BALRE -> -1
+BUCRH -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MESUN -> -1
+OPHHO -> -1
+PHALE -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_58 -> 1
+DUM_59 -> -1
+DUM_60 -> 1
+
+========== LEVEL 13 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, BUCRH, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_52, DUM_53, DUM_54, DUM_55, DUM_59, DUM_61}
+Number of Quartets in Qa: 71253
+Pb (Right Partition): {DUM_58, DUM_60, DUM_61}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 14, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 14:
+APAVI -> -1
+BALRE -> -1
+BUCRH -> 1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MESUN -> -1
+OPHHO -> -1
+PHALE -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_59 -> 1
+DUM_61 -> -1
+
+========== LEVEL 14 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, CAPCA, CARCR, CATAU, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_52, DUM_53, DUM_54, DUM_55, DUM_61, DUM_62}
+Number of Quartets in Qa: 61425
+Pb (Right Partition): {BUCRH, DUM_59, DUM_62}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 15, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 15:
+APAVI -> -1
+BALRE -> -1
+CAPCA -> -1
+CARCR -> -1
+CATAU -> 1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MESUN -> -1
+OPHHO -> -1
+PHALE -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_52 -> 1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_61 -> -1
+DUM_62 -> -1
+
+========== LEVEL 15 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, CAPCA, CARCR, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_49, DUM_50, DUM_53, DUM_54, DUM_55, DUM_61, DUM_62, DUM_63}
+Number of Quartets in Qa: 52650
+Pb (Right Partition): {CATAU, DUM_52, DUM_63}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 16, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 16:
+APAVI -> -1
+BALRE -> -1
+CAPCA -> -1
+CARCR -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+FALPE -> -1
+GAVST -> -1
+LEPDI -> -1
+MESUN -> -1
+OPHHO -> -1
+PHALE -> -1
+PTEGU -> -1
+TAUER -> -1
+TYTAL -> -1
+DUM_49 -> 1
+DUM_50 -> -1
+DUM_53 -> 1
+DUM_54 -> -1
+DUM_55 -> -1
+DUM_61 -> -1
+DUM_62 -> -1
+DUM_63 -> -1
+
+========== LEVEL 16 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BALRE, CAPCA, CARCR, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, GAVST, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_50, DUM_54, DUM_55, DUM_61, DUM_62, DUM_63, DUM_64}
+Number of Quartets in Qa: 44850
+Pb (Right Partition): {DUM_49, DUM_53, DUM_64}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 17, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 17:
+DUM_64 -> 1
+APAVI -> 1
+BALRE -> 1
+CAPCA -> 1
+CARCR -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EURHE -> 1
+FALPE -> 1
+GAVST -> -1
+LEPDI -> 1
+MESUN -> 1
+OPHHO -> 1
+PHALE -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> 1
+DUM_50 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+DUM_61 -> -1
+DUM_62 -> 1
+DUM_63 -> 1
+
+========== LEVEL 17 BIPARTITION RESULT ==========
+Pa (Left Partition): {GAVST, DUM_61, DUM_65}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_64, APAVI, BALRE, CAPCA, CARCR, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, TYTAL, DUM_50, DUM_54, DUM_55, DUM_62, DUM_63, DUM_65}
+Number of Quartets in Qb: 37950
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 18, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 18:
+DUM_64 -> 1
+DUM_65 -> 1
+APAVI -> 1
+BALRE -> 1
+CAPCA -> 1
+CARCR -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> 1
+CUCCA -> 1
+EURHE -> 1
+FALPE -> 1
+LEPDI -> 1
+MESUN -> 1
+OPHHO -> 1
+PHALE -> 1
+PTEGU -> 1
+TAUER -> 1
+TYTAL -> -1
+DUM_50 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+DUM_62 -> 1
+DUM_63 -> -1
+
+========== LEVEL 18 BIPARTITION RESULT ==========
+Pa (Left Partition): {TYTAL, DUM_63, DUM_66}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_64, DUM_65, APAVI, BALRE, CAPCA, CARCR, CHAVO, CHLUN, COLLI, COLST, CUCCA, EURHE, FALPE, LEPDI, MESUN, OPHHO, PHALE, PTEGU, TAUER, DUM_50, DUM_54, DUM_55, DUM_62, DUM_66}
+Number of Quartets in Qb: 31878
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 19, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 19:
+DUM_64 -> -1
+DUM_65 -> -1
+APAVI -> 1
+OPHHO -> -1
+DUM_66 -> -1
+BALRE -> -1
+PHALE -> -1
+CAPCA -> -1
+CARCR -> -1
+PTEGU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+FALPE -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+LEPDI -> -1
+DUM_62 -> 1
+MESUN -> -1
+
+========== LEVEL 19 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_64, DUM_65, OPHHO, DUM_66, BALRE, PHALE, CAPCA, CARCR, PTEGU, CHAVO, CHLUN, COLLI, TAUER, COLST, CUCCA, EURHE, DUM_50, FALPE, DUM_54, DUM_55, LEPDI, MESUN, DUM_67}
+Number of Quartets in Qa: 26565
+Pb (Right Partition): {APAVI, DUM_62, DUM_67}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 20, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 20:
+DUM_64 -> -1
+DUM_65 -> 1
+OPHHO -> -1
+DUM_66 -> -1
+DUM_67 -> -1
+BALRE -> -1
+PHALE -> 1
+CAPCA -> -1
+CARCR -> -1
+PTEGU -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> -1
+COLST -> -1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+FALPE -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+LEPDI -> -1
+MESUN -> -1
+
+========== LEVEL 20 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_64, OPHHO, DUM_66, DUM_67, BALRE, CAPCA, CARCR, PTEGU, CHAVO, CHLUN, COLLI, TAUER, COLST, CUCCA, EURHE, DUM_50, FALPE, DUM_54, DUM_55, LEPDI, MESUN, DUM_68}
+Number of Quartets in Qa: 21945
+Pb (Right Partition): {DUM_65, PHALE, DUM_68}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 21, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 21:
+DUM_64 -> 1
+OPHHO -> 1
+DUM_66 -> -1
+DUM_67 -> 1
+BALRE -> 1
+DUM_68 -> 1
+CAPCA -> 1
+CARCR -> -1
+PTEGU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+COLST -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+FALPE -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> 1
+MESUN -> 1
+
+========== LEVEL 21 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_66, CARCR, DUM_69}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_64, OPHHO, DUM_67, BALRE, DUM_68, CAPCA, PTEGU, CHAVO, CHLUN, COLLI, TAUER, COLST, CUCCA, EURHE, DUM_50, FALPE, DUM_54, DUM_55, LEPDI, MESUN, DUM_69}
+Number of Quartets in Qb: 17955
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 22, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 22:
+DUM_64 -> 1
+OPHHO -> 1
+DUM_67 -> -1
+BALRE -> 1
+DUM_68 -> 1
+DUM_69 -> 1
+CAPCA -> 1
+PTEGU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+COLST -> -1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+FALPE -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> 1
+MESUN -> 1
+
+========== LEVEL 22 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_67, COLST, DUM_70}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_64, OPHHO, BALRE, DUM_68, DUM_69, CAPCA, PTEGU, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, FALPE, DUM_54, DUM_55, LEPDI, MESUN, DUM_70}
+Number of Quartets in Qb: 14535
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 23, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 23:
+DUM_64 -> -1
+OPHHO -> 1
+BALRE -> 1
+DUM_68 -> 1
+DUM_69 -> 1
+DUM_70 -> -1
+CAPCA -> 1
+PTEGU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+FALPE -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> 1
+MESUN -> 1
+
+========== LEVEL 23 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_64, DUM_70, DUM_71}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, BALRE, DUM_68, DUM_69, CAPCA, PTEGU, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, FALPE, DUM_54, DUM_55, LEPDI, MESUN, DUM_71}
+Number of Quartets in Qb: 11628
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 24, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 24:
+OPHHO -> 1
+BALRE -> 1
+DUM_68 -> 1
+DUM_69 -> -1
+CAPCA -> 1
+DUM_71 -> 1
+PTEGU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+FALPE -> -1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> 1
+MESUN -> 1
+
+========== LEVEL 24 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_69, FALPE, DUM_72}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, BALRE, DUM_68, CAPCA, DUM_71, PTEGU, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, DUM_54, DUM_55, LEPDI, MESUN, DUM_72}
+Number of Quartets in Qb: 9180
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 25, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 25:
+OPHHO -> 1
+BALRE -> -1
+DUM_68 -> -1
+CAPCA -> 1
+DUM_71 -> 1
+DUM_72 -> 1
+PTEGU -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> 1
+MESUN -> 1
+
+========== LEVEL 25 BIPARTITION RESULT ==========
+Pa (Left Partition): {BALRE, DUM_68, DUM_73}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, CAPCA, DUM_71, DUM_72, PTEGU, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, DUM_54, DUM_55, LEPDI, MESUN, DUM_73}
+Number of Quartets in Qb: 7140
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 26, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 26:
+OPHHO -> 1
+CAPCA -> 1
+DUM_71 -> 1
+DUM_72 -> -1
+PTEGU -> 1
+DUM_73 -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+DUM_54 -> 1
+DUM_55 -> 1
+LEPDI -> -1
+MESUN -> 1
+
+========== LEVEL 26 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_72, LEPDI, DUM_74}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, CAPCA, DUM_71, PTEGU, DUM_73, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, DUM_54, DUM_55, MESUN, DUM_74}
+Number of Quartets in Qb: 5460
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 27, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 27:
+OPHHO -> -1
+CAPCA -> -1
+DUM_71 -> 1
+PTEGU -> -1
+DUM_73 -> -1
+DUM_74 -> 1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> -1
+CUCCA -> -1
+EURHE -> -1
+DUM_50 -> -1
+DUM_54 -> -1
+DUM_55 -> -1
+MESUN -> -1
+
+========== LEVEL 27 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, CAPCA, PTEGU, DUM_73, CHAVO, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, DUM_54, DUM_55, MESUN, DUM_75}
+Number of Quartets in Qa: 4095
+Pb (Right Partition): {DUM_71, DUM_74, DUM_75}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 28, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 28:
+OPHHO -> 1
+CAPCA -> 1
+PTEGU -> 1
+DUM_73 -> -1
+CHAVO -> 1
+DUM_75 -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> 1
+DUM_50 -> 1
+DUM_54 -> 1
+DUM_55 -> -1
+MESUN -> 1
+
+========== LEVEL 28 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_73, DUM_55, DUM_76}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, CAPCA, PTEGU, CHAVO, DUM_75, CHLUN, COLLI, TAUER, CUCCA, EURHE, DUM_50, DUM_54, MESUN, DUM_76}
+Number of Quartets in Qb: 3003
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 29, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 29:
+OPHHO -> 1
+CAPCA -> 1
+PTEGU -> 1
+CHAVO -> 1
+DUM_75 -> 1
+CHLUN -> 1
+DUM_76 -> -1
+COLLI -> 1
+TAUER -> 1
+CUCCA -> 1
+EURHE -> -1
+DUM_50 -> 1
+DUM_54 -> 1
+MESUN -> 1
+
+========== LEVEL 29 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_76, EURHE, DUM_77}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, CAPCA, PTEGU, CHAVO, DUM_75, CHLUN, COLLI, TAUER, CUCCA, DUM_50, DUM_54, MESUN, DUM_77}
+Number of Quartets in Qb: 2145
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 30, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 30:
+OPHHO -> -1
+CAPCA -> 1
+PTEGU -> -1
+CHAVO -> -1
+DUM_75 -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> -1
+DUM_77 -> -1
+CUCCA -> -1
+DUM_50 -> -1
+DUM_54 -> 1
+MESUN -> -1
+
+========== LEVEL 30 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, PTEGU, CHAVO, DUM_75, CHLUN, COLLI, TAUER, DUM_77, CUCCA, DUM_50, MESUN, DUM_78}
+Number of Quartets in Qa: 1485
+Pb (Right Partition): {CAPCA, DUM_54, DUM_78}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 31, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 31:
+CUCCA -> -1
+OPHHO -> -1
+DUM_50 -> -1
+PTEGU -> -1
+CHAVO -> 1
+DUM_75 -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> -1
+DUM_77 -> 1
+DUM_78 -> -1
+MESUN -> -1
+
+========== LEVEL 31 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, OPHHO, DUM_50, PTEGU, DUM_75, CHLUN, COLLI, TAUER, DUM_78, MESUN, DUM_79}
+Number of Quartets in Qa: 990
+Pb (Right Partition): {CHAVO, DUM_77, DUM_79}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 32, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 32:
+CUCCA -> 1
+OPHHO -> 1
+DUM_50 -> 1
+PTEGU -> -1
+DUM_75 -> 1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+DUM_78 -> 1
+MESUN -> -1
+DUM_79 -> 1
+
+========== LEVEL 32 BIPARTITION RESULT ==========
+Pa (Left Partition): {PTEGU, MESUN, DUM_80}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CUCCA, OPHHO, DUM_50, DUM_75, CHLUN, COLLI, TAUER, DUM_78, DUM_79, DUM_80}
+Number of Quartets in Qb: 630
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 33, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 33:
+CUCCA -> -1
+DUM_80 -> -1
+OPHHO -> -1
+DUM_50 -> -1
+DUM_75 -> -1
+CHLUN -> 1
+COLLI -> -1
+TAUER -> 1
+DUM_78 -> -1
+DUM_79 -> -1
+
+========== LEVEL 33 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_80, OPHHO, DUM_50, DUM_75, COLLI, DUM_78, DUM_79, DUM_81}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {CHLUN, TAUER, DUM_81}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 34, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 34:
+CUCCA -> 1
+DUM_80 -> 1
+DUM_81 -> 1
+OPHHO -> -1
+DUM_50 -> 1
+DUM_75 -> 1
+COLLI -> 1
+DUM_78 -> 1
+DUM_79 -> -1
+
+========== LEVEL 34 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_79, DUM_82}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CUCCA, DUM_80, DUM_81, DUM_50, DUM_75, COLLI, DUM_78, DUM_82}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 35, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 35:
+CUCCA -> 1
+DUM_80 -> -1
+DUM_81 -> 1
+DUM_50 -> 1
+DUM_82 -> 1
+DUM_75 -> 1
+COLLI -> -1
+DUM_78 -> 1
+
+========== LEVEL 35 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_80, COLLI, DUM_83}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CUCCA, DUM_81, DUM_50, DUM_82, DUM_75, DUM_78, DUM_83}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 36, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 36:
+CUCCA -> -1
+DUM_81 -> 1
+DUM_50 -> -1
+DUM_82 -> 1
+DUM_83 -> -1
+DUM_75 -> -1
+DUM_78 -> -1
+
+========== LEVEL 36 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_50, DUM_83, DUM_75, DUM_78, DUM_84}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {DUM_81, DUM_82, DUM_84}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 37, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 37:
+CUCCA -> 1
+DUM_50 -> 1
+DUM_83 -> 1
+DUM_75 -> -1
+DUM_84 -> 1
+DUM_78 -> -1
+
+========== LEVEL 37 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_75, DUM_78, DUM_85}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CUCCA, DUM_50, DUM_83, DUM_84, DUM_85}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 38, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 38:
+CUCCA -> -1
+DUM_50 -> -1
+DUM_83 -> -1
+DUM_84 -> 1
+DUM_85 -> 1
+
+========== LEVEL 38 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_50, DUM_83, DUM_86}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_84, DUM_85, DUM_86}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 39, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 39:
+CUCCA -> -1
+DUM_50 -> 1
+DUM_83 -> -1
+DUM_86 -> 1
+
+========== LEVEL 39 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_83, DUM_87}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_86, DUM_87}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+ANAPL -> 1
+DUM_50 -> -1
+STRCA -> -1
+MELGA -> 1
+GALGA -> 1
+TINMA -> -1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, STRCA, TINMA, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ANAPL, MELGA, GALGA, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_50 -> 1
+DUM_51 -> 1
+STRCA -> -1
+TINMA -> -1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {STRCA, TINMA, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+ANAPL -> -1
+DUM_51 -> -1
+MELGA -> 1
+GALGA -> 1
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, DUM_51, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {MELGA, GALGA, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+ACACH -> -1
+DUM_49 -> -1
+MANVI -> -1
+TAEGU -> 1
+GEOFO -> 1
+CORBR -> 1
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, DUM_49, MANVI, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {TAEGU, GEOFO, CORBR, DUM_50}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+ACACH -> -1
+DUM_49 -> -1
+DUM_50 -> 1
+MANVI -> 1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, DUM_49, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, MANVI, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+DUM_50 -> -1
+TAEGU -> 1
+GEOFO -> 1
+CORBR -> -1
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, CORBR, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {TAEGU, GEOFO, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+(((MELUN,NESNO),((COLST,(APAVI,(BUCRH,(MERNU,PICPU)))),((LEPDI,(FALPE,(CARCR,(TYTAL,(CATAU,(HALAL,HALLE)))))),((CAPCA,(CALAN,CHAPE)),(((CHLUN,TAUER),(OPHHO,(CHAVO,(EURHE,((PHORU,PODCR),(BALRE,(PHALE,(GAVST,((PHACA,(NIPNI,(EGRGA,PELCR))),(FULGL,(APTFO,PYGAD))))))))))),((CUCCA,(COLLI,(PTEGU,MESUN))),((STRCA,TINMA),(ANAPL,(MELGA,GALGA))))))))),(ACACH,(MANVI,(CORBR,(TAEGU,GEOFO)))));
+>-> Successfully written to output-file /tmp/wqfm_out_2065.tre
+Tree saved to: /home/niloy/wQFM-2020/WQFM/src/wqfm/algo/quantum/tree_output.png
+Tree visualization saved successfully.
+
+Time taken = 47709 ms ==> 0 minutes and 47 seconds.
+================= **** ======================== **** ====================
+No annotations used.

@@ -1,0 +1,4 @@
+instance,variables,edges,published_exact_cut,leap_hybrid_cut,absolute_gap,relative_gap_percent,matched_exact_value,time_limit_seconds,run_time_microseconds,qpu_access_time_microseconds,charge_time_microseconds,problem_id,problem_data_id
+t2g20_5555,400,800,24838942,24765027,73915,0.29757708681794903,False,3.0,2989696,207226,2989696,0bbdaa99-1105-4282-9db0-e6822745aa26,ab6e07c8-6fbf-415b-8087-39b0eff6bf3f
+t2g20_5555,400,800,24838942,24793645,45297,0.18236283976990647,False,10.0,9994351,725317,9994351,0198562e-4bd8-4438-ba9f-d10964f33ce5,38726dc7-6890-40b9-9b2d-03d625915023
+t2g20_5555,400,800,24838942,24838942,0,0.0,True,30.0,29995651,2175935,29995651,ca822764-6e0b-401a-947e-e0c5ef9545f6,41146360-54ef-450d-ba8d-e01aacd5bf72

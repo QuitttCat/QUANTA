@@ -1,0 +1,51 @@
+% \setlength\LTleft{-1.0cm}% 2.5cm into the left margin
+% \setlength\LTright{0pt plus 1fill minus 1fill}% whatever is needed at the right
+
+\begin{table}[H]
+  \small
+  \centering
+    \addtolength{\leftskip} {-2cm} % increase (absolute) value if needed
+    \addtolength{\rightskip}{-2cm}
+    \caption{Quartet Scores of 37-Taxon Models with respect to Complete Gene Trees (Varying the number of Sequence Length)}
+    \label{tab:qscore-37-seq-complete}
+\begin{tabularx}{1.2\textwidth}{|X|X|X|X|X|X|X|X|}
+
+
+\hline
+    Model & Number of Missing Taxa  & Complete (Astral)  & Complete (WQFM) & Incomplete (Astral) & Incomplete (WQFM)  &	Imputed (WQFM) & True \\
+    \hline\hline
+    \multirow{4}{0.25\textwidth}{250bp} 
+    & 0   & 10006308.5	& 10005483.8 & --- & --- & --- & \multirow{4}{0.25\textwidth}{ 10002171.5}  \\ \cline{2-7}
+    & 1-2 & --- & --- &	10006308.5  & 10005684.3	
+    & 10005787.4 &  \\ \cline{2-7}
+    & 2-3 & --- & ---  &	10005758.1  &	10004869.1
+    & 10004204 & \\ \cline{2-7}
+    & 3-4 & ---	& ---  &	10004950		
+    & 10004453.5	& 10003461 & \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1X} 
+    & 0 & 11262866 & 11262373 & --- & --- & --- & \multirow{4}{0.25\textwidth}{11260000}  \\ \cline{2-7}
+    & 1-2 & --- & ---  &	11262866 & 11262649.5
+    &	11259262 &  \\ \cline{2-7}
+    & 2-3 & --- &	---	 &	11262758.5	&	11262373.75
+    & 11262247.9 &  \\ \cline{2-7}
+    & 3-4 & --- &	---  & 11262076	
+	 &	11261781  &	11258958 &   \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{2X} 
+    & 0 & 11950022 &	11949736 & --- & --- & --- & \multirow{4}{0.25\textwidth}{11949183}  \\ \cline{2-7}
+    & 1-2 & --- &	---  &	11950014.5	
+    &	11949729  &	11949599.5 & \\ \cline{2-7}
+    & 2-3 & --- &	---  &	11949893.2		
+    &	11949750.2  &	11949525.1 &  \\ \cline{2-7}
+    & 3-4 & --- &	---  &	11949882.2		
+    &	11949510  & 11948202.6 &  \\ \cline{2-7}
+    
+    \hline
+        
+    
+\end{tabularx}
+
+\end{table}

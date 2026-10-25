@@ -1,0 +1,11 @@
+10 inputs, 1 in parallel
+[1/10] biological aminota-aa.weighted_quartets: time 3.840 s, RSS 12.6 MB, quartet score 0.666635, RF -
+[2/10] biological aminota-nt.weighted_quartets: time 2.220 s, RSS 11.7 MB, quartet score 0.780547, RF -
+[3/10] biological angiosperm.weighted_quartets: time 1179.640 s, RSS 712.9 MB, quartet score 0.796785, RF -
+converted 583740 quartets
+[4/10] biological avian-all.weighted_quartets: time 2944.170 s, RSS 945.8 MB, quartet score 0.500381, RF -
+converted 583740 quartets
+[5/10] biological avian-exon.weighted_quartets: time 2903.420 s, RSS 946.0 MB, quartet score 0.437230, RF -
+converted 576660 quartets
+[6/10] biological avian-intron.weighted_quartets: time 2943.070 s, RSS 934.7 MB, quartet score 0.608903, RF -
+converted 581782 quartets

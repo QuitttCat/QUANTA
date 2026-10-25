@@ -1,0 +1,10 @@
+--- a/out/CsvEditorProvider.js
++++ b/out/CsvEditorProvider.js
+@@ -1437,6 +1437,7 @@
+       .table-container { overflow: auto; height: 100vh; }
+       table { border-collapse: collapse; width: max-content; }
+       th, td { padding: ${cellPadding}px 8px; border: 1px solid ${isDark ? '#555' : '#ccc'}; font-size: inherit; }
++      ${forceLightGrid ? 'body, .table-container, table, thead, tbody, tr, th, td { background-color: #ffffff !important; color: #000000 !important; }' : ''}
+       th { position: sticky; top: 0; background-color: ${isDark ? '#1e1e1e' : '#ffffff'}; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+       td { overflow: visible; white-space: pre-wrap; overflow-wrap: anywhere; }
+       td.selected, th.selected { background-color: ${isDark ? '#333333' : '#cce0ff'} !important; }

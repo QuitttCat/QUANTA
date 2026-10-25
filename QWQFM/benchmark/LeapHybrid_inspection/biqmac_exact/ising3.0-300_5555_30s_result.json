@@ -1,0 +1,19 @@
+{
+  "absolute_gap": 0,
+  "charge_time_microseconds": 29992856,
+  "density": 1.0,
+  "edges": 44850,
+  "instance": "ising3.0-300_5555",
+  "leap_hybrid_cut": 8493173,
+  "matched_exact_value": true,
+  "problem_data_id": "ea95d2fa-3af1-4210-b1a5-69dac3e879f4",
+  "problem_id": "2bad974e-9c27-4472-b779-925850903fea",
+  "published_exact_cut": 8493173,
+  "qpu_access_time_microseconds": 2264924,
+  "relative_gap_percent": 0.0,
+  "run_time_microseconds": 29992856,
+  "time_limit_seconds": 30.0,
+  "timestamp_utc": "2026-07-27T04:59:50.288051+00:00",
+  "variables": 300,
+  "wall_seconds": 1.6980081009678543
+}

@@ -1,0 +1,103 @@
+% A phylogenetic tree Tre, with N_T taxa and a taxa set T={ti|1<=i<=N_T} (where, N_T =|T| and ti represents the ith taxa in T), can be represented 
+% We represent a phylogenetic tree as a set of quartets (a phylogenetic tree with four taxa) Q. Here, the number of quarters N_Q = |Q| = N_T(C)4.  
+% The orientation of the fours taxa ta,tb,tc,td IN T (where a!=b…) in a quartet can be represented by a one-hot vector q IN Q; here |q|=3 and the position of 1 in q represents the orientation of the taxa/quartet? that is present in Tre, among the following three possible orientations-- ((ta,tb),(tc,td)),....
+% %, where Q={q_t|t
+
+\subsection{Using stacked orientation-encoding}
+In this study, for any specific dataset of phylogenetic trees, we represent the set of all unique taxa of a \textit{complete tree} as $T_c=\{t_i|1 \leq i \leq N_c\}$, where $|T_c|=N_c$ and $t_i$ represents the $i$-th taxa in $T_c$. 
+%For a dataset of gene-trees with a total of N_c unique taxa, we represent the set of all of these taxa as T_c={ti|1<=i<=N_c} (where ti represents the i-th taxa in T_c). 
+Then we define the incomplete \SR{gene-trees} as follows-\\
+Let, $Tre$ be an incomplete \SR{phylogenetic tree} with $N_k$ known and $N_m$ missing taxa; $T_k~(|T_k|=N_k)$ and $T_m~(|T_m|=N_m)$ be the sets of known and missing taxa in $Tre$ respectively (hence, $|T_k|+|T_m|=N_k+N_m=N_c=|T_c|$). 
+
+%We represent Tre as a set of available quartets (phylogenetic trees with 4 taxa) Q.
+
+%Any four taxa ta,tb,tc,td IN T_c (where a, b, c, d are unique integers) 
+% $\forall$ 
+For a four-taxa-set $T_s = \{t_a,t_b,t_c,t_d\} \subset T_c$  (where $a$, $b$, $c$, $d$ are unique integers), $T_s$ may form only one of the three following orientations (i.e., quartets, shown in \SR{bipartite format[cite]}): \SR{To self: the following list is taking much space, maybe written in one line.}
+\begin{enumerate}
+    \item $t_a, t_b | t_c, t_d$
+    \item $t_a, t_c | t_b, t_d$
+    \item $t_a, t_d | t_b, t_c$
+\end{enumerate}
+% ((ta,tb),(tc,td)) -> newick or ta, tb | tc, td -> bipartition
+% ...
+% …
+%In Tre, only one of these three orientations of these four taxa can be present. 
+We represent this orientation using a vector $q$ of length $3$
+%, we are calling q \textit{the vector representation for a quartet}
+. We define $q$ in such a way that it represents a probability distribution of the presence of the quartets in the tree. 
+If $T_s$ is a subset of $T_k$, then all the taxa in $T_s$ is present in $T_k$ and the exact orientation of these taxa is known (i.e. 100\% probability). In this case, $q$ is a \textit{one-hot vector}\SR{[cite]} in which the \textit{position of one} represents that exact orientation (i.e., a specific quartet). On the other hand, if $T_s$ is not a subset of $T_k$, this means $T_s$ contains one or more taxa that are not present in $Tre$ \SR{(resulting in an unknown or missing quartet)}. In this case, we na\"ively consider that the probability of all of these orientations (i.e., quartets) are equal and we define $q$ as $(\frac{1}{3}, \frac{1}{3}, \frac{1}{3})$, a vector representing such uniform probability. \SR{This representation is corresponding to a \textit{missing quartet} that needs to be imputed. }
+
+For a specific $T_s \subset T_c$, we compute the above-mentioned vectors ($q$) for all the gene-trees $g \in G$ (total $N_G$ trees), and this generates a vector of such vectors (i.e., a two dimensional matrix) which we are calling the\textit{ orientation-encoding matrix}, $Q \in \mathbb{R}^{N_G \times 3}$. Then we stack-up the orientation-encoding matrices $\forall T_s \subset T_c$ (total $\binom{N_c}{4}$ four-taxa-sets). This generates a three-dimensional tensor, namely the stacked orientation-encoding $Q_{stacked} \in \mathbb{R}^{\binom{N_c}{4} \times N_G \times 3}$. $Q_{stacked}$ helps the autoencoder to differentiate between the orientations of any specific four-taxa-set.
+%We represent Tre as a set of such vectors, Q. 
+%For_All T_s SUBSET T_c, we end up with a set Q composed of vectors similar to the ones discussed above (q). This was Tre is represented as a set of vectors, Q, which we are calling the \textit{modified quartet representation} of  Tre.
+%, which is used directly as the input of our autoencoder. 
+%This set Q represents Tre as our input data of our Autoencoder. 
+%Each element q IN Q is a vector of length 3, representing 
+
+\subsection{Using masking for self-supervision}
+%%% Dr. Yann LeCun's fb post on self-supervised learning's definition: https://www.facebook.com/722677142/posts/10155934004262143/
+In order to convert this \textit{fully unsupervised} approach into a \textit{self-supervised} one, we use masking. This approach is widely used by several state-of-the-art language modeling approaches \SR{[cite masked language modeling, autoregression etc]}. For this we intentionally remove $K$ (a hyperparameter) percentage of all taxa from $T_c$ (masking)
+%which generates T_{masked} 
+and generate another stacked orientation-encoding tensor $Q_{masked} \in \mathbb{R}^{\binom{N_c}{4} \times N_G \times 3}$ using the aforementioned procedure (in Section ??). Now, $Q_{stacked}$ contains the information about several \textit{known} four-taxa-sets’ orientations that are not present in $Q_{masked}$. This provides us with an \SR{opportunity} to apply supervision for those specific four-taxa-sets, while the rest of the data are still used for pure autoencoding. \SR{To self: the next line sounds redundant. rephrase or delete this line:} Such setup lets us transform a fully unsupervised approach into a self-supervised one, helping the model to learn better.
+
+
+\subsection{Using Positional-Encoding}
+\label{seq:pos_enc}
+Each masked orientation-encoding matrix $Q^{m} \in Q_{masked}~(Q^{m} \in \mathbb{R}^{N_G \times 3})$ contains the information about the orientations of one specific four-taxa-set in all the gene-trees, but this does not contain any information about which four-taxa-set is represented by $Q^{m}$. 
+%As a result, using Q directly as input to our autoencoder does not provide 
+In order to incorporate the information about the difference between all the possible four-taxa-sets, we incorporate an extra signal, \textit{Positional-Encoding}\SR{[cite]}. Positional-Encoding has been proposed by Vaswani et al. \SR{[cite transformer]} and is widely used to encode the positional information of sequential data \SR{[cite transformer, bert]}. Recently its usage has also been visible for research problems in computational biology \SR{[cite SAINT]}. 
+%To incorporate this, 
+% we first stack up the orientation-encoding matrix for all the four-taxa-sets T_s SUBSET T_c (total N_c(C)4 four-taxa-sets). This generates a three-dimensional tensor, namely the stacked orientation encoding Q_{stacked} IN R^{N_c(C)4 x N_G x 3}. 
+We generate a positional-encoding matrix $PEnc \in \mathbb{R}^{\binom{N_c}{4} \times N_G \times 3}$ according to Equation \ref{eq:pos_enc_even} and Equation \ref{eq:pos_enc_odd}. $PEnc$ \SR{contains an extra(?) non-learnable signal that} helps the autoencoder to differentiate between not only the gene-trees but also the four-taxa-sets.
+
+% EQ… PEnc_{(s, 2t, o)}=…
+\begin{equation}
+\label{eq:pos_enc_even}
+PEnc_{(s, 2t, o)} = sin{(s/{10000^{2t/d_{feature}}})}
+\end{equation}
+\begin{equation}
+\label{eq:pos_enc_odd}
+PEnc_{(s, 2t+1, o)} = cos{(s/{10000^{2t+1-1/d_{feature}}})}
+\end{equation}
+
+\SR{Define the set of gene-tree G\\}
+Here, $s$ represents the index (along the first dimension of $PEnc$) corresponding to the four-taxa-set $T_s \subset T_c$, and $2t$ and $2t+1$ are the indices corresponding to the gene-trees $g \in G$ \SR{ to self : change 2t (even) and 2t+1 (odd) to a single variable t, in a single equation}. Here, we can see that the function is constant with respect to the variable $o$ along the last dimension of $PEnc$ (representing the orientations) because the values are repeated $\forall o \in \{1,2,3\}$ 
+% (considering zero-indexing) 
+so that we get the same positional-encoding for all the orientations of a certain four-taxa-set $T_s$ in a specific gene-tree $g$. We then add $Q_{masked}$ and $PEnc$ element-wise which generates $X \in \mathbb{R}^{^{N_c}C_{4} \times N_G \times 3}$, the input of our deep autoencoder. 
+
+\SR{$^{N_c}C_{4}$ or $\binom{N_c}{4}$?}
+
+\subsection{Deep Autoencoder}
+The deep autoencoder architecture consists of two modules -- encoder and decoder -- stacked one after the other and built using fully-connected layers\SR{[cite]}. $\forall x \in X~(x \in \mathbb{R}^{N_G \times 3})$ (generated by the process discussed Section \ref{seq:pos_enc}), $x$ is reshaped into a vector $x_r \in \mathbb{R}^{N_G * 3}$ which is used as the input of the encoder module. By $K_E$ subsequent fully-connected layers, the dimension of $x_r$ is reduced and a condensed latent representation $h_r$ is generated and then used as the input of the decoder module. In the decoder, the dimension of $h_r$ is expanded by $K_D$ fully-connected layers sequentially. The output of the $K_D$-th layer is divided into $N_G$ equal pieces (of length $3$) in an exact order, and softmax normalization is applied on each of them. This normalization generates a probability distribution over the possible orientations of a specific four-taxa-set (i.e. the possible quartets) for each of the gene-trees available in the dataset (we represent this as $\hat{q}$ in Figure \SR{??}). For the whole stacked orientation-encoding tensor $Q_{stacked} \in \mathbb{R}^{\binom{N_c}{4} \times N_G \times 3}$ (discussed in Section ??), the autoencoder generates the output tensor $Q_{pred}  \in \mathbb{R}^{\binom{N_c}{4} \times N_G \times 3}$ which contains not only the information about the quartets that were present in the dataset, but also the \textit{missing quartets} (defined in Section ??). Here, $K_E$ and $K_D$ are two hyperparameters of the autoencoder. In our final architecture $K_E=K_D=\SR{Check the code}$. 
+
+\subsection{Overall Pipeline of \methodname}
+In this section, we discuss the overall pipeline of our method \methodname applied on a dataset of incomplete gene-trees.
+As shown in Figure ?? and described in Section ??, in the first step, a stacked orientation-encoding $Q_{stacked}$ is generated from the gene-trees. Then a masking is applied on it to generate a separate tensor $Q_{masked}$ (shown in Figure ?? and described in Section ??). $Q_{masked}$ is added (element-wise) with positional-encoding matrix $PEnc$ (shown in Figure ?? and described in Section ??) and passed through the deep autoencoder that generates the \SR{predicted stacked orientation-encoding} $Q_{pred}$. $Q_{pred}$ is then compared with $Q_{stacked}$ to calculate the cross-entropy loss\SR{[cite]} as the reconstruction loss\SR{[cite]}. The whole model is then trained with backpropagation\SR{[cite]} 
+% this loss through the whole model 
+until convergence.
+
+% EQ..
+
+% As discussed in Section ??, the aforementioned process lets us train our model in a self-supervised manner. We use the converged model as the final predictor and its output $Q_{pred}$ is used to fill up the missing-quartets (defined in Section ??) in $Q_{stacked}$ and generate the final imputed tensor Q_{imputed}. This process is shown in Figure ??. 
+After this, for each possible four-taxa-set, we pick the orientation with the highest probability from three possible orientations as the \textit{predicted quartet} using the probability distributions that are available in $Q_{pred}$. Let, the set of such \textit{predicted quartets} for all four-taxa-set in a specific gene-tree be $S_{p}$  and the set of the known quartets in that tree be $S_{k}$, where $|S_{p}|=\binom{N_c}{4}$ and $|S_{k}|=\binom{N_k}{4}$. Then we can compute the set of only predicted (but not previously known) quartets, $\hat{S}_{p}$, using set operation as shown in Equation \ref{eq:s_hat_P}.
+
+\begin{equation}
+\label{eq:s_hat_P}
+\hat{S}_{p} = S_p - S_k
+\end{equation}
+
+Using $\hat{S}_{p}$ and $S_k$ we can generate the final set of imputed quartets $S_\mathcal{I}$ following Equation \ref{eq:s_i}. %[Sazan: ekhane S_I er I ta mathcal kore dao].
+
+\begin{equation}
+\label{eq:s_i}
+S_\mathcal{I} = \hat{S}_{p} \cup S_k
+\end{equation}
+
+For all the gene trees in our dataset, we apply the aforementioned process and this generates a list of sets of imputed quartets $L_\mathcal{I}$. Similarly, we generate a list of sets of known quartets $L_k$. $L_\mathcal{I}$ and $L_k$ are used to estimate the species trees $ST_I$ and $ST_k$ respectively, using the widely used method wQMC \SR{[cite]}. $ST_I$ and $ST_k$ are compared with the true species tree $ST_{true}$ to calculate the error rates that depict the performance of our method, i.e, how well our method could improve the species tree estimation by using the discussed imputation technique.
+
+%We use these predicted quartets to fill up the missing quartets (discussed in Section ??) in Q_{stacked} and this generates the set of quartets for all the ...
+%This provides us with a set of 
+
+
+

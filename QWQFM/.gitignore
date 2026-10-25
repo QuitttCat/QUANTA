@@ -1,0 +1,10 @@
+/WQFM/nbproject/private/
+/WQFM/build/
+/WQFM/dist/
+/WQFM/scripts-quartet-support/NormalizeQuartets/nbproject/private/
+# Large data files
+WQFM/src/wqfm/algo/quantum/quartet.txt
+WQFM/input_files/
+.venv/
+__pycache__/
+*.py[cod]

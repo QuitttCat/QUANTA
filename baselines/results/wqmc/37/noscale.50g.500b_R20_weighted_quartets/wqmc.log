@@ -1,0 +1,19 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/37/noscale.50g.500b_R20_weighted_quartets/tmpp8f7k5qm/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/37/noscale.50g.500b_R20_weighted_quartets/tmpp8f7k5qm/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/37/noscale.50g.500b_R20_weighted_quartets/tmpp8f7k5qm/input, 
+At main, back from readQuartets, maxSp 37
+
+
+Number of quartets read: 166501, max ele 37
+
+
+Started working at  Sun Oct 25 01:45:33 2026
+
+calling find cut e_anchor, 37, q_anchor, 166501, 37, 175
+Ended working at  Sun Oct 25 01:45:34 2026
+

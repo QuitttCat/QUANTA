@@ -1,0 +1,8 @@
+numpy>=1.21.0
+matplotlib>=3.5.0
+biopython>=1.79
+dwave-neal>=0.6.0
+dwave-system>=1.30.0
+qiskit[visualization]
+qiskit-ibm-runtime
+qiskit-aer

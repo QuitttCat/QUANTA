@@ -1,0 +1,78 @@
+\RestyleAlgo{ruled}
+
+\normalem %%%% disable auto underline
+
+\SetKwComment{Comment}{/* }{ */}
+\IncMargin{1em}
+
+\begin{algorithm}
+\SetKwData{Left}{left}\SetKwData{This}{this}\SetKwData{Up}{up}
+\SetKwFunction{Union}{Union}\SetKwFunction{FindCompress}{FindCompress}
+\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+
+\Input{$\mathcal{QD_E}$, set of weighted quartets \\ 
+$S$, set of all taxa
+}
+\Output{$\mathcal{QD'_E}$, set of weighted quartets with adjusted weights}
+\BlankLine
+
+\Comment{$\mathcal{A} $ is the set of adjusted quartets}
+$\mathcal{A} \leftarrow \emptyset$; 
+
+\ForEach{$q \in \mathcal{QD_E}$ }{
+    
+
+    \If(\tcp*[h]{already adjusted} ){$q \in \mathcal{A}$}{\label{lt}
+            continue
+    }
+    
+    \Comment{ Generate all 3 quartets on the leaves of $q$}
+    $\mathcal{T} \leftarrow $ GenerateQuartets($L(q)$) \\
+
+   
+    $s \leftarrow 0$ \tcp{sum of actual weights of quartets in $\mathcal{T}$} \\
+    $s' \leftarrow 0$ \tcp{sum of adjusted weights of quartets in $\mathcal{T}$}\\
+    
+    \ForEach{ $q_i \in \mathcal{T}$ }{\label{forins}
+
+        $C_i \leftarrow 0$ \tcp{Conflict score of $q_i$}
+
+        $s \leftarrow s + W_i$
+        
+        $Z_i \leftarrow $ \emptyset $ \;
+        \ForEach{ $ t \in S \setminus L(q_i) $ }{ \label{forins}
+            \Comment{For each external taxa, we generate 28 conflict pairs}
+            $Z_i \leftarrow Z_i \cup $ GenerateConflicts($q_i, t$)
+        }
+
+        \ForEach{ $ (q_j, q_k) \in Z_i $ }{  \label{forins}
+            \If(\tcp*[h]{Using Product of Weights definition} ){ heuristic is PoW }{\label{lt}
+                $C_i \leftarrow C_i + W_j \cdot W_k$
+            }
+            \ElseIf(\tcp*[h]{Using Minimum of Weights definition} ){ heuristic is MoW } {
+                $C_i \leftarrow C_i + min( W_j , W_k )$
+            }
+            
+        }
+
+        $ W_i' \leftarrow \frac{W_i}{C_i} $ \\
+        $ s' \leftarrow s' + W_i'$
+        
+    }
+
+    \Comment{Normalize the weights}
+    \ForEach{ $q_i \in \mathcal{T}$ }{\label{forins}
+        $W_i' \leftarrow \frac{s}{s'} \cdot W_i' $
+    }
+
+     $ \mathcal{A} \leftarrow \mathcal{A} \cup \mathcal{T} $ \\
+    
+    % \lForEach{element $e$ of the line $i$}{ \label{forins}
+    % \FindCompress{p}
+    % }
+}
+\caption{QT-WEAVER}\label{qtweaver-algo}
+\end{algorithm}
+
+\DecMargin{1em}
+\ULforem %%%% enable auto underline

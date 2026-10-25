@@ -1,0 +1,10 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 581782
+#Species: 48
+#Rounds: 4
+#Samples: 4
+#Threads: 1

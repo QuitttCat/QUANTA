@@ -1,0 +1,32 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/101/10.true.wqrts/tmpwsbejbz_/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/101/10.true.wqrts/tmpwsbejbz_/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/101/10.true.wqrts/tmpwsbejbz_/input, 
+Read 1000000 quartets
+Read 2000000 quartets
+Read 3000000 quartets
+Read 4000000 quartets
+Read 5000000 quartets
+Read 6000000 quartets
+Read 7000000 quartets
+Read 8000000 quartets
+Read 9000000 quartets
+Read 10000000 quartets
+Read 11000000 quartets
+Read 12000000 quartets
+At main, back from readQuartets, maxSp 101
+
+
+Number of quartets read: 12162317, max ele 101
+
+
+Started working at  Sun Oct 25 02:39:15 2026
+
+Returning a tree of size 101
+calling find cut e_anchor, 101, q_anchor, 12162317, 101, 495
+Ended working at  Sun Oct 25 02:39:25 2026
+

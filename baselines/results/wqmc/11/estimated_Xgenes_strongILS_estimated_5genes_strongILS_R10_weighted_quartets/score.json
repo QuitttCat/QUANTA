@@ -1,0 +1,1 @@
+{"tree": "(((((2,4),3),1),11),((((7,8),9),(10,6)),5));", "quartet_count": 545, "total_quartet_weight": 1650.0, "weighted_quartet_score": 1311.0, "quartet_score_fraction": 0.7945454545454546, "rf": 0.625}

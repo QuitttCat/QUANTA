@@ -1,0 +1,120 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.multipart, fit, backgrounds}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{graphicx}
+
+\title{Supplementary Note: Balanced-tree derivation, GPU pseudocode, and reproducibility}
+\author{STELAR-X supplementary material}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{A. Balanced-tree runtime bound (formal derivation)}
+
+Assume $k$ gene trees, each a perfectly balanced rooted binary tree on $n=2^d$ leaves.
+Let $\mathcal{B}$ denote the set of subtree-bipartitions across all gene trees; in the worst case $|\mathcal{B}|=\Theta(nk)$.
+
+\paragraph{Per-pair cost.}
+Consider bipartitions $x=(A_1\mid B_1)$ from tree $g_p$ and $y=(A_2\mid B_2)$ from $g_q$.
+Let child-subtree sizes be $|A_1|=|B_1|=s$ and $|A_2|=|B_2|=t$.
+To compute $M(x,y)$ we need four intersection counts, each computable in $O(\min(s,t))$ time by iterating over the smaller cluster and checking membership via index maps. Hence
+\begin{equation}\label{eq:cost}
+\mathrm{cost}(M(x,y)) = O(\min(s,t)).
+\end{equation}
+
+\paragraph{Aggregate over size classes.}
+For size $s=2^i$, the number of bipartitions in one balanced tree with this part-size is $n/(2s)$.
+Hence the number of ordered pairs with sizes $(s,t)$ is
+\[
+\frac{n}{2s}\cdot\frac{n}{2t}.
+\]
+Their contribution to total cost is
+\[
+\frac{n}{2s}\cdot\frac{n}{2t}\cdot O(\min(s,t)) = O\!\left(\frac{n^2\min(s,t)}{4st}\right) = O\!\left(\frac{n^2}{4\max(s,t)}\right).
+\]
+Summing over $s=2^i, t=2^j$ with $0\le i,j\le d-1$ yields
+\[
+\sum_{i=0}^{d-1}\sum_{j=0}^{d-1} O\!\left(\frac{n^2}{2^{\max(i,j)}}\right) = O(n^2),
+\]
+because the double sum is bounded by a constant independent of $d$ (numerically $\le 6$).
+
+\paragraph{Over all tree pairs.}
+There are $k^2$ ordered tree pairs, yielding total cost $O(n^2 k^2)$ for full precomputation under the balanced-tree assumption.
+
+\section*{B. GPU kernel pseudocode (annotated)}
+
+The following pseudocode outlines the tiled GPU strategy used to precompute $M(x,y)$ contributions and reduce per-$x$ weights. This is intended as a clear, architecture-agnostic description for implementers.
+
+\begin{lstlisting}[basicstyle=\ttfamily\small,caption={Host-side batching and device kernel sketch.}]
+// Host: prepare contiguous arrays of tuples for X and Y, prefix scans, and freqY.
+for each x_tile in tile_X:
+  for each y_tile in tile_Y:
+    transfer x_tile and y_tile and related prefix scans to device
+    launch kernel compute_tile_contrib(x_tile, y_tile, freqY_tile, out_wx_tile)
+    // asynchronously stream next tile to hide PCIe latency
+  end
+end
+// host: aggregate tiled out_wx into global weight map
+
+// Device kernel (each block handles one x entry, threads iterate y entries)
+__global__ void compute_tile_contrib(Tuple *tileX, int nx, Tuple *tileY, int ny,
+                                    int *freqY, index_maps, prefix_arrays, uint64_t *out_wx) {
+  int ix = blockIdx.x;
+  if (ix >= nx) return;
+  Tuple tx = tileX[ix];
+  uint64_t local_sum = 0;
+  for (int j = threadIdx.x; j < ny; j += blockDim.x) {
+    Tuple ty = tileY[j];
+    int f = freqY[j];
+    int iA = intersect_count(tx.A, ty.A, index_maps);
+    int iB = intersect_count(tx.A, ty.B, index_maps);
+    int iC = intersect_count(tx.B, ty.A, index_maps);
+    int iD = intersect_count(tx.B, ty.B, index_maps);
+    int M = NT(iA,iD) + NT(iB,iC);
+    local_sum += uint64_t(M) * uint64_t(f);
+  }
+  uint64_t block_sum = block_reduce_sum(local_sum);
+  if (threadIdx.x == 0) atomicAdd(&out_wx[ix], block_sum);
+}
+\end{lstlisting}
+
+\paragraph{Implementation notes.}
+\begin{itemize}
+\item Use 64-bit accumulators for sums to avoid overflow for large $n,k$.
+\item Tune tile sizes to fit GPU memory; typical starting tiles: $T_x=1024$, $T_y=4096$ for RTX 4090.
+\item Use shared memory to cache tileY when multiple x entries reuse it within a block.
+\end{itemize}
+
+\section*{C. Reproducibility and parameter choices}
+
+\begin{table}[h!]\centering
+\caption{Recommended parameter defaults for reproducibility.}\label{tab:params}
+\begin{tabular}{l l}
+\toprule
+Parameter & Recommended value \\
+\midrule
+Field prime $P$ & $2^{61}-1$ (2305843009213693951) \\
+Element hash $H(d)$ & $(a\cdot d + b) \bmod P$, salts $a,b$ random \\
+Set-hash $\phi_1$ & modular sum in $\mathbb{F}_P$ (associative) \\
+Set-hash $\phi_2$ & 64-bit XOR of dispersed $H(d)$ values \\
+Tile sizes (GPU) & $T_x=1024$, $T_y=4096$ (adjust per VRAM) \\
+CUDA & CUDA 11/12, use thrust/CUB for reductions \\
+Fallback CPU mode & Multi-threaded tiling with per-thread local accumulators \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\bigskip
+\noindent\textbf{Hardware used in experiments.} NVIDIA RTX 4090 (24GB VRAM); AMD EPYC 7742 (32 cores); 128 GB RAM.
+
+\bigskip
+\noindent\textbf{Software.} CUDA 11/12, C/C++ (GCC 9+), Python 3.8+ for pre- and post-processing scripts.
+
+\end{document}

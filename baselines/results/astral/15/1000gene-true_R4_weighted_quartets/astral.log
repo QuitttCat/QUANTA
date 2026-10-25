@@ -1,0 +1,33 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 4095
+#Species: 15
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:0/50
+(((((((((O,N),M),L),K),J),I),H),(((((A,B),C),D),E),F)),G);
+#NNI moves:0/50
+(((((((((((O,N),M),L),K),J),I),H),G),F),(((A,B),C),D)),E);
+#NNI moves:0/50
+((((((((((((B,A),C),D),E),F),G),H),I),J),K),((N,O),M)),L);
+#NNI moves:0/50
+((((((((N,O),M),L),K),J),I),((((((B,A),C),D),E),F),G)),H);
+Initial score: 848393
+Initial tree: ((B,(C,(D,(E,(F,(G,(((((((N,O),M),L),K),J),I),H))))))),A);
+*** Subsample Process ***
+#NNI moves:0/50
+(((((((((((((N,O),M),L),K),J),I),H),G),F),E),D),(B,A)),C);
+#NNI moves:0/50
+((((((((((((((N,O),M),L),K),J),I),H),G),F),E),D),C),A),B);
+#NNI moves:0/50
+((((((((((((((B,A),C),D),E),F),G),H),I),J),K),L),M),O),N);
+#NNI moves:0/50
+((((((((((((((N,O),M),L),K),J),I),H),G),F),E),D),C),B),A);
+Current score: 848393
+Current tree: ((((((((((((((N,O),M),L),K),J),I),H),G),F),E),D),C),B),A);
+Final Tree: ((((((((((((((N,O),M),L),K),J),I),H),G),F),E),D),C),B),A);
+Score: 848393

@@ -1,0 +1,20 @@
+{
+  "absolute_gap": 73915,
+  "charge_time_microseconds": 2989696,
+  "client_wait_seconds": 1.3225761668290943,
+  "density": 0.010025062656641603,
+  "edges": 800,
+  "instance": "t2g20_5555",
+  "leap_hybrid_cut": 24765027,
+  "matched_exact_value": false,
+  "problem_data_id": "ab6e07c8-6fbf-415b-8087-39b0eff6bf3f",
+  "problem_id": "0bbdaa99-1105-4282-9db0-e6822745aa26",
+  "published_exact_cut": 24838942,
+  "qpu_access_time_microseconds": 207226,
+  "relative_gap_percent": 0.29757708681794903,
+  "run_time_microseconds": 2989696,
+  "source": "Biq Mac exact Gaussian-weighted toroidal-grid Max-Cut benchmark",
+  "time_limit_seconds": 3.0,
+  "timestamp_utc": "2026-07-27T06:55:40.870175+00:00",
+  "variables": 400
+}

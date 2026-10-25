@@ -1,0 +1,19 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/11/simulated_Xgenes_strongILS_simulated_15genes_strongILS_R16_weighted_quartets/tmpp_kia8hl/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/11/simulated_Xgenes_strongILS_simulated_15genes_strongILS_R16_weighted_quartets/tmpp_kia8hl/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/11/simulated_Xgenes_strongILS_simulated_15genes_strongILS_R16_weighted_quartets/tmpp_kia8hl/input, 
+At main, back from readQuartets, maxSp 11
+
+
+Number of quartets read: 424, max ele 11
+
+
+Started working at  Sun Oct 25 01:35:46 2026
+
+calling find cut e_anchor, 11, q_anchor, 424, 11, 45
+Ended working at  Sun Oct 25 01:35:46 2026
+

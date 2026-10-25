@@ -1,0 +1,1 @@
+{"tree": "((((((((A,B),C),D),E),F),G),H),((((((M,N),O),L),K),J),I));", "quartet_count": 4094, "total_quartet_weight": 136500.0, "weighted_quartet_score": 81522.0, "quartet_score_fraction": 0.5972307692307692, "rf": 0.08333333333333333}

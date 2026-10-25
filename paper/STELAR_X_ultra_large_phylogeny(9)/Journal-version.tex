@@ -1,0 +1,613 @@
+\documentclass[10pt,a4paper]{article}
+
+%\documentclass[10pt,onecolumn,letterpaper]{IEEEtran}
+
+\usepackage{setspace}
+%\AtBeginDocument{\setstretch{.9}}
+%\doublespacing  % doublespacing is done after title and before abstract
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[title]{appendix}
+
+%\usepackage[margin=0.25in]{geometry}
+
+%\usepackage{lineno}
+%\linenumbers
+
+\usepackage{fullpage}
+\usepackage{authblk}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,bm}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{adjustbox}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[table]{xcolor}
+\usepackage{tabu}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{footnote}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{cite}
+\usepackage{threeparttable}
+\usepackage{makecell}
+\usepackage{mathtools} % for multiline-multicase equation
+\usepackage{float}
+\usepackage{array}
+\usepackage{tabularx} % in the preamble
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{algorithm2e}
+\usepackage{pifont}
+
+\usepackage[round]{natbib}
+
+% \usepackage[sorting=ynt, backend=biber, maxcitenames=1, style=authoryear]{biblatex}
+% \addbibresource{references.bib} 
+
+\usepackage{lineno}
+
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+
+% \usepackage[demo]{graphicx}
+% \usepackage[utf8]{inputenc}
+% \usepackage{subfigure}
+\usepackage{xcolor}
+\newcommand{\add}[1]{{\color{blue} #1}}
+\newcommand{\addb}[1]{{\color{red} #1}}
+\newcommand{\SR}[1]{{\color{red} #1}}
+\newcommand{\methodname}{{\color{purple}Method\_Name~}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\renewcommand{\thetheorem}{\arabic{theorem}}  % to start numbering from 1
+
+%\usepackage{booktabs, caption, makecell}
+%\renewcommand\theadfont{\bfseries}
+\usepackage{subfiles} % For subfiles
+\usepackage{hyperref}
+\usepackage[labelfont=bf]{caption}
+
+\usepackage{xcolor}
+
+\usepackage{xr}
+\externaldocument[sm-]{SM1}
+
+% \usepackage[none]{hyphenat}
+% \raggedright
+
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+
+
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+
+\hypersetup{
+    urlcolor=blue,
+}
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords:}} #1}
+
+\providecommand{\runningtitle}[1]{\textbf{\textit{Running title:}} #1}
+
+
+\usepackage{fancyhdr}
+%\usepackage{titling}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyhead{}
+\headsep 20pt    
+\lhead{Correcting quartet distribution}
+
+
+\title{Correcting quartet distribution improves phylogenomic analyses despite gene tree estimation error
+\author[1,*]{Navid Bin Hasan$^{1}$, Sohaib$^{1}$, and Md. Shamsuzzoha Bayzid}
+}
+
+\affil[1]{Department of Computer Science and Engineering\protect \\
+Bangladesh University of Engineering and Technology, Dhaka-1205, Bangladesh}
+% \affil[2]{Department of Computer Science\protect\\University of Maryland, College Park, Maryland 20742, USA}
+%\affil[3]{Department of Computer Science and Engineering\protect\\The Ohio State University, Ohio 43210, USA}
+%\affil[$\dag$]{These authors contributed equally to this work}
+\affil[*]{Corresponding author: shams\_bayzid@cse.buet.ac.bd}
+\date{}
+
+
+
+
+\begin{document}
+
+\maketitle
+
+
+\pagenumbering{gobble} % to turn of the page numbering.
+%\pagenumbering{arabic}
+
+
+% \doublespacing
+%\newpage
+\begin{abstract}
+Summarizing individual gene trees into species phylogenies using coalescent-based methods has become a standard approach in phylogenomics. 
+However, gene tree estimation error (GTEE) arising from a combination of reasons (ranging from analytical factors to more biological causes, as in short gene sequences and short internal branches due to rapid radiations) can potentially impact the accuracy of phylogenomic inference.
+We introduce the problem of correcting the quartet distribution induced by a set of estimated gene trees, which involves updating the weights of the quartets to better reflect their relative importance within the gene tree distribution. We present QT-WEAVER, the first method of its kind, which learns the conflicts within the quartet distribution induced by a given set of gene trees and generates an updated quartet distribution by adjusting the weights accordingly. QT-WEAVER is a general-purpose technique needing no explicit modeling of the subject system or reasons for GTEE or gene tree heterogeneity. Experimental studies on a collection of simulated and empirical data sets suggest that QT-WEAVER can effectively account for GTEE, which results in a substantial improvement in the species tree accuracy. Additionally, the concept of quartet conflicts and related algorithmic and combinatorial innovations introduced in this study will benefit various quartet-based computations. Therefore, QT-WEAVER advances the state-of-the-art in species tree estimation from gene trees in the face of GTEE. QT-WEAVER is freely available in open-source form at \url{https://github.com/navidh86/QT-WEAVER}.
+
+%quartets that is often closer to the quartet distribution of true gene trees than that of the estimated gene trees, and thereby accounting for gene tree estimation error.
+
+%accuracy of species tree inference. 
+%Remarkably, QT-GILD not only imputes the missing quartets but it can also account for gene tree estimation error.
+
+%Remarkably, QT-GILD not only imputes the missing quartets but it can also ``correct’’ the estimated quartets -- resulting in a set of quartets that is often closer to the quartet distribution of true gene trees than that of the estimated gene trees, and thereby accounting for gene tree estimation error.  %QT-GILD -- with its auto-encoder based deep learning approach combined with concepts from NLP and the demonstrated notable improvements in tree accuracy -- significantly advances the state-of-the-art in species tree estimation from gene trees despite missing data. 
+
+
+%Read this: https://academic.oup.com/mbe/article/37/5/1495/5685817?searchresult=1
+
+%add model independence from this paper.
+
+% needing no explicit modeling of the subject system and reasons for missing data
+
+%Although there is a continuing effort to make models more realistic (Ronquist and Huelsenbeck 2003; Stamatakis 2014), model misspecification is and will likely be the norm rather than the exception.
+
+%\keywords{Species tree, gene tree, incomplete lineage sorting (ILS), quartet distribution, quartet consistency, missing data, deep learning, autoencoder.}
+
+
+\end{abstract}
+
+
+\textbf{Keywords:} Species tree, Gene tree, Incomplete lineage sorting (ILS), Quartet distribution, Summary methods, Quartet consistency.
+
+% \include{SM1}
+\include{tikz_defs}
+\clearpage
+\pagenumbering{arabic}
+\linenumbers
+\doublespacing
+
+%\newpage
+
+% for introduction and discussion: 
+%https://academic.oup.com/sysbio/article/70/4/803/6050959
+
+%Recent research led to a number of strategies to reduce the effects of GTEE on coalescent analyses. Most prominent approaches involve statistical binning (Bayzid and Warnow 2013; Mirarab et al. 2014a; Bayzid et al. 2015; but see Streicher et al. 2018, Adams and Castoe 2019), identification and removal of outlier loci or taxa (e.g., Wickett et al. 2014; Mai and Mirarab 2018; Leebens-Mack et al. 2019), removal of fragmentary data (Sayyari et al. 2017), testing pre-defined clades through gene genealogy interrogation (GGI; Arcila et al. 2017), or collapsing very poorly resolved gene tree nodes to polytomies (Zhang et al. 2018). Surprisingly little attention has been paid to explore if GTEE could be reduced by using more accurate gene tree estimation methods. 
+
+
+%https://academic.oup.com/sysbio/article/70/3/491/5970466
+
+%A number of methods have been developed to mitigate gene tree estimation error, including improving taxon sampling, applying appropriate models of nucleotide evolution, reducing missing data, subsampling informative genes, locus binning, and collapsing low supported branches (Zwickl and Hillis 2002; Lemmon et al. 2009; Salichos and Rokas 2013; Cox et al. 2014; Mirarab et al. 2014a; Hosner et al. 2015; Zhang 2017).
+
+\section{Introduction}
+
+\section{Methods}
+\label{sec:methods}
+
+%We first state the problem and recall necessary background on STELAR. Then we describe the algorithmic and data-structure innovations in STELAR-X: a compact tuple representation of subtree bipartitions, a permutation-invariant double-hashing scheme for frequency mapping, GPU-accelerated precomputation of bipartition weights, and an efficient dynamic-programming solver that uses the precomputed maps. We conclude the section with parallelization and complexity analyses.
+
+\subsection{Problem statement and notation}
+\label{subsec:problem}
+
+
+Let $\mathcal{G} = \{g_1, g_2, \ldots, g_k\}$ be a collection of $k$ binary rooted gene trees, each defined on the same set $\mathcal{X}$ of $n$ taxa. For any set of three taxa $\{a,b,c\}$, let $ab|c$ denote the triplet tree where $a$ and $b$ form a cherry and $c$ is the outgroup. The three possible triplet topologies for a set $\{a,b,c}$ of taxa are $(ab|c,\, bc|a,\, cA|B)$. Let $\tau(t)$ represent the set of all triplets induced by a tree $t$. The problem of constructing species trees by maximizing triplet consistency with the input gene trees is defined as follows. The species tree reconstruction problem by maximizing triplet consistency asks for a species tree $T$ on $X$ that maximizes the triplet score
+\[
+\mathrm{score}(T,\mathcal{G}) \;=\; \sum_{i=1}^{k} \big|\tau(g_i)\cap\tau(T)\big|.
+\]
+
+Equivalently (and as used by STELAR), the objective can be written as a sum of contributions associated with internal nodes of $T$ (subtree bipartitions), which motivates dynamic programming over clusters of taxa.
+
+\subsection{Background: STELAR overview}
+\label{subsec:stelar-bg}
+
+For a rooted tree $t$, each internal node $u$ induces a \emph{subtree bipartition} $(A\!|\!B)$ where $A$ and $B$ are the leaf sets of the two child subtrees of $u$. Let $\mathrm{SBP}(t)$ denote the set of internal bipartitions of $t$, and define
+\[
+\mathcal{B} \;=\; \bigcup_{i=1}^{k} \mathrm{SBP}(g_i)
+\]
+to be the collection of unique subtree bipartitions observed in the input gene trees.
+
+STELAR searches for a species tree $T$ whose internal bipartitions are chosen from a candidate set $\mathcal{C}\subseteq\mathcal{B}$ (the constrained setting often uses $\mathcal{C}=\mathcal{B}$). Let $w_{\mathcal{G}}(x)$ denote the weight of a bipartition $x\in\mathcal{C}$ (the number of input triplets that map to $x$). The dynamic programming recurrence used by STELAR is:
+
+\begin{align}
+V(C) &= 
+\begin{cases}
+0 & \text{if }|C|=1,\\[4pt]
+\displaystyle \max_{(A\!|\!C\setminus A)\in\mathcal{C}} \; \big( V(A) + V(C\setminus A) + w_{\mathcal{G}}(A\!|\!C\setminus A)\big) & \text{otherwise,}
+\end{cases} \label{eq:dp}
+\end{align}
+where $V(C)$ is the optimal triplet score achievable on cluster $C\subseteq X$.
+
+A practical implementation requires (i) a candidate set $\mathcal{C}$, (ii) an efficient way to compute or look up $w_{\mathcal{G}}(x)$ for every $x\in\mathcal{C}$, and (iii) a representation of clusters suitable for fast lookups in the DP. The computational and memory bottlenecks in prior work stem from representing bipartitions as length-$n$ bitvectors and from computing intersections (counts) repeatedly during DP.
+
+\subsection{Algorithmic overview of STELAR-X}
+\label{subsec:overview}
+
+STELAR-X follows the same DP formulation as STELAR but reorganizes computation to make it scalable:
+
+\begin{enumerate}
+  \item \textbf{Compact encoding.} Represent each subtree bipartition by a fixed-length integer tuple derived from a postorder leaf array of its source gene tree (Section~\ref{subsec:tuple}).
+  \item \textbf{Frequency mapping via double hashing.} Map equivalent bipartitions (which may appear in different gene trees and in swapped order) to a unique hash signature using two independent permutation-invariant, associative hash functions; accumulate frequencies for $\mathcal{B}$ in a hash table (Section~\ref{subsec:hash}).
+Using the frequency map, we compute $w_{\mathcal{G}}(x)$ for all $x\in\mathcal{C}$ by summing contributions from all unique bipartitions, and this embarrassingly parallel reduction is offloaded to the GPU (Section~\ref{subsec:weights}).
+Finally, we build a cluster$\to$subtree-bipartition map and run the DP (Eq.~\ref{eq:dp}) using table lookups for precomputed weights (Section~\ref{subsec:dp}).
+
+
+The remainder of this section spells out each component in detail and gives complexity bounds.
+
+\subsection{Compact tuple representation of subtree bipartitions}
+\label{subsec:tuple}
+
+For each gene tree $g_i$ we form an array $A_i$ of its leaf labels in postorder. Any internal node in $g_i$ induces a bipartition $(A\!|\!B)$ where $A$ and $B$ correspond to two contiguous and adjacent subarrays of $A_i$. If $A=A_{i}[l_1:r_1]$ and $B=A_{i}[l_2:r_2]$ with $l_1<r_1<l_2<r_2$, then $l_2=r_1+1$, and the bipartition can be recorded as the tuple
+\[
+\big(i,\; l_1,\; r_1,\; l_2,\; r_2\big).
+\]
+Since $l_2$ is deterministically $r_1+1$, four integers $(i,l_1,r_1,r_2)$ suffice and we adopt this compact form throughout. This tuple representation reduces storage from $O(n)$ bits per bipartition (bitvector) to a constant number of machine words, giving an overall space of $O(|\mathcal{B}|)$ words. Because $|\mathcal{B}|=O(nk)$ in the worst case, the storage for the unique bipartitions is $O(nk)$ words.
+
+
+%%%%%%%%%%%%%
+\subsection*{Efficient frequency mapping of subtree-bipartitions}
+
+We now describe the efficient construction of the frequency map of unique subtree-bipartitions in $\mathcal{GB}$ across all gene trees in $\mathcal{G}$ under the compact integer-tuple representation. 
+
+\paragraph{Equivalence of bipartitions.}
+Let $P$ and $Q$ be sets of taxa; we write $P \sim Q$ if they contain the same taxa, regardless of order. Two subtree-bipartitions $x = (A_1 \mid B_1)$ and $y = (A_2 \mid B_2)$ are equivalent ($x \equiv y$) if either $A_1 \sim A_2$ and $B_1 \sim B_2$, or $A_1 \sim B_2$ and $B_1 \sim A_2$. Thus, equivalence is invariant under both taxon ordering and side swapping.
+
+For bipartitions $x = (i_x,l_{1x},r_{1x},l_{2x},r_{2x})$ and $y = (i_y,l_{1y},r_{1y},l_{2y},r_{2y})$, equivalence is possible only when $i_x \neq i_y$; bipartitions within the same gene tree are either identical or disjoint. A naïve cross-tree comparison would require $O(n)$ time per pair. To eliminate this overhead, we adopt a hashing-based approach that detects equivalence in $O(1)$ time.
+
+\paragraph{Permutation-invariant hashing.}
+We introduce a permutation-invariant and associative hash function $\phi$ that maps a set of taxa to a single hash value independent of order. Associativity enables the use of prefix-scan arrays for constant-time subarray hashing. If $x \equiv y$, then by definition,
+\[
+\phi(A_{1x}) = \phi(A_{1y}) \ \text{and}\  \phi(B_{1x}) = \phi(B_{1y}), 
+\]
+or the corresponding equalities under a side swap. Equal hash values thus imply potential equivalence, though collisions can occur with small probability.
+
+\paragraph{Double hashing with sparse integer mapping.}
+To make collisions vanishingly rare, we combine two safeguards.  
+First, we apply \emph{double hashing}: two independent permutation-invariant and associative hash functions, $\phi_1$ and $\phi_2$, produce a composite signature $(\phi_1, \phi_2)$ for each bipartition.  
+Second, we apply a per-element hash function $\mathcal{H}$ to each taxon identifier $d_j \in \{0,\ldots,n-1\}$, projecting it into a large finite field $\mathbb{F}_P$ via $\mathcal{H}(d_j) = (a d_j + b) \bmod P$. This sparse projection disperses identifiers and prevents structural collisions common to contiguous integer labels.
+
+For each subarray $\mathcal{A}_{i,l,r}$, we compute
+\[
+\phi_1(\{\mathcal{H}(d_j)\}_{l \le j \le r}), \quad
+\phi_2(\{\mathcal{H}(d_j)\}_{l \le j \le r}),
+\]
+where prefix-scan arrays of $\phi_1$ and $\phi_2$ allow $O(1)$ subarray evaluation. All arithmetic is performed modulo a large prime $P$ (e.g., $2^{61}-1$). Figure~\ref{fig:double-hashing} illustrates this process.
+
+\paragraph{Practical implementation.}
+In our implementation, $\phi_1$ is SUM and $\phi_2$ is XOR over $\mathbb{F}_P$, and we observed no hash collisions even on datasets with 100K taxa and thousands of genes. The final frequency mapping of unique bipartitions is then built in $O(|\mathcal{GB}|)$ time by inserting the resulting signatures into a hash table.
+
+
+
+
+%%%%%%%%%%
+
+\subsection{Permutation-invariant double hashing for bipartition frequency mapping}
+\label{subsec:hash}
+
+Two bipartitions $x=(A_1\!|\!B_1)$ and $y=(A_2\!|\!B_2)$ are \emph{equivalent} if $\{A_1,B_1\}=\{A_2,B_2\}$ as sets. To detect equivalence efficiently across gene trees (without explicit set comparisons), we design a two-stage hashing scheme:
+
+\paragraph{Element hashing.} Assign each taxon $t\in X$ an identifier $d(t)\in\{0,\dots,n-1\}$ and compute a dispersed integer $h(t)=H(d(t))\in\mathbb{F}_P$, where $P$ is a large prime and $H$ is a single-element hash that spreads contiguous identifiers across $\mathbb{F}_P$.
+
+\paragraph{Set hashing.} Use two associative, permutation-invariant set functions $\phi_1,\phi_2$ (e.g., sum and xor in $\mathbb{F}_P$) to map a set $S\subseteq X$ to a signature:
+\[
+\sigma(S)\;=\;\big(\phi_1(\{h(t):t\in S\}),\;\phi_2(\{h(t):t\in S\})\big).
+\]
+Associativity enables computation of $\phi_a$ on any contiguous subarray of $A_i$ in $O(1)$ time using prefix scans.
+
+\paragraph{Bipartition signature and double hash table.} For a tuple-represented bipartition $x=(A\!|\!B)$ we form the ordered signature $\Sigma(x)=(\sigma(A),\sigma(B))$ and insert it into a hash table (treating $(\sigma(A),\sigma(B))$ and $(\sigma(B),\sigma(A))$ equivalently). We use both $\phi_1$ and $\phi_2$ so that the probability of an accidental collision for a single set pair is at most $1/P^2$ (see the collision analysis below). In practice, we choose $P$ much larger than $|\mathcal{B}|$ and add a small secondary check (e.g., occasional explicit membership testing) if desired.
+
+\paragraph{Correctness and collision probability.} Working in $\mathbb{F}_P$ and assuming independent design of $\phi_1,\phi_2$, the pairwise collision probability between distinct set signatures is at most $1/P^2$. Using a union bound over the $M=|\mathcal{B}|=O(nk)$ bipartitions, global collision probability becomes negligible when $P\gg M/\sqrt{\delta}$ for desired tolerance $\delta$. The formal derivation follows standard arguments; see Section~\ref{subsec:collision}.
+
+\subsection{Precomputation of bipartition weights}
+\label{subsec:weights}
+
+For a candidate bipartition $x=(A\!|\!B)\in\mathcal{C}$ and a gene-tree bipartition $y=(C\!|\!D)\in\mathrm{SBP}(g_i)$, let $M(x,y)$ denote the number of triplets mapped simultaneously to $x$ and $y$. As shown in prior work,
+\begin{equation}\label{eq:Mxy}
+M(x,y) \;=\; \mathrm{NT}\big(|A\cap C|,\;|B\cap D|\big) \;+\; \mathrm{NT}\big(|A\cap D|,\;|B\cap C|\big),
+\end{equation}
+where
+\[
+\mathrm{NT}(n_1,n_2)=\binom{n_1}{2}n_2+\binom{n_2}{2}n_1 \;=\; \frac{n_1n_2(n_1+n_2-2)}{2}.
+\]
+The bipartition weight is
+\[
+w_{\mathcal{G}}(x) \;=\; \sum_{y\in\mathcal{B}} f_{\mathcal{G}}(y)\, M(x,y),
+\]
+where $f_{\mathcal{G}}(y)$ is the frequency of $y$ across $\mathcal{G}$. Using the frequency map produced by the double hash table, we compute $w_{\mathcal{G}}(x)$ by iterating over unique $y\in\mathcal{B}$ and accumulating $f_{\mathcal{G}}(y)\,M(x,y)$. Each $M(x,y)$ requires computing the four intersection cardinalities between clusters $|A\cap C|,|A\cap D|,|B\cap C|,|B\cap D|$.
+
+\paragraph{Efficient intersection counting using tuples.} Because $A$ and $C$ are contiguous subarrays in their respective $A_i$ and $A_j$, we compute $|A\cap C|$ by iterating over the smaller cluster and checking membership via a precomputed index map $\pi_j$ that maps each taxon to its position in $A_j$. Thus
+\[
+|A\cap C| \;=\; \sum_{t\in A} \mathbf{1}\{ \pi_j(t)\in [\ell_C,r_C]\},
+\]
+and each membership test is $O(1)$. The cost to compute all intersections for a pair $(x,y)$ is $O(\min(|A|,|C|))$.
+
+\paragraph{GPU batching and reduction.} The weight precomputation consists of the same operation (compute $M(x,y)$ and multiply by $f_{\mathcal{G}}(y)$) over all $(x,y)$ pairs. We partition the work into tiles and offload to the GPU where each thread computes contributions for a small tile; final reduction yields $w_{\mathcal{G}}(x)$ for every $x\in\mathcal{C}$. This design maps well to SIMD hardware and minimizes host–device transfers by batching the tuple arrays and prefix scans.
+
+\subsection{weight precomputation v2}
+
+\subsection*{Weight precomputation}
+
+We next justify and describe the precomputation of weights associated with all candidate bipartitions in $\mathcal{CB}$. This step is essential for the dynamic programming (DP) phase of STELAR, whose state space is defined by the recursive formulation in Equation~\eqref{eq:recurrence-relation}. As illustrated in Figure~\ref{fig:stelar-dp}, the DP begins with the full taxon set $\mathcal{X}$ and recursively partitions each cluster using subtree-bipartitions. Consequently, every transition depends on the availability of bipartition weights, implying that, under the constrained setting where $\mathcal{CB} = \mathcal{GB}$, all subtree-bipartitions must eventually be explored.
+
+\begin{theorem}
+\label{th:dp-span}
+If $\mathcal{CB} = \mathcal{GB}$, then the DP state space spans every subtree-bipartition $x \in \mathcal{CB}$.
+\end{theorem}
+
+\begin{proof}
+Suppose, for contradiction, that there exists $x = (A \mid B) \in \mathcal{CB}$ not visited by the DP.  
+If $A \cup B = \mathcal{X}$, $x$ represents a root-level bipartition in some $g_i \in \mathcal{G}$ and is necessarily explored in the first transition—contradiction.  
+Otherwise, $A \cup B = \mathcal{Y} \subsetneq \mathcal{X}$, corresponding to an internal node $u$ in $g_i$ whose parent $p$ induces bipartition $y = (C \mid D)$ with $\mathcal{Y} \subseteq C$ or $\mathcal{Y} \subseteq D$.  
+Since $y$ must be reachable, $x$ must also be explored by construction of the transition rules.  
+Tracing this argument up the ancestor chain leads to the root case, again yielding a contradiction.  
+Hence, all $x \in \mathcal{GB}$ are necessarily accessed by the DP, justifying precomputation of their weights.
+\end{proof}
+
+Even when $\mathcal{GB} \subsetneq \mathcal{CB}$, precomputing weights for all $x \in \mathcal{CB}$ remains practical as long as $|\mathcal{CB}|$ is not asymptotically larger than $|\mathcal{GB}|$.
+
+\paragraph{Weight formulation.}
+Let $x = (A_1 \mid B_1) \in \mathcal{CB}$ be a candidate bipartition and $y = (A_2 \mid B_2) \in \mathcal{SBP}(g_i)$ a bipartition from gene tree $g_i$.  
+Following~\cite{stelar}, the number of triplets simultaneously mapped to both $x$ and $y$ is
+\begin{equation}
+\mathcal{M}(x,y) = 
+\mathcal{NT}(|A_1 \cap A_2|, |B_1 \cap B_2|) +
+\mathcal{NT}(|A_1 \cap B_2|, |A_2 \cap B_1|),
+\label{eq:Mxy}
+\end{equation}
+where $\mathcal{NT}(n_1,n_2)$ is the number of triplets mapped to a bipartition $(A \mid B)$ with $|A| = n_1$, $|B| = n_2$:
+\begin{equation}
+\mathcal{NT}(n_1,n_2) = 
+\binom{n_1}{2}\binom{n_2}{1} + 
+\binom{n_2}{2}\binom{n_1}{1}
+= \frac{n_1 n_2 (n_1 + n_2 - 2)}{2}.
+\label{eq:NT}
+\end{equation}
+The total weight of $x$ across all gene trees is then
+\begin{equation}
+w_{\mathcal{G}}(x) = \sum_{i=1}^{k} \ \sum_{y \in \mathcal{SBP}(g_i)} \mathcal{M}(x,y).
+\end{equation}
+
+Using the precomputed frequency mapping $f_{\mathcal{G}}(y)$ of unique bipartitions $y \in \mathcal{GB}$, this can be written more efficiently as
+\begin{equation}
+w_{\mathcal{G}}(x) = \sum_{y \in \mathcal{GB}} f_{\mathcal{G}}(y) \, \mathcal{M}(x,y).
+\label{eq:effcal}
+\end{equation}
+
+\paragraph{Intersection counting under tuple representation.}
+Evaluating $\mathcal{M}(x,y)$ requires efficient computation of the intersection sizes between clusters.  
+To avoid memory-intensive bitset operations, we employ the integer-tuple representation of bipartitions.  
+Let $X = \mathcal{A}_{i,l_x,r_x}$ and $Y = \mathcal{A}_{j,l_y,r_y}$ denote two clusters ($i \neq j$).  
+We have $|X| = r_x - l_x + 1$ and $|Y| = r_y - l_y + 1$.  
+The intersection $|X \cap Y|$ is computed by iterating over the smaller cluster and checking taxon membership in the other cluster using precomputed index maps $\pi_j(v)$, where $\pi_j(v)$ gives the position of taxon $v$ in array $\mathcal{A}_j$:
+\[
+|X \cap Y| = 
+\sum_{v \in \mathcal{A}_{i,l_x,r_x}} 
+\mathbf{1}_{[\,l_y \le \pi_j(v) \le r_y\,]}.
+\]
+This procedure runs in $O(\min(|X|, |Y|))$ time per intersection.
+
+\paragraph{Time complexity under balanced trees.}
+Assuming balanced gene trees, the total time for precomputing all $w_{\mathcal{G}}(x)$ over $\mathcal{GB}$ is $O(n^2 k^2)$ (see Supplementary Note~A for the formal derivation).  
+This justifies isolating the weight precomputation as a separate stage, which we further accelerate using GPU parallelization.
+
+
+\subsection{Dynamic programming with precomputed maps}
+\label{subsec:dp}
+
+We precompute a mapping $\Psi$ from clusters $C\subseteq X$ (represented by their double hashes) to the set of candidate bipartitions that split $C$:
+\[
+\Psi(C)\;=\;\{(A\!|\!B)\in\mathcal{C}\;:\;A\cup B=C\}.
+\]
+During DP (Eq.~\ref{eq:dp}) we enumerate $\Psi(C)$ to obtain allowed splits and fetch $w_{\mathcal{G}}(A\!|\!B)$ in $O(1)$ time per bipartition. Because both the state space (clusters) and candidate bipartitions are encoded via compact signatures, memory demand remains $O(|\mathcal{C}|+|\mathcal{B}|)=O(nk)$. The DP itself then runs in time proportional to the number of state transitions (i.e., the total number of candidate bipartitions considered), plus any bookkeeping overhead.
+
+\subsection{Parallelization and implementation notes}
+\label{subsec:parallel}
+
+STELAR-X uses hybrid parallelism:
+
+\begin{itemize}
+  \item \textbf{CPU}: parse gene trees, build postorder arrays $A_i$, compute element hashes $h(t)$, and perform per-tree tuple extraction in parallel across threads.
+  \item \textbf{GPU}: compute all $M(x,y)$ contributions and reduce to obtain $w_{\mathcal{G}}(x)$ for all $x\in\mathcal{C}$. Small batches and tiling reduce memory footprint on the device.
+\end{itemize}
+
+We implement thread-safe accumulation when multiple CPU threads update global hash tables; lock-free concurrent hash maps or per-thread buffers with final merging can be used in practice.
+
+\subsection{Collision analysis (sketch)}
+\label{subsec:collision}
+
+Working in a finite field $\mathbb{F}_P$, assume element hashes $h(t)$ behave as independent uniform elements. For distinct sets $S\ne T$ the probability that $\phi_a(S)=\phi_a(T)$ is at most $1/P$ for associative functions such as modular sum; with two independent $\phi_1,\phi_2$ this becomes at most $1/P^2$. Union bounding over $M=|\mathcal{B}|=O(nk)$ bipartitions, global collision probability is at most $M^2/P^2$, which is negligible when $P\gg M/\sqrt{\delta}$ for target $\delta$. In practice we pick $P$ (e.g., a 64-bit prime) so collisions are empirically undetected in large experiments.
+
+\subsection{Complexity summary}
+\label{subsec:complexity}
+
+Let $T_C$ be the number of CPU threads and $T_G$ the effective GPU parallelism parameter (number of concurrent GPU workers; used for asymptotic accounting under ideal load balance).
+
+\paragraph{Memory.} Storing the input gene trees takes $O(nk)$ words. The tuple representation, frequency map and weight map together require $O(|\mathcal{B}|+|\mathcal{C}|)=O(nk)$ words. GPU working storage can also be bounded by $O(nk)$ under tiling. Hence STELAR-X achieves $O(nk)$ memory usage.
+
+\paragraph{Time.} Tuple extraction and hashing over $k$ trees costs $O(nk/T_C)$. The GPU precomputation under the balanced-tree assumption costs $O(n^2 k^2 / T_G)$ (see detailed bound below). The DP costs $O(|\mathcal{C}|)$ once weights and the state map are available. Combined, under the balanced-tree model,
+\[
+\text{time} \;=\; O\!\left(\frac{nk}{T_C} \;+\; \frac{n^2 k^2}{T_G} \;+\; |\mathcal{C}|\right).
+\]
+In practice, $|\mathcal{C}|\le |\mathcal{B}|=O(nk)$ and the GPU term dominates for worst-case balanced trees; however, empirical datasets are often far sparser than the worst case and benefitted greatly from the GPU acceleration.
+
+\section{figure}
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[node distance=7mm, every node/.style={font=\small}]
+  % Nodes
+  \node (ids) [draw, rectangle, minimum width=10em, minimum height=2em] {Taxon IDs};
+  \node (H) [draw, rectangle, right=12mm of ids, minimum width=10em] {Element hash $H(d)$};
+  \node (pref) [draw, rectangle, right=12mm of H, minimum width=12em] {Prefix-scan arrays (per gene tree)};
+  \node (phi) [draw, rectangle, right=12mm of pref, minimum width=12em] {Set-hash $\phi_1,\phi_2$};
+  \node (sig) [draw, rectangle, right=12mm of phi, minimum width=10em] {Signature $\Sigma(x)$};
+  \node (table) [draw, rectangle, below=10mm of sig, minimum width=16em] {Hash table: frequency map};
+
+  % arrows
+  \draw[->] (ids) -- (H);
+  \draw[->] (H) -- (pref);
+  \draw[->] (pref) -- (phi);
+  \draw[->] (phi) -- (sig);
+  \draw[->] (sig) -- (table);
+
+  % annotations
+  \node[above=2mm of H,font=\footnotesize] {disperse identifiers into $\mathbb{F}_P$};
+  \node[above=2mm of pref,font=\footnotesize] {associative $\Rightarrow$ $O(1)$ subarray hashing};
+  \node[above=2mm of phi,font=\footnotesize] {e.g., $\phi_1=\sum$, $\phi_2=\mathsf{xor}$};
+
+  \node[below=6mm of table,font=\footnotesize, text width=0.85\linewidth] { \textbf{Caption:} Double-hashing pipeline. Element hashing disperses contiguous taxon IDs, prefix-scan arrays permit constant-time subarray hash extraction, and two independent set-hash functions produce a robust signature used to accumulate bipartition frequencies.};
+
+\end{tikzpicture}
+\caption{Permutation-invariant double-hashing pipeline for frequency mapping.}
+\label{fig:doublehash}
+\end{figure}
+
+
+\section{Supplementary}
+
+\section*{Supplementary Note: Balanced-tree derivation, GPU kernel pseudocode, and reproducibility}
+
+\subsection*{A. Balanced-tree runtime bound (formal derivation)}
+
+\paragraph{Setup.}
+Assume $k$ gene trees, each is a perfectly balanced rooted binary tree on $n=2^d$ leaves. Let $\mathcal{B}$ denote the set of all subtree-bipartitions across all gene trees; in worst case $|\mathcal{B}|=\Theta(nk)$.
+
+\paragraph{Per-pair cost.}
+Consider bipartitions $x=(A_1|B_1)$ from tree $g_p$ and $y=(A_2|B_2)$ from $g_q$. Let child-subtree sizes be $|A_1|=|B_1|=s$ and $|A_2|=|B_2|=t$. To compute $M(x,y)$ (Equation~\eqref{eq:Mxy}) we need four intersection counts, each computable in $O(\min(s,t))$ time by iterating over the smaller cluster and checking membership via index maps. Hence
+\[
+\mathrm{cost}(M(x,y)) = O(\min(s,t)).
+\]
+
+\paragraph{Aggregate over size classes.}
+For size $s=2^i$ (child-subtree size), the number of bipartitions in one balanced tree with this part-size is $n/(2s)$. Therefore the number of ordered pairs with sizes $(s,t)$ is
+\[
+\frac{n}{2s}\cdot\frac{n}{2t}.
+\]
+Their contribution to the total cost is
+\[
+\frac{n}{2s}\cdot\frac{n}{2t}\cdot O(\min(s,t)) = O\!\left(\frac{n^2\min(s,t)}{4st}\right) = O\!\left(\frac{n^2}{4\max(s,t)}\right).
+\]
+Summing over $s=2^i, t=2^j$ with $0\le i,j\le d-1$ we obtain
+\[
+\sum_{i=0}^{d-1}\sum_{j=0}^{d-1} O\!\left(\frac{n^2}{2^{\max(i,j)}}\right) = O(n^2),
+\]
+since the double sum is bounded by a constant independent of $d$ (numerically $\le 6$).
+
+\paragraph{Over all tree pairs.}
+There are $k^2$ ordered tree pairs, yielding total cost $O(n^2 k^2)$ for the full precomputation, which justifies the bound used in the main text under the balanced-tree assumption.
+
+\vspace{4mm}
+\subsection*{B. GPU kernel pseudocode (annotated)}
+
+Below is high-level pseudocode for a GPU kernel performing tiled $(x,y)$ evaluation and per-$x$ reduction. This is intended for guidance; device-level optimization (shared memory tiling, vector loads, warp-level primitives) should be tuned per hardware.
+
+\begin{verbatim}
+// Host-side: prepare batches of X-tuples and Y-tuples (tile_x, tile_y)
+// and transfer to device. Also transfer index maps and prefix scans.
+
+// Kernel: compute tile contributions
+__global__ void compute_tile_contrib(
+    Tuple *tileX, int nx,
+    Tuple *tileY, int ny,
+    int *freqY, // frequency of each unique Y
+    uint64_t *prefix1, uint64_t *prefix2, // element-hash prefix arrays
+    double *out_wx // output accumulator for wx for X entries in this batch
+) {
+    // blockIdx.x -> block over X entries in tileX
+    // threadIdx.x -> iterate over subset of Y entries
+    int ix = blockIdx.x; // index into tileX
+    if (ix >= nx) return;
+    Tuple tx = tileX[ix];
+
+    // each thread processes a subset of Y entries
+    uint64_t local_acc = 0;
+    for (int j = threadIdx.x; j < ny; j += blockDim.x) {
+        Tuple ty = tileY[j];
+        int f = freqY[j];
+
+        // compute intersection sizes: use prefix arrays and index maps
+        int iA = compute_intersection(tx.A, ty.A); // O(min(|A|,|C|))
+        int iB = compute_intersection(tx.A, ty.B);
+        int iC = compute_intersection(tx.B, ty.A);
+        int iD = compute_intersection(tx.B, ty.B);
+
+        // compute M(tx,ty) -- integer arithmetic
+        int M1 = NT(iA, iD);
+        int M2 = NT(iB, iC);
+        int contrib = (M1 + M2) * f;
+
+        local_acc += contrib;
+    }
+
+    // reduce within block to obtain total for ix
+    uint64_t block_sum = block_reduce_sum(local_acc);
+    if (threadIdx.x == 0) {
+        atomicAdd(&out_wx[ix], block_sum);
+    }
+}
+
+// Host-side: after processing all tile pairs, aggregate per-X outputs to final weight map.
+\end{verbatim}
+
+\textbf{Implementation notes:}
+\begin{itemize}
+  \item Use 32/64-bit integers consistent with $\mathrm{NT}(\cdot,\cdot)$ magnitude; overflow checks required for very large $n$. Use 64-bit accumulators when summing over many $y$ entries.
+  \item Shared-memory tiling: load small blocks of tileY to shared memory to reuse across threads when many X entries process the same tileY.
+  \item Use warp/shuffle intrinsics for fast reduction inside blocks.
+  \item Use atomic adds on 64-bit when updating global per-$x$ accumulators; consider two-phase accumulation (block-level then host-side) to reduce contention.
+\end{itemize}
+
+\vspace{4mm}
+\subsection*{C. Reproducibility details and recommended parameter choices}
+
+\paragraph{Hash field and prime $P$.}
+\begin{itemize}
+  \item Use a 64-bit prime near $2^{61}-1$ (e.g., $P=2305843009213693951$ is a Mersenne prime $2^{61}-1$) or other large 61-bit prime to avoid 64-bit overflow in modular arithmetic and to keep collision probability negligible.
+  \item Choice rationale: with $M\le 10^8$ unique bipartitions in extreme experimental settings, $P\gg M$ keeps $M^2/P^2$ tiny; using two independent hashes yields effective collision rate $\le 1/P^2$ per pair.
+\end{itemize}
+
+\paragraph{Element hash $H(d)$ and salts.}
+\begin{itemize}
+  \item Use a simple multiplicative hashing followed by modulo $P$: $H(d) = (a\cdot d + b) \bmod P$ with random salts $a,b$ chosen once per run (e.g., seeded by cryptographic RNG). Choose $a$ odd and coprime to $P$.
+  \item Record and report the salts in experiment logs and in the supplement for reproducibility.
+\end{itemize}
+
+\paragraph{Set-level hashes $\phi_1,\phi_2$.}
+\begin{itemize}
+  \item $\phi_1$: modular sum $\sum_{t\in S} H(d(t)) \bmod P$.
+  \item $\phi_2$: bitwise-xor over 64-bit hashed values (or modular sum with independent salt). XOR is associative and permutation invariant.
+  \item Use independent salts/transformations for $\phi_1$ and $\phi_2$ to increase independence of collision events.
+\end{itemize}
+
+\paragraph{Tile sizes and GPU batching.}
+\begin{itemize}
+  \item Recommended starting tile: $T_x=1024$ candidate bipartitions per X-tile and $T_y=4096$ Y-bipartitions per Y-tile for an RTX 4090 (24GB VRAM). Adjust empirically: smaller $T_y$ reduces per-kernel peak memory.
+  \item Transfer tuples in contiguous arrays of 32- or 64-bit integers to maximize coalesced memory access.
+  \item Host-side batching: stream multiple tiles to hide PCIe transfer latency if host memory bandwidth becomes limiting.
+\end{itemize}
+
+\paragraph{Hardware/software and fallback modes.}
+\begin{itemize}
+  \item Reference hardware used in experiments: NVIDIA RTX 4090 (24GB VRAM), AMD EPYC 7742 (32 cores), 128 GB RAM.
+  \item Software stack: CUDA 11/12, CUB/thrust for reductions, a concurrent hash map (e.g., TBB concurrent\_unordered\_map or folly) for host accumulation, OpenMP/pthreads for CPU threading.
+  \item Fallback: if no GPU is available, run tile processing on CPU in multi-threaded mode. Choose smaller tile sizes and use per-thread local accumulators with final merge to avoid atomics.
+\end{itemize}
+
+\vspace{6mm}
+\noindent\textbf{End of Supplementary Note.}
+
+
+
+\end{document}

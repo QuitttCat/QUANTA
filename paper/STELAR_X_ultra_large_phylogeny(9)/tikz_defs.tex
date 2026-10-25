@@ -1,0 +1,419 @@
+\newcommand{\quartet}[4]{
+  \begin{tikzpicture}
+    % Nodes
+    \node (a) at (0, 2) {};
+    \node (b) at (0, 0) {};
+    \node (c) at (3, 2) {};
+    \node (d) at (3, 0) {};
+    \node (center1) at (1, 1) {};
+    \node (center2) at (2, 1) {};
+    \node (name) at (1.5, -0.5) {$#1#2|#3#4$};
+
+    % Edges
+    \draw[thick] (a) -- (center1);
+    \draw[thick] (b) -- (center1);
+    \draw[thick] (center1) -- (center2);
+    \draw[thick] (center2) -- (c);
+    \draw[thick] (center2) -- (d);
+
+    % Dots at nodes
+    \fill (a) circle (2pt);
+    \fill (b) circle (2pt);
+    \fill (c) circle (2pt);
+    \fill (d) circle (2pt);
+    \fill (center1) circle (2pt);
+    \fill (center2) circle (2pt);
+
+    % Labels
+    \node at (-0.2, 2) {#1};
+    \node at (3.2, 2) {#3};
+    \node at (3.2, 0) {#4};
+    \node at (-0.2, 0) {#2};
+  \end{tikzpicture}
+}
+
+\newcommand{\fivetax}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (0.5, 1.5) {};
+\node (e) at (0, 1) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (x);
+\draw[thick] (center1) -- (x);
+\draw[thick] (b) -- (center1);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (d);
+\draw[thick] (e) -- (x);
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+\fill (x) circle (2pt);
+\fill (e) circle (2pt);
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (-0.2, 1) {#5};
+\end{tikzpicture}
+}
+
+\newcommand{\fivetaxcol}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (0.5, 1.5) {};
+\node (e) at (0, 1) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (x);
+\draw[thick] (center1) -- (x);
+\draw[thick] (b) -- (center1);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (d);
+\draw[thick, red] (e) -- (x);
+
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+\fill (x) circle (2pt);
+% \fill[red] (e) circle (2pt);
+\fill (e) circle (2pt);
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (-0.2, 1) {#5};
+\end{tikzpicture}
+}
+
+\newcommand{\fivetaxinv}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (0.5, 0.5) {};
+\node (e) at (0, 1) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (center1);
+\draw[thick] (center1) -- (x);
+\draw[thick] (b) -- (x);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (d);
+\draw[thick] (e) -- (x);
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+\fill (x) circle (2pt);
+\fill (e) circle (2pt);
+
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (-0.2, 1) {#5};
+\end{tikzpicture}
+}
+
+\newcommand{\fivetaxmult}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (2.5, 0.5) {};
+\node (x2) at (2.5, 1.5) {};
+\node (x3) at (1.5, 1) {};
+\node (y) at (0.5, 1.5) {};
+\node (e) at (3, 1) {};
+\node (e2) at (2, 2) {};
+\node (e3) at (1.5, 0) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (center1);
+\draw[thick] (center1) -- (b);
+% \draw[thick] (b) -- (x);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (d);
+
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (e) -- (x);
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (e2) -- (x2);
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (e3) -- (x3);
+
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+% \fill (x) circle (2pt);
+\fill (e) circle (2pt);
+\fill (e2) circle (2pt);
+\fill (e3) circle (2pt);
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (3.2, 1) {#5};
+\node at (1.8, 2) {#5};
+\node at (1.7, 0) {#5};
+\end{tikzpicture}
+}
+
+
+
+
+
+
+
+\newcommand{\fivetaxdccol}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (2.5, 0.5) {};
+\node (x2) at (2.5, 1.5) {};
+\node (x3) at (1.5, 1) {};
+\node (y) at (0.5, 1.5) {};
+\node (e) at (3, 1) {};
+\node (e2) at (2, 2) {};
+\node (e3) at (1.5, 0) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (center1);
+\draw[thick] (center1) -- (b);
+% \draw[thick] (b) -- (x);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (x);
+\draw[thick] (x) -- (d);
+
+\draw[thick, red] (e) -- (x);
+
+
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+% \fill (x) circle (2pt);
+% \fill[red] (e) circle (2pt);
+\fill (e) circle (2pt);
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+\fill (x) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (3.2, 1) {#5};
+% \node at (1.8, 2) {#5};
+% \node at (1.7, 0) {#5};
+\end{tikzpicture}
+}
+
+\newcommand{\fivetaxdc}[5]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (c) at (3, 2) {};
+\node (d) at (3, 0) {};
+\node (x) at (2.5, 0.5) {};
+\node (x2) at (2.5, 1.5) {};
+\node (x3) at (1.5, 1) {};
+\node (y) at (0.5, 1.5) {};
+\node (e) at (3, 1) {};
+\node (e2) at (2, 2) {};
+\node (e3) at (1.5, 0) {};
+
+\node (center1) at (1, 1) {};
+\node (center2) at (2, 1) {};
+
+% Edges
+\draw[thick] (a) -- (center1);
+\draw[thick] (center1) -- (b);
+% \draw[thick] (b) -- (x);
+\draw[thick] (center1) -- (center2);
+\draw[thick] (center2) -- (c);
+\draw[thick] (center2) -- (x);
+\draw[thick] (x) -- (d);
+
+\draw[thick, shorten <=-1mm, shorten >=-1mm] (e) -- (x);
+
+
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d) circle (2pt);
+% \fill (x) circle (2pt);
+\fill (e) circle (2pt);
+\fill (center1) circle (2pt);
+\fill (center2) circle (2pt);
+\fill (x) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (3.2, 2) {#3};
+\node at (3.2, 0) {#4};
+\node at (-0.2, 0) {#2};
+\node at (3.2, 1) {#5};
+% \node at (1.8, 2) {#5};
+% \node at (1.7, 0) {#5};
+\end{tikzpicture}
+}
+
+
+\newcommand{\triplet}[4]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 2) {};
+\node (b) at (0, 0) {};
+\node (center1) at (1, 1) {};
+\node (c) at (2.5, 1) {};
+\node (x) at (0.5, 0.5) {};
+\node (y) at (0.5, 1.5) {};
+\node (z) at (1.75, 1) {};
+\node (d1) at (0, 1) {};
+\node (d2) at (1, 2) {};
+\node (d3) at (1.75, 0) {};
+
+% Edges
+\draw[thick] (a) -- (center1);
+\draw[thick] (center1) -- (b);
+\draw[thick] (center1) -- (c);
+
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (d1) -- (x);
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (d2) -- (y);
+\draw[thick, dotted, red, shorten <=-1mm, shorten >=-1mm] (d3) -- (z);
+
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (c) circle (2pt);
+\fill (d1) circle (2pt);
+\fill (d2) circle (2pt);
+\fill (d3) circle (2pt);
+\fill (center1) circle (2pt);
+
+% Labels
+\node at (-0.2, 2) {#1};
+\node at (2.7, 1) {#3};
+\node at (-0.2, 1) {#4};
+\node at (1.2, 2) {#4};
+\node at (1.95, 0) {#4};
+\node at (-0.2, 0) {#2};
+% \node at (3.2, 1) {#5};
+% \node at (1.8, 2) {#5};
+% \node at (1.7, 0) {#5};
+\end{tikzpicture}
+}
+
+
+\newcommand{\linequart}[6]{
+\begin{tikzpicture}
+% Nodes
+\node (a) at (0, 0) {};
+\node (b) at (6, 0) {};
+\node (cx) at (1.2, 0) {};
+\node (xx) at (2.4, 0) {};
+\node (dx) at (3.6, 0) {};
+\node (yx) at (4.8, 0) {};
+
+\node (c) at (1.2, 1) {};
+\node (d) at (3.6, 1) {};
+\node (x) at (2.4, -1) {};
+\node (y) at (4.8, -1) {};
+
+% Edges
+\draw[thick] (a) -- (b);
+\draw[dashed] (c) -- (cx);
+\draw[dashed] (d) -- (dx);
+\draw[dashed] (x) -- (xx);
+\draw[dashed] (y) -- (yx);
+
+% Dots at nodes
+\fill (a) circle (2pt);
+\fill (b) circle (2pt);
+\fill (cx) circle (1.2pt);
+\fill (dx) circle (1.2pt);
+\fill (xx) circle (1.2pt);
+\fill (yx) circle (1.2pt);
+\fill (c) circle (1.5pt);
+\fill (d) circle (1.5pt);
+\fill (x) circle (1.5pt);
+\fill (y) circle (1.5pt);
+
+% Labels
+\node at (-0.2, 0) {#1};
+\node at (6.2, 0) {#2};
+\node at (1, 1) {#3};
+\node at (3.4, 1) {#4};
+\node at (2.6, -1) {#5};
+\node at (5, -1) {#6};
+
+\end{tikzpicture}
+}

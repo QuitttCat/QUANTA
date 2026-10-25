@@ -1,0 +1,10 @@
+/work/
+/benchmark_run.log
+/benchmark_run.pid
+/benchmark_48_taxa_run.log
+/benchmark_48_taxa_run.pid
+/benchmark_101_taxa_run.log
+/benchmark_101_taxa_run.pid
+/input_sets/
+/*.log
+/*.pid

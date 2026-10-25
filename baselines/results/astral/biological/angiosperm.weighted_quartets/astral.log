@@ -1,0 +1,33 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 434193
+#Species: 46
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:0/94
+((((((((((((((((Gossypium,Theobroma),Citrus),((Brassica,Arabidopsis),Carica)),((Ricinus,Manihot),Populus)),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Quercus,Betula))),Eucalyptus),Vitis),((((((Mimulus,Striga),Sesamum),((Solanum,Ipomoea),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Aquilegia),((Persea,Liriodendron),Aristolochia)),(((((Picea,Pinus),Zamia),Selaginella),Amborella),Nuphar)),Dioscorea),Phalaenopsis),(Phoenix,Musa)),Sorghum),Oryza);
+#NNI moves:4/94
+(((((((((((((((((Musa,Phoenix),(Sorghum,Oryza)),Phalaenopsis),Dioscorea),(((((Picea,Pinus),Zamia),Selaginella),Amborella),Nuphar)),((Persea,Liriodendron),Aristolochia)),Aquilegia),((((((Striga,Mimulus),Sesamum),((Ipomoea,Solanum),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Vitis),Eucalyptus),((((Theobroma,Gossypium),Citrus),((Arabidopsis,Brassica),Carica)),((Manihot,Ricinus),Populus))),(Quercus,Betula)),(Medicago,Glycine)),Cucumis),Cannabis),Fragaria),Malus);
+#NNI moves:2/94
+(((((((((((((((Pinus,Picea),Zamia),Selaginella),Amborella),Nuphar),((((Oryza,Sorghum),(Phoenix,Musa)),Phalaenopsis),Dioscorea)),((Persea,Liriodendron),Aristolochia)),Aquilegia),((((((Striga,Mimulus),Sesamum),((Solanum,Ipomoea),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Vitis),Eucalyptus),((((Gossypium,Theobroma),Citrus),((Brassica,Arabidopsis),Carica)),((Manihot,Ricinus),Populus))),((((Fragaria,Malus),Cannabis),Cucumis),(Glycine,Medicago))),Quercus),Betula);
+#NNI moves:0/94
+(((((((((((((((Theobroma,Gossypium),Citrus),((Brassica,Arabidopsis),Carica)),((Manihot,Ricinus),Populus)),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),Eucalyptus),Vitis),(((((((Phoenix,Musa),(Oryza,Sorghum)),Phalaenopsis),Dioscorea),(((((Pinus,Picea),Zamia),Selaginella),Amborella),Nuphar)),((Liriodendron,Persea),Aristolochia)),Aquilegia)),Silene),Camellia),((Lactuca,Helianthus),Panax)),((Solanum,Ipomoea),Coffea)),Sesamum),Striga),Mimulus);
+Initial score: 1.15531e+07
+Initial tree: (((((Pinus,Picea),Zamia),Selaginella),(Nuphar,(((((Phoenix,Musa),(Oryza,Sorghum)),Phalaenopsis),Dioscorea),(((Liriodendron,Persea),Aristolochia),(Aquilegia,((((((((Theobroma,Gossypium),Citrus),((Brassica,Arabidopsis),Carica)),((Manihot,Ricinus),Populus)),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),Eucalyptus),Vitis),(Silene,(Camellia,(((Lactuca,Helianthus),Panax),(((Solanum,Ipomoea),Coffea),(Sesamum,(Striga,Mimulus)))))))))))),Amborella);
+*** Subsample Process ***
+#NNI moves:10/94
+((((((((((((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Quercus,Betula)),((((Brassica,Arabidopsis),Carica),((Gossypium,Theobroma),Citrus)),((Ricinus,Manihot),Populus))),Eucalyptus),Vitis),((((((Striga,Mimulus),Sesamum),((Solanum,Ipomoea),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Aquilegia),((Persea,Liriodendron),Aristolochia)),((((Oryza,Sorghum),(Musa,Phoenix)),Phalaenopsis),Dioscorea)),((((Picea,Pinus),Zamia),Selaginella),Amborella)),Nuphar);
+#NNI moves:0/94
+((((((((((((((Gossypium,Theobroma),Citrus),((Arabidopsis,Brassica),Carica)),((Manihot,Ricinus),Populus)),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Quercus,Betula))),Eucalyptus),Vitis),((((((Ipomoea,Solanum),Coffea),((Mimulus,Striga),Sesamum)),((Helianthus,Lactuca),Panax)),Camellia),Silene)),Aquilegia),((Liriodendron,Persea),Aristolochia)),((((Phoenix,Musa),(Sorghum,Oryza)),Phalaenopsis),Dioscorea)),Nuphar),(((Picea,Pinus),Zamia),Selaginella)),Amborella);
+#NNI moves:8/94
+(((((((((((((((((Oryza,Sorghum),(Musa,Phoenix)),Phalaenopsis),Dioscorea),(((((Pinus,Picea),Zamia),Selaginella),Amborella),Nuphar)),((Persea,Liriodendron),Aristolochia)),Aquilegia),((((((Mimulus,Striga),Sesamum),((Ipomoea,Solanum),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Vitis),Eucalyptus),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),((Ricinus,Manihot),Populus)),Citrus),(Arabidopsis,Brassica)),Carica),Gossypium),Theobroma);
+#NNI moves:6/94
+((((((((((((Ricinus,Manihot),Populus),(((Theobroma,Gossypium),Citrus),((Brassica,Arabidopsis),Carica))),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),Eucalyptus),Vitis),((((((Mimulus,Striga),Sesamum),((Ipomoea,Solanum),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Aquilegia),(((((Musa,Phoenix),(Sorghum,Oryza)),Phalaenopsis),Dioscorea),(((((Picea,Pinus),Zamia),Selaginella),Amborella),Nuphar))),Aristolochia),Persea),Liriodendron);
+Current score: 1.15531e+07
+Current tree: (((((Picea,Pinus),Zamia),Selaginella),(Nuphar,(((((Musa,Phoenix),(Sorghum,Oryza)),Phalaenopsis),Dioscorea),(((((((((Ricinus,Manihot),Populus),(((Theobroma,Gossypium),Citrus),((Brassica,Arabidopsis),Carica))),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),Eucalyptus),Vitis),((((((Mimulus,Striga),Sesamum),((Ipomoea,Solanum),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Aquilegia),(Aristolochia,(Persea,Liriodendron)))))),Amborella);
+Final Tree: (((((Picea,Pinus),Zamia),Selaginella),(Nuphar,(((((Musa,Phoenix),(Sorghum,Oryza)),Phalaenopsis),Dioscorea),(((((((((Ricinus,Manihot),Populus),(((Theobroma,Gossypium),Citrus),((Brassica,Arabidopsis),Carica))),(((((Malus,Fragaria),Cannabis),Cucumis),(Glycine,Medicago)),(Betula,Quercus))),Eucalyptus),Vitis),((((((Mimulus,Striga),Sesamum),((Ipomoea,Solanum),Coffea)),((Lactuca,Helianthus),Panax)),Camellia),Silene)),Aquilegia),(Aristolochia,(Persea,Liriodendron)))))),Amborella);
+Score: 11553053

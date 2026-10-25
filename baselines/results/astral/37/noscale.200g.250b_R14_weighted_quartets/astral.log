@@ -1,0 +1,33 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 188684
+#Species: 37
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:2/83
+(((((((((((((HOM,PAN),GOR),PON),NEW),CAL),TAR),(MIC,OTO)),(TUP,(((((RAT,MUS),DIP),SPE),CAV),(OCH,ORY)))),(((((((BOS,TUR),SUS),VIC),(CAN,FEL)),EQU),(MYO,PTE)),(SOR,ERI))),((MAC,MON),(GAL,ORN))),(CHO,DAS)),(PRO,LOX)),ECH);
+#NNI moves:0/83
+((((((((((((((HOM,PAN),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((MUS,RAT),DIP),SPE),CAV),(ORY,OCH)),TUP)),(((((((BOS,TUR),SUS),VIC),(MYO,PTE)),(FEL,CAN)),EQU),(ERI,SOR))),((ORN,GAL),(MON,MAC))),(CHO,DAS)),ECH),PRO),LOX);
+#NNI moves:6/83
+(((((((((((((BOS,TUR),SUS),VIC),(CAN,FEL)),EQU),(MYO,PTE)),(SOR,ERI)),((((LOX,PRO),ECH),(DAS,CHO)),((ORN,GAL),(MON,MAC)))),(((((((HOM,PAN),GOR),PON),NEW),CAL),TAR),(MIC,OTO))),TUP),((((MUS,RAT),DIP),SPE),CAV)),ORY),OCH);
+#NNI moves:6/83
+(((((((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((MUS,RAT),DIP),SPE),CAV),(OCH,ORY)),TUP)),(((((((BOS,TUR),SUS),VIC),(PTE,MYO)),(CAN,FEL)),EQU),(SOR,ERI))),((GAL,ORN),(MAC,MON))),(CHO,DAS)),(PRO,LOX)),ECH);
+Initial score: 1.06439e+07
+Initial tree: ((TUR,(SUS,(VIC,((PTE,MYO),((CAN,FEL),(EQU,((SOR,ERI),(((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((MUS,RAT),DIP),SPE),CAV),(OCH,ORY)),TUP)),(((GAL,ORN),(MAC,MON)),((CHO,DAS),((PRO,LOX),ECH))))))))))),BOS);
+*** Subsample Process ***
+#NNI moves:0/83
+((((((((((((((HOM,PAN),GOR),PON),NEW),CAL),TAR),(MIC,OTO)),((((((MUS,RAT),DIP),SPE),CAV),(ORY,OCH)),TUP)),((((PRO,LOX),ECH),(DAS,CHO)),((MON,MAC),(GAL,ORN)))),(ERI,SOR)),EQU),((((TUR,BOS),SUS),VIC),(MYO,PTE))),CAN),FEL);
+#NNI moves:0/83
+((((((((((((((TUR,BOS),SUS),VIC),(MYO,PTE)),(FEL,CAN)),EQU),(SOR,ERI)),((((LOX,PRO),ECH),(DAS,CHO)),((MON,MAC),(GAL,ORN)))),((((((MUS,RAT),DIP),SPE),CAV),(OCH,ORY)),TUP)),(OTO,MIC)),TAR),CAL),(((PAN,HOM),GOR),PON)),NEW);
+#NNI moves:2/83
+((((((((((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(MIC,OTO)),((((((RAT,MUS),DIP),SPE),CAV),(OCH,ORY)),TUP)),((((LOX,PRO),ECH),(DAS,CHO)),((MAC,MON),(ORN,GAL)))),(ERI,SOR)),EQU),(FEL,CAN)),(PTE,MYO)),VIC),(BOS,TUR)),SUS);
+#NNI moves:0/83
+(((((((((((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((RAT,MUS),DIP),SPE),CAV),(ORY,OCH)),TUP)),((((LOX,PRO),ECH),(DAS,CHO)),((GAL,ORN),(MON,MAC)))),(ERI,SOR)),EQU),(FEL,CAN)),(MYO,PTE)),VIC),SUS),BOS),TUR);
+Current score: 1.06439e+07
+Current tree: (((((((((((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((RAT,MUS),DIP),SPE),CAV),(ORY,OCH)),TUP)),((((LOX,PRO),ECH),(DAS,CHO)),((GAL,ORN),(MON,MAC)))),(ERI,SOR)),EQU),(FEL,CAN)),(MYO,PTE)),VIC),SUS),TUR),BOS);
+Final Tree: (((((((((((((((((PAN,HOM),GOR),PON),NEW),CAL),TAR),(OTO,MIC)),((((((RAT,MUS),DIP),SPE),CAV),(ORY,OCH)),TUP)),((((LOX,PRO),ECH),(DAS,CHO)),((GAL,ORN),(MON,MAC)))),(ERI,SOR)),EQU),(FEL,CAN)),(MYO,PTE)),VIC),SUS),TUR),BOS);
+Score: 10643872

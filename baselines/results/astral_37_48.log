@@ -1,0 +1,815 @@
+354 inputs, 4 in parallel
+converted 173338 quartets
+converted 173110 quartets
+converted 176166 quartets
+converted 174825 quartets
+[1/354] 37 noscale.100g.500b_R13_weighted_quartets: time 491.550 s, RSS 287.2 MB, quartet score 0.848944, RF 0.117647058824
+converted 173538 quartets
+[2/354] 37 noscale.100g.500b_R10_weighted_quartets: time 493.500 s, RSS 282.7 MB, quartet score 0.858848, RF 0.029411764706
+converted 177253 quartets
+[3/354] 37 noscale.100g.500b_R12_weighted_quartets: time 494.000 s, RSS 282.4 MB, quartet score 0.849976, RF 0.058823529412
+converted 173437 quartets
+[4/354] 37 noscale.100g.500b_R11_weighted_quartets: time 498.360 s, RSS 285.2 MB, quartet score 0.854997, RF 0.058823529412
+converted 169197 quartets
+[5/354] 37 noscale.100g.500b_R16_weighted_quartets: time 470.730 s, RSS 282.8 MB, quartet score 0.852924, RF 0.088235294118
+converted 172674 quartets
+[6/354] 37 noscale.100g.500b_R17_weighted_quartets: time 485.210 s, RSS 275.8 MB, quartet score 0.859900, RF 0.088235294118
+converted 177230 quartets
+[7/354] 37 noscale.100g.500b_R14_weighted_quartets: time 492.830 s, RSS 283.3 MB, quartet score 0.855765, RF 0.117647058824
+converted 173387 quartets
+[8/354] 37 noscale.100g.500b_R15_weighted_quartets: time 509.040 s, RSS 289.1 MB, quartet score 0.852496, RF 0.058823529412
+converted 175142 quartets
+[9/354] 37 noscale.100g.500b_R18_weighted_quartets: time 472.060 s, RSS 281.4 MB, quartet score 0.847157, RF 0.000000000000
+converted 167963 quartets
+[10/354] 37 noscale.100g.500b_R19_weighted_quartets: time 504.160 s, RSS 289.0 MB, quartet score 0.850707, RF 0.029411764706
+converted 174389 quartets
+[11/354] 37 noscale.100g.500b_R1_weighted_quartets: time 510.220 s, RSS 282.8 MB, quartet score 0.853860, RF 0.058823529412
+converted 178257 quartets
+[12/354] 37 noscale.100g.500b_R20_weighted_quartets: time 498.270 s, RSS 285.5 MB, quartet score 0.848940, RF 0.117647058824
+converted 174637 quartets
+[13/354] 37 noscale.100g.500b_R2_weighted_quartets: time 455.580 s, RSS 274.4 MB, quartet score 0.867960, RF 0.058823529412
+converted 171800 quartets
+[14/354] 37 noscale.100g.500b_R3_weighted_quartets: time 498.120 s, RSS 284.4 MB, quartet score 0.857614, RF 0.058823529412
+converted 172680 quartets
+[15/354] 37 noscale.100g.500b_R5_weighted_quartets: time 510.260 s, RSS 284.7 MB, quartet score 0.852625, RF 0.058823529412
+converted 179570 quartets
+[16/354] 37 noscale.100g.500b_R4_weighted_quartets: time 516.910 s, RSS 290.5 MB, quartet score 0.840412, RF 0.029411764706
+converted 174520 quartets
+[17/354] 37 noscale.100g.500b_R6_weighted_quartets: time 495.760 s, RSS 280.0 MB, quartet score 0.858988, RF 0.088235294118
+converted 175209 quartets
+[18/354] 37 noscale.100g.500b_R7_weighted_quartets: time 504.570 s, RSS 281.6 MB, quartet score 0.859574, RF 0.117647058824
+converted 178303 quartets
+[19/354] 37 noscale.100g.500b_R8_weighted_quartets: time 528.840 s, RSS 293.5 MB, quartet score 0.845292, RF 0.058823529412
+converted 178843 quartets
+[20/354] 37 noscale.100g.500b_R9_weighted_quartets: time 532.410 s, RSS 284.9 MB, quartet score 0.850274, RF 0.117647058824
+converted 175816 quartets
+[21/354] 37 noscale.200g.1000b_R10_weighted_quartets: time 545.030 s, RSS 285.6 MB, quartet score 0.877080, RF 0.029411764706
+converted 176610 quartets
+[22/354] 37 noscale.200g.1000b_R11_weighted_quartets: time 560.290 s, RSS 290.6 MB, quartet score 0.878797, RF 0.000000000000
+converted 177402 quartets
+[23/354] 37 noscale.200g.1000b_R12_weighted_quartets: time 570.470 s, RSS 292.1 MB, quartet score 0.873638, RF 0.029411764706
+converted 175440 quartets
+[24/354] 37 noscale.200g.1000b_R13_weighted_quartets: time 568.230 s, RSS 286.7 MB, quartet score 0.873836, RF 0.058823529412
+converted 175463 quartets
+[25/354] 37 noscale.200g.1000b_R14_weighted_quartets: time 536.500 s, RSS 288.1 MB, quartet score 0.878064, RF 0.029411764706
+converted 178485 quartets
+[26/354] 37 noscale.200g.1000b_R15_weighted_quartets: time 548.780 s, RSS 289.1 MB, quartet score 0.877235, RF 0.029411764706
+converted 176382 quartets
+[27/354] 37 noscale.200g.1000b_R16_weighted_quartets: time 534.550 s, RSS 286.0 MB, quartet score 0.880557, RF 0.029411764706
+converted 175109 quartets
+[28/354] 37 noscale.200g.1000b_R17_weighted_quartets: time 538.150 s, RSS 286.3 MB, quartet score 0.877676, RF 0.029411764706
+converted 178474 quartets
+[29/354] 37 noscale.200g.1000b_R18_weighted_quartets: time 525.050 s, RSS 291.0 MB, quartet score 0.870320, RF 0.000000000000
+converted 176904 quartets
+[30/354] 37 noscale.200g.1000b_R19_weighted_quartets: time 527.190 s, RSS 287.7 MB, quartet score 0.878262, RF 0.000000000000
+converted 178300 quartets
+[31/354] 37 noscale.200g.1000b_R1_weighted_quartets: time 541.600 s, RSS 285.3 MB, quartet score 0.875730, RF 0.000000000000
+converted 181645 quartets
+[32/354] 37 noscale.200g.1000b_R20_weighted_quartets: time 555.820 s, RSS 291.1 MB, quartet score 0.879681, RF 0.029411764706
+converted 177408 quartets
+[33/354] 37 noscale.200g.1000b_R2_weighted_quartets: time 531.030 s, RSS 288.3 MB, quartet score 0.880777, RF 0.000000000000
+converted 174182 quartets
+[34/354] 37 noscale.200g.1000b_R3_weighted_quartets: time 521.320 s, RSS 290.8 MB, quartet score 0.873028, RF 0.000000000000
+converted 177913 quartets
+[35/354] 37 noscale.200g.1000b_R4_weighted_quartets: time 538.260 s, RSS 296.7 MB, quartet score 0.870661, RF 0.000000000000
+converted 181053 quartets
+[36/354] 37 noscale.200g.1000b_R5_weighted_quartets: time 528.570 s, RSS 289.3 MB, quartet score 0.885113, RF 0.058823529412
+converted 176683 quartets
+[37/354] 37 noscale.200g.1000b_R6_weighted_quartets: time 535.690 s, RSS 284.0 MB, quartet score 0.883155, RF 0.000000000000
+converted 174556 quartets
+[38/354] 37 noscale.200g.1000b_R7_weighted_quartets: time 552.300 s, RSS 290.0 MB, quartet score 0.881663, RF 0.058823529412
+converted 176917 quartets
+[39/354] 37 noscale.200g.1000b_R8_weighted_quartets: time 575.460 s, RSS 295.7 MB, quartet score 0.873491, RF 0.029411764706
+converted 176752 quartets
+[40/354] 37 noscale.200g.1000b_R9_weighted_quartets: time 571.050 s, RSS 287.9 MB, quartet score 0.874792, RF 0.029411764706
+converted 175671 quartets
+[41/354] 37 noscale.200g.1500b_R10_weighted_quartets: time 546.050 s, RSS 284.8 MB, quartet score 0.882522, RF 0.029411764706
+converted 175222 quartets
+[42/354] 37 noscale.200g.1500b_R11_weighted_quartets: time 527.240 s, RSS 288.5 MB, quartet score 0.882613, RF 0.000000000000
+converted 175221 quartets
+[43/354] 37 noscale.200g.1500b_R12_weighted_quartets: time 543.580 s, RSS 288.1 MB, quartet score 0.880066, RF 0.029411764706
+converted 173885 quartets
+[44/354] 37 noscale.200g.1500b_R13_weighted_quartets: time 563.470 s, RSS 286.4 MB, quartet score 0.876983, RF 0.058823529412
+converted 174379 quartets
+[45/354] 37 noscale.200g.1500b_R14_weighted_quartets: time 545.190 s, RSS 285.7 MB, quartet score 0.882257, RF 0.029411764706
+converted 177871 quartets
+[46/354] 37 noscale.200g.1500b_R15_weighted_quartets: time 539.280 s, RSS 285.7 MB, quartet score 0.882419, RF 0.029411764706
+converted 176061 quartets
+[47/354] 37 noscale.200g.1500b_R16_weighted_quartets: time 529.990 s, RSS 283.5 MB, quartet score 0.886472, RF 0.000000000000
+converted 172349 quartets
+[48/354] 37 noscale.200g.1500b_R17_weighted_quartets: time 551.340 s, RSS 284.5 MB, quartet score 0.883380, RF 0.029411764706
+converted 177548 quartets
+[49/354] 37 noscale.200g.1500b_R18_weighted_quartets: time 557.920 s, RSS 289.6 MB, quartet score 0.876819, RF 0.000000000000
+converted 173347 quartets
+[50/354] 37 noscale.200g.1500b_R19_weighted_quartets: time 533.130 s, RSS 287.1 MB, quartet score 0.882172, RF 0.000000000000
+converted 177269 quartets
+[51/354] 37 noscale.200g.1500b_R1_weighted_quartets: time 531.110 s, RSS 280.9 MB, quartet score 0.881798, RF 0.029411764706
+converted 179348 quartets
+[52/354] 37 noscale.200g.1500b_R20_weighted_quartets: time 550.240 s, RSS 289.5 MB, quartet score 0.886463, RF 0.000000000000
+converted 177646 quartets
+[53/354] 37 noscale.200g.1500b_R2_weighted_quartets: time 510.440 s, RSS 282.8 MB, quartet score 0.887964, RF 0.000000000000
+converted 172422 quartets
+[54/354] 37 noscale.200g.1500b_R3_weighted_quartets: time 543.090 s, RSS 288.7 MB, quartet score 0.876295, RF 0.029411764706
+converted 176221 quartets
+[55/354] 37 noscale.200g.1500b_R4_weighted_quartets: time 546.490 s, RSS 293.1 MB, quartet score 0.878418, RF 0.000000000000
+converted 179942 quartets
+[56/354] 37 noscale.200g.1500b_R5_weighted_quartets: time 528.110 s, RSS 289.5 MB, quartet score 0.889255, RF 0.029411764706
+converted 173565 quartets
+[57/354] 37 noscale.200g.1500b_R6_weighted_quartets: time 502.730 s, RSS 281.5 MB, quartet score 0.887412, RF 0.000000000000
+converted 188439 quartets
+[58/354] 37 noscale.200g.1500b_R7_weighted_quartets: time 525.010 s, RSS 287.2 MB, quartet score 0.886501, RF 0.029411764706
+converted 190029 quartets
+[59/354] 37 noscale.200g.1500b_R8_weighted_quartets: time 553.160 s, RSS 294.0 MB, quartet score 0.878509, RF 0.029411764706
+converted 189260 quartets
+[60/354] 37 noscale.200g.1500b_R9_weighted_quartets: time 598.260 s, RSS 283.0 MB, quartet score 0.883957, RF 0.000000000000
+converted 190370 quartets
+[61/354] 37 noscale.200g.250b_R10_weighted_quartets: time 689.620 s, RSS 307.5 MB, quartet score 0.798018, RF 0.088235294118
+converted 188684 quartets
+[62/354] 37 noscale.200g.250b_R11_weighted_quartets: time 691.900 s, RSS 310.0 MB, quartet score 0.801138, RF 0.029411764706
+converted 188705 quartets
+[63/354] 37 noscale.200g.250b_R12_weighted_quartets: time 732.560 s, RSS 308.4 MB, quartet score 0.798512, RF 0.029411764706
+converted 187534 quartets
+[64/354] 37 noscale.200g.250b_R13_weighted_quartets: time 656.530 s, RSS 310.5 MB, quartet score 0.796437, RF 0.117647058824
+converted 190043 quartets
+[65/354] 37 noscale.200g.250b_R14_weighted_quartets: time 617.830 s, RSS 307.9 MB, quartet score 0.805805, RF 0.088235294118
+converted 189769 quartets
+[66/354] 37 noscale.200g.250b_R15_weighted_quartets: time 603.750 s, RSS 307.8 MB, quartet score 0.803537, RF 0.147058823529
+converted 190998 quartets
+[67/354] 37 noscale.200g.250b_R16_weighted_quartets: time 595.380 s, RSS 306.1 MB, quartet score 0.812458, RF 0.058823529412
+converted 188958 quartets
+[68/354] 37 noscale.200g.250b_R17_weighted_quartets: time 611.350 s, RSS 310.2 MB, quartet score 0.785420, RF 0.058823529412
+converted 189652 quartets
+[69/354] 37 noscale.200g.250b_R18_weighted_quartets: time 594.270 s, RSS 309.6 MB, quartet score 0.791221, RF 0.029411764706
+converted 189728 quartets
+[70/354] 37 noscale.200g.250b_R19_weighted_quartets: time 619.210 s, RSS 311.4 MB, quartet score 0.801368, RF 0.000000000000
+converted 190053 quartets
+[71/354] 37 noscale.200g.250b_R1_weighted_quartets: time 591.340 s, RSS 308.2 MB, quartet score 0.797868, RF 0.088235294118
+converted 189580 quartets
+[72/354] 37 noscale.200g.250b_R20_weighted_quartets: time 624.770 s, RSS 309.4 MB, quartet score 0.801046, RF 0.058823529412
+converted 189845 quartets
+[73/354] 37 noscale.200g.250b_R2_weighted_quartets: time 596.450 s, RSS 309.4 MB, quartet score 0.799413, RF 0.000000000000
+converted 189600 quartets
+[74/354] 37 noscale.200g.250b_R3_weighted_quartets: time 558.810 s, RSS 310.0 MB, quartet score 0.799937, RF 0.058823529412
+converted 190722 quartets
+[75/354] 37 noscale.200g.250b_R4_weighted_quartets: time 579.010 s, RSS 309.1 MB, quartet score 0.797035, RF 0.029411764706
+converted 190187 quartets
+[76/354] 37 noscale.200g.250b_R5_weighted_quartets: time 607.280 s, RSS 309.7 MB, quartet score 0.803801, RF 0.058823529412
+converted 190208 quartets
+[77/354] 37 noscale.200g.250b_R6_weighted_quartets: time 565.970 s, RSS 309.4 MB, quartet score 0.803009, RF 0.058823529412
+converted 181074 quartets
+[78/354] 37 noscale.200g.250b_R7_weighted_quartets: time 570.650 s, RSS 311.0 MB, quartet score 0.798735, RF 0.088235294118
+converted 181896 quartets
+[79/354] 37 noscale.200g.250b_R8_weighted_quartets: time 607.910 s, RSS 310.2 MB, quartet score 0.793494, RF 0.088235294118
+converted 182164 quartets
+[80/354] 37 noscale.200g.250b_R9_weighted_quartets: time 614.490 s, RSS 310.3 MB, quartet score 0.803612, RF 0.088235294118
+converted 181882 quartets
+[81/354] 37 noscale.200g.500b_R10_weighted_quartets: time 591.610 s, RSS 295.8 MB, quartet score 0.855721, RF 0.029411764706
+converted 181733 quartets
+[82/354] 37 noscale.200g.500b_R11_weighted_quartets: time 600.870 s, RSS 297.2 MB, quartet score 0.854062, RF 0.000000000000
+converted 181609 quartets
+[83/354] 37 noscale.200g.500b_R12_weighted_quartets: time 635.660 s, RSS 297.5 MB, quartet score 0.848599, RF 0.029411764706
+converted 180537 quartets
+[84/354] 37 noscale.200g.500b_R13_weighted_quartets: time 646.430 s, RSS 297.1 MB, quartet score 0.850065, RF 0.058823529412
+converted 181051 quartets
+[85/354] 37 noscale.200g.500b_R14_weighted_quartets: time 638.100 s, RSS 296.6 MB, quartet score 0.852447, RF 0.029411764706
+converted 181214 quartets
+[86/354] 37 noscale.200g.500b_R15_weighted_quartets: time 639.200 s, RSS 296.5 MB, quartet score 0.855792, RF 0.117647058824
+converted 184088 quartets
+[87/354] 37 noscale.200g.500b_R16_weighted_quartets: time 631.790 s, RSS 295.1 MB, quartet score 0.859415, RF 0.029411764706
+converted 181455 quartets
+[88/354] 37 noscale.200g.500b_R17_weighted_quartets: time 641.640 s, RSS 295.5 MB, quartet score 0.850069, RF 0.058823529412
+converted 183661 quartets
+[89/354] 37 noscale.200g.500b_R18_weighted_quartets: time 618.950 s, RSS 296.1 MB, quartet score 0.847357, RF 0.000000000000
+converted 182249 quartets
+[90/354] 37 noscale.200g.500b_R19_weighted_quartets: time 619.700 s, RSS 300.6 MB, quartet score 0.853245, RF 0.029411764706
+converted 182177 quartets
+=== restarted Sun Oct 25 11:47:01 +06 2026
+354 inputs, 4 in parallel
+[1/354] 37 noscale.100g.500b_R10_weighted_quartets: time 493.500 s, RSS 282.7 MB, quartet score 0.858848, RF 0.029411764706
+[2/354] 37 noscale.100g.500b_R14_weighted_quartets: time 492.830 s, RSS 283.3 MB, quartet score 0.855765, RF 0.117647058824
+[3/354] 37 noscale.100g.500b_R12_weighted_quartets: time 494.000 s, RSS 282.4 MB, quartet score 0.849976, RF 0.058823529412
+[4/354] 37 noscale.100g.500b_R13_weighted_quartets: time 491.550 s, RSS 287.2 MB, quartet score 0.848944, RF 0.117647058824
+[5/354] 37 noscale.100g.500b_R11_weighted_quartets: time 498.360 s, RSS 285.2 MB, quartet score 0.854997, RF 0.058823529412
+[6/354] 37 noscale.100g.500b_R15_weighted_quartets: time 509.040 s, RSS 289.1 MB, quartet score 0.852496, RF 0.058823529412
+[7/354] 37 noscale.100g.500b_R16_weighted_quartets: time 470.730 s, RSS 282.8 MB, quartet score 0.852924, RF 0.088235294118
+[8/354] 37 noscale.100g.500b_R17_weighted_quartets: time 485.210 s, RSS 275.8 MB, quartet score 0.859900, RF 0.088235294118
+[9/354] 37 noscale.100g.500b_R18_weighted_quartets: time 472.060 s, RSS 281.4 MB, quartet score 0.847157, RF 0.000000000000
+[10/354] 37 noscale.100g.500b_R19_weighted_quartets: time 504.160 s, RSS 289.0 MB, quartet score 0.850707, RF 0.029411764706
+[11/354] 37 noscale.100g.500b_R1_weighted_quartets: time 510.220 s, RSS 282.8 MB, quartet score 0.853860, RF 0.058823529412
+[12/354] 37 noscale.100g.500b_R20_weighted_quartets: time 498.270 s, RSS 285.5 MB, quartet score 0.848940, RF 0.117647058824
+[13/354] 37 noscale.100g.500b_R2_weighted_quartets: time 455.580 s, RSS 274.4 MB, quartet score 0.867960, RF 0.058823529412
+[14/354] 37 noscale.100g.500b_R3_weighted_quartets: time 498.120 s, RSS 284.4 MB, quartet score 0.857614, RF 0.058823529412
+[15/354] 37 noscale.100g.500b_R6_weighted_quartets: time 495.760 s, RSS 280.0 MB, quartet score 0.858988, RF 0.088235294118
+[16/354] 37 noscale.100g.500b_R4_weighted_quartets: time 516.910 s, RSS 290.5 MB, quartet score 0.840412, RF 0.029411764706
+[17/354] 37 noscale.100g.500b_R5_weighted_quartets: time 510.260 s, RSS 284.7 MB, quartet score 0.852625, RF 0.058823529412
+[18/354] 37 noscale.100g.500b_R7_weighted_quartets: time 504.570 s, RSS 281.6 MB, quartet score 0.859574, RF 0.117647058824
+[19/354] 37 noscale.100g.500b_R8_weighted_quartets: time 528.840 s, RSS 293.5 MB, quartet score 0.845292, RF 0.058823529412
+[20/354] 37 noscale.100g.500b_R9_weighted_quartets: time 532.410 s, RSS 284.9 MB, quartet score 0.850274, RF 0.117647058824
+[21/354] 37 noscale.200g.1000b_R10_weighted_quartets: time 545.030 s, RSS 285.6 MB, quartet score 0.877080, RF 0.029411764706
+[22/354] 37 noscale.200g.1000b_R11_weighted_quartets: time 560.290 s, RSS 290.6 MB, quartet score 0.878797, RF 0.000000000000
+[23/354] 37 noscale.200g.1000b_R12_weighted_quartets: time 570.470 s, RSS 292.1 MB, quartet score 0.873638, RF 0.029411764706
+[24/354] 37 noscale.200g.1000b_R13_weighted_quartets: time 568.230 s, RSS 286.7 MB, quartet score 0.873836, RF 0.058823529412
+[25/354] 37 noscale.200g.1000b_R15_weighted_quartets: time 548.780 s, RSS 289.1 MB, quartet score 0.877235, RF 0.029411764706
+[26/354] 37 noscale.200g.1000b_R14_weighted_quartets: time 536.500 s, RSS 288.1 MB, quartet score 0.878064, RF 0.029411764706
+[27/354] 37 noscale.200g.1000b_R17_weighted_quartets: time 538.150 s, RSS 286.3 MB, quartet score 0.877676, RF 0.029411764706
+[28/354] 37 noscale.200g.1000b_R18_weighted_quartets: time 525.050 s, RSS 291.0 MB, quartet score 0.870320, RF 0.000000000000
+[29/354] 37 noscale.200g.1000b_R16_weighted_quartets: time 534.550 s, RSS 286.0 MB, quartet score 0.880557, RF 0.029411764706
+[30/354] 37 noscale.200g.1000b_R19_weighted_quartets: time 527.190 s, RSS 287.7 MB, quartet score 0.878262, RF 0.000000000000
+[31/354] 37 noscale.200g.1000b_R1_weighted_quartets: time 541.600 s, RSS 285.3 MB, quartet score 0.875730, RF 0.000000000000
+[32/354] 37 noscale.200g.1000b_R20_weighted_quartets: time 555.820 s, RSS 291.1 MB, quartet score 0.879681, RF 0.029411764706
+[33/354] 37 noscale.200g.1000b_R4_weighted_quartets: time 538.260 s, RSS 296.7 MB, quartet score 0.870661, RF 0.000000000000
+[34/354] 37 noscale.200g.1000b_R3_weighted_quartets: time 521.320 s, RSS 290.8 MB, quartet score 0.873028, RF 0.000000000000
+[35/354] 37 noscale.200g.1000b_R2_weighted_quartets: time 531.030 s, RSS 288.3 MB, quartet score 0.880777, RF 0.000000000000
+[36/354] 37 noscale.200g.1000b_R5_weighted_quartets: time 528.570 s, RSS 289.3 MB, quartet score 0.885113, RF 0.058823529412
+[37/354] 37 noscale.200g.1000b_R6_weighted_quartets: time 535.690 s, RSS 284.0 MB, quartet score 0.883155, RF 0.000000000000
+[38/354] 37 noscale.200g.1000b_R7_weighted_quartets: time 552.300 s, RSS 290.0 MB, quartet score 0.881663, RF 0.058823529412
+[39/354] 37 noscale.200g.1000b_R9_weighted_quartets: time 571.050 s, RSS 287.9 MB, quartet score 0.874792, RF 0.029411764706
+[40/354] 37 noscale.200g.1000b_R8_weighted_quartets: time 575.460 s, RSS 295.7 MB, quartet score 0.873491, RF 0.029411764706
+[41/354] 37 noscale.200g.1500b_R10_weighted_quartets: time 546.050 s, RSS 284.8 MB, quartet score 0.882522, RF 0.029411764706
+[42/354] 37 noscale.200g.1500b_R11_weighted_quartets: time 527.240 s, RSS 288.5 MB, quartet score 0.882613, RF 0.000000000000
+[43/354] 37 noscale.200g.1500b_R12_weighted_quartets: time 543.580 s, RSS 288.1 MB, quartet score 0.880066, RF 0.029411764706
+[44/354] 37 noscale.200g.1500b_R15_weighted_quartets: time 539.280 s, RSS 285.7 MB, quartet score 0.882419, RF 0.029411764706
+[45/354] 37 noscale.200g.1500b_R13_weighted_quartets: time 563.470 s, RSS 286.4 MB, quartet score 0.876983, RF 0.058823529412
+[46/354] 37 noscale.200g.1500b_R14_weighted_quartets: time 545.190 s, RSS 285.7 MB, quartet score 0.882257, RF 0.029411764706
+[47/354] 37 noscale.200g.1500b_R16_weighted_quartets: time 529.990 s, RSS 283.5 MB, quartet score 0.886472, RF 0.000000000000
+[48/354] 37 noscale.200g.1500b_R17_weighted_quartets: time 551.340 s, RSS 284.5 MB, quartet score 0.883380, RF 0.029411764706
+[49/354] 37 noscale.200g.1500b_R18_weighted_quartets: time 557.920 s, RSS 289.6 MB, quartet score 0.876819, RF 0.000000000000
+[50/354] 37 noscale.200g.1500b_R19_weighted_quartets: time 533.130 s, RSS 287.1 MB, quartet score 0.882172, RF 0.000000000000
+[51/354] 37 noscale.200g.1500b_R1_weighted_quartets: time 531.110 s, RSS 280.9 MB, quartet score 0.881798, RF 0.029411764706
+[52/354] 37 noscale.200g.1500b_R20_weighted_quartets: time 550.240 s, RSS 289.5 MB, quartet score 0.886463, RF 0.000000000000
+converted 182249 quartets
+[53/354] 37 noscale.200g.1500b_R2_weighted_quartets: time 510.440 s, RSS 282.8 MB, quartet score 0.887964, RF 0.000000000000
+converted 183661 quartets
+converted 181455 quartets
+[54/354] 37 noscale.200g.1500b_R3_weighted_quartets: time 543.090 s, RSS 288.7 MB, quartet score 0.876295, RF 0.029411764706
+converted 182177 quartets
+[55/354] 37 noscale.200g.1500b_R4_weighted_quartets: time 546.490 s, RSS 293.1 MB, quartet score 0.878418, RF 0.000000000000
+[56/354] 37 noscale.200g.1500b_R5_weighted_quartets: time 528.110 s, RSS 289.5 MB, quartet score 0.889255, RF 0.029411764706
+[57/354] 37 noscale.200g.1500b_R8_weighted_quartets: time 553.160 s, RSS 294.0 MB, quartet score 0.878509, RF 0.029411764706
+[58/354] 37 noscale.200g.1500b_R7_weighted_quartets: time 525.010 s, RSS 287.2 MB, quartet score 0.886501, RF 0.029411764706
+[59/354] 37 noscale.200g.1500b_R6_weighted_quartets: time 502.730 s, RSS 281.5 MB, quartet score 0.887412, RF 0.000000000000
+[60/354] 37 noscale.200g.1500b_R9_weighted_quartets: time 598.260 s, RSS 283.0 MB, quartet score 0.883957, RF 0.000000000000
+[61/354] 37 noscale.200g.250b_R10_weighted_quartets: time 689.620 s, RSS 307.5 MB, quartet score 0.798018, RF 0.088235294118
+[62/354] 37 noscale.200g.250b_R11_weighted_quartets: time 691.900 s, RSS 310.0 MB, quartet score 0.801138, RF 0.029411764706
+[63/354] 37 noscale.200g.250b_R13_weighted_quartets: time 656.530 s, RSS 310.5 MB, quartet score 0.796437, RF 0.117647058824
+[64/354] 37 noscale.200g.250b_R12_weighted_quartets: time 732.560 s, RSS 308.4 MB, quartet score 0.798512, RF 0.029411764706
+[65/354] 37 noscale.200g.250b_R14_weighted_quartets: time 617.830 s, RSS 307.9 MB, quartet score 0.805805, RF 0.088235294118
+[66/354] 37 noscale.200g.250b_R16_weighted_quartets: time 595.380 s, RSS 306.1 MB, quartet score 0.812458, RF 0.058823529412
+[67/354] 37 noscale.200g.250b_R15_weighted_quartets: time 603.750 s, RSS 307.8 MB, quartet score 0.803537, RF 0.147058823529
+[68/354] 37 noscale.200g.250b_R17_weighted_quartets: time 611.350 s, RSS 310.2 MB, quartet score 0.785420, RF 0.058823529412
+[69/354] 37 noscale.200g.250b_R1_weighted_quartets: time 591.340 s, RSS 308.2 MB, quartet score 0.797868, RF 0.088235294118
+[70/354] 37 noscale.200g.250b_R19_weighted_quartets: time 619.210 s, RSS 311.4 MB, quartet score 0.801368, RF 0.000000000000
+[71/354] 37 noscale.200g.250b_R20_weighted_quartets: time 624.770 s, RSS 309.4 MB, quartet score 0.801046, RF 0.058823529412
+[72/354] 37 noscale.200g.250b_R18_weighted_quartets: time 594.270 s, RSS 309.6 MB, quartet score 0.791221, RF 0.029411764706
+[73/354] 37 noscale.200g.250b_R2_weighted_quartets: time 596.450 s, RSS 309.4 MB, quartet score 0.799413, RF 0.000000000000
+[74/354] 37 noscale.200g.250b_R3_weighted_quartets: time 558.810 s, RSS 310.0 MB, quartet score 0.799937, RF 0.058823529412
+[75/354] 37 noscale.200g.250b_R6_weighted_quartets: time 565.970 s, RSS 309.4 MB, quartet score 0.803009, RF 0.058823529412
+[76/354] 37 noscale.200g.250b_R4_weighted_quartets: time 579.010 s, RSS 309.1 MB, quartet score 0.797035, RF 0.029411764706
+[77/354] 37 noscale.200g.250b_R5_weighted_quartets: time 607.280 s, RSS 309.7 MB, quartet score 0.803801, RF 0.058823529412
+[78/354] 37 noscale.200g.250b_R7_weighted_quartets: time 570.650 s, RSS 311.0 MB, quartet score 0.798735, RF 0.088235294118
+[79/354] 37 noscale.200g.250b_R8_weighted_quartets: time 607.910 s, RSS 310.2 MB, quartet score 0.793494, RF 0.088235294118
+[80/354] 37 noscale.200g.500b_R10_weighted_quartets: time 591.610 s, RSS 295.8 MB, quartet score 0.855721, RF 0.029411764706
+[81/354] 37 noscale.200g.500b_R13_weighted_quartets: time 646.430 s, RSS 297.1 MB, quartet score 0.850065, RF 0.058823529412
+[82/354] 37 noscale.200g.250b_R9_weighted_quartets: time 614.490 s, RSS 310.3 MB, quartet score 0.803612, RF 0.088235294118
+[83/354] 37 noscale.200g.500b_R11_weighted_quartets: time 600.870 s, RSS 297.2 MB, quartet score 0.854062, RF 0.000000000000
+[84/354] 37 noscale.200g.500b_R12_weighted_quartets: time 635.660 s, RSS 297.5 MB, quartet score 0.848599, RF 0.029411764706
+[85/354] 37 noscale.200g.500b_R14_weighted_quartets: time 638.100 s, RSS 296.6 MB, quartet score 0.852447, RF 0.029411764706
+[86/354] 37 noscale.200g.500b_R15_weighted_quartets: time 639.200 s, RSS 296.5 MB, quartet score 0.855792, RF 0.117647058824
+[87/354] 37 noscale.200g.500b_R16_weighted_quartets: time 631.790 s, RSS 295.1 MB, quartet score 0.859415, RF 0.029411764706
+[88/354] 37 noscale.200g.500b_R17_weighted_quartets: time 641.640 s, RSS 295.5 MB, quartet score 0.850069, RF 0.058823529412
+[89/354] 37 noscale.200g.500b_R18_weighted_quartets: time 618.950 s, RSS 296.1 MB, quartet score 0.847357, RF 0.000000000000
+[90/354] 37 noscale.200g.500b_R19_weighted_quartets: time 619.700 s, RSS 300.6 MB, quartet score 0.853245, RF 0.029411764706
+[91/354] 37 noscale.200g.500b_R2_weighted_quartets: time 539.550 s, RSS 297.5 MB, quartet score 0.859218, RF 0.029411764706
+converted 184390 quartets
+[92/354] 37 noscale.200g.500b_R20_weighted_quartets: time 543.440 s, RSS 299.6 MB, quartet score 0.855663, RF 0.088235294118
+converted 182229 quartets
+[93/354] 37 noscale.200g.500b_R3_weighted_quartets: time 546.540 s, RSS 297.6 MB, quartet score 0.851428, RF 0.029411764706
+converted 181846 quartets
+[94/354] 37 noscale.200g.500b_R1_weighted_quartets: time 551.300 s, RSS 296.3 MB, quartet score 0.855447, RF 0.029411764706
+converted 182666 quartets
+[95/354] 37 noscale.200g.500b_R4_weighted_quartets: time 547.640 s, RSS 300.7 MB, quartet score 0.844945, RF 0.000000000000
+[96/354] 37 noscale.200g.500b_R7_weighted_quartets: time 537.030 s, RSS 298.5 MB, quartet score 0.858445, RF 0.058823529412
+[97/354] 37 noscale.200g.500b_R5_weighted_quartets: time 544.230 s, RSS 297.5 MB, quartet score 0.857424, RF 0.000000000000
+converted 184901 quartets
+converted 182773 quartets
+converted 173086 quartets
+[98/354] 37 noscale.200g.500b_R6_weighted_quartets: time 543.510 s, RSS 296.9 MB, quartet score 0.856330, RF 0.088235294118
+converted 175210 quartets
+[99/354] 37 noscale.200g.true_R10_weighted_quartets: time 512.450 s, RSS 282.1 MB, quartet score 0.891302, RF 0.029411764706
+converted 173654 quartets
+[100/354] 37 noscale.200g.true_R11_weighted_quartets: time 544.070 s, RSS 285.5 MB, quartet score 0.891486, RF 0.000000000000
+converted 175048 quartets
+[101/354] 37 noscale.200g.500b_R8_weighted_quartets: time 580.880 s, RSS 301.8 MB, quartet score 0.848238, RF 0.000000000000
+converted 175079 quartets
+[102/354] 37 noscale.200g.500b_R9_weighted_quartets: time 586.020 s, RSS 298.4 MB, quartet score 0.851209, RF 0.058823529412
+converted 173091 quartets
+[103/354] 37 noscale.200g.true_R12_weighted_quartets: time 529.020 s, RSS 283.3 MB, quartet score 0.886075, RF 0.029411764706
+converted 170870 quartets
+[104/354] 37 noscale.200g.true_R14_weighted_quartets: time 483.060 s, RSS 285.5 MB, quartet score 0.887558, RF 0.029411764706
+converted 171196 quartets
+[105/354] 37 noscale.200g.true_R13_weighted_quartets: time 519.350 s, RSS 285.3 MB, quartet score 0.883317, RF 0.058823529412
+converted 175178 quartets
+[106/354] 37 noscale.200g.true_R15_weighted_quartets: time 533.390 s, RSS 282.3 MB, quartet score 0.890700, RF 0.000000000000
+converted 176103 quartets
+[107/354] 37 noscale.200g.true_R17_weighted_quartets: time 491.930 s, RSS 279.4 MB, quartet score 0.890484, RF 0.000000000000
+converted 171311 quartets
+[108/354] 37 noscale.200g.true_R16_weighted_quartets: time 522.640 s, RSS 278.7 MB, quartet score 0.893817, RF 0.029411764706
+converted 174892 quartets
+[109/354] 37 noscale.200g.true_R18_weighted_quartets: time 521.220 s, RSS 285.7 MB, quartet score 0.882355, RF 0.000000000000
+converted 169920 quartets
+[110/354] 37 noscale.200g.true_R19_weighted_quartets: time 541.940 s, RSS 287.3 MB, quartet score 0.889797, RF 0.000000000000
+converted 175851 quartets
+[111/354] 37 noscale.200g.true_R1_weighted_quartets: time 507.630 s, RSS 279.6 MB, quartet score 0.887987, RF 0.029411764706
+converted 178352 quartets
+[112/354] 37 noscale.200g.true_R2_weighted_quartets: time 534.450 s, RSS 277.3 MB, quartet score 0.895352, RF 0.000000000000
+converted 177539 quartets
+[113/354] 37 noscale.200g.true_R20_weighted_quartets: time 563.150 s, RSS 285.2 MB, quartet score 0.892150, RF 0.029411764706
+converted 170721 quartets
+[114/354] 37 noscale.200g.true_R3_weighted_quartets: time 571.660 s, RSS 286.8 MB, quartet score 0.883984, RF 0.000000000000
+converted 175047 quartets
+[115/354] 37 noscale.200g.true_R4_weighted_quartets: time 584.190 s, RSS 290.6 MB, quartet score 0.883994, RF 0.000000000000
+converted 176755 quartets
+[116/354] 37 noscale.200g.true_R6_weighted_quartets: time 597.450 s, RSS 278.8 MB, quartet score 0.894940, RF 0.000000000000
+converted 172410 quartets
+[117/354] 37 noscale.200g.true_R5_weighted_quartets: time 607.950 s, RSS 289.4 MB, quartet score 0.892321, RF 0.000000000000
+converted 141296 quartets
+[118/354] 37 noscale.200g.true_R7_weighted_quartets: time 641.780 s, RSS 285.3 MB, quartet score 0.891931, RF 0.029411764706
+converted 142750 quartets
+[119/354] 37 noscale.25g.500b_R10_weighted_quartets: time 472.690 s, RSS 230.6 MB, quartet score 0.859576, RF 0.147058823529
+converted 143098 quartets
+[120/354] 37 noscale.200g.true_R8_weighted_quartets: time 560.590 s, RSS 288.1 MB, quartet score 0.887062, RF 0.000000000000
+converted 152768 quartets
+[121/354] 37 noscale.200g.true_R9_weighted_quartets: time 573.360 s, RSS 281.3 MB, quartet score 0.888539, RF 0.000000000000
+converted 142032 quartets
+[122/354] 37 noscale.25g.500b_R11_weighted_quartets: time 484.900 s, RSS 232.8 MB, quartet score 0.867052, RF 0.117647058824
+converted 144551 quartets
+[123/354] 37 noscale.25g.500b_R12_weighted_quartets: time 492.370 s, RSS 233.5 MB, quartet score 0.856550, RF 0.147058823529
+converted 153248 quartets
+[124/354] 37 noscale.25g.500b_R13_weighted_quartets: time 492.960 s, RSS 249.2 MB, quartet score 0.851770, RF 0.088235294118
+converted 144863 quartets
+[125/354] 37 noscale.25g.500b_R14_weighted_quartets: time 480.940 s, RSS 231.7 MB, quartet score 0.869744, RF 0.117647058824
+converted 152906 quartets
+[126/354] 37 noscale.25g.500b_R15_weighted_quartets: time 492.120 s, RSS 235.6 MB, quartet score 0.867447, RF 0.117647058824
+converted 155838 quartets
+[127/354] 37 noscale.25g.500b_R17_weighted_quartets: time 487.990 s, RSS 236.4 MB, quartet score 0.867765, RF 0.117647058824
+converted 139825 quartets
+[128/354] 37 noscale.25g.500b_R16_weighted_quartets: time 513.260 s, RSS 249.9 MB, quartet score 0.832010, RF 0.117647058824
+converted 150941 quartets
+[129/354] 37 noscale.25g.500b_R18_weighted_quartets: time 508.860 s, RSS 249.4 MB, quartet score 0.832675, RF 0.058823529412
+converted 141244 quartets
+[130/354] 37 noscale.25g.500b_R19_weighted_quartets: time 487.900 s, RSS 254.1 MB, quartet score 0.846702, RF 0.088235294118
+converted 144370 quartets
+[131/354] 37 noscale.25g.500b_R1_weighted_quartets: time 476.990 s, RSS 228.0 MB, quartet score 0.862248, RF 0.088235294118
+converted 155947 quartets
+[132/354] 37 noscale.25g.500b_R20_weighted_quartets: time 549.510 s, RSS 246.4 MB, quartet score 0.837734, RF 0.147058823529
+converted 143534 quartets
+[133/354] 37 noscale.25g.500b_R2_weighted_quartets: time 555.210 s, RSS 230.3 MB, quartet score 0.861774, RF 0.117647058824
+converted 136190 quartets
+[134/354] 37 noscale.25g.500b_R3_weighted_quartets: time 571.660 s, RSS 235.3 MB, quartet score 0.865841, RF 0.147058823529
+converted 148008 quartets
+[135/354] 37 noscale.25g.500b_R4_weighted_quartets: time 579.630 s, RSS 254.6 MB, quartet score 0.843253, RF 0.117647058824
+converted 144959 quartets
+[136/354] 37 noscale.25g.500b_R5_weighted_quartets: time 564.640 s, RSS 234.2 MB, quartet score 0.854606, RF 0.147058823529
+converted 154829 quartets
+[137/354] 37 noscale.25g.500b_R6_weighted_quartets: time 511.450 s, RSS 222.4 MB, quartet score 0.873848, RF 0.147058823529
+converted 188496 quartets
+[138/354] 37 noscale.25g.500b_R7_weighted_quartets: time 512.620 s, RSS 241.4 MB, quartet score 0.855328, RF 0.147058823529
+converted 186915 quartets
+[139/354] 37 noscale.25g.500b_R8_weighted_quartets: time 486.910 s, RSS 236.4 MB, quartet score 0.872212, RF 0.058823529412
+converted 187573 quartets
+[140/354] 37 noscale.25g.500b_R9_weighted_quartets: time 498.940 s, RSS 252.6 MB, quartet score 0.856354, RF 0.029411764706
+converted 187959 quartets
+[141/354] 37 noscale.400g.500b_R10_weighted_quartets: time 616.790 s, RSS 307.4 MB, quartet score 0.855667, RF 0.029411764706
+converted 187091 quartets
+[142/354] 37 noscale.400g.500b_R11_weighted_quartets: time 603.570 s, RSS 304.9 MB, quartet score 0.860257, RF 0.000000000000
+converted 185804 quartets
+[143/354] 37 noscale.400g.500b_R12_weighted_quartets: time 610.220 s, RSS 306.1 MB, quartet score 0.850466, RF 0.029411764706
+converted 187101 quartets
+[144/354] 37 noscale.400g.500b_R13_weighted_quartets: time 585.290 s, RSS 306.6 MB, quartet score 0.852271, RF 0.000000000000
+converted 185953 quartets
+[145/354] 37 noscale.400g.500b_R14_weighted_quartets: time 584.380 s, RSS 305.2 MB, quartet score 0.852200, RF 0.000000000000
+converted 188164 quartets
+[146/354] 37 noscale.400g.500b_R15_weighted_quartets: time 574.550 s, RSS 303.4 MB, quartet score 0.851012, RF 0.029411764706
+converted 187255 quartets
+[147/354] 37 noscale.400g.500b_R16_weighted_quartets: time 619.000 s, RSS 305.4 MB, quartet score 0.851241, RF 0.000000000000
+converted 185958 quartets
+[148/354] 37 noscale.400g.500b_R17_weighted_quartets: time 568.360 s, RSS 303.6 MB, quartet score 0.853280, RF 0.029411764706
+converted 189054 quartets
+[149/354] 37 noscale.400g.500b_R18_weighted_quartets: time 572.360 s, RSS 307.0 MB, quartet score 0.850870, RF 0.000000000000
+converted 186949 quartets
+[150/354] 37 noscale.400g.500b_R19_weighted_quartets: time 582.880 s, RSS 305.5 MB, quartet score 0.853336, RF 0.000000000000
+converted 187157 quartets
+[151/354] 37 noscale.400g.500b_R1_weighted_quartets: time 635.850 s, RSS 303.4 MB, quartet score 0.854740, RF 0.000000000000
+converted 188467 quartets
+[152/354] 37 noscale.400g.500b_R20_weighted_quartets: time 648.630 s, RSS 308.2 MB, quartet score 0.853846, RF 0.029411764706
+converted 186908 quartets
+[153/354] 37 noscale.400g.500b_R2_weighted_quartets: time 648.790 s, RSS 305.1 MB, quartet score 0.853867, RF 0.000000000000
+converted 186368 quartets
+[154/354] 37 noscale.400g.500b_R3_weighted_quartets: time 670.250 s, RSS 305.6 MB, quartet score 0.850119, RF 0.058823529412
+converted 186849 quartets
+[155/354] 37 noscale.400g.500b_R4_weighted_quartets: time 611.290 s, RSS 307.5 MB, quartet score 0.848668, RF 0.000000000000
+converted 187170 quartets
+[156/354] 37 noscale.400g.500b_R5_weighted_quartets: time 609.970 s, RSS 305.0 MB, quartet score 0.856112, RF 0.029411764706
+converted 188105 quartets
+[157/354] 37 noscale.400g.500b_R6_weighted_quartets: time 588.290 s, RSS 304.1 MB, quartet score 0.857759, RF 0.029411764706
+converted 153240 quartets
+[158/354] 37 noscale.400g.500b_R7_weighted_quartets: time 600.030 s, RSS 304.8 MB, quartet score 0.854211, RF 0.000000000000
+converted 159606 quartets
+[159/354] 37 noscale.400g.500b_R8_weighted_quartets: time 599.850 s, RSS 305.3 MB, quartet score 0.847797, RF 0.000000000000
+converted 160548 quartets
+[160/354] 37 noscale.400g.500b_R9_weighted_quartets: time 607.590 s, RSS 306.7 MB, quartet score 0.852183, RF 0.029411764706
+converted 164949 quartets
+[161/354] 37 noscale.50g.500b_R10_weighted_quartets: time 530.270 s, RSS 249.8 MB, quartet score 0.860907, RF 0.088235294118
+converted 161337 quartets
+[162/354] 37 noscale.50g.500b_R11_weighted_quartets: time 564.810 s, RSS 260.4 MB, quartet score 0.862630, RF 0.058823529412
+converted 169409 quartets
+[163/354] 37 noscale.50g.500b_R12_weighted_quartets: time 552.470 s, RSS 261.9 MB, quartet score 0.852824, RF 0.088235294118
+converted 164762 quartets
+[164/354] 37 noscale.50g.500b_R13_weighted_quartets: time 546.760 s, RSS 269.1 MB, quartet score 0.847542, RF 0.117647058824
+converted 159222 quartets
+[165/354] 37 noscale.50g.500b_R14_weighted_quartets: time 541.680 s, RSS 263.2 MB, quartet score 0.859122, RF 0.088235294118
+converted 165829 quartets
+[166/354] 37 noscale.50g.500b_R15_weighted_quartets: time 573.250 s, RSS 276.4 MB, quartet score 0.845259, RF 0.088235294118
+converted 164801 quartets
+[167/354] 37 noscale.50g.500b_R17_weighted_quartets: time 542.710 s, RSS 259.7 MB, quartet score 0.867605, RF 0.088235294118
+converted 162572 quartets
+[168/354] 37 noscale.50g.500b_R16_weighted_quartets: time 574.470 s, RSS 268.7 MB, quartet score 0.850364, RF 0.029411764706
+converted 166501 quartets
+[169/354] 37 noscale.50g.500b_R18_weighted_quartets: time 579.390 s, RSS 270.5 MB, quartet score 0.842527, RF 0.088235294118
+converted 154576 quartets
+[170/354] 37 noscale.50g.500b_R19_weighted_quartets: time 557.260 s, RSS 268.8 MB, quartet score 0.858623, RF 0.058823529412
+converted 161730 quartets
+[171/354] 37 noscale.50g.500b_R1_weighted_quartets: time 548.010 s, RSS 265.2 MB, quartet score 0.854623, RF 0.058823529412
+converted 169705 quartets
+[172/354] 37 noscale.50g.500b_R20_weighted_quartets: time 549.900 s, RSS 271.5 MB, quartet score 0.842124, RF 0.117647058824
+converted 160755 quartets
+[173/354] 37 noscale.50g.500b_R2_weighted_quartets: time 500.700 s, RSS 252.3 MB, quartet score 0.868250, RF 0.058823529412
+converted 161771 quartets
+[174/354] 37 noscale.50g.500b_R3_weighted_quartets: time 536.290 s, RSS 263.9 MB, quartet score 0.863301, RF 0.058823529412
+converted 165541 quartets
+[175/354] 37 noscale.50g.500b_R5_weighted_quartets: time 613.720 s, RSS 262.2 MB, quartet score 0.850001, RF 0.117647058824
+converted 166561 quartets
+[176/354] 37 noscale.50g.500b_R4_weighted_quartets: time 626.460 s, RSS 276.8 MB, quartet score 0.841648, RF 0.000000000000
+converted 165161 quartets
+[177/354] 37 noscale.50g.500b_R6_weighted_quartets: time 606.480 s, RSS 263.9 MB, quartet score 0.851146, RF 0.088235294118
+converted 191710 quartets
+[178/354] 37 noscale.50g.500b_R7_weighted_quartets: time 584.420 s, RSS 269.9 MB, quartet score 0.855038, RF 0.176470588235
+converted 190477 quartets
+[179/354] 37 noscale.50g.500b_R9_weighted_quartets: time 493.230 s, RSS 269.1 MB, quartet score 0.856458, RF 0.000000000000
+converted 191739 quartets
+[180/354] 37 noscale.50g.500b_R8_weighted_quartets: time 511.670 s, RSS 271.7 MB, quartet score 0.856079, RF 0.029411764706
+converted 191693 quartets
+[181/354] 37 noscale.800g.500b_R10_weighted_quartets: time 558.990 s, RSS 312.5 MB, quartet score 0.853556, RF 0.029411764706
+converted 191861 quartets
+[182/354] 37 noscale.800g.500b_R11_weighted_quartets: time 551.800 s, RSS 310.8 MB, quartet score 0.856430, RF 0.000000000000
+converted 190932 quartets
+[183/354] 37 noscale.800g.500b_R12_weighted_quartets: time 541.530 s, RSS 312.6 MB, quartet score 0.849773, RF 0.000000000000
+converted 189253 quartets
+[184/354] 37 noscale.800g.500b_R13_weighted_quartets: time 559.380 s, RSS 312.6 MB, quartet score 0.853563, RF 0.000000000000
+converted 191089 quartets
+[185/354] 37 noscale.800g.500b_R14_weighted_quartets: time 564.760 s, RSS 313.0 MB, quartet score 0.853092, RF 0.000000000000
+converted 190323 quartets
+[186/354] 37 noscale.800g.500b_R15_weighted_quartets: time 548.730 s, RSS 311.3 MB, quartet score 0.853760, RF 0.000000000000
+converted 191968 quartets
+[187/354] 37 noscale.800g.500b_R16_weighted_quartets: time 552.110 s, RSS 308.7 MB, quartet score 0.858178, RF 0.029411764706
+converted 191397 quartets
+[188/354] 37 noscale.800g.500b_R17_weighted_quartets: time 559.410 s, RSS 311.6 MB, quartet score 0.857918, RF 0.000000000000
+converted 190782 quartets
+[189/354] 37 noscale.800g.500b_R18_weighted_quartets: time 566.980 s, RSS 310.4 MB, quartet score 0.853575, RF 0.000000000000
+converted 191748 quartets
+[190/354] 37 noscale.800g.500b_R19_weighted_quartets: time 556.680 s, RSS 313.1 MB, quartet score 0.853819, RF 0.000000000000
+converted 189938 quartets
+[191/354] 37 noscale.800g.500b_R1_weighted_quartets: time 546.540 s, RSS 312.2 MB, quartet score 0.852447, RF 0.000000000000
+converted 189890 quartets
+[192/354] 37 noscale.800g.500b_R20_weighted_quartets: time 551.880 s, RSS 311.2 MB, quartet score 0.851372, RF 0.029411764706
+converted 191264 quartets
+[193/354] 37 noscale.800g.500b_R2_weighted_quartets: time 558.260 s, RSS 312.8 MB, quartet score 0.855041, RF 0.000000000000
+converted 190904 quartets
+[194/354] 37 noscale.800g.500b_R3_weighted_quartets: time 550.770 s, RSS 309.8 MB, quartet score 0.852235, RF 0.000000000000
+converted 191349 quartets
+[195/354] 37 noscale.800g.500b_R4_weighted_quartets: time 555.270 s, RSS 309.6 MB, quartet score 0.853663, RF 0.029411764706
+converted 190212 quartets
+[196/354] 37 noscale.800g.500b_R5_weighted_quartets: time 576.880 s, RSS 312.0 MB, quartet score 0.851408, RF 0.000000000000
+converted 191252 quartets
+[197/354] 37 noscale.800g.500b_R6_weighted_quartets: time 586.820 s, RSS 311.2 MB, quartet score 0.855361, RF 0.029411764706
+converted 196168 quartets
+[198/354] 37 noscale.800g.500b_R7_weighted_quartets: time 583.080 s, RSS 312.3 MB, quartet score 0.852236, RF 0.000000000000
+converted 196459 quartets
+[199/354] 37 noscale.800g.500b_R8_weighted_quartets: time 646.690 s, RSS 309.9 MB, quartet score 0.851066, RF 0.000000000000
+converted 196553 quartets
+[200/354] 37 noscale.800g.500b_R9_weighted_quartets: time 653.870 s, RSS 312.0 MB, quartet score 0.852019, RF 0.000000000000
+converted 196846 quartets
+[201/354] 37 scale2d.200g.500b_R10_weighted_quartets: time 647.780 s, RSS 319.6 MB, quartet score 0.764242, RF 0.029411764706
+converted 196285 quartets
+[202/354] 37 scale2d.200g.500b_R11_weighted_quartets: time 671.950 s, RSS 320.2 MB, quartet score 0.754286, RF 0.029411764706
+converted 195894 quartets
+[203/354] 37 scale2d.200g.500b_R12_weighted_quartets: time 694.450 s, RSS 320.2 MB, quartet score 0.750245, RF 0.058823529412
+converted 196342 quartets
+[204/354] 37 scale2d.200g.500b_R13_weighted_quartets: time 681.570 s, RSS 320.8 MB, quartet score 0.763346, RF 0.029411764706
+converted 196634 quartets
+[205/354] 37 scale2d.200g.500b_R14_weighted_quartets: time 648.950 s, RSS 319.9 MB, quartet score 0.775170, RF 0.029411764706
+converted 196739 quartets
+[206/354] 37 scale2d.200g.500b_R15_weighted_quartets: time 701.910 s, RSS 319.1 MB, quartet score 0.762498, RF 0.029411764706
+converted 195766 quartets
+[207/354] 37 scale2d.200g.500b_R16_weighted_quartets: time 751.790 s, RSS 320.0 MB, quartet score 0.757557, RF 0.058823529412
+converted 196066 quartets
+[208/354] 37 scale2d.200g.500b_R17_weighted_quartets: time 761.070 s, RSS 320.5 MB, quartet score 0.752721, RF 0.058823529412
+converted 195851 quartets
+[209/354] 37 scale2d.200g.500b_R18_weighted_quartets: time 751.380 s, RSS 320.6 MB, quartet score 0.744571, RF 0.058823529412
+converted 195839 quartets
+[210/354] 37 scale2d.200g.500b_R19_weighted_quartets: time 713.330 s, RSS 319.0 MB, quartet score 0.761407, RF 0.088235294118
+converted 196293 quartets
+[211/354] 37 scale2d.200g.500b_R1_weighted_quartets: time 716.330 s, RSS 319.5 MB, quartet score 0.758429, RF 0.058823529412
+converted 196310 quartets
+[212/354] 37 scale2d.200g.500b_R2_weighted_quartets: time 693.970 s, RSS 319.5 MB, quartet score 0.754544, RF 0.029411764706
+converted 196285 quartets
+[213/354] 37 scale2d.200g.500b_R20_weighted_quartets: time 754.590 s, RSS 319.1 MB, quartet score 0.756607, RF 0.088235294118
+converted 196563 quartets
+[214/354] 37 scale2d.200g.500b_R3_weighted_quartets: time 703.810 s, RSS 319.8 MB, quartet score 0.758714, RF 0.058823529412
+converted 196650 quartets
+[215/354] 37 scale2d.200g.500b_R4_weighted_quartets: time 737.440 s, RSS 320.0 MB, quartet score 0.749200, RF 0.029411764706
+converted 196768 quartets
+[216/354] 37 scale2d.200g.500b_R5_weighted_quartets: time 684.660 s, RSS 319.9 MB, quartet score 0.762099, RF 0.088235294118
+converted 195385 quartets
+[217/354] 37 scale2d.200g.500b_R6_weighted_quartets: time 734.250 s, RSS 320.3 MB, quartet score 0.755574, RF 0.000000000000
+converted 161638 quartets
+[218/354] 37 scale2d.200g.500b_R7_weighted_quartets: time 696.670 s, RSS 320.3 MB, quartet score 0.760561, RF 0.029411764706
+converted 161061 quartets
+=== restarted with merging CSV writer Sun Oct 25 17:00:44 +06 2026
+354 inputs, 4 in parallel
+[1/354] 37 noscale.100g.500b_R10_weighted_quartets: time 493.500 s, RSS 282.7 MB, quartet score 0.858848, RF 0.029411764706
+[2/354] 37 noscale.100g.500b_R11_weighted_quartets: time 498.360 s, RSS 285.2 MB, quartet score 0.854997, RF 0.058823529412
+[3/354] 37 noscale.100g.500b_R14_weighted_quartets: time 492.830 s, RSS 283.3 MB, quartet score 0.855765, RF 0.117647058824
+[4/354] 37 noscale.100g.500b_R13_weighted_quartets: time 491.550 s, RSS 287.2 MB, quartet score 0.848944, RF 0.117647058824
+[5/354] 37 noscale.100g.500b_R12_weighted_quartets: time 494.000 s, RSS 282.4 MB, quartet score 0.849976, RF 0.058823529412
+[6/354] 37 noscale.100g.500b_R15_weighted_quartets: time 509.040 s, RSS 289.1 MB, quartet score 0.852496, RF 0.058823529412
+[7/354] 37 noscale.100g.500b_R16_weighted_quartets: time 470.730 s, RSS 282.8 MB, quartet score 0.852924, RF 0.088235294118
+[8/354] 37 noscale.100g.500b_R17_weighted_quartets: time 485.210 s, RSS 275.8 MB, quartet score 0.859900, RF 0.088235294118
+[9/354] 37 noscale.100g.500b_R18_weighted_quartets: time 472.060 s, RSS 281.4 MB, quartet score 0.847157, RF 0.000000000000
+[10/354] 37 noscale.100g.500b_R19_weighted_quartets: time 504.160 s, RSS 289.0 MB, quartet score 0.850707, RF 0.029411764706
+[11/354] 37 noscale.100g.500b_R1_weighted_quartets: time 510.220 s, RSS 282.8 MB, quartet score 0.853860, RF 0.058823529412
+[12/354] 37 noscale.100g.500b_R20_weighted_quartets: time 498.270 s, RSS 285.5 MB, quartet score 0.848940, RF 0.117647058824
+[13/354] 37 noscale.100g.500b_R2_weighted_quartets: time 455.580 s, RSS 274.4 MB, quartet score 0.867960, RF 0.058823529412
+[14/354] 37 noscale.100g.500b_R3_weighted_quartets: time 498.120 s, RSS 284.4 MB, quartet score 0.857614, RF 0.058823529412
+[15/354] 37 noscale.100g.500b_R4_weighted_quartets: time 516.910 s, RSS 290.5 MB, quartet score 0.840412, RF 0.029411764706
+[16/354] 37 noscale.100g.500b_R5_weighted_quartets: time 510.260 s, RSS 284.7 MB, quartet score 0.852625, RF 0.058823529412
+[17/354] 37 noscale.100g.500b_R6_weighted_quartets: time 495.760 s, RSS 280.0 MB, quartet score 0.858988, RF 0.088235294118
+[18/354] 37 noscale.100g.500b_R7_weighted_quartets: time 504.570 s, RSS 281.6 MB, quartet score 0.859574, RF 0.117647058824
+[19/354] 37 noscale.100g.500b_R8_weighted_quartets: time 528.840 s, RSS 293.5 MB, quartet score 0.845292, RF 0.058823529412
+[20/354] 37 noscale.100g.500b_R9_weighted_quartets: time 532.410 s, RSS 284.9 MB, quartet score 0.850274, RF 0.117647058824
+[21/354] 37 noscale.200g.1000b_R10_weighted_quartets: time 545.030 s, RSS 285.6 MB, quartet score 0.877080, RF 0.029411764706
+[22/354] 37 noscale.200g.1000b_R12_weighted_quartets: time 570.470 s, RSS 292.1 MB, quartet score 0.873638, RF 0.029411764706
+[23/354] 37 noscale.200g.1000b_R11_weighted_quartets: time 560.290 s, RSS 290.6 MB, quartet score 0.878797, RF 0.000000000000
+converted 161061 quartets
+[24/354] 37 noscale.200g.1000b_R13_weighted_quartets: time 568.230 s, RSS 286.7 MB, quartet score 0.873836, RF 0.058823529412
+converted 161638 quartets
+[25/354] 37 noscale.200g.1000b_R14_weighted_quartets: time 536.500 s, RSS 288.1 MB, quartet score 0.878064, RF 0.029411764706
+[26/354] 37 noscale.200g.1000b_R15_weighted_quartets: time 548.780 s, RSS 289.1 MB, quartet score 0.877235, RF 0.029411764706
+[27/354] 37 noscale.200g.1000b_R16_weighted_quartets: time 534.550 s, RSS 286.0 MB, quartet score 0.880557, RF 0.029411764706
+[28/354] 37 noscale.200g.1000b_R17_weighted_quartets: time 538.150 s, RSS 286.3 MB, quartet score 0.877676, RF 0.029411764706
+converted 195385 quartets
+[29/354] 37 noscale.200g.1000b_R18_weighted_quartets: time 525.050 s, RSS 291.0 MB, quartet score 0.870320, RF 0.000000000000
+converted 196768 quartets
+[30/354] 37 noscale.200g.1000b_R19_weighted_quartets: time 527.190 s, RSS 287.7 MB, quartet score 0.878262, RF 0.000000000000
+[31/354] 37 noscale.200g.1000b_R1_weighted_quartets: time 541.600 s, RSS 285.3 MB, quartet score 0.875730, RF 0.000000000000
+[32/354] 37 noscale.200g.1000b_R2_weighted_quartets: time 531.030 s, RSS 288.3 MB, quartet score 0.880777, RF 0.000000000000
+[33/354] 37 noscale.200g.1000b_R3_weighted_quartets: time 521.320 s, RSS 290.8 MB, quartet score 0.873028, RF 0.000000000000
+[34/354] 37 noscale.200g.1000b_R20_weighted_quartets: time 555.820 s, RSS 291.1 MB, quartet score 0.879681, RF 0.029411764706
+[35/354] 37 noscale.200g.1000b_R4_weighted_quartets: time 538.260 s, RSS 296.7 MB, quartet score 0.870661, RF 0.000000000000
+[36/354] 37 noscale.200g.1000b_R5_weighted_quartets: time 528.570 s, RSS 289.3 MB, quartet score 0.885113, RF 0.058823529412
+[37/354] 37 noscale.200g.1000b_R7_weighted_quartets: time 552.300 s, RSS 290.0 MB, quartet score 0.881663, RF 0.058823529412
+[38/354] 37 noscale.200g.1000b_R6_weighted_quartets: time 535.690 s, RSS 284.0 MB, quartet score 0.883155, RF 0.000000000000
+[39/354] 37 noscale.200g.1000b_R8_weighted_quartets: time 575.460 s, RSS 295.7 MB, quartet score 0.873491, RF 0.029411764706
+[40/354] 37 noscale.200g.1000b_R9_weighted_quartets: time 571.050 s, RSS 287.9 MB, quartet score 0.874792, RF 0.029411764706
+[41/354] 37 noscale.200g.1500b_R10_weighted_quartets: time 546.050 s, RSS 284.8 MB, quartet score 0.882522, RF 0.029411764706
+[42/354] 37 noscale.200g.1500b_R11_weighted_quartets: time 527.240 s, RSS 288.5 MB, quartet score 0.882613, RF 0.000000000000
+[43/354] 37 noscale.200g.1500b_R12_weighted_quartets: time 543.580 s, RSS 288.1 MB, quartet score 0.880066, RF 0.029411764706
+[44/354] 37 noscale.200g.1500b_R13_weighted_quartets: time 563.470 s, RSS 286.4 MB, quartet score 0.876983, RF 0.058823529412
+[45/354] 37 noscale.200g.1500b_R14_weighted_quartets: time 545.190 s, RSS 285.7 MB, quartet score 0.882257, RF 0.029411764706
+[46/354] 37 noscale.200g.1500b_R15_weighted_quartets: time 539.280 s, RSS 285.7 MB, quartet score 0.882419, RF 0.029411764706
+[47/354] 37 noscale.200g.1500b_R16_weighted_quartets: time 529.990 s, RSS 283.5 MB, quartet score 0.886472, RF 0.000000000000
+[48/354] 37 noscale.200g.1500b_R17_weighted_quartets: time 551.340 s, RSS 284.5 MB, quartet score 0.883380, RF 0.029411764706
+[49/354] 37 noscale.200g.1500b_R18_weighted_quartets: time 557.920 s, RSS 289.6 MB, quartet score 0.876819, RF 0.000000000000
+[50/354] 37 noscale.200g.1500b_R19_weighted_quartets: time 533.130 s, RSS 287.1 MB, quartet score 0.882172, RF 0.000000000000
+[51/354] 37 noscale.200g.1500b_R1_weighted_quartets: time 531.110 s, RSS 280.9 MB, quartet score 0.881798, RF 0.029411764706
+[52/354] 37 noscale.200g.1500b_R20_weighted_quartets: time 550.240 s, RSS 289.5 MB, quartet score 0.886463, RF 0.000000000000
+[53/354] 37 noscale.200g.1500b_R2_weighted_quartets: time 510.440 s, RSS 282.8 MB, quartet score 0.887964, RF 0.000000000000
+[54/354] 37 noscale.200g.1500b_R3_weighted_quartets: time 543.090 s, RSS 288.7 MB, quartet score 0.876295, RF 0.029411764706
+[55/354] 37 noscale.200g.1500b_R4_weighted_quartets: time 546.490 s, RSS 293.1 MB, quartet score 0.878418, RF 0.000000000000
+[56/354] 37 noscale.200g.1500b_R5_weighted_quartets: time 528.110 s, RSS 289.5 MB, quartet score 0.889255, RF 0.029411764706
+[57/354] 37 noscale.200g.1500b_R6_weighted_quartets: time 502.730 s, RSS 281.5 MB, quartet score 0.887412, RF 0.000000000000
+[58/354] 37 noscale.200g.1500b_R7_weighted_quartets: time 525.010 s, RSS 287.2 MB, quartet score 0.886501, RF 0.029411764706
+[59/354] 37 noscale.200g.1500b_R8_weighted_quartets: time 553.160 s, RSS 294.0 MB, quartet score 0.878509, RF 0.029411764706
+[60/354] 37 noscale.200g.1500b_R9_weighted_quartets: time 598.260 s, RSS 283.0 MB, quartet score 0.883957, RF 0.000000000000
+[61/354] 37 noscale.200g.250b_R10_weighted_quartets: time 689.620 s, RSS 307.5 MB, quartet score 0.798018, RF 0.088235294118
+[62/354] 37 noscale.200g.250b_R11_weighted_quartets: time 691.900 s, RSS 310.0 MB, quartet score 0.801138, RF 0.029411764706
+[63/354] 37 noscale.200g.250b_R13_weighted_quartets: time 656.530 s, RSS 310.5 MB, quartet score 0.796437, RF 0.117647058824
+[64/354] 37 noscale.200g.250b_R14_weighted_quartets: time 617.830 s, RSS 307.9 MB, quartet score 0.805805, RF 0.088235294118
+[65/354] 37 noscale.200g.250b_R12_weighted_quartets: time 732.560 s, RSS 308.4 MB, quartet score 0.798512, RF 0.029411764706
+[66/354] 37 noscale.200g.250b_R15_weighted_quartets: time 603.750 s, RSS 307.8 MB, quartet score 0.803537, RF 0.147058823529
+[67/354] 37 noscale.200g.250b_R17_weighted_quartets: time 611.350 s, RSS 310.2 MB, quartet score 0.785420, RF 0.058823529412
+[68/354] 37 noscale.200g.250b_R16_weighted_quartets: time 595.380 s, RSS 306.1 MB, quartet score 0.812458, RF 0.058823529412
+[69/354] 37 noscale.200g.250b_R18_weighted_quartets: time 594.270 s, RSS 309.6 MB, quartet score 0.791221, RF 0.029411764706
+[70/354] 37 noscale.200g.250b_R19_weighted_quartets: time 619.210 s, RSS 311.4 MB, quartet score 0.801368, RF 0.000000000000
+[71/354] 37 noscale.200g.250b_R1_weighted_quartets: time 591.340 s, RSS 308.2 MB, quartet score 0.797868, RF 0.088235294118
+[72/354] 37 noscale.200g.250b_R20_weighted_quartets: time 624.770 s, RSS 309.4 MB, quartet score 0.801046, RF 0.058823529412
+[73/354] 37 noscale.200g.250b_R2_weighted_quartets: time 596.450 s, RSS 309.4 MB, quartet score 0.799413, RF 0.000000000000
+[74/354] 37 noscale.200g.250b_R3_weighted_quartets: time 558.810 s, RSS 310.0 MB, quartet score 0.799937, RF 0.058823529412
+[75/354] 37 noscale.200g.250b_R4_weighted_quartets: time 579.010 s, RSS 309.1 MB, quartet score 0.797035, RF 0.029411764706
+[76/354] 37 noscale.200g.250b_R5_weighted_quartets: time 607.280 s, RSS 309.7 MB, quartet score 0.803801, RF 0.058823529412
+[77/354] 37 noscale.200g.250b_R6_weighted_quartets: time 565.970 s, RSS 309.4 MB, quartet score 0.803009, RF 0.058823529412
+[78/354] 37 noscale.200g.250b_R7_weighted_quartets: time 570.650 s, RSS 311.0 MB, quartet score 0.798735, RF 0.088235294118
+[79/354] 37 noscale.200g.250b_R8_weighted_quartets: time 607.910 s, RSS 310.2 MB, quartet score 0.793494, RF 0.088235294118
+[80/354] 37 noscale.200g.250b_R9_weighted_quartets: time 614.490 s, RSS 310.3 MB, quartet score 0.803612, RF 0.088235294118
+[81/354] 37 noscale.200g.500b_R10_weighted_quartets: time 591.610 s, RSS 295.8 MB, quartet score 0.855721, RF 0.029411764706
+[82/354] 37 noscale.200g.500b_R11_weighted_quartets: time 600.870 s, RSS 297.2 MB, quartet score 0.854062, RF 0.000000000000
+[83/354] 37 noscale.200g.500b_R12_weighted_quartets: time 635.660 s, RSS 297.5 MB, quartet score 0.848599, RF 0.029411764706
+[84/354] 37 noscale.200g.500b_R13_weighted_quartets: time 646.430 s, RSS 297.1 MB, quartet score 0.850065, RF 0.058823529412
+[85/354] 37 noscale.200g.500b_R14_weighted_quartets: time 638.100 s, RSS 296.6 MB, quartet score 0.852447, RF 0.029411764706
+[86/354] 37 noscale.200g.500b_R15_weighted_quartets: time 639.200 s, RSS 296.5 MB, quartet score 0.855792, RF 0.117647058824
+[87/354] 37 noscale.200g.500b_R16_weighted_quartets: time 631.790 s, RSS 295.1 MB, quartet score 0.859415, RF 0.029411764706
+[88/354] 37 noscale.200g.500b_R17_weighted_quartets: time 641.640 s, RSS 295.5 MB, quartet score 0.850069, RF 0.058823529412
+[89/354] 37 noscale.200g.500b_R18_weighted_quartets: time 618.950 s, RSS 296.1 MB, quartet score 0.847357, RF 0.000000000000
+[90/354] 37 noscale.200g.500b_R19_weighted_quartets: time 619.700 s, RSS 300.6 MB, quartet score 0.853245, RF 0.029411764706
+[91/354] 37 noscale.200g.500b_R20_weighted_quartets: time 543.440 s, RSS 299.6 MB, quartet score 0.855663, RF 0.088235294118
+[92/354] 37 noscale.200g.500b_R2_weighted_quartets: time 539.550 s, RSS 297.5 MB, quartet score 0.859218, RF 0.029411764706
+[93/354] 37 noscale.200g.500b_R1_weighted_quartets: time 551.300 s, RSS 296.3 MB, quartet score 0.855447, RF 0.029411764706
+[94/354] 37 noscale.200g.500b_R3_weighted_quartets: time 546.540 s, RSS 297.6 MB, quartet score 0.851428, RF 0.029411764706
+[95/354] 37 noscale.200g.500b_R4_weighted_quartets: time 547.640 s, RSS 300.7 MB, quartet score 0.844945, RF 0.000000000000
+[96/354] 37 noscale.200g.500b_R5_weighted_quartets: time 544.230 s, RSS 297.5 MB, quartet score 0.857424, RF 0.000000000000
+[97/354] 37 noscale.200g.500b_R6_weighted_quartets: time 543.510 s, RSS 296.9 MB, quartet score 0.856330, RF 0.088235294118
+[98/354] 37 noscale.200g.500b_R8_weighted_quartets: time 580.880 s, RSS 301.8 MB, quartet score 0.848238, RF 0.000000000000
+[99/354] 37 noscale.200g.500b_R7_weighted_quartets: time 537.030 s, RSS 298.5 MB, quartet score 0.858445, RF 0.058823529412
+[100/354] 37 noscale.200g.500b_R9_weighted_quartets: time 586.020 s, RSS 298.4 MB, quartet score 0.851209, RF 0.058823529412
+[101/354] 37 noscale.200g.true_R10_weighted_quartets: time 512.450 s, RSS 282.1 MB, quartet score 0.891302, RF 0.029411764706
+[102/354] 37 noscale.200g.true_R11_weighted_quartets: time 544.070 s, RSS 285.5 MB, quartet score 0.891486, RF 0.000000000000
+[103/354] 37 noscale.200g.true_R12_weighted_quartets: time 529.020 s, RSS 283.3 MB, quartet score 0.886075, RF 0.029411764706
+[104/354] 37 noscale.200g.true_R14_weighted_quartets: time 483.060 s, RSS 285.5 MB, quartet score 0.887558, RF 0.029411764706
+[105/354] 37 noscale.200g.true_R13_weighted_quartets: time 519.350 s, RSS 285.3 MB, quartet score 0.883317, RF 0.058823529412
+[106/354] 37 noscale.200g.true_R15_weighted_quartets: time 533.390 s, RSS 282.3 MB, quartet score 0.890700, RF 0.000000000000
+[107/354] 37 noscale.200g.true_R16_weighted_quartets: time 522.640 s, RSS 278.7 MB, quartet score 0.893817, RF 0.029411764706
+[108/354] 37 noscale.200g.true_R17_weighted_quartets: time 491.930 s, RSS 279.4 MB, quartet score 0.890484, RF 0.000000000000
+[109/354] 37 noscale.200g.true_R18_weighted_quartets: time 521.220 s, RSS 285.7 MB, quartet score 0.882355, RF 0.000000000000
+[110/354] 37 noscale.200g.true_R19_weighted_quartets: time 541.940 s, RSS 287.3 MB, quartet score 0.889797, RF 0.000000000000
+[111/354] 37 noscale.200g.true_R20_weighted_quartets: time 563.150 s, RSS 285.2 MB, quartet score 0.892150, RF 0.029411764706
+[112/354] 37 noscale.200g.true_R1_weighted_quartets: time 507.630 s, RSS 279.6 MB, quartet score 0.887987, RF 0.029411764706
+[113/354] 37 noscale.200g.true_R2_weighted_quartets: time 534.450 s, RSS 277.3 MB, quartet score 0.895352, RF 0.000000000000
+[114/354] 37 noscale.200g.true_R3_weighted_quartets: time 571.660 s, RSS 286.8 MB, quartet score 0.883984, RF 0.000000000000
+[115/354] 37 noscale.200g.true_R4_weighted_quartets: time 584.190 s, RSS 290.6 MB, quartet score 0.883994, RF 0.000000000000
+[116/354] 37 noscale.200g.true_R5_weighted_quartets: time 607.950 s, RSS 289.4 MB, quartet score 0.892321, RF 0.000000000000
+[117/354] 37 noscale.200g.true_R6_weighted_quartets: time 597.450 s, RSS 278.8 MB, quartet score 0.894940, RF 0.000000000000
+[118/354] 37 noscale.200g.true_R7_weighted_quartets: time 641.780 s, RSS 285.3 MB, quartet score 0.891931, RF 0.029411764706
+[119/354] 37 noscale.200g.true_R8_weighted_quartets: time 560.590 s, RSS 288.1 MB, quartet score 0.887062, RF 0.000000000000
+[120/354] 37 noscale.200g.true_R9_weighted_quartets: time 573.360 s, RSS 281.3 MB, quartet score 0.888539, RF 0.000000000000
+[121/354] 37 noscale.25g.500b_R10_weighted_quartets: time 472.690 s, RSS 230.6 MB, quartet score 0.859576, RF 0.147058823529
+[122/354] 37 noscale.25g.500b_R11_weighted_quartets: time 484.900 s, RSS 232.8 MB, quartet score 0.867052, RF 0.117647058824
+[123/354] 37 noscale.25g.500b_R12_weighted_quartets: time 492.370 s, RSS 233.5 MB, quartet score 0.856550, RF 0.147058823529
+[124/354] 37 noscale.25g.500b_R13_weighted_quartets: time 492.960 s, RSS 249.2 MB, quartet score 0.851770, RF 0.088235294118
+[125/354] 37 noscale.25g.500b_R14_weighted_quartets: time 480.940 s, RSS 231.7 MB, quartet score 0.869744, RF 0.117647058824
+[126/354] 37 noscale.25g.500b_R15_weighted_quartets: time 492.120 s, RSS 235.6 MB, quartet score 0.867447, RF 0.117647058824
+[127/354] 37 noscale.25g.500b_R16_weighted_quartets: time 513.260 s, RSS 249.9 MB, quartet score 0.832010, RF 0.117647058824
+[128/354] 37 noscale.25g.500b_R17_weighted_quartets: time 487.990 s, RSS 236.4 MB, quartet score 0.867765, RF 0.117647058824
+[129/354] 37 noscale.25g.500b_R18_weighted_quartets: time 508.860 s, RSS 249.4 MB, quartet score 0.832675, RF 0.058823529412
+[130/354] 37 noscale.25g.500b_R19_weighted_quartets: time 487.900 s, RSS 254.1 MB, quartet score 0.846702, RF 0.088235294118
+[131/354] 37 noscale.25g.500b_R1_weighted_quartets: time 476.990 s, RSS 228.0 MB, quartet score 0.862248, RF 0.088235294118
+[132/354] 37 noscale.25g.500b_R20_weighted_quartets: time 549.510 s, RSS 246.4 MB, quartet score 0.837734, RF 0.147058823529
+[133/354] 37 noscale.25g.500b_R2_weighted_quartets: time 555.210 s, RSS 230.3 MB, quartet score 0.861774, RF 0.117647058824
+[134/354] 37 noscale.25g.500b_R3_weighted_quartets: time 571.660 s, RSS 235.3 MB, quartet score 0.865841, RF 0.147058823529
+[135/354] 37 noscale.25g.500b_R4_weighted_quartets: time 579.630 s, RSS 254.6 MB, quartet score 0.843253, RF 0.117647058824
+[136/354] 37 noscale.25g.500b_R5_weighted_quartets: time 564.640 s, RSS 234.2 MB, quartet score 0.854606, RF 0.147058823529
+[137/354] 37 noscale.25g.500b_R7_weighted_quartets: time 512.620 s, RSS 241.4 MB, quartet score 0.855328, RF 0.147058823529
+[138/354] 37 noscale.25g.500b_R6_weighted_quartets: time 511.450 s, RSS 222.4 MB, quartet score 0.873848, RF 0.147058823529
+[139/354] 37 noscale.25g.500b_R8_weighted_quartets: time 486.910 s, RSS 236.4 MB, quartet score 0.872212, RF 0.058823529412
+[140/354] 37 noscale.25g.500b_R9_weighted_quartets: time 498.940 s, RSS 252.6 MB, quartet score 0.856354, RF 0.029411764706
+[141/354] 37 noscale.400g.500b_R10_weighted_quartets: time 616.790 s, RSS 307.4 MB, quartet score 0.855667, RF 0.029411764706
+[142/354] 37 noscale.400g.500b_R11_weighted_quartets: time 603.570 s, RSS 304.9 MB, quartet score 0.860257, RF 0.000000000000
+[143/354] 37 noscale.400g.500b_R12_weighted_quartets: time 610.220 s, RSS 306.1 MB, quartet score 0.850466, RF 0.029411764706
+[144/354] 37 noscale.400g.500b_R13_weighted_quartets: time 585.290 s, RSS 306.6 MB, quartet score 0.852271, RF 0.000000000000
+[145/354] 37 noscale.400g.500b_R14_weighted_quartets: time 584.380 s, RSS 305.2 MB, quartet score 0.852200, RF 0.000000000000
+[146/354] 37 noscale.400g.500b_R15_weighted_quartets: time 574.550 s, RSS 303.4 MB, quartet score 0.851012, RF 0.029411764706
+[147/354] 37 noscale.400g.500b_R16_weighted_quartets: time 619.000 s, RSS 305.4 MB, quartet score 0.851241, RF 0.000000000000
+[148/354] 37 noscale.400g.500b_R17_weighted_quartets: time 568.360 s, RSS 303.6 MB, quartet score 0.853280, RF 0.029411764706
+[149/354] 37 noscale.400g.500b_R18_weighted_quartets: time 572.360 s, RSS 307.0 MB, quartet score 0.850870, RF 0.000000000000
+[150/354] 37 noscale.400g.500b_R19_weighted_quartets: time 582.880 s, RSS 305.5 MB, quartet score 0.853336, RF 0.000000000000
+[151/354] 37 noscale.400g.500b_R2_weighted_quartets: time 648.790 s, RSS 305.1 MB, quartet score 0.853867, RF 0.000000000000
+[152/354] 37 noscale.400g.500b_R20_weighted_quartets: time 648.630 s, RSS 308.2 MB, quartet score 0.853846, RF 0.029411764706
+[153/354] 37 noscale.400g.500b_R1_weighted_quartets: time 635.850 s, RSS 303.4 MB, quartet score 0.854740, RF 0.000000000000
+[154/354] 37 noscale.400g.500b_R3_weighted_quartets: time 670.250 s, RSS 305.6 MB, quartet score 0.850119, RF 0.058823529412
+[155/354] 37 noscale.400g.500b_R4_weighted_quartets: time 611.290 s, RSS 307.5 MB, quartet score 0.848668, RF 0.000000000000
+[156/354] 37 noscale.400g.500b_R6_weighted_quartets: time 588.290 s, RSS 304.1 MB, quartet score 0.857759, RF 0.029411764706
+[157/354] 37 noscale.400g.500b_R5_weighted_quartets: time 609.970 s, RSS 305.0 MB, quartet score 0.856112, RF 0.029411764706
+[158/354] 37 noscale.400g.500b_R7_weighted_quartets: time 600.030 s, RSS 304.8 MB, quartet score 0.854211, RF 0.000000000000
+[159/354] 37 noscale.400g.500b_R8_weighted_quartets: time 599.850 s, RSS 305.3 MB, quartet score 0.847797, RF 0.000000000000
+[160/354] 37 noscale.400g.500b_R9_weighted_quartets: time 607.590 s, RSS 306.7 MB, quartet score 0.852183, RF 0.029411764706
+[161/354] 37 noscale.50g.500b_R10_weighted_quartets: time 530.270 s, RSS 249.8 MB, quartet score 0.860907, RF 0.088235294118
+[162/354] 37 noscale.50g.500b_R11_weighted_quartets: time 564.810 s, RSS 260.4 MB, quartet score 0.862630, RF 0.058823529412
+[163/354] 37 noscale.50g.500b_R12_weighted_quartets: time 552.470 s, RSS 261.9 MB, quartet score 0.852824, RF 0.088235294118
+[164/354] 37 noscale.50g.500b_R13_weighted_quartets: time 546.760 s, RSS 269.1 MB, quartet score 0.847542, RF 0.117647058824
+[165/354] 37 noscale.50g.500b_R14_weighted_quartets: time 541.680 s, RSS 263.2 MB, quartet score 0.859122, RF 0.088235294118
+[166/354] 37 noscale.50g.500b_R15_weighted_quartets: time 573.250 s, RSS 276.4 MB, quartet score 0.845259, RF 0.088235294118
+[167/354] 37 noscale.50g.500b_R17_weighted_quartets: time 542.710 s, RSS 259.7 MB, quartet score 0.867605, RF 0.088235294118
+[168/354] 37 noscale.50g.500b_R18_weighted_quartets: time 579.390 s, RSS 270.5 MB, quartet score 0.842527, RF 0.088235294118
+[169/354] 37 noscale.50g.500b_R19_weighted_quartets: time 557.260 s, RSS 268.8 MB, quartet score 0.858623, RF 0.058823529412
+[170/354] 37 noscale.50g.500b_R16_weighted_quartets: time 574.470 s, RSS 268.7 MB, quartet score 0.850364, RF 0.029411764706
+[171/354] 37 noscale.50g.500b_R1_weighted_quartets: time 548.010 s, RSS 265.2 MB, quartet score 0.854623, RF 0.058823529412
+[172/354] 37 noscale.50g.500b_R20_weighted_quartets: time 549.900 s, RSS 271.5 MB, quartet score 0.842124, RF 0.117647058824
+[173/354] 37 noscale.50g.500b_R2_weighted_quartets: time 500.700 s, RSS 252.3 MB, quartet score 0.868250, RF 0.058823529412
+[174/354] 37 noscale.50g.500b_R3_weighted_quartets: time 536.290 s, RSS 263.9 MB, quartet score 0.863301, RF 0.058823529412
+[175/354] 37 noscale.50g.500b_R4_weighted_quartets: time 626.460 s, RSS 276.8 MB, quartet score 0.841648, RF 0.000000000000
+[176/354] 37 noscale.50g.500b_R5_weighted_quartets: time 613.720 s, RSS 262.2 MB, quartet score 0.850001, RF 0.117647058824
+[177/354] 37 noscale.50g.500b_R6_weighted_quartets: time 606.480 s, RSS 263.9 MB, quartet score 0.851146, RF 0.088235294118
+[178/354] 37 noscale.50g.500b_R7_weighted_quartets: time 584.420 s, RSS 269.9 MB, quartet score 0.855038, RF 0.176470588235
+[179/354] 37 noscale.50g.500b_R8_weighted_quartets: time 511.670 s, RSS 271.7 MB, quartet score 0.856079, RF 0.029411764706
+[180/354] 37 noscale.50g.500b_R9_weighted_quartets: time 493.230 s, RSS 269.1 MB, quartet score 0.856458, RF 0.000000000000
+[181/354] 37 noscale.800g.500b_R10_weighted_quartets: time 558.990 s, RSS 312.5 MB, quartet score 0.853556, RF 0.029411764706
+[182/354] 37 noscale.800g.500b_R12_weighted_quartets: time 541.530 s, RSS 312.6 MB, quartet score 0.849773, RF 0.000000000000
+[183/354] 37 noscale.800g.500b_R11_weighted_quartets: time 551.800 s, RSS 310.8 MB, quartet score 0.856430, RF 0.000000000000
+[184/354] 37 noscale.800g.500b_R13_weighted_quartets: time 559.380 s, RSS 312.6 MB, quartet score 0.853563, RF 0.000000000000
+[185/354] 37 noscale.800g.500b_R14_weighted_quartets: time 564.760 s, RSS 313.0 MB, quartet score 0.853092, RF 0.000000000000
+[186/354] 37 noscale.800g.500b_R15_weighted_quartets: time 548.730 s, RSS 311.3 MB, quartet score 0.853760, RF 0.000000000000
+[187/354] 37 noscale.800g.500b_R16_weighted_quartets: time 552.110 s, RSS 308.7 MB, quartet score 0.858178, RF 0.029411764706
+[188/354] 37 noscale.800g.500b_R17_weighted_quartets: time 559.410 s, RSS 311.6 MB, quartet score 0.857918, RF 0.000000000000
+[189/354] 37 noscale.800g.500b_R18_weighted_quartets: time 566.980 s, RSS 310.4 MB, quartet score 0.853575, RF 0.000000000000
+[190/354] 37 noscale.800g.500b_R19_weighted_quartets: time 556.680 s, RSS 313.1 MB, quartet score 0.853819, RF 0.000000000000
+[191/354] 37 noscale.800g.500b_R1_weighted_quartets: time 546.540 s, RSS 312.2 MB, quartet score 0.852447, RF 0.000000000000
+[192/354] 37 noscale.800g.500b_R20_weighted_quartets: time 551.880 s, RSS 311.2 MB, quartet score 0.851372, RF 0.029411764706
+[193/354] 37 noscale.800g.500b_R2_weighted_quartets: time 558.260 s, RSS 312.8 MB, quartet score 0.855041, RF 0.000000000000
+[194/354] 37 noscale.800g.500b_R3_weighted_quartets: time 550.770 s, RSS 309.8 MB, quartet score 0.852235, RF 0.000000000000
+[195/354] 37 noscale.800g.500b_R4_weighted_quartets: time 555.270 s, RSS 309.6 MB, quartet score 0.853663, RF 0.029411764706
+[196/354] 37 noscale.800g.500b_R5_weighted_quartets: time 576.880 s, RSS 312.0 MB, quartet score 0.851408, RF 0.000000000000
+[197/354] 37 noscale.800g.500b_R6_weighted_quartets: time 586.820 s, RSS 311.2 MB, quartet score 0.855361, RF 0.029411764706
+[198/354] 37 noscale.800g.500b_R7_weighted_quartets: time 583.080 s, RSS 312.3 MB, quartet score 0.852236, RF 0.000000000000
+[199/354] 37 noscale.800g.500b_R8_weighted_quartets: time 646.690 s, RSS 309.9 MB, quartet score 0.851066, RF 0.000000000000
+[200/354] 37 noscale.800g.500b_R9_weighted_quartets: time 653.870 s, RSS 312.0 MB, quartet score 0.852019, RF 0.000000000000
+[201/354] 37 scale2d.200g.500b_R10_weighted_quartets: time 647.780 s, RSS 319.6 MB, quartet score 0.764242, RF 0.029411764706
+[202/354] 37 scale2d.200g.500b_R11_weighted_quartets: time 671.950 s, RSS 320.2 MB, quartet score 0.754286, RF 0.029411764706
+[203/354] 37 scale2d.200g.500b_R13_weighted_quartets: time 681.570 s, RSS 320.8 MB, quartet score 0.763346, RF 0.029411764706
+[204/354] 37 scale2d.200g.500b_R12_weighted_quartets: time 694.450 s, RSS 320.2 MB, quartet score 0.750245, RF 0.058823529412
+[205/354] 37 scale2d.200g.500b_R14_weighted_quartets: time 648.950 s, RSS 319.9 MB, quartet score 0.775170, RF 0.029411764706
+[206/354] 37 scale2d.200g.500b_R15_weighted_quartets: time 701.910 s, RSS 319.1 MB, quartet score 0.762498, RF 0.029411764706
+[207/354] 37 scale2d.200g.500b_R16_weighted_quartets: time 751.790 s, RSS 320.0 MB, quartet score 0.757557, RF 0.058823529412
+[208/354] 37 scale2d.200g.500b_R17_weighted_quartets: time 761.070 s, RSS 320.5 MB, quartet score 0.752721, RF 0.058823529412
+[209/354] 37 scale2d.200g.500b_R19_weighted_quartets: time 713.330 s, RSS 319.0 MB, quartet score 0.761407, RF 0.088235294118
+[210/354] 37 scale2d.200g.500b_R18_weighted_quartets: time 751.380 s, RSS 320.6 MB, quartet score 0.744571, RF 0.058823529412
+[211/354] 37 scale2d.200g.500b_R1_weighted_quartets: time 716.330 s, RSS 319.5 MB, quartet score 0.758429, RF 0.058823529412
+[212/354] 37 scale2d.200g.500b_R20_weighted_quartets: time 754.590 s, RSS 319.1 MB, quartet score 0.756607, RF 0.088235294118
+[213/354] 37 scale2d.200g.500b_R2_weighted_quartets: time 693.970 s, RSS 319.5 MB, quartet score 0.754544, RF 0.029411764706
+[214/354] 37 scale2d.200g.500b_R3_weighted_quartets: time 703.810 s, RSS 319.8 MB, quartet score 0.758714, RF 0.058823529412
+[215/354] 37 scale2d.200g.500b_R4_weighted_quartets: time 737.440 s, RSS 320.0 MB, quartet score 0.749200, RF 0.029411764706
+[216/354] 37 scale2d.200g.500b_R5_weighted_quartets: time 684.660 s, RSS 319.9 MB, quartet score 0.762099, RF 0.088235294118
+[217/354] 37 scale2d.200g.500b_R6_weighted_quartets: time 734.250 s, RSS 320.3 MB, quartet score 0.755574, RF 0.000000000000
+[218/354] 37 scale2d.200g.500b_R7_weighted_quartets: time 696.670 s, RSS 320.3 MB, quartet score 0.760561, RF 0.029411764706
+[219/354] 37 scale2u.200g.500b_R11_weighted_quartets: time 550.100 s, RSS 262.4 MB, quartet score 0.905526, RF 0.029411764706
+converted 164563 quartets
+[220/354] 37 scale2u.200g.500b_R10_weighted_quartets: time 562.300 s, RSS 263.4 MB, quartet score 0.904285, RF 0.000000000000
+converted 162839 quartets
+[221/354] 37 scale2d.200g.500b_R9_weighted_quartets: time 667.100 s, RSS 318.6 MB, quartet score 0.758665, RF 0.029411764706
+converted 162959 quartets
+[222/354] 37 scale2d.200g.500b_R8_weighted_quartets: time 684.150 s, RSS 320.6 MB, quartet score 0.751998, RF 0.088235294118
+converted 155230 quartets
+[223/354] 37 scale2u.200g.500b_R12_weighted_quartets: time 666.270 s, RSS 268.3 MB, quartet score 0.901044, RF 0.029411764706
+converted 161033 quartets
+[224/354] 37 scale2u.200g.500b_R13_weighted_quartets: time 667.590 s, RSS 265.5 MB, quartet score 0.904524, RF 0.058823529412
+converted 166319 quartets
+[225/354] 37 scale2u.200g.500b_R15_weighted_quartets: time 621.260 s, RSS 253.2 MB, quartet score 0.903753, RF 0.029411764706
+converted 162508 quartets
+[226/354] 37 scale2u.200g.500b_R14_weighted_quartets: time 659.680 s, RSS 265.6 MB, quartet score 0.899198, RF 0.029411764706
+converted 163413 quartets
+[227/354] 37 scale2u.200g.500b_R16_weighted_quartets: time 644.920 s, RSS 262.8 MB, quartet score 0.907223, RF 0.000000000000
+converted 161912 quartets
+[228/354] 37 scale2u.200g.500b_R17_weighted_quartets: time 662.800 s, RSS 271.6 MB, quartet score 0.899584, RF 0.058823529412
+converted 159081 quartets
+[229/354] 37 scale2u.200g.500b_R18_weighted_quartets: time 633.960 s, RSS 265.0 MB, quartet score 0.901121, RF 0.029411764706
+converted 162008 quartets
+[230/354] 37 scale2u.200g.500b_R19_weighted_quartets: time 627.100 s, RSS 266.6 MB, quartet score 0.907217, RF 0.000000000000
+converted 157520 quartets
+[231/354] 37 scale2u.200g.500b_R1_weighted_quartets: time 589.710 s, RSS 264.0 MB, quartet score 0.903565, RF 0.029411764706
+converted 163510 quartets
+[232/354] 37 scale2u.200g.500b_R20_weighted_quartets: time 591.170 s, RSS 259.4 MB, quartet score 0.908315, RF 0.000000000000
+converted 158882 quartets
+[233/354] 37 scale2u.200g.500b_R3_weighted_quartets: time 578.380 s, RSS 257.0 MB, quartet score 0.909798, RF 0.000000000000
+converted 163798 quartets
+[234/354] 37 scale2u.200g.500b_R2_weighted_quartets: time 596.510 s, RSS 264.1 MB, quartet score 0.902396, RF 0.000000000000
+converted 162487 quartets
+[235/354] 37 scale2u.200g.500b_R4_weighted_quartets: time 615.250 s, RSS 266.7 MB, quartet score 0.905703, RF 0.029411764706
+converted 161963 quartets
+[236/354] 37 scale2u.200g.500b_R5_weighted_quartets: time 615.520 s, RSS 259.1 MB, quartet score 0.902253, RF 0.000000000000
+converted 161160 quartets
+[237/354] 37 scale2u.200g.500b_R7_weighted_quartets: time 611.980 s, RSS 265.1 MB, quartet score 0.903861, RF 0.029411764706
+converted 578432 quartets
+[238/354] 37 scale2u.200g.500b_R6_weighted_quartets: time 625.560 s, RSS 267.2 MB, quartet score 0.907133, RF 0.058823529412
+converted 578793 quartets
+[239/354] 37 scale2u.200g.500b_R8_weighted_quartets: time 571.960 s, RSS 264.2 MB, quartet score 0.905623, RF 0.029411764706
+converted 578604 quartets
+[240/354] 37 scale2u.200g.500b_R9_weighted_quartets: time 597.890 s, RSS 262.8 MB, quartet score 0.908030, RF 0.058823529412
+converted 577581 quartets
+[241/354] 48 0.5X-1000-500_R10_weighted_quartets: time 2730.050 s, RSS 937.9 MB, quartet score 0.569611, RF 0.088888888889
+converted 576076 quartets
+[242/354] 48 0.5X-1000-500_R13_weighted_quartets: time 3117.680 s, RSS 937.9 MB, quartet score 0.567576, RF 0.133333333333
+converted 578456 quartets
+[243/354] 48 0.5X-1000-500_R14_weighted_quartets: time 3157.720 s, RSS 936.0 MB, quartet score 0.568146, RF 0.133333333333
+converted 577237 quartets
+[244/354] 48 0.5X-1000-500_R11_weighted_quartets: time 4147.220 s, RSS 937.9 MB, quartet score 0.569418, RF 0.155555555556
+converted 577655 quartets
+[245/354] 48 0.5X-1000-500_R16_weighted_quartets: time 2849.750 s, RSS 934.6 MB, quartet score 0.566962, RF 0.066666666667
+converted 577069 quartets

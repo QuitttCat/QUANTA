@@ -1,0 +1,1 @@
+{"tree": "((2.2,(3.3,(4.4,(11.11,(10.10,(((8.8,7.7),9.9),(5.5,6.6))))))),1.1);", "quartet_count": 414, "total_quartet_weight": 1650.0, "weighted_quartet_score": 1542.0, "quartet_score_fraction": 0.9345454545454546, "rf": 0.125}

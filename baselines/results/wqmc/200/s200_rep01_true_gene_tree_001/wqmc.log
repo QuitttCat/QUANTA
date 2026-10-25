@@ -1,0 +1,85 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/200/s200_rep01_true_gene_tree_001/tmpbyzd8ymu/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/200/s200_rep01_true_gene_tree_001/tmpbyzd8ymu/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/200/s200_rep01_true_gene_tree_001/tmpbyzd8ymu/input, 
+Read 1000000 quartets
+Read 2000000 quartets
+Read 3000000 quartets
+Read 4000000 quartets
+Read 5000000 quartets
+Read 6000000 quartets
+Read 7000000 quartets
+Read 8000000 quartets
+Read 9000000 quartets
+Read 10000000 quartets
+Read 11000000 quartets
+Read 12000000 quartets
+Read 13000000 quartets
+Read 14000000 quartets
+Read 15000000 quartets
+Read 16000000 quartets
+Read 17000000 quartets
+Read 18000000 quartets
+Read 19000000 quartets
+Read 20000000 quartets
+Read 21000000 quartets
+Read 22000000 quartets
+Read 23000000 quartets
+Read 24000000 quartets
+Read 25000000 quartets
+Read 26000000 quartets
+Read 27000000 quartets
+Read 28000000 quartets
+Read 29000000 quartets
+Read 30000000 quartets
+Read 31000000 quartets
+Read 32000000 quartets
+Read 33000000 quartets
+Read 34000000 quartets
+Read 35000000 quartets
+Read 36000000 quartets
+Read 37000000 quartets
+Read 38000000 quartets
+Read 39000000 quartets
+Read 40000000 quartets
+Read 41000000 quartets
+Read 42000000 quartets
+Read 43000000 quartets
+Read 44000000 quartets
+Read 45000000 quartets
+Read 46000000 quartets
+Read 47000000 quartets
+Read 48000000 quartets
+Read 49000000 quartets
+Read 50000000 quartets
+Read 51000000 quartets
+Read 52000000 quartets
+Read 53000000 quartets
+Read 54000000 quartets
+Read 55000000 quartets
+Read 56000000 quartets
+Read 57000000 quartets
+Read 58000000 quartets
+Read 59000000 quartets
+Read 60000000 quartets
+Read 61000000 quartets
+Read 62000000 quartets
+Read 63000000 quartets
+Read 64000000 quartets
+At main, back from readQuartets, maxSp 200
+
+
+Number of quartets read: 64684950, max ele 200
+
+
+Started working at  Sun Oct 25 03:22:36 2026
+
+Returning a tree of size 117
+Returning a tree of size 200
+calling find cut e_anchor, 200, q_anchor, 64684950, 200, 990
+Ended working at  Sun Oct 25 03:23:24 2026
+

@@ -1,0 +1,19 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/biological/aminota-nt.weighted_quartets/tmpispmec6v/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/biological/aminota-nt.weighted_quartets/tmpispmec6v/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/biological/aminota-nt.weighted_quartets/tmpispmec6v/input, 
+At main, back from readQuartets, maxSp 16
+
+
+Number of quartets read: 4736, max ele 16
+
+
+Started working at  Sun Oct 25 02:14:18 2026
+
+calling find cut e_anchor, 16, q_anchor, 4736, 16, 70
+Ended working at  Sun Oct 25 02:14:18 2026
+

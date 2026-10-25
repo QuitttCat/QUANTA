@@ -1,0 +1,19 @@
+
+
+Quartet MaxCut version 3.0 by Sagi Snir, University of Haifa
+
+found qrtt=/home/niloy/Downloads/dwave/baselines/results/wqmc/biological/angiosperm.weighted_quartets/tmpgtrxgcag/input
+found weights=on
+found otre=/home/niloy/Downloads/dwave/baselines/results/wqmc/biological/angiosperm.weighted_quartets/tmpgtrxgcag/output
+quartet file is /home/niloy/Downloads/dwave/baselines/results/wqmc/biological/angiosperm.weighted_quartets/tmpgtrxgcag/input, 
+At main, back from readQuartets, maxSp 46
+
+
+Number of quartets read: 434193, max ele 46
+
+
+Started working at  Sun Oct 25 02:14:22 2026
+
+calling find cut e_anchor, 46, q_anchor, 434193, 46, 220
+Ended working at  Sun Oct 25 02:14:23 2026
+

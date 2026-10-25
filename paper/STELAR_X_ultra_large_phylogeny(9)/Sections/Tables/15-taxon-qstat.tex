@@ -1,0 +1,52 @@
+\begin{table}[htbp]
+  \small
+  \centering
+    \addtolength{\leftskip} {-2cm} % increase (absolute) value if needed
+    \addtolength{\rightskip}{-2cm}
+    \caption{Quartet statistics for 15-taxon dataset. For various model conditions with different numbers of missing taxa, we show the average number of quartets (present and missing) over 10 replicates. We also show what proportion of the missing quartets that were correctly imputed by QT-GILD with respect to both estimated and true gene trees.}
+    \label{tab:qstat-15}
+\begin{tabularx}{1.2\textwidth}{|X|X|X|X|X|X|X|}
+
+
+\hline
+Model & \# of Missing Taxa & \# of Quartets  &  \# of Missing Quartets &\% Missing Quartets & \% Correctly imputed (w.r.t estimated gene trees) &\% Correctly imputed (w.r.t. true gene trees) \\
+    \hline \hline
+    %do for all (difference)
+    \multirow{4}{0.25\textwidth}{100gene-\\100bp} 
+    & 0   & 136500 &    0.0  &    0.0   & --- & --- \\  \cline{2-7}
+    & 1-2 & 118227.2  &	18272.8 & 13.39 & 54.67 & 52.20 \\ \cline{2-7}
+    & 2-3 & 85288.8 &	51211.2 & 37.5 & 54.40 & 52.68 \\ \cline{2-7}
+    & 4-5 & 41301.2 &	95198.8 & 69.74 & 51.73 & 52.23 \\ \cline{2-7}
+    & 5-6 & 27046 &	109454 & 80 & 51.81 & 51.03 \\ \cline{2-7}
+    \hline
+    \multirow{4}{0.25\textwidth}{100gene-\\1000bp} 
+    & 0   & 136500 &    0.0 &    0.0   &   --- &   --- \\  \cline{2-7}
+    & 1-2 & 118119 &	18381 &    13.46 	&	55.72 &  63.18\\ \cline{2-7}
+    & 2-3 & 85292 &     51207 &    37.5	&	54.96 &  62.72 \\ \cline{2-7}
+    & 4-5 & 41291 &	    95209 &    69.7   &	54.30 &  60.03\\ \cline{2-7}
+    & 5-6 & 27503 &	    108897 &    79.85  &	53.44  &   58.56\\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1000gene-\\100bp} 
+    & 0   & 1365000 &    0.0 &    0.0     & --- &   --- \\  \cline{2-7}
+    & 1-2 & 1183509.6 &	181490.4 &    13.29  &	54.92 &   56.28 \\ \cline{2-7}
+    & 2-3 & 858228.8 &	506771.2 &    37.12  &	54.42 &   56.34  \\ \cline{2-7}
+    & 4-5 & 411790.5 &   953209.5 &    69.8  &	53.53 & 54.26 \\ \cline{2-7}
+    & 5-6 & 269976 &	1095024 1 &    80.2  &	52.47 & 53.21 \\ \cline{2-7}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1000gene-\\1000bp} 
+    & 0   & 1365000 &    0.0 &    0.0    & --- &  --- \\  \cline{2-7}
+    & 1-2 & 1181069.8  & 183930.2 &    13.47 	& 58.04	 & 62.88  \\ \cline{2-7}
+    & 2-3 & 857113.4 &	507886.6 &    37.2 	& 57.81	 &  62.76 \\ \cline{2-7}
+    & 4-5 & 411361.5	&   953638.5 &    69.8 	& 56.44	 & 62.02  \\ \cline{2-7}
+    & 5-6 & 270435 &	1094565 &    80.18 	& 55.38 &  	60.65  \\ \cline{2-7}
+    \hline
+    
+
+
+\hline
+    
+\end{tabularx}
+
+\end{table}

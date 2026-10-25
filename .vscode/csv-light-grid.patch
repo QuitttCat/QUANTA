@@ -1,0 +1,64 @@
+--- a/package.json
++++ b/package.json
+@@ -140,6 +140,11 @@
+ 					"default": 4,
+ 					"description": "Vertical padding in pixels for table cells."
+ 				},
++				"csv.forceLightGrid": {
++					"type": "boolean",
++					"default": false,
++					"description": "Use a white background and black text only in the CSV grid."
++				},
+ 				"csv.columnColorMode": {
+ 					"type": "string",
+ 					"enum": [
+--- a/out/extension.js
++++ b/out/extension.js
+@@ -114,6 +114,7 @@
+         const keys = [
+             'csv.fontFamily',
+             'csv.cellPadding',
++            'csv.forceLightGrid',
+             'csv.columnColorMode',
+             'csv.columnColorPalette',
+             'csv.diffUseThemeForeground',
+--- a/out/CsvEditorProvider.js
++++ b/out/CsvEditorProvider.js
+@@ -1222,7 +1222,8 @@
+         let headerFlag = treatHeader;
+         const totalRows = data.length;
+         const offset = Math.min(Math.max(0, hiddenRows), totalRows);
+-        const isDark = vscode.window.activeColorTheme.kind === vscode.ColorThemeKind.Dark;
++        const forceLightGrid = vscode.workspace.getConfiguration('csv').get('forceLightGrid', false);
++        const isDark = !forceLightGrid && vscode.window.activeColorTheme.kind === vscode.ColorThemeKind.Dark;
+         let headerRow = [];
+         let bodyData = [];
+         if (totalRows === 0 || offset >= totalRows) {
+@@ -1247,7 +1248,7 @@
+             ? 'cool'
+             : (columnColorPalette === 'warm' ? 'warm' : 'default');
+         const columnColors = useThemeForeground
+-            ? Array.from({ length: numColumns }, () => 'var(--vscode-editor-foreground)')
++            ? Array.from({ length: numColumns }, () => forceLightGrid ? '#000000' : 'var(--vscode-editor-foreground)')
+             : columnTypes.map((type, i) => this.getColumnColor(type, isDark, i, palette));
+         const columnWidths = this.computeColumnWidths(visibleForWidth);
+         const BASE_CHUNK_ROWS = 1000;
+@@ -1417,7 +1418,8 @@
+     }
+     wrapHtml(args) {
+         const { webview, nonce, fontFamily, fontSize, cellPadding, separator, tableHtml, chunksJson, extraColumnColorCss, nextChunkStart, hasRemoteChunks, mouseWheelZoomEnabled, mouseWheelZoomInvert } = args;
+-        const isDark = vscode.window.activeColorTheme.kind === vscode.ColorThemeKind.Dark;
++        const forceLightGrid = vscode.workspace.getConfiguration('csv').get('forceLightGrid', false);
++        const isDark = !forceLightGrid && vscode.window.activeColorTheme.kind === vscode.ColorThemeKind.Dark;
+         // Build script URI using file path for compatibility (older APIs may lack Uri.joinPath)
+         const scriptUri = webview.asWebviewUri(vscode.Uri.file(path.join(this.context.extensionPath, 'media', 'main.js')));
+         // Safe separator transport (assumes single character; see assumptions)
+@@ -1431,7 +1433,7 @@
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSV</title>
+     <style nonce="${nonce}">
+-      body { font-family: ${this.escapeCss(fontFamily)}; font-size: ${fontSize}px; margin: 0; padding: 0; user-select: none; }
++      body { font-family: ${this.escapeCss(fontFamily)}; font-size: ${fontSize}px; margin: 0; padding: 0; user-select: none; background-color: ${forceLightGrid ? '#ffffff' : 'var(--vscode-editor-background)'}; color: ${forceLightGrid ? '#000000' : 'var(--vscode-editor-foreground)'}; }
+       .table-container { overflow: auto; height: 100vh; }
+       table { border-collapse: collapse; width: max-content; }
+       th, td { padding: ${cellPadding}px 8px; border: 1px solid ${isDark ? '#555' : '#ccc'}; font-size: inherit; }

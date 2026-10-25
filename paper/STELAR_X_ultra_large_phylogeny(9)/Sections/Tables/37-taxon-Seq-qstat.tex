@@ -1,0 +1,51 @@
+\begin{table}[H]
+  \small
+  \centering
+    \addtolength{\leftskip} {-2cm} % increase (absolute) value if needed
+    \addtolength{\rightskip}{-2cm}
+    \caption{Quartet statistics for 37-taxon dataset. For varying amounts of gene tree estimation errors (controlled by sequence length) and different numbers of missing taxa, we show the number of quartets (present and missing). We also show what proportion of the missing taxa were correctly imputed by QT-GILD.}
+    \label{tab:qstat-37-seq}
+\begin{tabularx}{1.2\textwidth}{|X|X|X|X|X|X|X|}
+
+
+\hline
+Model & \# of Missing Taxa & \# of Quartets  &  \# of Missing Quartets & \% Missing Quartets \\
+    \hline \hline
+    %do for all (difference)
+    \multirow{4}{0.25\textwidth}{250bp} 
+    & 0   & 13209000 &    0.0       &   --- \\  \cline{2-5}
+    & 1-2 & 714752   &	  714752    &	5\\ \cline{2-5}
+    & 2-3 & 11136145 &    2072855	&	16 \\ \cline{2-5}
+    & 3-4 & 9867616  &	  3341384   &	25 \\ \cline{2-5}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{500bp} 
+    & 0   & 13209000 &    0.0     & --- \\  \cline{2-5}
+    & 1-2 & 12492223 &	716777    & 5.42\\ \cline{2-5}
+    & 2-3 & 11144980 &	2064020   & 16 \\ \cline{2-5}
+    & 3-4 & 9877714  &	3331286   & 25 \\ \cline{2-5}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{1000bp} 
+    & 0   & 13209000 &    0.0     & --- \\  \cline{2-5}
+    & 1-2 & 12491242 &	717758   & 5 \\ \cline{2-5}
+    & 2-3 & 11135456 &	2073544   & 16 \\ \cline{2-5}
+    & 3-4 & 9877694  &	3331306  & 25 \\ \cline{2-5}
+    \hline
+    
+    \multirow{4}{0.25\textwidth}{true} 
+    & 0   & 13209000 &    0.0     & --- \\  \cline{2-5}
+    & 1-2 & 12509700 &	699300   & 5 \\ \cline{2-5}
+    & 2-3 & 11130735 &	2078265   & 16 \\ \cline{2-5}
+    & 3-4 & 9890144  &	3318856  & 25 \\ \cline{2-5}
+    \hline
+    
+    
+    
+
+
+\hline
+    
+\end{tabularx}
+
+\end{table}

@@ -1,0 +1,33 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 885
+#Species: 11
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:0/42
+((((((8,7),(5,6)),9),10),(((2,1),3),4)),11);
+#NNI moves:0/42
+(((((((((2,1),3),4),11),10),9),(6,5)),8),7);
+#NNI moves:0/42
+(((((((((1,2),3),4),11),10),9),(8,7)),5),6);
+#NNI moves:0/42
+((((((((6,5),(7,8)),9),10),11),4),(1,2)),3);
+Initial score: 12959
+Initial tree: ((2,(((((((6,5),(7,8)),9),10),11),4),3)),1);
+*** Subsample Process ***
+#NNI moves:0/42
+(((((((((2,1),3),4),11),10),9),(8,7)),5),6);
+#NNI moves:0/42
+(((((((((5,6),(8,7)),9),10),11),4),3),1),2);
+#NNI moves:0/42
+(((((((7,8),(6,5)),9),10),11),((2,1),3)),4);
+#NNI moves:0/42
+(((((((((2,1),3),4),11),10),9),(8,7)),6),5);
+Current score: 12959
+Current tree: ((2,(3,(4,(11,(10,(9,((8,7),(6,5)))))))),1);
+Final Tree: ((2,(3,(4,(11,(10,(9,((8,7),(6,5)))))))),1);
+Score: 12959

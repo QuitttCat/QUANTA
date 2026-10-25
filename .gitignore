@@ -1,0 +1,25 @@
+# Virtual environments (.venv, QWQFM/.venv, baselines/tools/.venv-extract)
+.venv*/
+venv/
+
+# Input data
+QWQFM/WQFM/input_files/
+QWQFM/benchmark/input_sets/
+
+# Secrets (D-Wave API token)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Temporary files of running baseline jobs
+baselines/results/**/tmp*/
+baselines/results/*.tmp
+baselines/results/*.lock
+
+# Local editor / agent state
+.claude/
+
+# Paper drafts
+writing/
