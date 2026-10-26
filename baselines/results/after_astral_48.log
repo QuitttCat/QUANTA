@@ -1,1 +1,10 @@
 waiting for ASTRAL 48: 2026-10-26 13:33:50
+ASTRAL 48 finished: 2026-10-26 14:31:51
+[113/114] 48 2X-1000-500_R8_weighted_quartets: time 2693.030 s, RSS 916.4 MB, quartet score 0.676661, RF 0.022222222222
+[114/114] 48 2X-1000-500_R6_weighted_quartets: time 2827.780 s, RSS 921.2 MB, quartet score 0.675500, RF 0.022222222222
+Saved /home/bayzid/Documents/QUANTA/baselines/results/astral_results.csv
+114 files, 7 conditions
+Saved /home/bayzid/Documents/QUANTA/result_analysis/48 Taxa/result/astral_48_taxa.csv
+Saved /home/bayzid/Documents/QUANTA/result_analysis/48 Taxa/result/astral_48_taxa_summary.csv
+resumed IQ-TREE job (process group 2658): 2026-10-26 14:31:51
+AFTER_ASTRAL_DONE

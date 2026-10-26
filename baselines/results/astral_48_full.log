@@ -191,3 +191,40 @@ converted 567649 quartets
 converted 565304 quartets
 [88/114] 48 1X-500-500_R4_weighted_quartets: time 10065.760 s, RSS 920.5 MB, quartet score 0.639177, RF 0.111111111111
 converted 565498 quartets
+[89/114] 48 1X-500-500_R6_weighted_quartets: time 9414.070 s, RSS 914.3 MB, quartet score 0.633003, RF 0.177777777778
+converted 566785 quartets
+[90/114] 48 1X-500-500_R3_weighted_quartets: time 13811.210 s, RSS 924.1 MB, quartet score 0.630592, RF 0.133333333333
+converted 567680 quartets
+[91/114] 48 1X-500-500_R7_weighted_quartets: time 9085.400 s, RSS 918.3 MB, quartet score 0.631100, RF 0.066666666667
+converted 564337 quartets
+[92/114] 48 1X-500-500_R9_weighted_quartets: time 8580.810 s, RSS 917.8 MB, quartet score 0.628200, RF 0.133333333333
+converted 567098 quartets
+[93/114] 48 2X-1000-500_R11_weighted_quartets: time 8435.260 s, RSS 917.2 MB, quartet score 0.674953, RF 0.066666666667
+converted 567065 quartets
+[94/114] 48 1X-500-500_R5_weighted_quartets: time 13753.640 s, RSS 914.9 MB, quartet score 0.634060, RF 0.088888888889
+converted 567092 quartets
+[95/114] 48 2X-1000-500_R12_weighted_quartets: time 8446.810 s, RSS 913.0 MB, quartet score 0.672176, RF 0.066666666667
+converted 567628 quartets
+[96/114] 48 2X-1000-500_R10_weighted_quartets: time 8642.330 s, RSS 916.6 MB, quartet score 0.681901, RF 0.022222222222
+converted 565071 quartets
+[97/114] 48 2X-1000-500_R14_weighted_quartets: time 8243.820 s, RSS 921.6 MB, quartet score 0.674030, RF 0.066666666667
+converted 564478 quartets
+[98/114] 48 2X-1000-500_R13_weighted_quartets: time 8433.710 s, RSS 916.2 MB, quartet score 0.676925, RF 0.022222222222
+converted 567689 quartets
+[99/114] 48 1X-500-500_R8_weighted_quartets: time 9101.450 s, RSS 915.9 MB, quartet score 0.633597, RF 0.066666666667
+[100/114] 48 2X-1000-500_R16_weighted_quartets: time 7920.680 s, RSS 914.5 MB, quartet score 0.674263, RF 0.044444444444
+[101/114] 48 2X-1000-500_R15_weighted_quartets: time 8209.720 s, RSS 917.7 MB, quartet score 0.678156, RF 0.044444444444
+[102/114] 48 2X-1000-500_R17_weighted_quartets: time 7712.500 s, RSS 921.3 MB, quartet score 0.678827, RF 0.044444444444
+[103/114] 48 2X-1000-500_R18_weighted_quartets: time 6323.110 s, RSS 917.6 MB, quartet score 0.675400, RF 0.044444444444
+[104/114] 48 2X-1000-500_R19_weighted_quartets: time 5542.390 s, RSS 917.5 MB, quartet score 0.676139, RF 0.000000000000
+[105/114] 48 2X-1000-500_R4_weighted_quartets: time 2684.480 s, RSS 920.5 MB, quartet score 0.676192, RF 0.066666666667
+[106/114] 48 2X-1000-500_R5_weighted_quartets: time 2680.480 s, RSS 920.4 MB, quartet score 0.678836, RF 0.044444444444
+[107/114] 48 2X-1000-500_R2_weighted_quartets: time 2756.480 s, RSS 916.1 MB, quartet score 0.676248, RF 0.022222222222
+[108/114] 48 2X-1000-500_R1_weighted_quartets: time 3127.680 s, RSS 919.4 MB, quartet score 0.677456, RF 0.044444444444
+[109/114] 48 2X-1000-500_R20_weighted_quartets: time 3069.430 s, RSS 921.2 MB, quartet score 0.674774, RF 0.066666666667
+[110/114] 48 2X-1000-500_R7_weighted_quartets: time 2709.580 s, RSS 916.7 MB, quartet score 0.677330, RF 0.088888888889
+[111/114] 48 2X-1000-500_R3_weighted_quartets: time 2842.640 s, RSS 920.8 MB, quartet score 0.677707, RF 0.044444444444
+[112/114] 48 2X-1000-500_R9_weighted_quartets: time 2625.000 s, RSS 922.1 MB, quartet score 0.677328, RF 0.088888888889
+[113/114] 48 2X-1000-500_R8_weighted_quartets: time 2693.030 s, RSS 916.4 MB, quartet score 0.676661, RF 0.022222222222
+[114/114] 48 2X-1000-500_R6_weighted_quartets: time 2827.780 s, RSS 921.2 MB, quartet score 0.675500, RF 0.022222222222
+Saved /home/bayzid/Documents/QUANTA/baselines/results/astral_results.csv
