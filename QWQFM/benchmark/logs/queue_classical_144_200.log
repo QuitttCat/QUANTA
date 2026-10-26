@@ -1,0 +1,11 @@
+=== 144 sa (heap 4500m) start Mon Oct 26 03:20:18 +06 2026
+=== 144 sa exit 0 Mon Oct 26 03:27:22 +06 2026
+=== 200 sa (heap 4500m) start Mon Oct 26 03:27:22 +06 2026
+=== 200 sa exit 123 Mon Oct 26 03:30:34 +06 2026
+=== 144 tabu (heap 4500m) start Mon Oct 26 03:30:34 +06 2026
+=== 144 tabu exit 0 Mon Oct 26 03:40:44 +06 2026
+=== 200 tabu (heap 4500m) start Mon Oct 26 03:40:44 +06 2026
+=== 200 tabu exit 123 Mon Oct 26 03:43:31 +06 2026
+=== 101 tabu (heap 4g) start Mon Oct 26 03:43:31 +06 2026
+=== 101 tabu exit 0 Mon Oct 26 04:27:42 +06 2026
+QUEUE_DONE Mon Oct 26 04:27:42 +06 2026
