@@ -1,0 +1,14 @@
+Weighted ASTRAL (all versions included) 
+ *** You may use --mode to switch from hybrid weighting to other weighting schemes. ***
+Version: v1.25.4.8
+Auto-detecting support value type ...
+Local-probability-like support values (0.333-1) detected.
+#Genetrees: 565498
+#Species: 48
+#Rounds: 4
+#Samples: 4
+#Threads: 1
+#NNI moves:8/97
+((((((((((((((((TAEGU,GEOFO),CORBR),MANVI),ACACH),(MELUN,NESNO)),FALPE),CARCR),(((((PICPU,MERNU),BUCRH),APAVI),LEPDI),COLST)),(((HALAL,HALLE),CATAU),TYTAL)),((((((((EGRGA,PELCR),NIPNI),PHACA),((PYGAD,APTFO),FULGL)),GAVST),(EURHE,PHALE)),(CHAVO,BALRE)),OPHHO)),((CHAPE,CALAN),CAPCA)),((TAUER,CHLUN),CUCCA)),(((MESUN,PTEGU),COLLI),(PODCR,PHORU))),((GALGA,MELGA),ANAPL)),TINMA),STRCA);
+#NNI moves:18/97
+(((((((((((((((TAEGU,GEOFO),CORBR),MANVI),ACACH),(MELUN,NESNO)),FALPE),CARCR),(((((PICPU,MERNU),BUCRH),APAVI),LEPDI),COLST)),(((HALAL,HALLE),CATAU),TYTAL)),((((CHLUN,TAUER),CUCCA),((((MELGA,GALGA),ANAPL),(TINMA,STRCA)),(((PTEGU,MESUN),COLLI),(PHORU,PODCR)))),((CHAPE,CALAN),CAPCA))),OPHHO),(CHAVO,BALRE)),(EURHE,PHALE)),((((PELCR,EGRGA),NIPNI),PHACA),((PYGAD,APTFO),FULGL))),GAVST);

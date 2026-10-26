@@ -3,3 +3,7 @@ Picked up JAVA_TOOL_OPTIONS: -Xms4g -Xmx26g -XX:+UseG1GC
 
 BUILD SUCCESSFUL
 Total time: 2 seconds
+[1/1 done] s200_rep01_true_gene_tree_001_200_taxa.weighted_quartets
+1 rows -> /home/bayzid/Documents/QUANTA/result_analysis/classical solvers/result/results_200_simulated_annealing_plus_bruteforce_n>20.csv
+Saved /home/bayzid/Documents/QUANTA/result_analysis/200 Taxa/result/results_200_simulated_annealing_plus_bruteforce_n>20.csv
+=== 200 taxa sa: done 2026-10-26 09:49:55

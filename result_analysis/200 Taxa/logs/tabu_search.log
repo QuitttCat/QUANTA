@@ -1,1 +1,11 @@
 tabu waiting for memory: 2026-10-26 09:15:28
+tabu starting: 2026-10-26 09:37:30
+=== 200 taxa tabu: start 2026-10-26 09:37:31
+Picked up JAVA_TOOL_OPTIONS: -Xms4g -Xmx26g -XX:+UseG1GC
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[1/1 done] s200_rep01_true_gene_tree_001_200_taxa.weighted_quartets
+1 rows -> /home/bayzid/Documents/QUANTA/result_analysis/classical solvers/result/results_200_tabu_search_plus_bruteforce_n>20.csv
+Saved /home/bayzid/Documents/QUANTA/result_analysis/200 Taxa/result/results_200_tabu_search_plus_bruteforce_n>20.csv
+=== 200 taxa tabu: done 2026-10-26 10:18:50
