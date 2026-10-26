@@ -1,0 +1,6 @@
+=== 200 taxa astral: start 2026-10-26 09:15:28
+1 inputs, 1 in parallel
+[1/1] 200 s200_rep01_true_gene_tree_001: time 0.880 s, RSS 5.2 MB, quartet score 1.000000, RF 0.000000000000
+Saved /home/bayzid/Documents/QUANTA/baselines/results/astral_results.csv
+Saved /home/bayzid/Documents/QUANTA/result_analysis/200 Taxa/result/astral_200_taxa.csv
+=== 200 taxa astral: done 2026-10-26 09:28:41

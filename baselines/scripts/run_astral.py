@@ -50,6 +50,8 @@ def runs():
     simulated = [("11", "11-taxa-weighted-quartets"), ("15", "15-taxa-weighted-quartets"),
                  ("37", "37-taxa-weighted-quartets"), ("48", "48-taxa-weighted-quartets")]
     for group, folder in simulated:
+        if not (INPUT / folder).is_dir():  # dataset not extracted on this machine
+            continue
         for path in sorted((INPUT / folder).iterdir()):
             if group == "11":
                 reference = REFERENCES / ("11_estimated.tre" if path.name.startswith("estimated_") else "11_simulated.tre")
