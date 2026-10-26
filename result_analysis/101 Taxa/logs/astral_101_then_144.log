@@ -1,0 +1,9 @@
+=== 101: start 2026-10-26 19:06:42
+2026-10-26 19:06:42 19 inputs in group 101: 0 already finished, 19 queued; up to 4 at once, 8 threads each, 21.0 GB estimated per input, 6 GB kept free, nice 19
+2026-10-26 19:06:42 started 01.true.wqrts (1 running, 18 queued, 58.8 GB usable before start, 21.0 GB estimated per input)
+converted 12217153 quartets
+2026-10-26 19:07:02 started 02.true.wqrts (2 running, 17 queued, 37.8 GB usable before start, 21.0 GB estimated per input)
+converted 12074259 quartets
+2026-10-26 19:07:22 waiting for memory: 16.7 GB usable, need 27.0 GB (2 running, 17 queued)
+=== machine went down 2026-10-26 23:59 (no clean shutdown); 0/19 finished; relaunched 2026-10-27 00:12:03
+bash: /tmp/claude-1000/-home-bayzid-Documents-QUANTA/bb47ddea-f38a-4075-9c60-fc5c792161dc/scratchpad/astral_101_then_144.sh: No such file or directory

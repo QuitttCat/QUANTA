@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """Run ASTRAL (ASTER v1.25.4.8) on the inputs used for wQFM and wQ2A.
 
-Weighted-quartet inputs (101-taxon replicates, biological datasets) are run
-with `wastral --mode 4 --treeweights`: every quartet becomes a four-taxon
-tree weighted by its quartet weight, so ASTRAL maximizes exactly the same
-weighted quartet score as wQFM and wQ2A. Single-gene-tree inputs (144 and
-200 taxa) are run with `astral4` on the gene tree itself, which carries the
-same quartet information as their weighted-quartet files.
+Weighted-quartet inputs (biological datasets; 101-taxon replicates whose
+gene trees are not available) are run with
+`wastral --mode 4 --treeweights`: every quartet becomes a four-taxon tree
+weighted by its quartet weight, so ASTRAL maximizes exactly the same
+weighted quartet score as wQFM and wQ2A. Gene-tree inputs are run with
+`astral4` on the gene trees themselves, which carry the same quartet
+information as their weighted-quartet files: the 144- and 200-taxon single
+gene trees, and the 101-taxon replicates when their 1000 true gene trees
+(ASTRAL-III S100) are in input_files/101-taxa-true-gene-trees/ (checked
+against the quartet files by verify_quartet_counts.py). Every tree is
+scored against the weighted-quartet file.
 
 Each run is timed end to end (wall clock of the ASTRAL process, which
 includes reading the input), single-threaded (-t 1) like wQFM. The format
@@ -63,7 +68,11 @@ def runs():
         yield dict(group="biological", name=path.name, kind="quartets", input=path, quartets=path, reference=None)
     for path in sorted((INPUT / "101-taxa-weighted-quartets").glob("*.true.wqrts")):
         replicate = path.name.split(".")[0]
-        yield dict(group="101", name=path.name, kind="quartets", input=path, quartets=path,
+        # the 1000 true gene trees the quartet weights were counted from
+        # (ASTRAL-III S100); same quartet score, ~480x less input than the quartets
+        genes = INPUT / "101-taxa-true-gene-trees" / f"{replicate}.truegenetrees"
+        yield dict(group="101", name=path.name, kind="genetree" if genes.exists() else "quartets",
+                   input=genes if genes.exists() else path, quartets=path,
                    reference=INPUT / "101-taxa-true-species-tree" / f"{replicate}.SPECIES_TREE")
     yield dict(group="144", name="insect_gene_tree_0713", kind="genetree",
                input=INPUT / "144-taxa-insect-single-gene" / "insect_gene_tree_0713.tre",
@@ -104,7 +113,7 @@ def write_synced(path, text):
         os.fsync(handle.fileno())
 
 
-def run_one(spec):
+def run_one(spec, threads=1):
     out = OUT_DIR / spec["group"] / spec["name"]
     out.mkdir(parents=True, exist_ok=True)
     tree_file = out / "astral.tre"
@@ -123,14 +132,15 @@ def run_one(spec):
                 subprocess.run([str(PYTHON), str(CONVERT), str(spec["input"]), str(trees), str(weights)], check=True)
                 conversion = time.perf_counter() - start
                 cmd = [str(ASTER / "wastral"), "--mode", "4", "--treeweights", str(weights),
-                       "-t", "1", "-u", "0", "-o", str(tree_file), str(trees)]
+                       "-t", str(threads), "-u", "0", "-o", str(tree_file), str(trees)]
                 method = "wastral --mode 4 --treeweights"
             else:
-                cmd = [str(ASTER / "astral4"), "-t", "1", "-u", "0", "-o", str(tree_file), str(spec["input"])]
+                cmd = [str(ASTER / "astral4"), "-t", str(threads), "-u", "0", "-o", str(tree_file), str(spec["input"])]
                 method = "astral4"
             wall, rss = timed(cmd, out / "time.txt", out / "astral.log")
         fsync_file(tree_file)
-        meta = dict(method=method, end_to_end_seconds=wall, conversion_seconds=conversion, max_rss_mb=rss)
+        meta = dict(method=method, end_to_end_seconds=wall, conversion_seconds=conversion, max_rss_mb=rss,
+                    threads=threads)
         write_synced(meta_file, json.dumps(meta))
 
     score = read_json(score_file)
@@ -154,7 +164,7 @@ def run_one(spec):
         "end_to_end_seconds": f"{meta['end_to_end_seconds']:.3f}",
         "conversion_seconds": f"{meta['conversion_seconds']:.3f}",
         "max_rss_mb": f"{meta['max_rss_mb']:.1f}",
-        "threads": 1, "aster_version": ASTER_VERSION,
+        "threads": meta.get("threads", 1), "aster_version": ASTER_VERSION,
     }
 
 
@@ -183,7 +193,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", nargs="*", help="groups to run: 11 15 37 48 biological 101 144 200")
     parser.add_argument("--jobs", type=int, default=1,
-                        help="inputs run in parallel, each single-threaded (default 1)")
+                        help="inputs run in parallel (default 1)")
+    parser.add_argument("--threads", type=int, default=1,
+                        help="ASTER threads per input (default 1, single-threaded like wQFM)")
     args = parser.parse_args()
 
     new_rows = {}
@@ -191,7 +203,7 @@ def main():
     print(f"{len(specs)} inputs, {args.jobs} in parallel", flush=True)
     # Workers only run ASTRAL and score; this process alone writes the CSV.
     with ProcessPoolExecutor(max_workers=args.jobs) as pool:
-        futures = {pool.submit(run_one, spec): spec for spec in specs}
+        futures = {pool.submit(run_one, spec, args.threads): spec for spec in specs}
         for done, future in enumerate(as_completed(futures), start=1):
             row = future.result()
             new_rows[(row["group"], row["input_file"])] = row
