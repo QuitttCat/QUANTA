@@ -42,3 +42,37 @@ for f in *.tar.gz; do tar -xzf "$f" -C /path/to/repo/QWQFM/WQFM/input_files; don
 The simulated and biological datasets come from earlier studies, collected in
 the wQFM dataset release (see [QWQFM/README.md](QWQFM/README.md#datasets));
 please cite their original publications when you use them.
+
+### QUANTA-Tree: 500- and 1000-taxon datasets
+
+The inputs of the QUANTA-Tree experiments on the ASTRAL-II 500- and 1000-taxon
+datasets are shared separately, as one zip (28 MB):
+
+**[QUANTA-Tree input files (Google Drive)](https://drive.google.com/file/d/13blEfFAYV6pPPoZEQbUKPa2jEgZp5mzU/view)**
+
+Google Drive says it can't scan the file for viruses because of its size; choose
+**Download anyway**. Or download it from the command line:
+
+```bash
+pip install gdown
+gdown --fuzzy "https://drive.google.com/file/d/13blEfFAYV6pPPoZEQbUKPa2jEgZp5mzU/view" -O 500-1000-taxa-astral2-resolved-gene-trees.zip
+```
+
+Check it and unpack it into `wqfm-tree/`, where `astral2.py` looks for its input:
+
+```bash
+sha256sum 500-1000-taxa-astral2-resolved-gene-trees.zip
+# 6660200354078113abf48d93ca0ce596c282a850c56ef00369625ffea9b8da7a
+python -m zipfile -e 500-1000-taxa-astral2-resolved-gene-trees.zip wqfm-tree/
+```
+
+Run QUANTA-Tree on one replicate:
+
+```bash
+cd wqfm-tree
+(cd quanta-tree && javac -d build -sourcepath . src/Main.java)
+../QWQFM/.venv/bin/python astral2.py run --resolved --methods quanta --taxa 500 \
+    --genes 1000 --reps 01 --java-opt=-Xmx5g --java-opt=-XX:+UseSerialGC
+```
+
+`README.txt` in the zip describes each file and which replicates the paper uses.
