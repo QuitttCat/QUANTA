@@ -1,0 +1,248 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/15-taxa-weighted-quartets/1000gene-100bp_R5_weighted_quartets> done.
+Initial-Num-Quartets = 4095
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+15
+{A=0, B=1, C=2, D=3, E=4, F=5, G=6, H=7, I=8, J=9, K=10, L=11, M=12, N=13, O=14}
+{0=A, 1=B, 2=C, 3=D, 4=E, 5=F, 6=G, 7=H, 8=I, 9=J, 10=K, 11=L, 12=M, 13=N, 14=O}
+Total Num-Taxa = 15
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=1 taxa=15 duration_ns=110217469
+Final Bipartition Map at level 1:
+A -> -1
+B -> -1
+C -> -1
+D -> -1
+E -> -1
+F -> -1
+G -> -1
+H -> 1
+I -> 1
+J -> 1
+K -> 1
+L -> 1
+M -> 1
+N -> 1
+O -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=1 taxa=15 duration_ns=155471407
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {A, B, C, D, E, F, G, DUM_16}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {H, I, J, K, L, M, N, O, DUM_16}
+Number of Quartets in Qb: 378
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=8 duration_ns=3724757
+Final Bipartition Map at level 2:
+A -> -1
+DUM_16 -> 1
+B -> -1
+C -> -1
+D -> -1
+E -> 1
+F -> 1
+G -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=8 duration_ns=6046148
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {A, B, C, D, DUM_17}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_16, E, F, G, DUM_17}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=5 duration_ns=2116941
+Final Bipartition Map at level 3:
+A -> -1
+B -> -1
+DUM_17 -> 1
+C -> 1
+D -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=5 duration_ns=3566903
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {A, B, DUM_18}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, C, D, DUM_18}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=4 duration_ns=955841
+Final Bipartition Map at level 4:
+DUM_17 -> 1
+C -> -1
+DUM_18 -> -1
+D -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=4 duration_ns=1312807
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {C, DUM_18, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, D, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=5 duration_ns=1107827
+Final Bipartition Map at level 3:
+DUM_16 -> 1
+DUM_17 -> -1
+E -> -1
+F -> 1
+G -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=5 duration_ns=2291586
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, E, DUM_18}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_16, F, G, DUM_18}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=4 duration_ns=254180
+Final Bipartition Map at level 4:
+DUM_16 -> 1
+DUM_18 -> -1
+F -> -1
+G -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=4 duration_ns=676007
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, F, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_16, G, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=9 duration_ns=8356491
+Final Bipartition Map at level 2:
+DUM_16 -> -1
+H -> -1
+I -> 1
+J -> 1
+K -> 1
+L -> 1
+M -> 1
+N -> 1
+O -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=9 duration_ns=10374333
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_16, H, DUM_17}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {I, J, K, L, M, N, O, DUM_17}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=8 duration_ns=5046868
+Final Bipartition Map at level 3:
+DUM_17 -> -1
+I -> -1
+J -> 1
+K -> 1
+L -> 1
+M -> 1
+N -> 1
+O -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=8 duration_ns=6093257
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, I, DUM_18}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {J, K, L, M, N, O, DUM_18}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=7 duration_ns=1819796
+Final Bipartition Map at level 4:
+DUM_18 -> -1
+J -> -1
+K -> -1
+L -> -1
+M -> 1
+N -> 1
+O -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=7 duration_ns=2357324
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, J, K, L, O, DUM_19}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {M, N, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=6 duration_ns=6887396
+Final Bipartition Map at level 5:
+J -> 1
+DUM_18 -> 1
+K -> -1
+DUM_19 -> -1
+L -> -1
+O -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=7900616
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {K, DUM_19, L, O, DUM_20}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {J, DUM_18, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=1166782
+Final Bipartition Map at level 6:
+K -> 1
+DUM_19 -> 1
+L -> 1
+DUM_20 -> -1
+O -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=1907748
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_20, O, DUM_21}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {K, DUM_19, L, DUM_21}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=111226
+Final Bipartition Map at level 7:
+K -> -1
+DUM_19 -> 1
+L -> 1
+DUM_21 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=553232
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {K, DUM_21, DUM_22}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_19, L, DUM_22}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=1 merge_count=12 duration_ns=6317580
+
+
+[L 49.] FMRunner: final tree return
+((G,(F,(E,(D,(C,(A,B)))))),(H,(I,(J,(O,(K,(L,(M,N))))))));
+>-> Successfully written to output-file /home/niloy/Downloads/dwave/QWQFM/benchmark/work/results_15_taxa/1000gene-100bp_R5_weighted_quartets/wqfm.tre.tmp.106429
+
+Time taken = 376 ms ==> 0 minutes and 0 seconds.
+================= **** ======================== **** ====================
+No annotations used.

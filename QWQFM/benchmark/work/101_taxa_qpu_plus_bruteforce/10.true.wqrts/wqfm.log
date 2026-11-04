@@ -1,0 +1,2035 @@
+Picked up JAVA_TOOL_OPTIONS: -Xms4g -Xmx16g -XX:+UseG1GC
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/101-taxa-weighted-quartets/10.true.wqrts> done.
+Initial-Num-Quartets = 12162317
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+101
+{88=88, 89=89, 90=91, 91=92, 92=93, 93=94, 94=95, 95=96, 96=97, 97=98, 10=2, 98=99, 11=4, 99=100, 12=5, 13=6, 14=7, 15=8, 16=9, 17=10, 18=11, 19=12, 0=0, 1=1, 2=13, 3=24, 4=35, 5=46, 6=57, 7=68, 8=79, 9=90, 20=14, 21=15, 22=16, 23=17, 24=18, 25=19, 26=20, 27=21, 28=22, 29=23, 30=25, 31=26, 32=27, 33=28, 34=29, 35=30, 36=31, 37=32, 38=33, 39=34, 40=36, 41=37, 42=38, 43=39, 44=40, 45=41, 46=42, 47=43, 48=44, 49=45, 50=47, 51=48, 52=49, 53=50, 54=51, 55=52, 56=53, 57=54, 58=55, 59=56, 60=58, 61=59, 62=60, 63=61, 64=62, 65=63, 66=64, 67=65, 68=66, 69=67, 70=69, 71=70, 72=71, 73=72, 74=73, 75=74, 76=75, 77=76, 78=77, 79=78, 100=3, 80=80, 81=81, 82=82, 83=83, 84=84, 85=85, 86=86, 87=87}
+{0=0, 1=1, 2=10, 3=100, 4=11, 5=12, 6=13, 7=14, 8=15, 9=16, 10=17, 11=18, 12=19, 13=2, 14=20, 15=21, 16=22, 17=23, 18=24, 19=25, 20=26, 21=27, 22=28, 23=29, 24=3, 25=30, 26=31, 27=32, 28=33, 29=34, 30=35, 31=36, 32=37, 33=38, 34=39, 35=4, 36=40, 37=41, 38=42, 39=43, 40=44, 41=45, 42=46, 43=47, 44=48, 45=49, 46=5, 47=50, 48=51, 49=52, 50=53, 51=54, 52=55, 53=56, 54=57, 55=58, 56=59, 57=6, 58=60, 59=61, 60=62, 61=63, 62=64, 63=65, 64=66, 65=67, 66=68, 67=69, 68=7, 69=70, 70=71, 71=72, 72=73, 73=74, 74=75, 75=76, 76=77, 77=78, 78=79, 79=8, 80=80, 81=81, 82=82, 83=83, 84=84, 85=85, 86=86, 87=87, 88=88, 89=89, 90=9, 91=90, 92=91, 93=92, 94=93, 95=94, 96=95, 97=96, 98=97, 99=98, 100=99}
+Total Num-Taxa = 101
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 1:
+0 -> -1
+1 -> -1
+10 -> -1
+100 -> -1
+11 -> -1
+12 -> -1
+13 -> -1
+14 -> 1
+15 -> 1
+16 -> -1
+17 -> -1
+18 -> 1
+19 -> -1
+2 -> -1
+20 -> -1
+21 -> 1
+22 -> -1
+23 -> -1
+24 -> -1
+25 -> -1
+26 -> 1
+27 -> -1
+28 -> -1
+29 -> -1
+3 -> 1
+30 -> 1
+31 -> -1
+32 -> -1
+33 -> -1
+34 -> -1
+35 -> 1
+36 -> -1
+37 -> -1
+38 -> -1
+39 -> 1
+4 -> -1
+40 -> -1
+41 -> -1
+42 -> -1
+43 -> 1
+44 -> 1
+45 -> -1
+46 -> -1
+47 -> -1
+48 -> 1
+49 -> -1
+5 -> -1
+50 -> -1
+51 -> 1
+52 -> -1
+53 -> -1
+54 -> 1
+55 -> 1
+56 -> 1
+57 -> -1
+58 -> 1
+59 -> 1
+6 -> -1
+60 -> -1
+61 -> 1
+62 -> -1
+63 -> 1
+64 -> -1
+65 -> 1
+66 -> -1
+67 -> -1
+68 -> 1
+69 -> 1
+7 -> 1
+70 -> -1
+71 -> 1
+72 -> -1
+73 -> -1
+74 -> -1
+75 -> -1
+76 -> -1
+77 -> -1
+78 -> -1
+79 -> -1
+8 -> -1
+80 -> -1
+81 -> -1
+82 -> -1
+83 -> -1
+84 -> -1
+85 -> -1
+86 -> -1
+87 -> -1
+88 -> -1
+89 -> -1
+9 -> -1
+90 -> -1
+91 -> -1
+92 -> -1
+93 -> -1
+94 -> -1
+95 -> -1
+96 -> -1
+97 -> -1
+98 -> -1
+99 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=1 taxa=101 duration_ns=752248485275
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, 1, 10, 100, 11, 12, 13, 16, 17, 19, 2, 20, 22, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 4, 40, 41, 42, 45, 46, 47, 49, 5, 50, 52, 53, 57, 6, 60, 62, 64, 66, 67, 70, 72, 73, 74, 75, 76, 77, 78, 79, 8, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 9, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, DUM_102}
+Number of Quartets in Qa: 4042762
+Pb (Right Partition): {14, 15, 18, 21, 26, 3, 30, 35, 39, 43, 44, 48, 51, 54, 55, 56, 58, 59, 61, 63, 65, 68, 69, 7, 71, DUM_102}
+Number of Quartets in Qb: 42881
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+0 -> -1
+1 -> -1
+10 -> -1
+100 -> 1
+11 -> -1
+12 -> -1
+13 -> -1
+16 -> -1
+17 -> -1
+19 -> -1
+2 -> -1
+20 -> -1
+22 -> -1
+23 -> -1
+24 -> -1
+25 -> -1
+27 -> -1
+28 -> -1
+29 -> -1
+31 -> -1
+32 -> -1
+33 -> -1
+34 -> -1
+36 -> -1
+37 -> -1
+38 -> -1
+4 -> -1
+40 -> -1
+41 -> -1
+42 -> -1
+45 -> -1
+46 -> -1
+47 -> -1
+49 -> -1
+5 -> -1
+50 -> -1
+52 -> -1
+53 -> -1
+57 -> -1
+6 -> -1
+60 -> -1
+62 -> -1
+64 -> -1
+66 -> -1
+67 -> -1
+70 -> -1
+72 -> -1
+73 -> -1
+74 -> -1
+75 -> 1
+76 -> 1
+77 -> 1
+78 -> 1
+79 -> 1
+8 -> -1
+80 -> 1
+81 -> 1
+82 -> 1
+83 -> 1
+84 -> 1
+85 -> 1
+86 -> 1
+87 -> 1
+88 -> 1
+89 -> 1
+9 -> -1
+90 -> 1
+91 -> 1
+92 -> 1
+93 -> 1
+94 -> 1
+95 -> 1
+96 -> 1
+97 -> 1
+98 -> 1
+99 -> 1
+DUM_102 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=77 duration_ns=201322133758
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, 1, 10, 11, 12, 13, 16, 17, 19, 2, 20, 22, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 4, 40, 41, 42, 45, 46, 47, 49, 5, 50, 52, 53, 57, 6, 60, 62, 64, 66, 67, 70, 72, 73, 74, 8, 9, DUM_102, DUM_103}
+Number of Quartets in Qa: 808560
+Pb (Right Partition): {100, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, DUM_103}
+Number of Quartets in Qb: 51986
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+0 -> -1
+1 -> 1
+10 -> -1
+11 -> -1
+12 -> -1
+13 -> -1
+16 -> 1
+17 -> 1
+19 -> 1
+2 -> -1
+20 -> -1
+22 -> 1
+23 -> -1
+24 -> -1
+25 -> 1
+27 -> -1
+28 -> -1
+29 -> 1
+31 -> -1
+32 -> 1
+33 -> -1
+34 -> -1
+36 -> -1
+37 -> 1
+38 -> -1
+4 -> -1
+40 -> -1
+41 -> -1
+42 -> -1
+45 -> 1
+46 -> -1
+47 -> 1
+49 -> -1
+5 -> -1
+50 -> -1
+52 -> 1
+53 -> -1
+57 -> -1
+6 -> -1
+60 -> 1
+62 -> -1
+64 -> -1
+66 -> -1
+67 -> 1
+70 -> -1
+72 -> -1
+73 -> -1
+74 -> -1
+8 -> -1
+9 -> -1
+DUM_102 -> -1
+DUM_103 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=52 duration_ns=45397110967
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, 10, 11, 12, 13, 2, 20, 23, 24, 27, 28, 31, 33, 34, 36, 38, 4, 40, 41, 42, 46, 49, 5, 50, 53, 57, 6, 62, 64, 66, 70, 72, 73, 74, 8, 9, DUM_102, DUM_103, DUM_104}
+Number of Quartets in Qa: 244859
+Pb (Right Partition): {1, 16, 17, 19, 22, 25, 29, 32, 37, 45, 47, 52, 60, 67, DUM_104}
+Number of Quartets in Qb: 4089
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+0 -> -1
+66 -> 1
+10 -> -1
+11 -> -1
+12 -> -1
+70 -> 1
+13 -> -1
+72 -> 1
+73 -> 1
+74 -> -1
+2 -> -1
+20 -> 1
+8 -> -1
+23 -> 1
+24 -> -1
+27 -> 1
+28 -> -1
+31 -> 1
+9 -> 1
+33 -> -1
+34 -> -1
+36 -> -1
+38 -> -1
+4 -> -1
+40 -> -1
+41 -> -1
+42 -> -1
+DUM_102 -> -1
+DUM_103 -> -1
+DUM_104 -> -1
+46 -> -1
+49 -> 1
+5 -> 1
+50 -> -1
+53 -> -1
+57 -> -1
+6 -> 1
+62 -> -1
+64 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=39 duration_ns=9806534009
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, 10, 11, 12, 13, 74, 2, 8, 24, 28, 33, 34, 36, 38, 4, 40, 41, 42, DUM_102, DUM_103, DUM_104, 46, 50, 53, 57, 62, 64, DUM_105}
+Number of Quartets in Qa: 60927
+Pb (Right Partition): {66, 70, 72, 73, 20, 23, 27, 31, 9, 49, 5, 6, DUM_105}
+Number of Quartets in Qb: 2145
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+0 -> 1
+10 -> -1
+11 -> 1
+12 -> -1
+13 -> -1
+74 -> 1
+2 -> 1
+8 -> -1
+24 -> -1
+28 -> -1
+33 -> 1
+34 -> -1
+36 -> -1
+38 -> 1
+4 -> -1
+40 -> 1
+41 -> 1
+42 -> 1
+DUM_102 -> 1
+DUM_103 -> 1
+DUM_104 -> 1
+DUM_105 -> 1
+46 -> -1
+50 -> -1
+53 -> 1
+57 -> -1
+62 -> -1
+64 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=28 duration_ns=1581638136
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {10, 12, 13, 8, 24, 28, 34, 36, 4, 46, 50, 57, 62, DUM_106}
+Number of Quartets in Qa: 2940
+Pb (Right Partition): {0, 11, 74, 2, 33, 38, 40, 41, 42, DUM_102, DUM_103, DUM_104, DUM_105, 53, 64, DUM_106}
+Number of Quartets in Qb: 5397
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+10 -> 1
+4 -> 1
+12 -> -1
+13 -> -1
+46 -> 1
+DUM_106 -> 1
+8 -> -1
+50 -> 1
+24 -> 1
+28 -> 1
+57 -> -1
+62 -> -1
+34 -> 1
+36 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=14 duration_ns=20046256
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {12, 13, 8, 57, 62, 36, DUM_107}
+Number of Quartets in Qa: 103
+Pb (Right Partition): {10, 4, 46, DUM_106, 50, 24, 28, 34, DUM_107}
+Number of Quartets in Qb: 358
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+12 -> -1
+13 -> 1
+57 -> -1
+DUM_107 -> 1
+62 -> -1
+8 -> 1
+36 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=7 duration_ns=438142
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {12, 57, 62, 36, DUM_108}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {13, DUM_107, 8, DUM_108}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+62 -> -1
+DUM_108 -> -1
+12 -> -1
+57 -> 1
+36 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=5 duration_ns=54821
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {62, DUM_108, 12, DUM_109}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {57, 36, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+62 -> 1
+DUM_108 -> -1
+12 -> -1
+DUM_109 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=4 duration_ns=601902
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_108, 12, DUM_110}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {62, DUM_109, DUM_110}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_107 -> 1
+DUM_108 -> 1
+13 -> -1
+8 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=85630
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {13, 8, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, DUM_108, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+10 -> -1
+24 -> -1
+4 -> 1
+28 -> -1
+46 -> -1
+DUM_106 -> 1
+DUM_107 -> 1
+34 -> 1
+50 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=9 duration_ns=978124
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {10, 24, 28, 46, 50, DUM_108}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {4, DUM_106, DUM_107, 34, DUM_108}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+10 -> -1
+24 -> 1
+28 -> 1
+46 -> 1
+DUM_108 -> 1
+50 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=6 duration_ns=153120
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {10, 50, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {24, 28, 46, DUM_108, DUM_109}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+24 -> -1
+46 -> 1
+DUM_108 -> 1
+DUM_109 -> 1
+28 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=5 duration_ns=77149
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {24, 28, DUM_110}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {46, DUM_108, DUM_109, DUM_110}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+46 -> -1
+DUM_108 -> 1
+DUM_109 -> -1
+DUM_110 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=10 taxa=4 duration_ns=31090
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {46, DUM_109, DUM_111}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_108, DUM_110, DUM_111}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_106 -> 1
+4 -> -1
+DUM_107 -> 1
+DUM_108 -> 1
+34 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=5 duration_ns=93810
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {4, 34, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_107, DUM_108, DUM_109}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+DUM_106 -> -1
+DUM_107 -> 1
+DUM_108 -> -1
+DUM_109 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=4 duration_ns=31891
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, DUM_108, DUM_110}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, DUM_109, DUM_110}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+0 -> 1
+38 -> 1
+11 -> 1
+40 -> 1
+41 -> 1
+42 -> 1
+DUM_102 -> 1
+DUM_103 -> 1
+DUM_104 -> 1
+74 -> -1
+DUM_105 -> 1
+DUM_106 -> 1
+2 -> 1
+53 -> -1
+33 -> -1
+64 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=16 duration_ns=31581843
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {74, 53, 33, DUM_107}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {0, 38, 11, 40, 41, 42, DUM_102, DUM_103, DUM_104, DUM_105, DUM_106, 2, 64, DUM_107}
+Number of Quartets in Qb: 2997
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+74 -> 1
+53 -> -1
+DUM_107 -> 1
+33 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=66091
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {53, 33, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {74, DUM_107, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+0 -> 1
+38 -> -1
+11 -> -1
+40 -> -1
+41 -> 1
+42 -> -1
+DUM_102 -> 1
+DUM_103 -> 1
+DUM_104 -> 1
+DUM_105 -> 1
+DUM_106 -> 1
+DUM_107 -> 1
+2 -> 1
+64 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=14 duration_ns=13852263
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {38, 11, 40, 42, 64, DUM_108}
+Number of Quartets in Qa: 42
+Pb (Right Partition): {0, 41, DUM_102, DUM_103, DUM_104, DUM_105, DUM_106, DUM_107, 2, DUM_108}
+Number of Quartets in Qb: 630
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+38 -> 1
+11 -> -1
+40 -> 1
+42 -> 1
+DUM_108 -> 1
+64 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=6 duration_ns=100290
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {11, 64, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {38, 40, 42, DUM_108, DUM_109}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+38 -> 1
+40 -> -1
+DUM_108 -> 1
+DUM_109 -> 1
+42 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=5 duration_ns=55570
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {40, 42, DUM_110}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {38, DUM_108, DUM_109, DUM_110}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+38 -> -1
+DUM_108 -> 1
+DUM_109 -> 1
+DUM_110 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=10 taxa=4 duration_ns=26339
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {38, DUM_110, DUM_111}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_108, DUM_109, DUM_111}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+0 -> 1
+41 -> -1
+DUM_102 -> 1
+DUM_103 -> 1
+DUM_104 -> 1
+DUM_105 -> 1
+DUM_106 -> 1
+DUM_107 -> 1
+DUM_108 -> 1
+2 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=10 duration_ns=965824
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {41, 2, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {0, DUM_102, DUM_103, DUM_104, DUM_105, DUM_106, DUM_107, DUM_108, DUM_109}
+Number of Quartets in Qb: 378
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+0 -> -1
+DUM_102 -> -1
+DUM_103 -> -1
+DUM_104 -> 1
+DUM_105 -> -1
+DUM_106 -> -1
+DUM_107 -> -1
+DUM_108 -> -1
+DUM_109 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=9 duration_ns=995174
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, DUM_102, DUM_103, DUM_105, DUM_106, DUM_107, DUM_108, DUM_110}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {DUM_104, DUM_109, DUM_110}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+0 -> -1
+DUM_102 -> -1
+DUM_103 -> -1
+DUM_105 -> -1
+DUM_106 -> -1
+DUM_107 -> -1
+DUM_108 -> 1
+DUM_110 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=10 taxa=8 duration_ns=541311
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, DUM_102, DUM_103, DUM_105, DUM_106, DUM_107, DUM_111}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {DUM_108, DUM_110, DUM_111}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 11, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 11:
+0 -> -1
+DUM_102 -> -1
+DUM_103 -> -1
+DUM_105 -> -1
+DUM_106 -> 1
+DUM_107 -> -1
+DUM_111 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=11 taxa=7 duration_ns=164800
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, DUM_102, DUM_103, DUM_105, DUM_107, DUM_112}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {DUM_106, DUM_111, DUM_112}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 12, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 12:
+0 -> 1
+DUM_112 -> -1
+DUM_102 -> -1
+DUM_103 -> 1
+DUM_105 -> 1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=12 taxa=6 duration_ns=148190
+
+========== LEVEL 12 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_112, DUM_102, DUM_113}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {0, DUM_103, DUM_105, DUM_107, DUM_113}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 13, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 13:
+0 -> -1
+DUM_113 -> 1
+DUM_105 -> 1
+DUM_107 -> 1
+DUM_103 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=13 taxa=5 duration_ns=68461
+
+========== LEVEL 13 BIPARTITION RESULT ==========
+Pa (Left Partition): {0, DUM_103, DUM_114}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_113, DUM_105, DUM_107, DUM_114}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 14, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 14:
+DUM_113 -> 1
+DUM_105 -> -1
+DUM_114 -> -1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=14 taxa=4 duration_ns=34680
+
+========== LEVEL 14 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, DUM_114, DUM_115}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_113, DUM_107, DUM_115}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+66 -> -1
+70 -> -1
+72 -> 1
+73 -> -1
+DUM_105 -> 1
+49 -> 1
+20 -> 1
+5 -> -1
+23 -> 1
+27 -> 1
+6 -> -1
+31 -> -1
+9 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=13 duration_ns=12438488
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {66, 70, 73, 5, 6, 31, DUM_106}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {72, DUM_105, 49, 20, 23, 27, 9, DUM_106}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+66 -> 1
+70 -> 1
+73 -> -1
+6 -> -1
+31 -> -1
+DUM_106 -> 1
+5 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=215582
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {73, 6, 31, 5, DUM_107}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {66, 70, DUM_106, DUM_107}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+73 -> 1
+6 -> -1
+31 -> -1
+DUM_107 -> 1
+5 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=51140
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {6, 31, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {73, DUM_107, 5, DUM_108}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+73 -> 1
+DUM_107 -> 1
+DUM_108 -> -1
+5 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=26841
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_108, 5, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {73, DUM_107, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+66 -> -1
+DUM_106 -> 1
+DUM_107 -> 1
+70 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=29489
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {66, 70, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+23 -> 1
+27 -> 1
+72 -> -1
+DUM_105 -> 1
+9 -> 1
+DUM_106 -> 1
+49 -> -1
+20 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=326461
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {72, 49, 20, DUM_107}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {23, 27, DUM_105, 9, DUM_106, DUM_107}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_107 -> 1
+49 -> -1
+20 -> -1
+72 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=26930
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {49, 20, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, 72, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+23 -> -1
+27 -> -1
+DUM_105 -> 1
+9 -> 1
+DUM_106 -> 1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=6 duration_ns=94370
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {23, 27, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_105, 9, DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_105 -> 1
+9 -> 1
+DUM_106 -> -1
+DUM_107 -> -1
+DUM_108 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=5 duration_ns=82399
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, DUM_107, DUM_108, DUM_109}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_105, 9, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+DUM_106 -> -1
+DUM_107 -> 1
+DUM_108 -> 1
+DUM_109 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=4 duration_ns=30871
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, DUM_109, DUM_110}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, DUM_108, DUM_110}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+37 -> -1
+1 -> 1
+67 -> -1
+DUM_104 -> -1
+16 -> -1
+45 -> -1
+17 -> -1
+47 -> -1
+19 -> 1
+22 -> -1
+52 -> -1
+25 -> -1
+29 -> 1
+60 -> 1
+32 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=15 duration_ns=29585144
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {37, 67, DUM_104, 16, 45, 17, 47, 22, 52, 25, DUM_105}
+Number of Quartets in Qa: 987
+Pb (Right Partition): {1, 19, 29, 60, 32, DUM_105}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+37 -> 1
+22 -> 1
+67 -> 1
+52 -> 1
+25 -> -1
+DUM_104 -> -1
+16 -> -1
+45 -> -1
+DUM_105 -> -1
+17 -> -1
+47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=11 duration_ns=3573253
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {25, DUM_104, 16, 45, DUM_105, 17, 47, DUM_106}
+Number of Quartets in Qa: 209
+Pb (Right Partition): {37, 22, 67, 52, DUM_106}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+25 -> 1
+DUM_104 -> 1
+16 -> -1
+45 -> 1
+DUM_105 -> 1
+17 -> 1
+DUM_106 -> 1
+47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=370672
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {16, 47, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {25, DUM_104, 45, DUM_105, 17, DUM_106, DUM_107}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+25 -> -1
+DUM_104 -> 1
+45 -> 1
+DUM_105 -> 1
+17 -> -1
+DUM_106 -> 1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=7 duration_ns=225051
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {25, 17, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, 45, DUM_105, DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_104 -> -1
+45 -> 1
+DUM_105 -> -1
+DUM_106 -> 1
+DUM_107 -> -1
+DUM_108 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=6 duration_ns=200501
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, DUM_105, DUM_107, DUM_108, DUM_109}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {45, DUM_106, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+DUM_104 -> -1
+DUM_105 -> -1
+DUM_107 -> -1
+DUM_108 -> 1
+DUM_109 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=5 duration_ns=48780
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, DUM_105, DUM_107, DUM_110}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_108, DUM_109, DUM_110}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+DUM_104 -> -1
+DUM_105 -> -1
+DUM_107 -> 1
+DUM_110 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=10 taxa=4 duration_ns=28160
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, DUM_105, DUM_111}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, DUM_110, DUM_111}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+37 -> 1
+22 -> -1
+67 -> -1
+52 -> 1
+DUM_106 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=92020
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {22, 67, DUM_106, DUM_107}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {37, 52, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+22 -> -1
+67 -> 1
+DUM_106 -> 1
+DUM_107 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=26230
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {22, DUM_107, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {67, DUM_106, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+1 -> 1
+29 -> -1
+DUM_105 -> -1
+60 -> -1
+32 -> 1
+19 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=175881
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {29, DUM_105, 60, 19, DUM_106}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {1, 32, DUM_106}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_105 -> 1
+60 -> 1
+DUM_106 -> 1
+19 -> -1
+29 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=61349
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {19, 29, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_105, 60, DUM_106, DUM_107}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_105 -> -1
+60 -> -1
+DUM_106 -> 1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=27830
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, 60, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+100 -> 1
+75 -> 1
+76 -> -1
+77 -> -1
+78 -> 1
+79 -> 1
+80 -> -1
+81 -> -1
+82 -> 1
+83 -> 1
+84 -> -1
+85 -> -1
+86 -> 1
+87 -> -1
+88 -> 1
+89 -> 1
+90 -> -1
+91 -> -1
+92 -> 1
+93 -> 1
+94 -> 1
+95 -> 1
+96 -> -1
+97 -> 1
+98 -> -1
+99 -> -1
+DUM_103 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=27 duration_ns=515205555
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {76, 77, 80, 81, 84, 85, 87, 90, 91, 96, 98, 99, DUM_103, DUM_104}
+Number of Quartets in Qa: 2933
+Pb (Right Partition): {100, 75, 78, 79, 82, 83, 86, 88, 89, 92, 93, 94, 95, 97, DUM_104}
+Number of Quartets in Qb: 4090
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+96 -> 1
+98 -> -1
+99 -> 1
+DUM_103 -> -1
+DUM_104 -> -1
+76 -> 1
+77 -> -1
+80 -> 1
+81 -> -1
+84 -> 1
+85 -> 1
+87 -> 1
+90 -> -1
+91 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=14 duration_ns=15709231
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {98, DUM_103, DUM_104, 77, 81, 90, 91, DUM_105}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {96, 99, 76, 80, 84, 85, 87, DUM_105}
+Number of Quartets in Qb: 204
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+81 -> 1
+98 -> 1
+DUM_103 -> -1
+DUM_104 -> -1
+DUM_105 -> -1
+90 -> 1
+77 -> 1
+91 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=834222
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_103, DUM_104, DUM_105, DUM_106}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {81, 98, 90, 77, 91, DUM_106}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_104 -> 1
+DUM_105 -> 1
+DUM_106 -> -1
+DUM_103 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=28261
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, DUM_103, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, DUM_105, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+81 -> 1
+98 -> -1
+DUM_106 -> -1
+90 -> -1
+77 -> -1
+91 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=161311
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {98, DUM_106, 90, 77, DUM_107}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {81, 91, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_106 -> 1
+98 -> 1
+90 -> 1
+DUM_107 -> -1
+77 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=51940
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_107, 77, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 98, 90, DUM_108}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_106 -> 1
+98 -> 1
+90 -> -1
+DUM_108 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=26720
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {90, DUM_108, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 98, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+80 -> -1
+96 -> -1
+99 -> 1
+84 -> 1
+85 -> 1
+87 -> 1
+DUM_105 -> 1
+76 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=625902
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {80, 96, 76, DUM_106}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {99, 84, 85, 87, DUM_105, DUM_106}
+Number of Quartets in Qb: 43
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+80 -> 1
+96 -> -1
+DUM_106 -> 1
+76 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=25540
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {96, 76, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {80, DUM_106, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+99 -> 1
+84 -> 1
+85 -> -1
+87 -> -1
+DUM_105 -> 1
+DUM_106 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=139611
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {85, 87, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {99, 84, DUM_105, DUM_106, DUM_107}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_105 -> -1
+DUM_106 -> -1
+DUM_107 -> -1
+99 -> 1
+84 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=81640
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {99, 84, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_105 -> -1
+DUM_106 -> 1
+DUM_107 -> -1
+DUM_108 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=24680
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, DUM_107, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_108, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+95 -> 1
+97 -> 1
+100 -> 1
+DUM_104 -> -1
+75 -> 1
+78 -> -1
+79 -> 1
+82 -> -1
+83 -> -1
+86 -> -1
+88 -> 1
+89 -> -1
+92 -> 1
+93 -> 1
+94 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=15 duration_ns=15804391
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, 78, 82, 83, 86, 89, 94, DUM_105}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {95, 97, 100, 75, 79, 88, 92, 93, DUM_105}
+Number of Quartets in Qb: 378
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+82 -> 1
+83 -> 1
+86 -> 1
+DUM_104 -> -1
+89 -> 1
+DUM_105 -> -1
+78 -> -1
+94 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=537073
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, DUM_105, 78, DUM_106}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {82, 83, 86, 89, 94, DUM_106}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_104 -> -1
+DUM_105 -> 1
+DUM_106 -> 1
+78 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=26690
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, 78, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_105, DUM_106, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+82 -> 1
+83 -> -1
+86 -> -1
+89 -> -1
+DUM_106 -> 1
+94 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=182201
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {83, 86, 89, DUM_107}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {82, DUM_106, 94, DUM_107}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+89 -> -1
+83 -> -1
+DUM_107 -> 1
+86 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=24671
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {89, 83, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_107, 86, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+82 -> -1
+DUM_106 -> 1
+DUM_107 -> 1
+94 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=27430
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {82, 94, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_107, DUM_108}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+95 -> -1
+97 -> 1
+100 -> 1
+88 -> -1
+DUM_105 -> -1
+75 -> -1
+92 -> 1
+79 -> -1
+93 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=9 duration_ns=1107155
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {95, 88, DUM_105, 75, 79, 93, DUM_106}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {97, 100, 92, DUM_106}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+95 -> -1
+88 -> -1
+DUM_105 -> -1
+75 -> -1
+DUM_106 -> -1
+79 -> 1
+93 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=195931
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {95, 88, DUM_105, 75, DUM_106, DUM_107}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {79, 93, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+95 -> 1
+88 -> -1
+DUM_105 -> 1
+75 -> -1
+DUM_106 -> -1
+DUM_107 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=6 duration_ns=86470
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {88, 75, DUM_106, DUM_108}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {95, DUM_105, DUM_107, DUM_108}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+88 -> -1
+75 -> -1
+DUM_106 -> 1
+DUM_108 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=40711
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {88, 75, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, DUM_108, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+95 -> -1
+DUM_105 -> 1
+DUM_107 -> 1
+DUM_108 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=25570
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {95, DUM_108, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_105, DUM_107, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+97 -> 1
+DUM_106 -> -1
+100 -> -1
+92 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=25480
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, 100, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {97, 92, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+68 -> -1
+69 -> 1
+7 -> 1
+71 -> 1
+14 -> -1
+15 -> 1
+18 -> 1
+21 -> 1
+26 -> -1
+3 -> 1
+30 -> 1
+35 -> -1
+39 -> -1
+DUM_102 -> 1
+43 -> -1
+44 -> 1
+48 -> 1
+51 -> 1
+54 -> -1
+55 -> 1
+56 -> -1
+58 -> -1
+59 -> -1
+61 -> 1
+63 -> 1
+65 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=26 duration_ns=223154140
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {68, 14, 26, 35, 39, 43, 54, 56, 58, 59, DUM_103}
+Number of Quartets in Qa: 989
+Pb (Right Partition): {69, 7, 71, 15, 18, 21, 3, 30, DUM_102, 44, 48, 51, 55, 61, 63, 65, DUM_103}
+Number of Quartets in Qb: 6627
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+68 -> -1
+39 -> 1
+54 -> 1
+26 -> 1
+56 -> -1
+14 -> 1
+43 -> -1
+58 -> 1
+DUM_103 -> -1
+59 -> 1
+35 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=11 duration_ns=5583202
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {68, 56, 43, DUM_103, DUM_104}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {39, 54, 26, 14, 58, 59, 35, DUM_104}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_104 -> -1
+68 -> -1
+56 -> 1
+43 -> 1
+DUM_103 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=5 duration_ns=79681
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_104, 68, DUM_103, DUM_105}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {56, 43, DUM_105}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_104 -> 1
+DUM_105 -> -1
+68 -> -1
+DUM_103 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=4 duration_ns=41461
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, 68, DUM_106}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, DUM_103, DUM_106}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+39 -> -1
+54 -> -1
+26 -> -1
+14 -> 1
+58 -> 1
+59 -> -1
+DUM_104 -> 1
+35 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=8 duration_ns=637453
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {39, 54, 26, 59, DUM_105}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {14, 58, DUM_104, 35, DUM_105}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+59 -> 1
+DUM_105 -> 1
+39 -> -1
+54 -> -1
+26 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=5 duration_ns=48790
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {39, 54, DUM_106}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {59, DUM_105, 26, DUM_106}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+59 -> 1
+DUM_105 -> 1
+DUM_106 -> -1
+26 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=26440
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, 26, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {59, DUM_105, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_104 -> 1
+DUM_105 -> 1
+35 -> -1
+14 -> -1
+58 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=5 duration_ns=54090
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {35, 14, DUM_106}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, DUM_105, 58, DUM_106}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_104 -> 1
+DUM_105 -> 1
+DUM_106 -> -1
+58 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=24610
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_106, 58, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, DUM_105, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+69 -> -1
+7 -> 1
+71 -> -1
+DUM_102 -> 1
+DUM_103 -> 1
+15 -> -1
+44 -> 1
+18 -> -1
+48 -> 1
+21 -> -1
+51 -> 1
+55 -> -1
+3 -> 1
+30 -> -1
+61 -> 1
+63 -> 1
+65 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=17 duration_ns=35901259
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {69, 71, 15, 18, 21, 55, 30, 65, DUM_104}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {7, DUM_102, DUM_103, 44, 48, 51, 3, 61, 63, DUM_104}
+Number of Quartets in Qb: 630
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+69 -> 1
+55 -> -1
+71 -> -1
+15 -> -1
+DUM_104 -> -1
+30 -> 1
+18 -> 1
+21 -> 1
+65 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=9 duration_ns=1623556
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {55, 71, 15, DUM_104, DUM_105}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {69, 30, 18, 21, 65, DUM_105}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+15 -> -1
+DUM_104 -> -1
+DUM_105 -> 1
+55 -> -1
+71 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=5 duration_ns=69861
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {15, DUM_104, 55, DUM_106}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_105, 71, DUM_106}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+15 -> -1
+DUM_104 -> 1
+DUM_106 -> -1
+55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=26911
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {15, DUM_106, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, 55, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+69 -> -1
+30 -> 1
+DUM_105 -> 1
+18 -> -1
+21 -> -1
+65 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=94311
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {69, 18, 21, DUM_106}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {30, DUM_105, 65, DUM_106}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_106 -> 1
+69 -> -1
+18 -> -1
+21 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=26430
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {69, 18, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 21, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+30 -> -1
+DUM_105 -> 1
+DUM_106 -> -1
+65 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=45041
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {30, DUM_106, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_105, 65, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+51 -> -1
+7 -> -1
+DUM_102 -> 1
+DUM_103 -> 1
+44 -> -1
+3 -> -1
+DUM_104 -> 1
+61 -> -1
+48 -> -1
+63 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=10 duration_ns=1090974
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {51, 7, 44, 3, 61, 48, 63, DUM_105}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {DUM_102, DUM_103, DUM_104, DUM_105}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+51 -> 1
+7 -> -1
+44 -> -1
+3 -> 1
+DUM_105 -> -1
+61 -> 1
+48 -> -1
+63 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=321932
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {7, 44, DUM_105, 48, 63, DUM_106}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {51, 3, 61, DUM_106}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+7 -> 1
+44 -> -1
+DUM_105 -> 1
+DUM_106 -> 1
+48 -> 1
+63 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=82551
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {44, 63, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {7, DUM_105, DUM_106, 48, DUM_107}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_105 -> -1
+DUM_106 -> 1
+DUM_107 -> -1
+7 -> 1
+48 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=74401
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, DUM_107, DUM_108}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 7, 48, DUM_108}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_106 -> 1
+7 -> 1
+48 -> -1
+DUM_108 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=25870
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {48, DUM_108, DUM_109}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 7, DUM_109}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+51 -> -1
+3 -> -1
+DUM_106 -> 1
+61 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=35621
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {51, 3, DUM_107}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_106, 61, DUM_107}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_104 -> 1
+DUM_105 -> -1
+DUM_102 -> -1
+DUM_103 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=4 duration_ns=26081
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_105, DUM_102, DUM_106}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_104, DUM_103, DUM_106}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+((((((24,28),(46,(10,50))),((4,34),((13,8),(12,(62,(57,36)))))),(((38,(40,42)),(11,64)),((41,2),(((16,47),((25,17),(45,(67,(22,(37,52)))))),(60,((19,29),(1,32))))))),((74,(53,33)),((9,(((23,27),(72,(49,20))),((66,70),(73,(5,(6,31)))))),(0,((98,(90,(77,(81,91)))),(((85,87),((99,84),(80,(96,76)))),(78,(((82,94),(86,(89,83))),((79,93),(95,((88,75),(100,(97,92))))))))))))),(((44,63),(48,(7,(61,(51,3))))),((55,(15,(71,(65,(30,(21,(69,18))))))),((68,(56,43)),((58,(35,14)),(59,(26,(39,54))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/101_taxa_qpu_plus_bruteforce/10.true.wqrts/wqfm.tre.tmp.780461
+
+Time taken = 1028165 ms ==> 17 minutes and 8 seconds.
+================= **** ======================== **** ====================
+No annotations used.

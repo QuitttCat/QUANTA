@@ -1,0 +1,860 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx1g
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/scale2u.200g.500b_R2_weighted_quartets> done.
+Initial-Num-Quartets = 162008
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+37
+{PTE=21, NEW=30, RAT=22, TAR=34, SPE=24, ORN=18, CHO=4, OTO=31, PRO=20, ORY=19, MYO=16, MIC=29, BOS=0, HOM=28, EQU=8, DIP=6, MUS=15, ECH=7, GOR=27, FEL=10, MON=14, MAC=13, TUP=25, PON=33, CAL=1, SUS=35, TUR=36, CAN=2, VIC=26, GAL=11, LOX=12, OCH=17, DAS=5, SOR=23, CAV=3, PAN=32, ERI=9}
+{0=BOS, 1=CAL, 2=CAN, 3=CAV, 4=CHO, 5=DAS, 6=DIP, 7=ECH, 8=EQU, 9=ERI, 10=FEL, 11=GAL, 12=LOX, 13=MAC, 14=MON, 15=MUS, 16=MYO, 17=OCH, 18=ORN, 19=ORY, 20=PRO, 21=PTE, 22=RAT, 23=SOR, 24=SPE, 25=TUP, 26=VIC, 27=GOR, 28=HOM, 29=MIC, 30=NEW, 31=OTO, 32=PAN, 33=PON, 34=TAR, 35=SUS, 36=TUR}
+Total Num-Taxa = 37
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+[QUBO] Solver: TABU_SEARCH (n > 20, reads=1000), brute force otherwise; QUBO A=1.0, B=0.4
+[QUBO] Number of taxa: 37
+[QUBO] Taxa mapping: {'BOS': 0, 'CAL': 1, 'CAN': 2, 'CAV': 3, 'CHO': 4, 'DAS': 5, 'DIP': 6, 'ECH': 7, 'EQU': 8, 'ERI': 9, 'FEL': 10, 'GAL': 11, 'LOX': 12, 'MAC': 13, 'MON': 14, 'MUS': 15, 'MYO': 16, 'OCH': 17, 'ORN': 18, 'ORY': 19, 'PRO': 20, 'PTE': 21, 'RAT': 22, 'SOR': 23, 'SPE': 24, 'TUP': 25, 'VIC': 26, 'GOR': 27, 'HOM': 28, 'MIC': 29, 'NEW': 30, 'OTO': 31, 'PAN': 32, 'PON': 33, 'TAR': 34, 'SUS': 35, 'TUR': 36}
+[QUBO] Number of quartets: 162008
+[QUBO] Using TABU_SEARCH for n > 20 (reads=1000).
+[QUBO] TABU_SEARCH_TIME_NS n=37 duration_ns=21215722823
+[QUBO] TABU_SEARCH selected sample rank: 1; skipped invalid samples: 0; partition sizes: 20 & 17
+QAOA Left partition: [BOS, CAN, CHO, DAS, ECH, EQU, ERI, FEL, GAL, LOX, MAC, MON, MYO, ORN, PRO, PTE, SOR, VIC, SUS, TUR]
+QAOA Right partition: [CAL, CAV, DIP, MUS, OCH, ORY, RAT, SPE, TUP, GOR, HOM, MIC, NEW, OTO, PAN, PON, TAR]
+Final Bipartition Map at level 1:
+BOS -> -1
+CAL -> 1
+CAN -> -1
+CAV -> 1
+CHO -> -1
+DAS -> -1
+DIP -> 1
+ECH -> -1
+EQU -> -1
+ERI -> -1
+FEL -> -1
+GAL -> -1
+LOX -> -1
+MAC -> -1
+MON -> -1
+MUS -> 1
+MYO -> -1
+OCH -> 1
+ORN -> -1
+ORY -> 1
+PRO -> -1
+PTE -> -1
+RAT -> 1
+SOR -> -1
+SPE -> 1
+TUP -> 1
+VIC -> -1
+GOR -> 1
+HOM -> 1
+MIC -> 1
+NEW -> 1
+OTO -> 1
+PAN -> 1
+PON -> 1
+TAR -> 1
+SUS -> -1
+TUR -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=37 duration_ns=26288876303
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {BOS, CAN, CHO, DAS, ECH, EQU, ERI, FEL, GAL, LOX, MAC, MON, MYO, ORN, PRO, PTE, SOR, VIC, SUS, TUR, DUM_38}
+Number of Quartets in Qa: 15520
+Pb (Right Partition): {CAL, CAV, DIP, MUS, OCH, ORY, RAT, SPE, TUP, GOR, HOM, MIC, NEW, OTO, PAN, PON, TAR, DUM_38}
+Number of Quartets in Qb: 7540
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 21
+[QUBO] Taxa mapping: {'BOS': 0, 'CAN': 1, 'CHO': 2, 'DAS': 3, 'ECH': 4, 'EQU': 5, 'ERI': 6, 'FEL': 7, 'GAL': 8, 'LOX': 9, 'MAC': 10, 'MON': 11, 'MYO': 12, 'ORN': 13, 'PRO': 14, 'PTE': 15, 'SOR': 16, 'SUS': 17, 'TUR': 18, 'VIC': 19, 'DUM_38': 20}
+[QUBO] Number of quartets: 15520
+[QUBO] Using TABU_SEARCH for n > 20 (reads=1000).
+[QUBO] TABU_SEARCH_TIME_NS n=21 duration_ns=21490924065
+[QUBO] TABU_SEARCH selected sample rank: 1; skipped invalid samples: 0; partition sizes: 10 & 11
+QAOA Left partition: [CHO, DAS, ECH, GAL, LOX, MAC, MON, ORN, PRO, DUM_38]
+QAOA Right partition: [BOS, CAN, EQU, ERI, FEL, MYO, PTE, SOR, SUS, TUR, VIC]
+Final Bipartition Map at level 2:
+BOS -> 1
+CAN -> 1
+SUS -> 1
+CHO -> -1
+TUR -> 1
+DAS -> -1
+DUM_38 -> -1
+ECH -> -1
+EQU -> 1
+ERI -> 1
+FEL -> 1
+GAL -> -1
+LOX -> -1
+MAC -> -1
+MON -> -1
+MYO -> 1
+ORN -> -1
+PRO -> -1
+PTE -> 1
+SOR -> 1
+VIC -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=21 duration_ns=21795727827
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {CHO, DAS, DUM_38, ECH, GAL, LOX, MAC, MON, ORN, PRO, DUM_39}
+Number of Quartets in Qa: 913
+Pb (Right Partition): {BOS, CAN, SUS, TUR, EQU, ERI, FEL, MYO, PTE, SOR, VIC, DUM_39}
+Number of Quartets in Qb: 1390
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 11
+[QUBO] Taxa mapping: {'CHO': 0, 'DAS': 1, 'ECH': 2, 'GAL': 3, 'LOX': 4, 'MAC': 5, 'MON': 6, 'ORN': 7, 'PRO': 8, 'DUM_38': 9, 'DUM_39': 10}
+[QUBO] Number of quartets: 913
+QUANTUM_BRUTE_FORCE_TIME_NS n=11 duration_ns=58456447
+QAOA Left partition: [GAL, MAC, MON, ORN, DUM_38, DUM_39]
+QAOA Right partition: [CHO, DAS, ECH, LOX, PRO]
+Final Bipartition Map at level 3:
+ORN -> -1
+CHO -> 1
+PRO -> 1
+DAS -> 1
+DUM_38 -> -1
+ECH -> 1
+DUM_39 -> -1
+GAL -> -1
+LOX -> 1
+MAC -> -1
+MON -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=11 duration_ns=73247067
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {ORN, DUM_38, DUM_39, GAL, MAC, MON, DUM_40}
+Number of Quartets in Qa: 103
+Pb (Right Partition): {CHO, PRO, DAS, ECH, LOX, DUM_40}
+Number of Quartets in Qb: 37
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 7
+[QUBO] Taxa mapping: {'GAL': 0, 'MAC': 1, 'MON': 2, 'ORN': 3, 'DUM_38': 4, 'DUM_39': 5, 'DUM_40': 6}
+[QUBO] Number of quartets: 103
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=2999387
+QAOA Left partition: [GAL, MAC, MON, ORN]
+QAOA Right partition: [DUM_38, DUM_39, DUM_40]
+Final Bipartition Map at level 4:
+ORN -> -1
+DUM_38 -> 1
+DUM_39 -> 1
+DUM_40 -> 1
+GAL -> -1
+MAC -> -1
+MON -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=7 duration_ns=6842807
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {ORN, GAL, MAC, MON, DUM_41}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_38, DUM_39, DUM_40, DUM_41}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'GAL': 0, 'MAC': 1, 'MON': 2, 'ORN': 3, 'DUM_41': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=711419
+QAOA Left partition: [MAC, MON]
+QAOA Right partition: [GAL, ORN, DUM_41]
+Final Bipartition Map at level 5:
+ORN -> 1
+DUM_41 -> 1
+GAL -> 1
+MAC -> -1
+MON -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=2711076
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {MAC, MON, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ORN, DUM_41, GAL, DUM_42}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'GAL': 0, 'DUM_41': 1, 'ORN': 2, 'DUM_42': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=328899
+QAOA Left partition: [DUM_41, DUM_42]
+QAOA Right partition: [GAL, ORN]
+Final Bipartition Map at level 6:
+ORN -> 1
+DUM_41 -> -1
+DUM_42 -> -1
+GAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=1311845
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_41, DUM_42, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ORN, GAL, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'DUM_38': 0, 'DUM_39': 1, 'DUM_40': 2, 'DUM_41': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=300743
+QAOA Left partition: [DUM_40, DUM_41]
+QAOA Right partition: [DUM_38, DUM_39]
+Final Bipartition Map at level 5:
+DUM_38 -> 1
+DUM_39 -> 1
+DUM_40 -> -1
+DUM_41 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=6020069
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_40, DUM_41, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_38, DUM_39, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'CHO': 0, 'DAS': 1, 'ECH': 2, 'LOX': 3, 'PRO': 4, 'DUM_40': 5}
+[QUBO] Number of quartets: 37
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1394385
+QAOA Left partition: [CHO, DAS, DUM_40]
+QAOA Right partition: [ECH, LOX, PRO]
+Final Bipartition Map at level 4:
+CHO -> -1
+PRO -> 1
+DAS -> -1
+ECH -> 1
+DUM_40 -> -1
+LOX -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=6 duration_ns=8486695
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {CHO, DAS, DUM_40, DUM_41}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {PRO, ECH, LOX, DUM_41}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'CHO': 0, 'DAS': 1, 'DUM_40': 2, 'DUM_41': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=300423
+QAOA Left partition: [DUM_40, DUM_41]
+QAOA Right partition: [CHO, DAS]
+Final Bipartition Map at level 5:
+CHO -> 1
+DAS -> 1
+DUM_40 -> -1
+DUM_41 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=6625788
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_40, DUM_41, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CHO, DAS, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'ECH': 0, 'DUM_41': 1, 'LOX': 2, 'PRO': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=353535
+QAOA Left partition: [LOX, PRO]
+QAOA Right partition: [ECH, DUM_41]
+Final Bipartition Map at level 5:
+PRO -> -1
+ECH -> 1
+DUM_41 -> 1
+LOX -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=7114167
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {PRO, LOX, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ECH, DUM_41, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 12
+[QUBO] Taxa mapping: {'BOS': 0, 'CAN': 1, 'EQU': 2, 'ERI': 3, 'FEL': 4, 'MYO': 5, 'PTE': 6, 'SOR': 7, 'SUS': 8, 'TUR': 9, 'VIC': 10, 'DUM_39': 11}
+[QUBO] Number of quartets: 1390
+QUANTUM_BRUTE_FORCE_TIME_NS n=12 duration_ns=137972238
+QAOA Left partition: [CAN, EQU, ERI, FEL, MYO, PTE, SOR, DUM_39]
+QAOA Right partition: [BOS, SUS, TUR, VIC]
+Final Bipartition Map at level 3:
+BOS -> 1
+MYO -> -1
+CAN -> -1
+SUS -> 1
+TUR -> 1
+PTE -> -1
+SOR -> -1
+DUM_39 -> -1
+EQU -> -1
+ERI -> -1
+FEL -> -1
+VIC -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=12 duration_ns=173629244
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {MYO, CAN, PTE, SOR, DUM_39, EQU, ERI, FEL, DUM_40}
+Number of Quartets in Qa: 377
+Pb (Right Partition): {BOS, SUS, TUR, VIC, DUM_40}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 9
+[QUBO] Taxa mapping: {'CAN': 0, 'EQU': 1, 'ERI': 2, 'FEL': 3, 'MYO': 4, 'PTE': 5, 'SOR': 6, 'DUM_39': 7, 'DUM_40': 8}
+[QUBO] Number of quartets: 377
+QUANTUM_BRUTE_FORCE_TIME_NS n=9 duration_ns=36970801
+QAOA Left partition: [ERI, MYO, PTE, SOR, DUM_39]
+QAOA Right partition: [CAN, EQU, FEL, DUM_40]
+Final Bipartition Map at level 4:
+MYO -> -1
+CAN -> 1
+PTE -> -1
+SOR -> -1
+DUM_39 -> -1
+EQU -> 1
+DUM_40 -> 1
+ERI -> -1
+FEL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=9 duration_ns=46447705
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {MYO, PTE, SOR, DUM_39, ERI, DUM_41}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {CAN, EQU, DUM_40, FEL, DUM_41}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'ERI': 0, 'MYO': 1, 'PTE': 2, 'SOR': 3, 'DUM_39': 4, 'DUM_41': 5}
+[QUBO] Number of quartets: 45
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1964566
+QAOA Left partition: [ERI, SOR, DUM_39]
+QAOA Right partition: [MYO, PTE, DUM_41]
+Final Bipartition Map at level 5:
+MYO -> 1
+PTE -> 1
+SOR -> -1
+DUM_39 -> -1
+ERI -> -1
+DUM_41 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=6 duration_ns=11439093
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {SOR, DUM_39, ERI, DUM_42}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {MYO, PTE, DUM_41, DUM_42}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'ERI': 0, 'DUM_39': 1, 'SOR': 2, 'DUM_42': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=361233
+QAOA Left partition: [DUM_39, DUM_42]
+QAOA Right partition: [ERI, SOR]
+Final Bipartition Map at level 6:
+SOR -> 1
+DUM_39 -> -1
+ERI -> 1
+DUM_42 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=2297990
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_39, DUM_42, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {SOR, ERI, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'MYO': 0, 'DUM_41': 1, 'PTE': 2, 'DUM_42': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=479109
+QAOA Left partition: [DUM_41, DUM_42]
+QAOA Right partition: [MYO, PTE]
+Final Bipartition Map at level 6:
+MYO -> 1
+PTE -> 1
+DUM_41 -> -1
+DUM_42 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=2229553
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_41, DUM_42, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {MYO, PTE, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'CAN': 0, 'EQU': 1, 'FEL': 2, 'DUM_40': 3, 'DUM_41': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=1010680
+QAOA Left partition: [CAN, FEL]
+QAOA Right partition: [EQU, DUM_40, DUM_41]
+Final Bipartition Map at level 5:
+CAN -> -1
+EQU -> 1
+DUM_40 -> 1
+DUM_41 -> 1
+FEL -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=2796465
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAN, FEL, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {EQU, DUM_40, DUM_41, DUM_42}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'EQU': 0, 'DUM_40': 1, 'DUM_41': 2, 'DUM_42': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=332628
+QAOA Left partition: [EQU, DUM_42]
+QAOA Right partition: [DUM_40, DUM_41]
+Final Bipartition Map at level 6:
+EQU -> -1
+DUM_40 -> 1
+DUM_41 -> 1
+DUM_42 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=1888756
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {EQU, DUM_42, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_40, DUM_41, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'BOS': 0, 'SUS': 1, 'VIC': 2, 'TUR': 3, 'DUM_40': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=765395
+QAOA Left partition: [BOS, TUR]
+QAOA Right partition: [SUS, VIC, DUM_40]
+Final Bipartition Map at level 4:
+BOS -> -1
+SUS -> 1
+TUR -> -1
+DUM_40 -> 1
+VIC -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=2673864
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {BOS, TUR, DUM_41}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {SUS, DUM_40, VIC, DUM_41}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'VIC': 0, 'DUM_40': 1, 'SUS': 2, 'DUM_41': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=339398
+QAOA Left partition: [SUS, DUM_41]
+QAOA Right partition: [VIC, DUM_40]
+Final Bipartition Map at level 5:
+SUS -> -1
+DUM_40 -> 1
+DUM_41 -> -1
+VIC -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=1859644
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {SUS, DUM_41, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_40, VIC, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 18
+[QUBO] Taxa mapping: {'CAL': 0, 'CAV': 1, 'DIP': 2, 'MIC': 3, 'MUS': 4, 'OCH': 5, 'ORY': 6, 'OTO': 7, 'RAT': 8, 'SPE': 9, 'TAR': 10, 'TUP': 11, 'GOR': 12, 'HOM': 13, 'NEW': 14, 'PAN': 15, 'PON': 16, 'DUM_38': 17}
+[QUBO] Number of quartets: 7540
+QUANTUM_BRUTE_FORCE_TIME_NS n=18 duration_ns=9237650980
+QAOA Left partition: [CAL, MIC, OTO, TAR, GOR, HOM, NEW, PAN, PON]
+QAOA Right partition: [CAV, DIP, MUS, OCH, ORY, RAT, SPE, TUP, DUM_38]
+Final Bipartition Map at level 2:
+PAN -> -1
+CAL -> -1
+PON -> -1
+TAR -> -1
+CAV -> 1
+DIP -> 1
+DUM_38 -> 1
+MUS -> 1
+OCH -> 1
+ORY -> 1
+RAT -> 1
+SPE -> 1
+TUP -> 1
+GOR -> -1
+HOM -> -1
+MIC -> -1
+NEW -> -1
+OTO -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=18 duration_ns=9348604341
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {PAN, CAL, PON, TAR, GOR, HOM, MIC, NEW, OTO, DUM_39}
+Number of Quartets in Qa: 495
+Pb (Right Partition): {CAV, DIP, DUM_38, MUS, OCH, ORY, RAT, SPE, TUP, DUM_39}
+Number of Quartets in Qb: 580
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 10
+[QUBO] Taxa mapping: {'CAL': 0, 'GOR': 1, 'HOM': 2, 'PAN': 3, 'PON': 4, 'MIC': 5, 'NEW': 6, 'OTO': 7, 'TAR': 8, 'DUM_39': 9}
+[QUBO] Number of quartets: 495
+QUANTUM_BRUTE_FORCE_TIME_NS n=10 duration_ns=38087991
+QAOA Left partition: [CAL, MIC, NEW, OTO, TAR, DUM_39]
+QAOA Right partition: [GOR, HOM, PAN, PON]
+Final Bipartition Map at level 3:
+PAN -> 1
+CAL -> -1
+PON -> 1
+TAR -> -1
+DUM_39 -> -1
+GOR -> 1
+HOM -> 1
+MIC -> -1
+NEW -> -1
+OTO -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=10 duration_ns=43680364
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAL, TAR, DUM_39, MIC, NEW, OTO, DUM_40}
+Number of Quartets in Qa: 102
+Pb (Right Partition): {PAN, PON, GOR, HOM, DUM_40}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 7
+[QUBO] Taxa mapping: {'CAL': 0, 'MIC': 1, 'NEW': 2, 'OTO': 3, 'TAR': 4, 'DUM_39': 5, 'DUM_40': 6}
+[QUBO] Number of quartets: 102
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=5357299
+QAOA Left partition: [CAL, NEW, DUM_40]
+QAOA Right partition: [MIC, OTO, TAR, DUM_39]
+Final Bipartition Map at level 4:
+CAL -> -1
+TAR -> 1
+DUM_39 -> 1
+DUM_40 -> -1
+MIC -> 1
+NEW -> -1
+OTO -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=7 duration_ns=8377522
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAL, DUM_40, NEW, DUM_41}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {TAR, DUM_39, MIC, OTO, DUM_41}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'CAL': 0, 'NEW': 1, 'DUM_40': 2, 'DUM_41': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=363784
+QAOA Left partition: [CAL, DUM_41]
+QAOA Right partition: [NEW, DUM_40]
+Final Bipartition Map at level 5:
+CAL -> -1
+DUM_40 -> 1
+DUM_41 -> -1
+NEW -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=1729866
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAL, DUM_41, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_40, NEW, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'MIC': 0, 'DUM_39': 1, 'OTO': 2, 'TAR': 3, 'DUM_41': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=792479
+QAOA Left partition: [DUM_39, TAR, DUM_41]
+QAOA Right partition: [MIC, OTO]
+Final Bipartition Map at level 5:
+TAR -> -1
+DUM_39 -> -1
+DUM_41 -> -1
+MIC -> 1
+OTO -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=2443021
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {TAR, DUM_39, DUM_41, DUM_42}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {MIC, OTO, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'TAR': 0, 'DUM_39': 1, 'DUM_41': 2, 'DUM_42': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=347773
+QAOA Left partition: [DUM_39, DUM_42]
+QAOA Right partition: [TAR, DUM_41]
+Final Bipartition Map at level 6:
+TAR -> 1
+DUM_39 -> -1
+DUM_41 -> 1
+DUM_42 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=1437258
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_39, DUM_42, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {TAR, DUM_41, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'GOR': 0, 'HOM': 1, 'PAN': 2, 'PON': 3, 'DUM_40': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=1046896
+QAOA Left partition: [PON, DUM_40]
+QAOA Right partition: [GOR, HOM, PAN]
+Final Bipartition Map at level 4:
+PAN -> 1
+PON -> -1
+DUM_40 -> -1
+GOR -> 1
+HOM -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=4291584
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {PON, DUM_40, DUM_41}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {PAN, GOR, HOM, DUM_41}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'GOR': 0, 'PAN': 1, 'HOM': 2, 'DUM_41': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=369341
+QAOA Left partition: [GOR, DUM_41]
+QAOA Right partition: [PAN, HOM]
+Final Bipartition Map at level 5:
+PAN -> 1
+DUM_41 -> -1
+GOR -> -1
+HOM -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=1457289
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_41, GOR, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {PAN, HOM, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 10
+[QUBO] Taxa mapping: {'CAV': 0, 'DIP': 1, 'MUS': 2, 'OCH': 3, 'ORY': 4, 'RAT': 5, 'SPE': 6, 'TUP': 7, 'DUM_38': 8, 'DUM_39': 9}
+[QUBO] Number of quartets: 580
+QUANTUM_BRUTE_FORCE_TIME_NS n=10 duration_ns=37871988
+QAOA Left partition: [OCH, ORY, TUP, DUM_38, DUM_39]
+QAOA Right partition: [CAV, DIP, MUS, RAT, SPE]
+Final Bipartition Map at level 3:
+OCH -> -1
+CAV -> 1
+ORY -> -1
+DIP -> 1
+DUM_38 -> -1
+RAT -> 1
+DUM_39 -> -1
+SPE -> 1
+TUP -> -1
+MUS -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=10 duration_ns=47522772
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {OCH, ORY, DUM_38, DUM_39, TUP, DUM_40}
+Number of Quartets in Qa: 43
+Pb (Right Partition): {CAV, DIP, RAT, SPE, MUS, DUM_40}
+Number of Quartets in Qb: 41
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'OCH': 0, 'ORY': 1, 'TUP': 2, 'DUM_38': 3, 'DUM_39': 4, 'DUM_40': 5}
+[QUBO] Number of quartets: 43
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1469059
+QAOA Left partition: [OCH, ORY, DUM_40]
+QAOA Right partition: [TUP, DUM_38, DUM_39]
+Final Bipartition Map at level 4:
+OCH -> -1
+ORY -> -1
+DUM_38 -> 1
+DUM_39 -> 1
+DUM_40 -> -1
+TUP -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=6 duration_ns=4036012
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {OCH, ORY, DUM_40, DUM_41}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_38, DUM_39, TUP, DUM_41}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'OCH': 0, 'DUM_41': 1, 'ORY': 2, 'DUM_40': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=386710
+QAOA Left partition: [DUM_41, DUM_40]
+QAOA Right partition: [OCH, ORY]
+Final Bipartition Map at level 5:
+OCH -> 1
+ORY -> 1
+DUM_40 -> -1
+DUM_41 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=2310478
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_40, DUM_41, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OCH, ORY, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'TUP': 0, 'DUM_41': 1, 'DUM_38': 2, 'DUM_39': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=295309
+QAOA Left partition: [DUM_38, DUM_39]
+QAOA Right partition: [TUP, DUM_41]
+Final Bipartition Map at level 5:
+DUM_38 -> -1
+DUM_39 -> -1
+TUP -> 1
+DUM_41 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=1266322
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_38, DUM_39, DUM_42}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {TUP, DUM_41, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'CAV': 0, 'DIP': 1, 'MUS': 2, 'RAT': 3, 'SPE': 4, 'DUM_40': 5}
+[QUBO] Number of quartets: 41
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1402210
+QAOA Left partition: [MUS, RAT]
+QAOA Right partition: [CAV, DIP, SPE, DUM_40]
+Final Bipartition Map at level 4:
+CAV -> 1
+DIP -> 1
+RAT -> -1
+SPE -> 1
+DUM_40 -> 1
+MUS -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=6 duration_ns=7849542
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {RAT, MUS, DUM_41}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CAV, DIP, SPE, DUM_40, DUM_41}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'CAV': 0, 'DIP': 1, 'SPE': 2, 'DUM_40': 3, 'DUM_41': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=1771207
+QAOA Left partition: [CAV, SPE, DUM_40]
+QAOA Right partition: [DIP, DUM_41]
+Final Bipartition Map at level 5:
+CAV -> -1
+DIP -> 1
+SPE -> -1
+DUM_40 -> -1
+DUM_41 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=3302385
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CAV, SPE, DUM_40, DUM_42}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DIP, DUM_41, DUM_42}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'CAV': 0, 'DUM_42': 1, 'SPE': 2, 'DUM_40': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=355558
+QAOA Left partition: [SPE, DUM_40]
+QAOA Right partition: [CAV, DUM_42]
+Final Bipartition Map at level 6:
+CAV -> 1
+SPE -> -1
+DUM_40 -> -1
+DUM_42 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=4978957
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {SPE, DUM_40, DUM_43}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CAV, DUM_42, DUM_43}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=2 merge_count=34 duration_ns=17854704
+
+
+[L 49.] FMRunner: final tree return
+(((((ORN,GAL),(MAC,MON)),((CHO,DAS),(ECH,(PRO,LOX)))),((SOR,ERI),((MYO,PTE),((EQU,(CAN,FEL)),(VIC,(SUS,(BOS,TUR))))))),((TUP,((OCH,ORY),(SPE,(CAV,(DIP,(RAT,MUS)))))),((MIC,OTO),(TAR,(CAL,(NEW,(PON,(GOR,(PAN,HOM)))))))));
+>-> Successfully written to output-file /home/niloy/Downloads/dwave/QWQFM/benchmark/work/37_taxa_tabu_search_n_gt_20/scale2u.200g.500b_R2_weighted_quartets/quantum.tre.tmp
+
+Time taken = 65488 ms ==> 1 minutes and 5 seconds.
+================= **** ======================== **** ====================
+No annotations used.

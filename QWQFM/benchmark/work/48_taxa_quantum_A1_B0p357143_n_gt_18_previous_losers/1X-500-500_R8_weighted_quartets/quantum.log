@@ -1,0 +1,1063 @@
+Picked up JAVA_TOOL_OPTIONS: -Xms1g -Xmx8g -XX:+UseG1GC
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/48-taxa-weighted-quartets/1X-500-500_R8_weighted_quartets> done.
+Initial-Num-Quartets = 564474
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+48
+{FULGL=20, ANAPL=1, COLLI=13, MESUN=31, GALGA=21, HALAL=24, PHALE=37, TAUER=45, BUCRH=5, TINMA=46, MELUN=29, PYGAD=42, MELGA=28, PHORU=38, TYTAL=47, COLST=14, CALAN=6, NESNO=32, STRCA=43, PODCR=40, TAEGU=44, GAVST=22, APAVI=2, MERNU=30, NIPNI=33, CAPCA=7, FALPE=19, BALRE=4, CHAPE=10, PELCR=35, PTEGU=41, CORBR=15, CATAU=9, CHAVO=11, PICPU=39, EGRGA=17, EURHE=18, CARCR=8, PHACA=36, OPHHO=34, CHLUN=12, GEOFO=23, LEPDI=26, MANVI=27, ACACH=0, APTFO=3, CUCCA=16, HALLE=25}
+{0=ACACH, 1=ANAPL, 2=APAVI, 3=APTFO, 4=BALRE, 5=BUCRH, 6=CALAN, 7=CAPCA, 8=CARCR, 9=CATAU, 10=CHAPE, 11=CHAVO, 12=CHLUN, 13=COLLI, 14=COLST, 15=CORBR, 16=CUCCA, 17=EGRGA, 18=EURHE, 19=FALPE, 20=FULGL, 21=GALGA, 22=GAVST, 23=GEOFO, 24=HALAL, 25=HALLE, 26=LEPDI, 27=MANVI, 28=MELGA, 29=MELUN, 30=MERNU, 31=MESUN, 32=NESNO, 33=NIPNI, 34=OPHHO, 35=PELCR, 36=PHACA, 37=PHALE, 38=PHORU, 39=PICPU, 40=PODCR, 41=PTEGU, 42=PYGAD, 43=STRCA, 44=TAEGU, 45=TAUER, 46=TINMA, 47=TYTAL}
+Total Num-Taxa = 48
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+QPU solver: Advantage_system4
+QPU problem ID: c6450d02-7940-4c50-b56f-a4c14b83ec27
+QPU timing: {'qpu_sampling_time': 172320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 131.74, 'qpu_access_time': 188080.76, 'qpu_access_overhead_time': 2298.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 29 & 19
+QAOA Left partition: [ANAPL, APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EGRGA, EURHE, FULGL, GALGA, GAVST, MELGA, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA]
+QAOA Right partition: [ACACH, APAVI, BUCRH, CARCR, CATAU, COLST, CORBR, FALPE, GEOFO, HALAL, HALLE, LEPDI, MANVI, MELUN, MERNU, NESNO, PICPU, TAEGU, TYTAL]
+Final Bipartition Map at level 1:
+ACACH -> 1
+ANAPL -> -1
+APAVI -> 1
+APTFO -> -1
+BALRE -> -1
+BUCRH -> 1
+CALAN -> -1
+CAPCA -> -1
+CARCR -> 1
+CATAU -> 1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+COLST -> 1
+CORBR -> 1
+CUCCA -> -1
+EGRGA -> -1
+EURHE -> -1
+FALPE -> 1
+FULGL -> -1
+GALGA -> -1
+GAVST -> -1
+GEOFO -> 1
+HALAL -> 1
+HALLE -> 1
+LEPDI -> 1
+MANVI -> 1
+MELGA -> -1
+MELUN -> 1
+MERNU -> 1
+MESUN -> -1
+NESNO -> 1
+NIPNI -> -1
+OPHHO -> -1
+PELCR -> -1
+PHACA -> -1
+PHALE -> -1
+PHORU -> -1
+PICPU -> 1
+PODCR -> -1
+PTEGU -> -1
+PYGAD -> -1
+STRCA -> -1
+TAEGU -> 1
+TAUER -> -1
+TINMA -> -1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=48 duration_ns=11640823975
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EGRGA, EURHE, FULGL, GALGA, GAVST, MELGA, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA, DUM_49}
+Number of Quartets in Qa: 81171
+Pb (Right Partition): {ACACH, APAVI, BUCRH, CARCR, CATAU, COLST, CORBR, FALPE, GEOFO, HALAL, HALLE, LEPDI, MANVI, MELUN, MERNU, NESNO, PICPU, TAEGU, TYTAL, DUM_49}
+Number of Quartets in Qb: 12835
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 070b58fe-ec22-4acc-8658-4e0bfd0f880d
+QPU timing: {'qpu_sampling_time': 168360.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 127.78, 'qpu_access_time': 184123.96, 'qpu_access_overhead_time': 1023.04, 'qpu_programming_time': 15763.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 10.0, 'post_processing_overhead_time': 10.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 7 & 23
+QAOA Left partition: [APTFO, EGRGA, FULGL, NIPNI, PELCR, PHACA, PYGAD]
+QAOA Right partition: [ANAPL, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, EURHE, GALGA, GAVST, MELGA, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, STRCA, TAUER, TINMA]
+Final Bipartition Map at level 2:
+ANAPL -> 1
+APTFO -> -1
+BALRE -> 1
+CALAN -> 1
+CAPCA -> 1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+CUCCA -> 1
+EGRGA -> -1
+EURHE -> 1
+FULGL -> -1
+GALGA -> 1
+GAVST -> 1
+MELGA -> 1
+MESUN -> 1
+NIPNI -> -1
+OPHHO -> 1
+PELCR -> -1
+PHACA -> -1
+PHALE -> 1
+PHORU -> 1
+PODCR -> 1
+PTEGU -> 1
+PYGAD -> -1
+STRCA -> 1
+TAUER -> 1
+TINMA -> 1
+DUM_49 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=30 duration_ns=2750249840
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {APTFO, EGRGA, FULGL, NIPNI, PELCR, PHACA, PYGAD, DUM_50}
+Number of Quartets in Qa: 190
+Pb (Right Partition): {ANAPL, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EURHE, GALGA, GAVST, MELGA, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, STRCA, TAUER, TINMA, DUM_49, DUM_50}
+Number of Quartets in Qb: 31698
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=8 duration_ns=1826774
+QAOA Left partition: [EGRGA, NIPNI, PELCR, PHACA]
+QAOA Right partition: [APTFO, DUM_50, FULGL, PYGAD]
+Final Bipartition Map at level 3:
+EGRGA -> -1
+NIPNI -> -1
+DUM_50 -> 1
+APTFO -> 1
+PELCR -> -1
+FULGL -> 1
+PHACA -> -1
+PYGAD -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=8 duration_ns=13640308
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {EGRGA, NIPNI, PELCR, PHACA, DUM_51}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_50, APTFO, FULGL, PYGAD, DUM_51}
+Number of Quartets in Qb: 13
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=186940
+QAOA Left partition: [EGRGA, NIPNI, PELCR]
+QAOA Right partition: [DUM_51, PHACA]
+Final Bipartition Map at level 4:
+EGRGA -> -1
+NIPNI -> -1
+PELCR -> -1
+DUM_51 -> 1
+PHACA -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=681382
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {EGRGA, NIPNI, PELCR, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_51, PHACA, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=77040
+QAOA Left partition: [EGRGA, PELCR]
+QAOA Right partition: [DUM_52, NIPNI]
+Final Bipartition Map at level 5:
+EGRGA -> -1
+NIPNI -> 1
+PELCR -> -1
+DUM_52 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=253120
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {EGRGA, PELCR, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NIPNI, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=164041
+QAOA Left partition: [DUM_50, DUM_51, FULGL]
+QAOA Right partition: [APTFO, PYGAD]
+Final Bipartition Map at level 4:
+DUM_50 -> -1
+APTFO -> 1
+DUM_51 -> -1
+FULGL -> -1
+PYGAD -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=538462
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_51, FULGL, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {APTFO, PYGAD, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=68190
+QAOA Left partition: [DUM_52, FULGL]
+QAOA Right partition: [DUM_50, DUM_51]
+Final Bipartition Map at level 5:
+DUM_50 -> 1
+DUM_51 -> 1
+FULGL -> -1
+DUM_52 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=236780
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {FULGL, DUM_52, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 2d60181a-d3e7-4bca-a27f-6542f1c926c0
+QPU timing: {'qpu_sampling_time': 132060.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 91.48, 'qpu_access_time': 147822.36, 'qpu_access_overhead_time': 1104.64, 'qpu_programming_time': 15762.36, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 46.0, 'post_processing_overhead_time': 46.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 19
+QAOA Left partition: [ANAPL, GALGA, MELGA, STRCA, TINMA]
+QAOA Right partition: [BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_50, EURHE, GAVST, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER]
+Final Bipartition Map at level 3:
+ANAPL -> -1
+OPHHO -> 1
+BALRE -> 1
+PHALE -> 1
+CALAN -> 1
+PHORU -> 1
+CAPCA -> 1
+PODCR -> 1
+PTEGU -> 1
+CHAPE -> 1
+CHAVO -> 1
+STRCA -> -1
+CHLUN -> 1
+COLLI -> 1
+TAUER -> 1
+TINMA -> -1
+CUCCA -> 1
+DUM_49 -> 1
+EURHE -> 1
+DUM_50 -> 1
+GALGA -> -1
+GAVST -> 1
+MELGA -> -1
+MESUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=24 duration_ns=2242394029
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, STRCA, TINMA, GALGA, MELGA, DUM_51}
+Number of Quartets in Qa: 43
+Pb (Right Partition): {OPHHO, BALRE, PHALE, CALAN, PHORU, CAPCA, PODCR, PTEGU, CHAPE, CHAVO, CHLUN, COLLI, TAUER, CUCCA, DUM_49, EURHE, DUM_50, GAVST, MESUN, DUM_51}
+Number of Quartets in Qb: 14530
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=393471
+QAOA Left partition: [DUM_51, STRCA, TINMA]
+QAOA Right partition: [ANAPL, GALGA, MELGA]
+Final Bipartition Map at level 4:
+ANAPL -> 1
+DUM_51 -> -1
+GALGA -> 1
+STRCA -> -1
+MELGA -> 1
+TINMA -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=6 duration_ns=4889121
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, STRCA, TINMA, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ANAPL, GALGA, MELGA, DUM_52}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=87549
+QAOA Left partition: [STRCA, TINMA]
+QAOA Right partition: [DUM_51, DUM_52]
+Final Bipartition Map at level 5:
+DUM_51 -> 1
+DUM_52 -> 1
+STRCA -> -1
+TINMA -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=346801
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {STRCA, TINMA, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=83999
+QAOA Left partition: [GALGA, MELGA]
+QAOA Right partition: [ANAPL, DUM_52]
+Final Bipartition Map at level 5:
+ANAPL -> 1
+DUM_52 -> 1
+GALGA -> -1
+MELGA -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=272000
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {GALGA, MELGA, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ANAPL, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 03406e6b-e899-44ea-8eb0-26dd496c3c6a
+QPU timing: {'qpu_sampling_time': 148340.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 107.76, 'qpu_access_time': 164103.56, 'qpu_access_overhead_time': 1206.44, 'qpu_programming_time': 15763.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 10 & 10
+QAOA Left partition: [BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_50]
+QAOA Right partition: [DUM_51, EURHE, GAVST, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER]
+Final Bipartition Map at level 4:
+OPHHO -> 1
+BALRE -> -1
+PHALE -> 1
+CALAN -> -1
+PHORU -> 1
+CAPCA -> -1
+PODCR -> 1
+PTEGU -> 1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> 1
+CUCCA -> -1
+DUM_49 -> -1
+EURHE -> 1
+DUM_50 -> -1
+DUM_51 -> 1
+GAVST -> 1
+MESUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=20 duration_ns=1243943780
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_50, DUM_52}
+Number of Quartets in Qa: 990
+Pb (Right Partition): {OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER, EURHE, DUM_51, GAVST, MESUN, DUM_52}
+Number of Quartets in Qb: 990
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=11 duration_ns=12177215
+QAOA Left partition: [CALAN, CAPCA, CHAPE]
+QAOA Right partition: [BALRE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_50, DUM_52]
+Final Bipartition Map at level 5:
+CUCCA -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+BALRE -> 1
+DUM_52 -> 1
+CALAN -> -1
+CAPCA -> -1
+CHAPE -> -1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=11 duration_ns=20613244
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CALAN, CAPCA, CHAPE, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {CUCCA, DUM_49, DUM_50, BALRE, DUM_52, CHAVO, CHLUN, COLLI, DUM_53}
+Number of Quartets in Qb: 378
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=76881
+QAOA Left partition: [CAPCA, DUM_53]
+QAOA Right partition: [CALAN, CHAPE]
+Final Bipartition Map at level 6:
+DUM_53 -> -1
+CALAN -> 1
+CAPCA -> -1
+CHAPE -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=401381
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_53, CAPCA, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {CALAN, CHAPE, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=9 duration_ns=2938676
+QAOA Left partition: [CHLUN, CUCCA]
+QAOA Right partition: [BALRE, CHAVO, COLLI, DUM_49, DUM_50, DUM_52, DUM_53]
+Final Bipartition Map at level 6:
+CUCCA -> -1
+DUM_49 -> 1
+DUM_50 -> 1
+BALRE -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+CHAVO -> 1
+CHLUN -> -1
+COLLI -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=9 duration_ns=5396901
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, CHLUN, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_50, BALRE, DUM_52, DUM_53, CHAVO, COLLI, DUM_54}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=8 duration_ns=1491344
+QAOA Left partition: [BALRE, CHAVO, DUM_49, DUM_50, DUM_52, DUM_53]
+QAOA Right partition: [COLLI, DUM_54]
+Final Bipartition Map at level 7:
+DUM_49 -> -1
+DUM_50 -> -1
+BALRE -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> 1
+CHAVO -> -1
+COLLI -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=8 duration_ns=3092356
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, BALRE, DUM_52, DUM_53, CHAVO, DUM_55}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {DUM_54, COLLI, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=710042
+QAOA Left partition: [DUM_52, DUM_55]
+QAOA Right partition: [BALRE, CHAVO, DUM_49, DUM_50, DUM_53]
+Final Bipartition Map at level 8:
+DUM_49 -> 1
+DUM_50 -> 1
+BALRE -> 1
+DUM_52 -> -1
+DUM_53 -> 1
+DUM_55 -> -1
+CHAVO -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=7 duration_ns=1522983
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, DUM_55, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_50, BALRE, DUM_53, CHAVO, DUM_56}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 9, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=329040
+QAOA Left partition: [CHAVO, DUM_49, DUM_50, DUM_56]
+QAOA Right partition: [BALRE, DUM_53]
+Final Bipartition Map at level 9:
+DUM_49 -> -1
+DUM_50 -> -1
+BALRE -> 1
+DUM_53 -> 1
+DUM_56 -> -1
+CHAVO -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=9 taxa=6 duration_ns=717572
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, DUM_56, CHAVO, DUM_57}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {BALRE, DUM_53, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 10, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=153410
+QAOA Left partition: [CHAVO, DUM_49, DUM_57]
+QAOA Right partition: [DUM_50, DUM_56]
+Final Bipartition Map at level 10:
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_56 -> 1
+DUM_57 -> -1
+CHAVO -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=10 taxa=5 duration_ns=362561
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_57, CHAVO, DUM_58}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, DUM_56, DUM_58}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 11, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=65471
+QAOA Left partition: [DUM_49, DUM_58]
+QAOA Right partition: [CHAVO, DUM_57]
+Final Bipartition Map at level 11:
+DUM_49 -> -1
+DUM_57 -> 1
+DUM_58 -> -1
+CHAVO -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=11 taxa=4 duration_ns=178810
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_58, DUM_59}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_57, CHAVO, DUM_59}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=11 duration_ns=12436767
+QAOA Left partition: [PHORU, PODCR]
+QAOA Right partition: [DUM_51, DUM_52, EURHE, GAVST, MESUN, OPHHO, PHALE, PTEGU, TAUER]
+Final Bipartition Map at level 5:
+OPHHO -> 1
+EURHE -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+PHALE -> 1
+PHORU -> -1
+GAVST -> 1
+PODCR -> -1
+PTEGU -> 1
+TAUER -> 1
+MESUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=11 duration_ns=18398777
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {PHORU, PODCR, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, EURHE, DUM_51, DUM_52, PHALE, GAVST, PTEGU, TAUER, MESUN, DUM_53}
+Number of Quartets in Qb: 630
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=10 duration_ns=6038712
+QAOA Left partition: [MESUN, PTEGU]
+QAOA Right partition: [DUM_51, DUM_52, DUM_53, EURHE, GAVST, OPHHO, PHALE, TAUER]
+Final Bipartition Map at level 6:
+OPHHO -> 1
+EURHE -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+PHALE -> 1
+DUM_53 -> 1
+GAVST -> 1
+PTEGU -> -1
+TAUER -> 1
+MESUN -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=10 duration_ns=9920921
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {PTEGU, MESUN, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, EURHE, DUM_51, DUM_52, PHALE, DUM_53, GAVST, TAUER, DUM_54}
+Number of Quartets in Qb: 378
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=9 duration_ns=2959497
+QAOA Left partition: [DUM_51, DUM_52, DUM_53, DUM_54, GAVST, OPHHO, TAUER]
+QAOA Right partition: [EURHE, PHALE]
+Final Bipartition Map at level 7:
+OPHHO -> -1
+EURHE -> 1
+DUM_51 -> -1
+DUM_52 -> -1
+PHALE -> 1
+DUM_53 -> -1
+GAVST -> -1
+DUM_54 -> -1
+TAUER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=9 duration_ns=5377272
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_51, DUM_52, DUM_53, GAVST, DUM_54, TAUER, DUM_55}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {EURHE, PHALE, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=8 duration_ns=1442493
+QAOA Left partition: [DUM_51, DUM_52, DUM_55, GAVST, OPHHO, TAUER]
+QAOA Right partition: [DUM_53, DUM_54]
+Final Bipartition Map at level 8:
+OPHHO -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+DUM_53 -> 1
+GAVST -> -1
+DUM_54 -> 1
+DUM_55 -> -1
+TAUER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=8 duration_ns=2892976
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_51, DUM_52, GAVST, DUM_55, TAUER, DUM_56}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {DUM_53, DUM_54, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 9, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=717532
+QAOA Left partition: [DUM_52, DUM_55, GAVST, OPHHO, TAUER]
+QAOA Right partition: [DUM_51, DUM_56]
+Final Bipartition Map at level 9:
+OPHHO -> -1
+DUM_51 -> 1
+DUM_52 -> -1
+GAVST -> -1
+DUM_55 -> -1
+DUM_56 -> 1
+TAUER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=9 taxa=7 duration_ns=1553902
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_52, GAVST, DUM_55, TAUER, DUM_57}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {DUM_51, DUM_56, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 10, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=344700
+QAOA Left partition: [DUM_55, GAVST]
+QAOA Right partition: [DUM_52, DUM_57, OPHHO, TAUER]
+Final Bipartition Map at level 10:
+OPHHO -> 1
+DUM_52 -> 1
+GAVST -> -1
+DUM_55 -> -1
+DUM_57 -> 1
+TAUER -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=10 taxa=6 duration_ns=822692
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {GAVST, DUM_55, DUM_58}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, DUM_52, DUM_57, TAUER, DUM_58}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 11, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=156011
+QAOA Left partition: [DUM_52, DUM_57, TAUER]
+QAOA Right partition: [DUM_58, OPHHO]
+Final Bipartition Map at level 11:
+OPHHO -> 1
+DUM_52 -> -1
+DUM_57 -> -1
+DUM_58 -> 1
+TAUER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=11 taxa=5 duration_ns=364910
+
+========== LEVEL 11 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, DUM_57, TAUER, DUM_59}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {OPHHO, DUM_58, DUM_59}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 12, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=66800
+QAOA Left partition: [DUM_57, TAUER]
+QAOA Right partition: [DUM_52, DUM_59]
+Final Bipartition Map at level 12:
+DUM_52 -> 1
+DUM_57 -> -1
+DUM_59 -> 1
+TAUER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=12 taxa=4 duration_ns=177500
+
+========== LEVEL 12 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_57, TAUER, DUM_60}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_59, DUM_60}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: ede27aff-7167-4227-8d05-ce6eb3ce8590
+QPU timing: {'qpu_sampling_time': 165480.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 124.9, 'qpu_access_time': 181242.76, 'qpu_access_overhead_time': 1243.24, 'qpu_programming_time': 15762.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 7.0, 'post_processing_overhead_time': 7.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 13 & 7
+QAOA Left partition: [APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, FALPE, HALAL, HALLE, LEPDI, MERNU, PICPU, TYTAL]
+QAOA Right partition: [ACACH, CORBR, GEOFO, MANVI, MELUN, NESNO, TAEGU]
+Final Bipartition Map at level 2:
+ACACH -> 1
+NESNO -> 1
+APAVI -> -1
+BUCRH -> -1
+PICPU -> -1
+CARCR -> -1
+CATAU -> -1
+TAEGU -> 1
+COLST -> -1
+CORBR -> 1
+TYTAL -> -1
+DUM_49 -> -1
+FALPE -> -1
+GEOFO -> 1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MANVI -> 1
+MELUN -> 1
+MERNU -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=20 duration_ns=1345113591
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BUCRH, PICPU, CARCR, CATAU, COLST, TYTAL, DUM_49, FALPE, HALAL, HALLE, LEPDI, MERNU, DUM_50}
+Number of Quartets in Qa: 2871
+Pb (Right Partition): {ACACH, NESNO, TAEGU, CORBR, GEOFO, MANVI, MELUN, DUM_50}
+Number of Quartets in Qb: 152
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=14 duration_ns=107788403
+QAOA Left partition: [APAVI, BUCRH, CARCR, COLST, DUM_49, DUM_50, FALPE, LEPDI, MERNU, PICPU, TYTAL]
+QAOA Right partition: [CATAU, HALAL, HALLE]
+Final Bipartition Map at level 3:
+APAVI -> -1
+BUCRH -> -1
+PICPU -> -1
+CARCR -> -1
+CATAU -> 1
+COLST -> -1
+TYTAL -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+FALPE -> -1
+HALAL -> 1
+HALLE -> 1
+LEPDI -> -1
+MERNU -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=14 duration_ns=127424943
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BUCRH, PICPU, CARCR, COLST, TYTAL, DUM_49, DUM_50, FALPE, LEPDI, MERNU, DUM_51}
+Number of Quartets in Qa: 1485
+Pb (Right Partition): {CATAU, HALAL, HALLE, DUM_51}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=12 duration_ns=24759922
+QAOA Left partition: [APAVI, BUCRH, LEPDI, MERNU, PICPU]
+QAOA Right partition: [CARCR, COLST, DUM_49, DUM_50, DUM_51, FALPE, TYTAL]
+Final Bipartition Map at level 4:
+DUM_49 -> 1
+APAVI -> -1
+DUM_50 -> 1
+FALPE -> 1
+DUM_51 -> 1
+BUCRH -> -1
+PICPU -> -1
+CARCR -> 1
+LEPDI -> -1
+COLST -> 1
+MERNU -> -1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=12 duration_ns=34342762
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BUCRH, PICPU, LEPDI, MERNU, DUM_52}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {DUM_49, DUM_50, FALPE, DUM_51, CARCR, COLST, TYTAL, DUM_52}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=348321
+QAOA Left partition: [APAVI, DUM_52, LEPDI]
+QAOA Right partition: [BUCRH, MERNU, PICPU]
+Final Bipartition Map at level 5:
+APAVI -> -1
+DUM_52 -> -1
+BUCRH -> 1
+PICPU -> 1
+LEPDI -> -1
+MERNU -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=6 duration_ns=962142
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, DUM_52, LEPDI, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {BUCRH, PICPU, MERNU, DUM_53}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=68470
+QAOA Left partition: [DUM_52, LEPDI]
+QAOA Right partition: [APAVI, DUM_53]
+Final Bipartition Map at level 6:
+APAVI -> 1
+DUM_52 -> -1
+DUM_53 -> 1
+LEPDI -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=192350
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, LEPDI, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, DUM_53, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=67800
+QAOA Left partition: [MERNU, PICPU]
+QAOA Right partition: [BUCRH, DUM_53]
+Final Bipartition Map at level 6:
+BUCRH -> 1
+DUM_53 -> 1
+PICPU -> -1
+MERNU -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=197270
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {PICPU, MERNU, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {BUCRH, DUM_53, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=8 duration_ns=1493783
+QAOA Left partition: [COLST, DUM_49, DUM_51, DUM_52, TYTAL]
+QAOA Right partition: [CARCR, DUM_50, FALPE]
+Final Bipartition Map at level 5:
+DUM_49 -> -1
+DUM_50 -> 1
+FALPE -> 1
+DUM_51 -> -1
+DUM_52 -> -1
+CARCR -> 1
+COLST -> -1
+TYTAL -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=8 duration_ns=2976477
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_51, DUM_52, COLST, TYTAL, DUM_53}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {DUM_50, FALPE, CARCR, DUM_53}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=331200
+QAOA Left partition: [DUM_49, DUM_51, DUM_53, TYTAL]
+QAOA Right partition: [COLST, DUM_52]
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_51 -> -1
+DUM_52 -> 1
+DUM_53 -> -1
+COLST -> 1
+TYTAL -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=6 duration_ns=752481
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_51, DUM_53, TYTAL, DUM_54}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_52, COLST, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=167860
+QAOA Left partition: [DUM_49, DUM_53, DUM_54]
+QAOA Right partition: [DUM_51, TYTAL]
+Final Bipartition Map at level 7:
+DUM_49 -> -1
+DUM_51 -> 1
+DUM_53 -> -1
+DUM_54 -> -1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=5 duration_ns=402882
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_51, TYTAL, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=66639
+QAOA Left partition: [DUM_49, DUM_55]
+QAOA Right partition: [DUM_53, DUM_54]
+Final Bipartition Map at level 8:
+DUM_49 -> -1
+DUM_53 -> 1
+DUM_54 -> 1
+DUM_55 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=217421
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_55, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, DUM_54, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=66659
+QAOA Left partition: [DUM_50, FALPE]
+QAOA Right partition: [CARCR, DUM_53]
+Final Bipartition Map at level 6:
+DUM_50 -> -1
+FALPE -> -1
+DUM_53 -> 1
+CARCR -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=245561
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, FALPE, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, CARCR, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=64341
+QAOA Left partition: [HALAL, HALLE]
+QAOA Right partition: [CATAU, DUM_51]
+Final Bipartition Map at level 4:
+DUM_51 -> 1
+HALAL -> -1
+CATAU -> 1
+HALLE -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=187851
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {HALAL, HALLE, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, CATAU, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=8 duration_ns=1427473
+QAOA Left partition: [ACACH, DUM_50, MELUN, NESNO]
+QAOA Right partition: [CORBR, GEOFO, MANVI, TAEGU]
+Final Bipartition Map at level 3:
+ACACH -> -1
+NESNO -> -1
+DUM_50 -> -1
+GEOFO -> 1
+MANVI -> 1
+TAEGU -> 1
+MELUN -> -1
+CORBR -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=8 duration_ns=2426115
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, NESNO, DUM_50, MELUN, DUM_51}
+Number of Quartets in Qa: 13
+Pb (Right Partition): {GEOFO, MANVI, TAEGU, CORBR, DUM_51}
+Number of Quartets in Qb: 13
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=165301
+QAOA Left partition: [ACACH, DUM_50, DUM_51]
+QAOA Right partition: [MELUN, NESNO]
+Final Bipartition Map at level 4:
+ACACH -> -1
+NESNO -> 1
+DUM_50 -> -1
+DUM_51 -> -1
+MELUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=364710
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {NESNO, MELUN, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=65220
+QAOA Left partition: [DUM_50, DUM_52]
+QAOA Right partition: [ACACH, DUM_51]
+Final Bipartition Map at level 5:
+ACACH -> 1
+DUM_50 -> -1
+DUM_51 -> 1
+DUM_52 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=201091
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_52, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {ACACH, DUM_51, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=149700
+QAOA Left partition: [CORBR, DUM_51, MANVI]
+QAOA Right partition: [GEOFO, TAEGU]
+Final Bipartition Map at level 4:
+DUM_51 -> -1
+GEOFO -> 1
+MANVI -> -1
+TAEGU -> 1
+CORBR -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=355801
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, MANVI, CORBR, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {GEOFO, TAEGU, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=64070
+QAOA Left partition: [DUM_51, MANVI]
+QAOA Right partition: [CORBR, DUM_52]
+Final Bipartition Map at level 5:
+DUM_51 -> -1
+DUM_52 -> 1
+MANVI -> -1
+CORBR -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=171260
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, MANVI, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, CORBR, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=2 merge_count=45 duration_ns=6010130
+
+
+[L 49.] FMRunner: final tree return
+(((CHAVO,(BALRE,(CAPCA,(CALAN,CHAPE)))),(((COLLI,(CUCCA,CHLUN)),((OPHHO,(GAVST,(EURHE,PHALE))),(TAUER,(((PTEGU,MESUN),(PHORU,PODCR)),((STRCA,TINMA),(ANAPL,(GALGA,MELGA))))))),((FULGL,(APTFO,PYGAD)),(PHACA,(NIPNI,(EGRGA,PELCR)))))),((TYTAL,(CATAU,(HALAL,HALLE))),((COLST,(LEPDI,(APAVI,(BUCRH,(PICPU,MERNU))))),(CARCR,(FALPE,((NESNO,MELUN),(ACACH,(MANVI,(CORBR,(GEOFO,TAEGU))))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/48_taxa_quantum_A1_B0p357143_n_gt_18_previous_losers/1X-500-500_R8_weighted_quartets/quantum.tre.tmp.1036269
+
+Time taken = 20498 ms ==> 0 minutes and 20 seconds.
+================= **** ======================== **** ====================
+No annotations used.

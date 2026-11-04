@@ -45,12 +45,37 @@ The results come from two runs:
 `result_analysis/48 Taxa/result/results_48_taxa_z12_qpu_plus_bruteforce_n>20.csv`
 is the CSV from our Z12 run (QPU threshold n > 20). The figure
 `result_analysis/48 Taxa/figure/results_48_taxa_z12_qpu_plus_bruteforce_n_gt_20.pdf`
-is drawn from it. To redraw it without the QPU:
+is drawn from it, together with the wQMC and ASTRAL results in
+`baselines/results/` (see `baselines/commands.md`). To redraw it without the QPU:
 
 ```bash
 QWQFM/.venv/bin/python "result_analysis/48 Taxa/graph.py" \
   --csv "result_analysis/48 Taxa/result/results_48_taxa_z12_qpu_plus_bruteforce_n>20.csv" \
   --out "result_analysis/48 Taxa/figure/results_48_taxa_z12_qpu_plus_bruteforce_n_gt_20.pdf"
+```
+
+## Solver comparison (QPU vs simulated annealing vs tabu search)
+
+QUANTA was also run with a classical QUBO solver in place of the QPU for
+partitions with n > 20 taxa (simulated annealing or tabu search from
+dwave-samplers, 1000 reads, same sample selection); smaller partitions are
+still solved by brute force. No D-Wave token is used. `JOBS` runs that many
+quartet files at once (each needs about 0.65 GB of memory):
+
+```bash
+JOBS=6 bash "result_analysis/48 Taxa/run_48_taxa_classical.sh" sa
+JOBS=6 bash "result_analysis/48 Taxa/run_48_taxa_classical.sh" tabu
+```
+
+Results: `result/results_48_taxa_{simulated_annealing,tabu_search}_plus_bruteforce_n>20.csv`.
+The figure comparing the three solvers, with a donut of the per-input outcome:
+
+```bash
+QWQFM/.venv/bin/python "result_analysis/48 Taxa/graph_solvers.py" \
+  --qpu-csv "result_analysis/48 Taxa/result/results_48_taxa_z12_qpu_plus_bruteforce_n>20.csv" \
+  --sa-csv "result_analysis/48 Taxa/result/results_48_taxa_simulated_annealing_plus_bruteforce_n>20.csv" \
+  --tabu-csv "result_analysis/48 Taxa/result/results_48_taxa_tabu_search_plus_bruteforce_n>20.csv" \
+  --out "result_analysis/48 Taxa/figure/results_48_taxa_solver_comparison.pdf"
 ```
 
 ## Reproduce the Z12 run (one command, needs the token)

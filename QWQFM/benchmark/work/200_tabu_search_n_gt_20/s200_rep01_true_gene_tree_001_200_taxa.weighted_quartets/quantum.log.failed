@@ -1,0 +1,25 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx4500m -XX:+UseG1GC
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.lang.StringLatin1.replace(StringLatin1.java:344)
+	at java.base/java.lang.String.replace(String.java:3089)
+	at wqfm.ds.Quartet.<init>(Quartet.java:74)
+	at wqfm.algo.FMRunner.populatePerInputLine(FMRunner.java:222)
+	at wqfm.algo.FMRunner.readFileAndPopulateInitialTables(FMRunner.java:240)
+	at wqfm.algo.FMRunner.runFunctions(FMRunner.java:34)
+	at wqfm.main.Main.runwQFM(Main.java:171)
+	at wqfm.main.Main.call(Main.java:151)
+	at wqfm.main.Main.call(Main.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1953)
+	at picocli.CommandLine.access$1300(CommandLine.java:145)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2352)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2346)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2311)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179)
+	at picocli.CommandLine.execute(CommandLine.java:2078)
+	at wqfm.main.Main.main(Main.java:197)

@@ -1,0 +1,228 @@
+JVM options: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/114] 0.5X-1000-500_R10_weighted_quartets
+[2/114] 0.5X-1000-500_R11_weighted_quartets
+[3/114] 0.5X-1000-500_R13_weighted_quartets
+[4/114] 0.5X-1000-500_R14_weighted_quartets
+[5/114] 0.5X-1000-500_R16_weighted_quartets
+[6/114] 0.5X-1000-500_R17_weighted_quartets
+[7/114] 0.5X-1000-500_R18_weighted_quartets
+[8/114] 0.5X-1000-500_R19_weighted_quartets
+[9/114] 0.5X-1000-500_R1_weighted_quartets
+[10/114] 0.5X-1000-500_R20_weighted_quartets
+[11/114] 0.5X-1000-500_R2_weighted_quartets
+[12/114] 0.5X-1000-500_R3_weighted_quartets
+[13/114] 0.5X-1000-500_R4_weighted_quartets
+[14/114] 0.5X-1000-500_R5_weighted_quartets
+[15/114] 0.5X-1000-500_R6_weighted_quartets
+[16/114] 0.5X-1000-500_R7_weighted_quartets
+[17/114] 0.5X-1000-500_R8_weighted_quartets
+[18/114] 0.5X-1000-500_R9_weighted_quartets
+[19/114] 1X-100-500_R12_weighted_quartets
+[20/114] 1X-100-500_R15_weighted_quartets
+[21/114] 1X-100-500_R17_weighted_quartets
+[22/114] 1X-100-500_R18_weighted_quartets
+[23/114] 1X-100-500_R19_weighted_quartets
+[24/114] 1X-100-500_R20_weighted_quartets
+[25/114] 1X-100-500_R2_weighted_quartets
+[26/114] 1X-100-500_R3_weighted_quartets
+[27/114] 1X-100-500_R4_weighted_quartets
+[28/114] 1X-100-500_R5_weighted_quartets
+[29/114] 1X-100-500_R6_weighted_quartets
+[30/114] 1X-100-500_R7_weighted_quartets
+[31/114] 1X-100-500_R9_weighted_quartets
+[32/114] 1X-1000-500_R12_weighted_quartets
+[33/114] 1X-1000-500_R16_weighted_quartets
+[34/114] 1X-1000-500_R19_weighted_quartets
+[35/114] 1X-1000-500_R1_weighted_quartets
+[36/114] 1X-1000-500_R20_weighted_quartets
+[37/114] 1X-1000-500_R2_weighted_quartets
+[38/114] 1X-1000-500_R3_weighted_quartets
+[39/114] 1X-1000-500_R4_weighted_quartets
+[40/114] 1X-1000-500_R5_weighted_quartets
+[41/114] 1X-1000-500_R6_weighted_quartets
+[42/114] 1X-1000-500_R7_weighted_quartets
+[43/114] 1X-1000-500_R8_weighted_quartets
+[44/114] 1X-1000-500_R9_weighted_quartets
+[45/114] 1X-200-500_R10_weighted_quartets
+[46/114] 1X-200-500_R11_weighted_quartets
+[47/114] 1X-200-500_R12_weighted_quartets
+[48/114] 1X-200-500_R14_weighted_quartets
+[49/114] 1X-200-500_R15_weighted_quartets
+[50/114] 1X-200-500_R16_weighted_quartets
+[51/114] 1X-200-500_R17_weighted_quartets
+[52/114] 1X-200-500_R18_weighted_quartets
+[53/114] 1X-200-500_R19_weighted_quartets
+[54/114] 1X-200-500_R1_weighted_quartets
+[55/114] 1X-200-500_R20_weighted_quartets
+[56/114] 1X-200-500_R2_weighted_quartets
+[57/114] 1X-200-500_R3_weighted_quartets
+[58/114] 1X-200-500_R4_weighted_quartets
+[59/114] 1X-200-500_R5_weighted_quartets
+[60/114] 1X-200-500_R6_weighted_quartets
+[61/114] 1X-200-500_R7_weighted_quartets
+[62/114] 1X-200-500_R8_weighted_quartets
+[63/114] 1X-200-500_R9_weighted_quartets
+[64/114] 1X-50-500_R10_weighted_quartets
+[65/114] 1X-50-500_R11_weighted_quartets
+[66/114] 1X-50-500_R14_weighted_quartets
+[67/114] 1X-50-500_R16_weighted_quartets
+[68/114] 1X-50-500_R17_weighted_quartets
+[69/114] 1X-50-500_R18_weighted_quartets
+[70/114] 1X-50-500_R19_weighted_quartets
+[71/114] 1X-50-500_R20_weighted_quartets
+[72/114] 1X-50-500_R2_weighted_quartets
+[73/114] 1X-50-500_R3_weighted_quartets
+[74/114] 1X-50-500_R4_weighted_quartets
+[75/114] 1X-50-500_R5_weighted_quartets
+[76/114] 1X-50-500_R6_weighted_quartets
+[77/114] 1X-50-500_R7_weighted_quartets
+[78/114] 1X-50-500_R8_weighted_quartets
+[79/114] 1X-50-500_R9_weighted_quartets
+[80/114] 1X-500-500_R10_weighted_quartets
+[81/114] 1X-500-500_R14_weighted_quartets
+[82/114] 1X-500-500_R15_weighted_quartets
+[83/114] 1X-500-500_R17_weighted_quartets
+[84/114] 1X-500-500_R18_weighted_quartets
+[85/114] 1X-500-500_R19_weighted_quartets
+[86/114] 1X-500-500_R20_weighted_quartets
+[87/114] 1X-500-500_R2_weighted_quartets
+[88/114] 1X-500-500_R3_weighted_quartets
+[89/114] 1X-500-500_R4_weighted_quartets
+[90/114] 1X-500-500_R5_weighted_quartets
+[91/114] 1X-500-500_R6_weighted_quartets
+[92/114] 1X-500-500_R7_weighted_quartets
+[93/114] 1X-500-500_R8_weighted_quartets
+[94/114] 1X-500-500_R9_weighted_quartets
+[95/114] 2X-1000-500_R10_weighted_quartets
+[96/114] 2X-1000-500_R11_weighted_quartets
+[97/114] 2X-1000-500_R12_weighted_quartets
+[98/114] 2X-1000-500_R13_weighted_quartets
+[99/114] 2X-1000-500_R14_weighted_quartets
+[100/114] 2X-1000-500_R15_weighted_quartets
+[101/114] 2X-1000-500_R16_weighted_quartets
+JVM options: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/114] 0.5X-1000-500_R10_weighted_quartets (done, skipped)
+[2/114] 0.5X-1000-500_R11_weighted_quartets (done, skipped)
+[3/114] 0.5X-1000-500_R13_weighted_quartets (done, skipped)
+[4/114] 0.5X-1000-500_R14_weighted_quartets (done, skipped)
+[5/114] 0.5X-1000-500_R16_weighted_quartets (done, skipped)
+[6/114] 0.5X-1000-500_R17_weighted_quartets (done, skipped)
+[7/114] 0.5X-1000-500_R18_weighted_quartets (done, skipped)
+[8/114] 0.5X-1000-500_R19_weighted_quartets (done, skipped)
+[9/114] 0.5X-1000-500_R1_weighted_quartets (done, skipped)
+[10/114] 0.5X-1000-500_R20_weighted_quartets (done, skipped)
+[11/114] 0.5X-1000-500_R2_weighted_quartets (done, skipped)
+[12/114] 0.5X-1000-500_R3_weighted_quartets (done, skipped)
+[13/114] 0.5X-1000-500_R4_weighted_quartets (done, skipped)
+[14/114] 0.5X-1000-500_R5_weighted_quartets (done, skipped)
+[15/114] 0.5X-1000-500_R6_weighted_quartets (done, skipped)
+[16/114] 0.5X-1000-500_R7_weighted_quartets (done, skipped)
+[17/114] 0.5X-1000-500_R8_weighted_quartets (done, skipped)
+[18/114] 0.5X-1000-500_R9_weighted_quartets (done, skipped)
+[19/114] 1X-100-500_R12_weighted_quartets (done, skipped)
+[20/114] 1X-100-500_R15_weighted_quartets (done, skipped)
+[21/114] 1X-100-500_R17_weighted_quartets (done, skipped)
+[22/114] 1X-100-500_R18_weighted_quartets (done, skipped)
+[23/114] 1X-100-500_R19_weighted_quartets (done, skipped)
+[24/114] 1X-100-500_R20_weighted_quartets (done, skipped)
+[25/114] 1X-100-500_R2_weighted_quartets (done, skipped)
+[26/114] 1X-100-500_R3_weighted_quartets (done, skipped)
+[27/114] 1X-100-500_R4_weighted_quartets (done, skipped)
+[28/114] 1X-100-500_R5_weighted_quartets (done, skipped)
+[29/114] 1X-100-500_R6_weighted_quartets (done, skipped)
+[30/114] 1X-100-500_R7_weighted_quartets (done, skipped)
+[31/114] 1X-100-500_R9_weighted_quartets (done, skipped)
+[32/114] 1X-1000-500_R12_weighted_quartets (done, skipped)
+[33/114] 1X-1000-500_R16_weighted_quartets (done, skipped)
+[34/114] 1X-1000-500_R19_weighted_quartets (done, skipped)
+[35/114] 1X-1000-500_R1_weighted_quartets (done, skipped)
+[36/114] 1X-1000-500_R20_weighted_quartets (done, skipped)
+[37/114] 1X-1000-500_R2_weighted_quartets (done, skipped)
+[38/114] 1X-1000-500_R3_weighted_quartets (done, skipped)
+[39/114] 1X-1000-500_R4_weighted_quartets (done, skipped)
+[40/114] 1X-1000-500_R5_weighted_quartets (done, skipped)
+[41/114] 1X-1000-500_R6_weighted_quartets (done, skipped)
+[42/114] 1X-1000-500_R7_weighted_quartets (done, skipped)
+[43/114] 1X-1000-500_R8_weighted_quartets (done, skipped)
+[44/114] 1X-1000-500_R9_weighted_quartets (done, skipped)
+[45/114] 1X-200-500_R10_weighted_quartets (done, skipped)
+[46/114] 1X-200-500_R11_weighted_quartets (done, skipped)
+[47/114] 1X-200-500_R12_weighted_quartets (done, skipped)
+[48/114] 1X-200-500_R14_weighted_quartets (done, skipped)
+[49/114] 1X-200-500_R15_weighted_quartets (done, skipped)
+[50/114] 1X-200-500_R16_weighted_quartets (done, skipped)
+[51/114] 1X-200-500_R17_weighted_quartets (done, skipped)
+[52/114] 1X-200-500_R18_weighted_quartets (done, skipped)
+[53/114] 1X-200-500_R19_weighted_quartets (done, skipped)
+[54/114] 1X-200-500_R1_weighted_quartets (done, skipped)
+[55/114] 1X-200-500_R20_weighted_quartets (done, skipped)
+[56/114] 1X-200-500_R2_weighted_quartets (done, skipped)
+[57/114] 1X-200-500_R3_weighted_quartets (done, skipped)
+[58/114] 1X-200-500_R4_weighted_quartets (done, skipped)
+[59/114] 1X-200-500_R5_weighted_quartets (done, skipped)
+[60/114] 1X-200-500_R6_weighted_quartets (done, skipped)
+[61/114] 1X-200-500_R7_weighted_quartets (done, skipped)
+[62/114] 1X-200-500_R8_weighted_quartets (done, skipped)
+[63/114] 1X-200-500_R9_weighted_quartets (done, skipped)
+[64/114] 1X-50-500_R10_weighted_quartets (done, skipped)
+[65/114] 1X-50-500_R11_weighted_quartets (done, skipped)
+[66/114] 1X-50-500_R14_weighted_quartets (done, skipped)
+[67/114] 1X-50-500_R16_weighted_quartets (done, skipped)
+[68/114] 1X-50-500_R17_weighted_quartets (done, skipped)
+[69/114] 1X-50-500_R18_weighted_quartets (done, skipped)
+[70/114] 1X-50-500_R19_weighted_quartets (done, skipped)
+[71/114] 1X-50-500_R20_weighted_quartets (done, skipped)
+[72/114] 1X-50-500_R2_weighted_quartets (done, skipped)
+[73/114] 1X-50-500_R3_weighted_quartets (done, skipped)
+[74/114] 1X-50-500_R4_weighted_quartets (done, skipped)
+[75/114] 1X-50-500_R5_weighted_quartets (done, skipped)
+[76/114] 1X-50-500_R6_weighted_quartets (done, skipped)
+[77/114] 1X-50-500_R7_weighted_quartets (done, skipped)
+[78/114] 1X-50-500_R8_weighted_quartets (done, skipped)
+[79/114] 1X-50-500_R9_weighted_quartets (done, skipped)
+[80/114] 1X-500-500_R10_weighted_quartets (done, skipped)
+[81/114] 1X-500-500_R14_weighted_quartets (done, skipped)
+[82/114] 1X-500-500_R15_weighted_quartets (done, skipped)
+[83/114] 1X-500-500_R17_weighted_quartets (done, skipped)
+[84/114] 1X-500-500_R18_weighted_quartets (done, skipped)
+[85/114] 1X-500-500_R19_weighted_quartets (done, skipped)
+[86/114] 1X-500-500_R20_weighted_quartets (done, skipped)
+[87/114] 1X-500-500_R2_weighted_quartets (done, skipped)
+[88/114] 1X-500-500_R3_weighted_quartets (done, skipped)
+[89/114] 1X-500-500_R4_weighted_quartets (done, skipped)
+[90/114] 1X-500-500_R5_weighted_quartets (done, skipped)
+[91/114] 1X-500-500_R6_weighted_quartets (done, skipped)
+[92/114] 1X-500-500_R7_weighted_quartets (done, skipped)
+[93/114] 1X-500-500_R8_weighted_quartets (done, skipped)
+[94/114] 1X-500-500_R9_weighted_quartets (done, skipped)
+[95/114] 2X-1000-500_R10_weighted_quartets (done, skipped)
+[96/114] 2X-1000-500_R11_weighted_quartets (done, skipped)
+[97/114] 2X-1000-500_R12_weighted_quartets (done, skipped)
+[98/114] 2X-1000-500_R13_weighted_quartets (done, skipped)
+[99/114] 2X-1000-500_R14_weighted_quartets (done, skipped)
+[100/114] 2X-1000-500_R15_weighted_quartets (done, skipped)
+[101/114] 2X-1000-500_R16_weighted_quartets
+[102/114] 2X-1000-500_R17_weighted_quartets
+[103/114] 2X-1000-500_R18_weighted_quartets
+[104/114] 2X-1000-500_R19_weighted_quartets
+[105/114] 2X-1000-500_R1_weighted_quartets
+[106/114] 2X-1000-500_R20_weighted_quartets
+[107/114] 2X-1000-500_R2_weighted_quartets
+[108/114] 2X-1000-500_R3_weighted_quartets
+[109/114] 2X-1000-500_R4_weighted_quartets
+[110/114] 2X-1000-500_R5_weighted_quartets
+[111/114] 2X-1000-500_R6_weighted_quartets
+[112/114] 2X-1000-500_R7_weighted_quartets
+[113/114] 2X-1000-500_R8_weighted_quartets
+[114/114] 2X-1000-500_R9_weighted_quartets
+wQFM-only run complete: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local

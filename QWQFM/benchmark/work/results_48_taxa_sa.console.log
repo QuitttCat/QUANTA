@@ -1,0 +1,570 @@
+Input: /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/48-taxa-weighted-quartets_full_data (140 files)
+Work dir: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/results_48_taxa_sa
+wQFM reuse dir: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+QUBO: A=1.0 B=0.4; simulated annealing for n > 20; JVM: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/140] 0.5X-1000-500_R10_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0667, time wQFM=47.654s, wQ2A-SA=82.524s
+[2/140] 0.5X-1000-500_R11_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=48.179s, wQ2A-SA=81.994s
+[3/140] 0.5X-1000-500_R12_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1111, time wQFM=46.424s, wQ2A-SA=90.300s
+[4/140] 0.5X-1000-500_R13_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=60.820s, wQ2A-SA=64.556s
+[5/140] 0.5X-1000-500_R14_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1556, time wQFM=56.516s, wQ2A-SA=62.091s
+[6/140] 0.5X-1000-500_R15_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.1111, time wQFM=46.653s, wQ2A-SA=58.654s
+[7/140] 0.5X-1000-500_R16_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=46.640s, wQ2A-SA=84.170s
+[8/140] 0.5X-1000-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=44.566s, wQ2A-SA=56.735s
+[9/140] 0.5X-1000-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=45.894s, wQ2A-SA=80.101s
+[10/140] 0.5X-1000-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=45.948s, wQ2A-SA=57.014s
+[11/140] 0.5X-1000-500_R1_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=42.732s, wQ2A-SA=56.570s
+[12/140] 0.5X-1000-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=42.990s, wQ2A-SA=78.050s
+[13/140] 0.5X-1000-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=46.849s, wQ2A-SA=81.266s
+[14/140] 0.5X-1000-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=45.437s, wQ2A-SA=56.085s
+[15/140] 0.5X-1000-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=44.158s, wQ2A-SA=55.982s
+[16/140] 0.5X-1000-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=37.632s, wQ2A-SA=56.077s
+[17/140] 0.5X-1000-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=43.993s, wQ2A-SA=78.606s
+[18/140] 0.5X-1000-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=55.247s, wQ2A-SA=56.237s
+[19/140] 0.5X-1000-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=41.019s, wQ2A-SA=55.899s
+[20/140] 0.5X-1000-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=43.826s, wQ2A-SA=75.338s
+[21/140] 1X-100-500_R10_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1556, time wQFM=40.941s, wQ2A-SA=42.754s
+[22/140] 1X-100-500_R11_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=29.905s, wQ2A-SA=42.687s
+[23/140] 1X-100-500_R12_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.1778, time wQFM=44.715s, wQ2A-SA=41.297s
+[24/140] 1X-100-500_R13_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=30.314s, wQ2A-SA=43.607s
+[25/140] 1X-100-500_R14_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=30.673s, wQ2A-SA=39.310s
+[26/140] 1X-100-500_R15_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=53.999s, wQ2A-SA=45.515s
+[27/140] 1X-100-500_R16_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.2000, time wQFM=37.556s, wQ2A-SA=46.139s
+[28/140] 1X-100-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2889, RF wQ2A-SA=0.3111, time wQFM=47.800s, wQ2A-SA=45.218s
+[29/140] 1X-100-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2222, RF wQ2A-SA=0.2667, time wQFM=43.542s, wQ2A-SA=43.122s
+[30/140] 1X-100-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2000, time wQFM=45.846s, wQ2A-SA=44.119s
+[31/140] 1X-100-500_R1_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=36.748s, wQ2A-SA=46.512s
+[32/140] 1X-100-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=44.222s, wQ2A-SA=45.322s
+[33/140] 1X-100-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2222, time wQFM=42.103s, wQ2A-SA=57.271s
+[34/140] 1X-100-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2889, time wQFM=54.720s, wQ2A-SA=51.471s
+[35/140] 1X-100-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=51.787s, wQ2A-SA=44.936s
+[36/140] 1X-100-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2889, RF wQ2A-SA=0.2667, time wQFM=42.019s, wQ2A-SA=46.715s
+[37/140] 1X-100-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2667, time wQFM=45.212s, wQ2A-SA=49.670s
+[38/140] 1X-100-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2222, RF wQ2A-SA=0.2444, time wQFM=43.660s, wQ2A-SA=44.448s
+[39/140] 1X-100-500_R8_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2222, time wQFM=45.604s, wQ2A-SA=45.086s
+[40/140] 1X-100-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2000, time wQFM=44.751s, wQ2A-SA=48.223s
+[41/140] 1X-1000-500_R10_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=34.164s, wQ2A-SA=42.978s
+[42/140] 1X-1000-500_R11_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=41.377s, wQ2A-SA=44.502s
+[43/140] 1X-1000-500_R12_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=51.016s, wQ2A-SA=43.358s
+[44/140] 1X-1000-500_R13_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=31.757s, wQ2A-SA=45.771s
+[45/140] 1X-1000-500_R14_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=40.788s, wQ2A-SA=44.005s
+[46/140] 1X-1000-500_R15_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=40.785s, wQ2A-SA=44.413s
+[47/140] 1X-1000-500_R16_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=57.969s, wQ2A-SA=41.485s
+[48/140] 1X-1000-500_R17_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=39.864s, wQ2A-SA=41.955s
+[49/140] 1X-1000-500_R18_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=39.000s, wQ2A-SA=42.626s
+[50/140] 1X-1000-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=52.845s, wQ2A-SA=44.467s
+[51/140] 1X-1000-500_R1_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=63.040s, wQ2A-SA=44.914s
+[52/140] 1X-1000-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0000, RF wQ2A-SA=0.0000, time wQFM=46.243s, wQ2A-SA=41.836s
+[53/140] 1X-1000-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=44.487s, wQ2A-SA=44.023s
+[54/140] 1X-1000-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=57.419s, wQ2A-SA=43.846s
+[55/140] 1X-1000-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.1111, time wQFM=58.551s, wQ2A-SA=43.036s
+[56/140] 1X-1000-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=40.202s, wQ2A-SA=41.968s
+[57/140] 1X-1000-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.0667, time wQFM=54.088s, wQ2A-SA=43.442s
+[58/140] 1X-1000-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0000, RF wQ2A-SA=0.0000, time wQFM=46.847s, wQ2A-SA=42.316s
+[59/140] 1X-1000-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=54.366s, wQ2A-SA=41.448s
+[60/140] 1X-1000-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=39.869s, wQ2A-SA=44.683s
+[61/140] 1X-200-500_R10_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1111, time wQFM=48.209s, wQ2A-SA=44.860s
+[62/140] 1X-200-500_R11_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1778, time wQFM=43.782s, wQ2A-SA=41.399s
+[63/140] 1X-200-500_R12_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1556, RF wQ2A-SA=0.1556, time wQFM=54.186s, wQ2A-SA=41.696s
+[64/140] 1X-200-500_R13_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1556, RF wQ2A-SA=0.1556, time wQFM=33.365s, wQ2A-SA=42.704s
+[65/140] 1X-200-500_R14_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=53.867s, wQ2A-SA=41.832s
+[66/140] 1X-200-500_R15_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1778, time wQFM=48.265s, wQ2A-SA=41.567s
+[67/140] 1X-200-500_R16_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1556, RF wQ2A-SA=0.1778, time wQFM=57.469s, wQ2A-SA=47.273s
+[68/140] 1X-200-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2222, time wQFM=53.708s, wQ2A-SA=46.523s
+[69/140] 1X-200-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=51.373s, wQ2A-SA=42.079s
+[70/140] 1X-200-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2222, RF wQ2A-SA=0.2000, time wQFM=66.472s, wQ2A-SA=43.927s
+[71/140] 1X-200-500_R1_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=49.941s, wQ2A-SA=47.205s
+[72/140] 1X-200-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2222, time wQFM=45.413s, wQ2A-SA=41.077s
+[73/140] 1X-200-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1556, time wQFM=43.808s, wQ2A-SA=44.187s
+[74/140] 1X-200-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=56.621s, wQ2A-SA=42.386s
+[75/140] 1X-200-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1556, time wQFM=60.237s, wQ2A-SA=42.692s
+[76/140] 1X-200-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2000, time wQFM=48.639s, wQ2A-SA=42.589s
+[77/140] 1X-200-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1556, RF wQ2A-SA=0.1556, time wQFM=43.933s, wQ2A-SA=45.960s
+[78/140] 1X-200-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1556, RF wQ2A-SA=0.1556, time wQFM=40.674s, wQ2A-SA=41.749s
+[79/140] 1X-200-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2222, RF wQ2A-SA=0.2222, time wQFM=39.498s, wQ2A-SA=43.343s
+[80/140] 1X-200-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=58.355s, wQ2A-SA=44.096s
+[81/140] 1X-50-500_R10_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=57.531s, wQ2A-SA=43.268s
+[82/140] 1X-50-500_R11_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2889, RF wQ2A-SA=0.2667, time wQFM=38.972s, wQ2A-SA=41.713s
+[83/140] 1X-50-500_R12_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2444, time wQFM=32.444s, wQ2A-SA=42.576s
+[84/140] 1X-50-500_R13_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2889, time wQFM=40.215s, wQ2A-SA=41.850s
+[85/140] 1X-50-500_R14_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2889, time wQFM=48.369s, wQ2A-SA=41.809s
+[86/140] 1X-50-500_R15_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.2222, time wQFM=40.688s, wQ2A-SA=42.496s
+[87/140] 1X-50-500_R16_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.3111, RF wQ2A-SA=0.3111, time wQFM=50.342s, wQ2A-SA=47.312s
+[88/140] 1X-50-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2889, time wQFM=36.436s, wQ2A-SA=46.378s
+[89/140] 1X-50-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=39.346s, wQ2A-SA=42.933s
+[90/140] 1X-50-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=50.736s, wQ2A-SA=47.456s
+[91/140] 1X-50-500_R1_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=40.355s, wQ2A-SA=47.025s
+[92/140] 1X-50-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=43.137s, wQ2A-SA=42.100s
+[93/140] 1X-50-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=39.624s, wQ2A-SA=65.348s
+[94/140] 1X-50-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.3333, RF wQ2A-SA=0.3333, time wQFM=50.433s, wQ2A-SA=46.378s
+[95/140] 1X-50-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2667, time wQFM=42.111s, wQ2A-SA=56.401s
+[96/140] 1X-50-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2667, time wQFM=37.264s, wQ2A-SA=41.466s
+[97/140] 1X-50-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2444, RF wQ2A-SA=0.2444, time wQFM=37.653s, wQ2A-SA=46.375s
+[98/140] 1X-50-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2667, RF wQ2A-SA=0.2889, time wQFM=39.123s, wQ2A-SA=44.470s
+[99/140] 1X-50-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2889, RF wQ2A-SA=0.2889, time wQFM=47.125s, wQ2A-SA=40.769s
+[100/140] 1X-50-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2889, RF wQ2A-SA=0.2222, time wQFM=47.899s, wQ2A-SA=45.977s
+[101/140] 1X-500-500_R10_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=42.858s, wQ2A-SA=41.785s
+[102/140] 1X-500-500_R11_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=32.249s, wQ2A-SA=41.170s
+[103/140] 1X-500-500_R12_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.0889, time wQFM=43.099s, wQ2A-SA=43.169s
+[104/140] 1X-500-500_R13_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=31.666s, wQ2A-SA=41.343s
+[105/140] 1X-500-500_R14_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0667, time wQFM=54.530s, wQ2A-SA=42.026s
+[106/140] 1X-500-500_R15_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=44.045s, wQ2A-SA=41.273s
+[107/140] 1X-500-500_R16_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1333, time wQFM=43.136s, wQ2A-SA=45.258s
+[108/140] 1X-500-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=50.118s, wQ2A-SA=41.101s
+[109/140] 1X-500-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=47.782s, wQ2A-SA=43.878s
+[110/140] 1X-500-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=50.058s, wQ2A-SA=44.265s
+[111/140] 1X-500-500_R1_weighted_quartets
+  wQFM: running
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=32.011s, wQ2A-SA=47.369s
+[112/140] 1X-500-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0889, time wQFM=36.260s, wQ2A-SA=41.210s
+[113/140] 1X-500-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=37.277s, wQ2A-SA=43.211s
+[114/140] 1X-500-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.2000, RF wQ2A-SA=0.1556, time wQFM=49.765s, wQ2A-SA=43.807s
+[115/140] 1X-500-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1333, RF wQ2A-SA=0.1333, time wQFM=46.678s, wQ2A-SA=42.207s
+[116/140] 1X-500-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=42.875s, wQ2A-SA=42.108s
+[117/140] 1X-500-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1778, RF wQ2A-SA=0.1556, time wQFM=41.384s, wQ2A-SA=42.567s
+[118/140] 1X-500-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0889, RF wQ2A-SA=0.0889, time wQFM=50.599s, wQ2A-SA=41.572s
+[119/140] 1X-500-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0889, time wQFM=48.140s, wQ2A-SA=41.015s
+[120/140] 1X-500-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.1111, RF wQ2A-SA=0.1111, time wQFM=49.625s, wQ2A-SA=42.873s
+[121/140] 2X-1000-500_R10_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=52.451s, wQ2A-SA=42.219s
+[122/140] 2X-1000-500_R11_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=48.530s, wQ2A-SA=41.555s
+[123/140] 2X-1000-500_R12_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=38.207s, wQ2A-SA=43.208s
+[124/140] 2X-1000-500_R13_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=41.308s, wQ2A-SA=44.494s
+[125/140] 2X-1000-500_R14_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=48.101s, wQ2A-SA=41.035s
+[126/140] 2X-1000-500_R15_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=37.533s, wQ2A-SA=42.413s
+[127/140] 2X-1000-500_R16_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=38.320s, wQ2A-SA=41.491s
+[128/140] 2X-1000-500_R17_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=45.706s, wQ2A-SA=44.136s
+[129/140] 2X-1000-500_R18_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=43.399s, wQ2A-SA=42.349s
+[130/140] 2X-1000-500_R19_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=39.157s, wQ2A-SA=42.004s
+[131/140] 2X-1000-500_R1_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=40.673s, wQ2A-SA=42.081s
+[132/140] 2X-1000-500_R20_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=40.877s, wQ2A-SA=42.097s
+[133/140] 2X-1000-500_R2_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=31.725s, wQ2A-SA=41.774s
+[134/140] 2X-1000-500_R3_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0667, RF wQ2A-SA=0.0667, time wQFM=40.193s, wQ2A-SA=42.533s
+[135/140] 2X-1000-500_R4_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=40.002s, wQ2A-SA=42.132s
+[136/140] 2X-1000-500_R5_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=36.725s, wQ2A-SA=42.161s
+[137/140] 2X-1000-500_R6_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=40.473s, wQ2A-SA=42.582s
+[138/140] 2X-1000-500_R7_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0222, RF wQ2A-SA=0.0222, time wQFM=32.159s, wQ2A-SA=41.728s
+[139/140] 2X-1000-500_R8_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=32.945s, wQ2A-SA=41.930s
+[140/140] 2X-1000-500_R9_weighted_quartets
+  wQFM: copied from /home/niloy/Downloads/dwave/QWQFM/benchmark/work/48_taxa_wqfm_only_local
+  wQ2A (simulated annealing): running
+  CSV row: RF wQFM=0.0444, RF wQ2A-SA=0.0444, time wQFM=53.315s, wQ2A-SA=41.934s
+Done. CSV: /home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_48_taxa_sa.csv (copied to /home/niloy/Downloads/dwave/result_analysis/simulated annealing/48 Taxa/result/results_48_taxa_sa.csv)

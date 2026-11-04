@@ -1,0 +1,328 @@
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/biological_dataset_weigted_quartets/aminota-aa.weighted_quartets> done.
+Initial-Num-Quartets = 5345
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+16
+{Ornithorhynchus=4, Taeniopygia=5, Xenopus=6, alligator=7, python=15, Gallus=1, Homo=2, protopterus=14, emys=11, Monodelphis=3, phrynops=12, caretta=9, chelonoidis=10, caiman=8, Anolis=0, podarcis=13}
+{0=Anolis, 1=Gallus, 2=Homo, 3=Monodelphis, 4=Ornithorhynchus, 5=Taeniopygia, 6=Xenopus, 7=alligator, 8=caiman, 9=caretta, 10=chelonoidis, 11=emys, 12=phrynops, 13=podarcis, 14=protopterus, 15=python}
+Total Num-Taxa = 16
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+QPU solver: Advantage_system4
+QPU problem ID: 13f1519c-b2f9-4962-9cd2-e4acbe032697
+QPU timing: {'qpu_sampling_time': 178040.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 137.46, 'qpu_access_time': 193801.16, 'qpu_access_overhead_time': 788.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 11 & 5
+QAOA Left partition: [Anolis, Gallus, Taeniopygia, alligator, caiman, caretta, chelonoidis, emys, phrynops, podarcis, python]
+QAOA Right partition: [Homo, Monodelphis, Ornithorhynchus, Xenopus, protopterus]
+Final Bipartition Map at level 1:
+Anolis -> -1
+Gallus -> -1
+Homo -> 1
+Monodelphis -> 1
+Ornithorhynchus -> 1
+Taeniopygia -> -1
+Xenopus -> 1
+alligator -> -1
+caiman -> -1
+caretta -> -1
+chelonoidis -> -1
+emys -> -1
+phrynops -> -1
+podarcis -> -1
+protopterus -> 1
+python -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=16 duration_ns=2403087744
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anolis, Gallus, Taeniopygia, alligator, caiman, caretta, chelonoidis, emys, phrynops, podarcis, python, DUM_17}
+Number of Quartets in Qa: 1423
+Pb (Right Partition): {Homo, Monodelphis, Ornithorhynchus, Xenopus, protopterus, DUM_17}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: f438831b-b7c8-4814-8e49-1d44fc1a2d3e
+QPU timing: {'qpu_sampling_time': 94440.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.86, 'qpu_access_time': 110201.56, 'qpu_access_overhead_time': 1011.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 8 & 4
+QAOA Left partition: [Anolis, DUM_17, Gallus, Taeniopygia, alligator, caiman, podarcis, python]
+QAOA Right partition: [caretta, chelonoidis, emys, phrynops]
+Final Bipartition Map at level 2:
+Anolis -> -1
+Gallus -> -1
+DUM_17 -> -1
+Taeniopygia -> -1
+alligator -> -1
+caiman -> -1
+caretta -> 1
+chelonoidis -> 1
+emys -> 1
+phrynops -> 1
+podarcis -> -1
+python -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=12 duration_ns=926332569
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anolis, Gallus, DUM_17, Taeniopygia, alligator, caiman, podarcis, python, DUM_18}
+Number of Quartets in Qa: 363
+Pb (Right Partition): {caretta, chelonoidis, emys, phrynops, DUM_18}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: b4f437db-8e9a-4907-a3a8-e8ec3b0b57e2
+QPU timing: {'qpu_sampling_time': 116880.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 76.3, 'qpu_access_time': 132641.16, 'qpu_access_overhead_time': 729.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 48.0, 'post_processing_overhead_time': 48.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 4
+QAOA Left partition: [DUM_18, Gallus, Taeniopygia, alligator, caiman]
+QAOA Right partition: [Anolis, DUM_17, podarcis, python]
+Final Bipartition Map at level 3:
+Anolis -> 1
+Gallus -> -1
+DUM_17 -> 1
+DUM_18 -> -1
+Taeniopygia -> -1
+alligator -> -1
+caiman -> -1
+podarcis -> 1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=9 duration_ns=878127871
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gallus, DUM_18, Taeniopygia, alligator, caiman, DUM_19}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {Anolis, DUM_17, podarcis, python, DUM_19}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 69ae0093-9e33-4aac-96a4-acf3f513b57b
+QPU timing: {'qpu_sampling_time': 88960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.38, 'qpu_access_time': 104721.16, 'qpu_access_overhead_time': 1075.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 4 & 2
+QAOA Left partition: [DUM_18, DUM_19, alligator, caiman]
+QAOA Right partition: [Gallus, Taeniopygia]
+Final Bipartition Map at level 4:
+Gallus -> 1
+DUM_18 -> -1
+DUM_19 -> -1
+Taeniopygia -> 1
+alligator -> -1
+caiman -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=6 duration_ns=848170314
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, DUM_19, alligator, caiman, DUM_20}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Gallus, Taeniopygia, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 3c7a12b7-c34d-4e74-bab0-b86140b6c288
+QPU timing: {'qpu_sampling_time': 104560.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 63.98, 'qpu_access_time': 120321.16, 'qpu_access_overhead_time': 649.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 2
+QAOA Left partition: [DUM_18, DUM_19, DUM_20]
+QAOA Right partition: [alligator, caiman]
+Final Bipartition Map at level 5:
+DUM_18 -> -1
+DUM_19 -> -1
+DUM_20 -> -1
+alligator -> 1
+caiman -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=828309279
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, DUM_19, DUM_20, DUM_21}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {alligator, caiman, DUM_21}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 1a6e631c-f26d-4d82-988a-5635ca56f8c6
+QPU timing: {'qpu_sampling_time': 96920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 56.34, 'qpu_access_time': 112681.16, 'qpu_access_overhead_time': 790.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_20, DUM_21]
+QAOA Right partition: [DUM_18, DUM_19]
+Final Bipartition Map at level 6:
+DUM_18 -> 1
+DUM_19 -> 1
+DUM_20 -> -1
+DUM_21 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=819636655
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_20, DUM_21, DUM_22}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_18, DUM_19, DUM_22}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 02db1ac8-1c15-4784-8170-b45a8f5e2c1e
+QPU timing: {'qpu_sampling_time': 135520.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 94.94, 'qpu_access_time': 151281.56, 'qpu_access_overhead_time': 543.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 41.0, 'post_processing_overhead_time': 41.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 3
+QAOA Left partition: [DUM_17, DUM_19]
+QAOA Right partition: [Anolis, podarcis, python]
+Final Bipartition Map at level 4:
+Anolis -> 1
+DUM_17 -> -1
+DUM_19 -> -1
+podarcis -> 1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=871683802
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, DUM_19, DUM_20}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Anolis, podarcis, python, DUM_20}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: ca666a9b-a68d-4801-b4e1-12a1c79c943e
+QPU timing: {'qpu_sampling_time': 129080.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 88.5, 'qpu_access_time': 144841.16, 'qpu_access_overhead_time': 1540.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 32.0, 'post_processing_overhead_time': 32.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [Anolis, DUM_20]
+QAOA Right partition: [podarcis, python]
+Final Bipartition Map at level 5:
+Anolis -> -1
+DUM_20 -> -1
+podarcis -> 1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=917623817
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anolis, DUM_20, DUM_21}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {podarcis, python, DUM_21}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 2ab1a3ca-4d77-4afb-ba96-a41a3c7cf4a0
+QPU timing: {'qpu_sampling_time': 90320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 49.74, 'qpu_access_time': 106081.16, 'qpu_access_overhead_time': 1026.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 3
+QAOA Left partition: [DUM_18, phrynops]
+QAOA Right partition: [caretta, chelonoidis, emys]
+Final Bipartition Map at level 3:
+DUM_18 -> -1
+caretta -> 1
+chelonoidis -> 1
+emys -> 1
+phrynops -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=5 duration_ns=832521476
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, phrynops, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {caretta, chelonoidis, emys, DUM_19}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 9596bc0d-dafa-4527-9779-82d290318907
+QPU timing: {'qpu_sampling_time': 94280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.7, 'qpu_access_time': 110041.16, 'qpu_access_overhead_time': 367.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 39.0, 'post_processing_overhead_time': 39.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [caretta, chelonoidis]
+QAOA Right partition: [DUM_19, emys]
+Final Bipartition Map at level 4:
+DUM_19 -> 1
+caretta -> -1
+chelonoidis -> -1
+emys -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=844819097
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {caretta, chelonoidis, DUM_20}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_19, emys, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: a1ada396-faf2-4029-b0b6-8eaa560a26b7
+QPU timing: {'qpu_sampling_time': 92280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 51.7, 'qpu_access_time': 108041.56, 'qpu_access_overhead_time': 1483.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 3
+QAOA Left partition: [DUM_17, Xenopus, protopterus]
+QAOA Right partition: [Homo, Monodelphis, Ornithorhynchus]
+Final Bipartition Map at level 2:
+DUM_17 -> -1
+Homo -> 1
+Monodelphis -> 1
+Ornithorhynchus -> 1
+Xenopus -> -1
+protopterus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=6 duration_ns=841007623
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, Xenopus, protopterus, DUM_18}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Homo, Monodelphis, Ornithorhynchus, DUM_18}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 1dd323cb-ef9d-471f-af3c-aa8803a5b974
+QPU timing: {'qpu_sampling_time': 111320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 70.74, 'qpu_access_time': 127081.16, 'qpu_access_overhead_time': 640.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 19.0, 'post_processing_overhead_time': 19.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Xenopus, protopterus]
+QAOA Right partition: [DUM_17, DUM_18]
+Final Bipartition Map at level 3:
+DUM_17 -> 1
+DUM_18 -> 1
+Xenopus -> -1
+protopterus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=4 duration_ns=820829259
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Xenopus, protopterus, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, DUM_18, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 214007e3-7fbc-47fb-aede-5c67bbf423be
+QPU timing: {'qpu_sampling_time': 98600.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 58.02, 'qpu_access_time': 114361.16, 'qpu_access_overhead_time': 814.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Homo, Monodelphis]
+QAOA Right partition: [DUM_18, Ornithorhynchus]
+Final Bipartition Map at level 3:
+Homo -> -1
+DUM_18 -> 1
+Monodelphis -> -1
+Ornithorhynchus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=4 duration_ns=929743890
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Homo, Monodelphis, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_18, Ornithorhynchus, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+(((Anolis,(podarcis,python)),(((alligator,caiman),(Gallus,Taeniopygia)),(phrynops,(emys,(caretta,chelonoidis))))),((Xenopus,protopterus),(Ornithorhynchus,(Homo,Monodelphis))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/biological_fresh_20260724T220932Z_n_ge_4/aminota-aa.weighted_quartets/quantum.tre.tmp.682548
+
+Time taken = 12828 ms ==> 0 minutes and 12 seconds.
+================= **** ======================== **** ====================
+No annotations used.

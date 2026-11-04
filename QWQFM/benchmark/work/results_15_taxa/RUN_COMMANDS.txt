@@ -1,0 +1,7 @@
+# Run started: 2026-10-10T18:20:57Z
+# Working directory: /home/niloy/Downloads/dwave
+JAVA_TOOL_OPTIONS=-Xmx6g -Xms6g \
+INPUT_DIR=/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/15-taxa-weighted-quartets \
+OUTPUT_CSV=/home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_15_taxa.csv \
+WORK_DIR=/home/niloy/Downloads/dwave/QWQFM/benchmark/work/results_15_taxa \
+bash /home/niloy/Downloads/dwave/QWQFM/benchmark/scripts/run_11_taxa_benchmark.sh 

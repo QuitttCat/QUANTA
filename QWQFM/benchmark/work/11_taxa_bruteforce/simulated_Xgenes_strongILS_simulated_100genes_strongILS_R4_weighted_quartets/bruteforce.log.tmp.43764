@@ -1,0 +1,16 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets/simulated_Xgenes_strongILS_simulated_100genes_strongILS_R4_weighted_quartets> done.
+Initial-Num-Quartets = 573
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+11
+{7.7=7, 8.8=8, 1.1=0, 9.9=9, 2.2=2, 10.10=1, 11.11=10, 3.3=3, 4.4=4, 5.5=5, 6.6=6}
+{0=1.1, 1=10.10, 2=2.2, 3=3.3, 4=4.4, 5=5.5, 6=6.6, 7=7.7, 8=8.8, 9=9.9, 10=11.11}
+Total Num-Taxa = 11
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).

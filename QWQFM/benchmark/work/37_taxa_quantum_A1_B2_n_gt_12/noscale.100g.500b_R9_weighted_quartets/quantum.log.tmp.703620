@@ -1,0 +1,17 @@
+Picked up JAVA_TOOL_OPTIONS: -Xms1g -Xmx8g -XX:+UseG1GC
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/37-taxa-weighted-quartets/noscale.100g.500b_R9_weighted_quartets> done.
+Initial-Num-Quartets = 174520
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+37
+{PTE=27, NEW=36, RAT=28, TAR=32, SPE=30, ORN=21, CHO=4, OTO=23, PRO=26, ORY=22, MYO=19, MIC=16, BOS=0, HOM=13, EQU=8, DIP=6, MUS=18, ECH=7, GOR=12, FEL=10, MON=17, MAC=15, PON=25, TUP=33, CAL=1, SUS=31, TUR=34, CAN=2, VIC=35, GAL=11, LOX=14, OCH=20, DAS=5, SOR=29, CAV=3, PAN=24, ERI=9}
+{0=BOS, 1=CAL, 2=CAN, 3=CAV, 4=CHO, 5=DAS, 6=DIP, 7=ECH, 8=EQU, 9=ERI, 10=FEL, 11=GAL, 12=GOR, 13=HOM, 14=LOX, 15=MAC, 16=MIC, 17=MON, 18=MUS, 19=MYO, 20=OCH, 21=ORN, 22=ORY, 23=OTO, 24=PAN, 25=PON, 26=PRO, 27=PTE, 28=RAT, 29=SOR, 30=SPE, 31=SUS, 32=TAR, 33=TUP, 34=TUR, 35=VIC, 36=NEW}
+Total Num-Taxa = 37
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+QPU QUBO parameters: A=1.0, B=2.0, threshold=n>12

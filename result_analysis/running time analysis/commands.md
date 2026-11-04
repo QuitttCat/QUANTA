@@ -180,3 +180,51 @@ To regenerate the underlying runs, use each dataset's own runner (see
 `result_analysis/101 Taxa/commands.md` and the scripts in
 `QWQFM/benchmark/scripts/`); then point `curate_timing.py` at the new run
 directories.
+
+## QUANTA vs wQFM running-time figure (`figure/running_time_quanta.pdf`)
+
+```bash
+python3 "result_analysis/running time analysis/solving_time.py"
+python3 "result_analysis/running time analysis/partition_solving_time.py"
+python3 "result_analysis/running time analysis/classical_timing.py"
+QWQFM/.venv/bin/python "result_analysis/running time analysis/running_time_quanta.py"
+```
+
+`solving_time.py` reads the same logs as `timing_per_file.csv` and writes
+`result/solving_time_by_taxa.csv`: per number of taxa, the time wQFM's FM
+heuristic and QUANTA's quantum annealer (QPU access time) spent solving the
+partitions with more than 20 taxa, averaged over runs, with the speed-up. It
+also reports the 200-taxon value with the Leap Hybrid job counted by its full
+run time, and the time spent on partitions with at most 20 taxa (FM for wQFM,
+exhaustive search for QUANTA).
+
+`running_time_quanta.py` draws three panels, also saved one per file
+(`figure/running_time_{solving,division,end_to_end}.pdf`):
+
+- **(a) Solving time of each bipartition** with more than 20 taxa, one point
+  per partition against its size, across all simulated and biological runs,
+  log scale, with the median per 10-taxon bin (from
+  `result/partition_solving_times.csv`, written by `partition_solving_time.py`;
+  QPU access time only; for the 200-taxon root, solved with the Leap Hybrid
+  solver, the QPU access time of that job);
+- **(b) Total division-step time** and **(c) end-to-end time**, in minutes
+  (from `timing_summary.csv`; each dataset is a point, lines join the means).
+
+All three panels also show QUANTA with simulated annealing in place of the
+quantum annealer (`classical_timing.py`, from the runs of
+`run_classical_benchmark.sh`; written to `result/classical_timing_per_file.csv`
+and `result/classical_partition_times.csv`, which also hold tabu search, not
+drawn). These runs were made on a laptop, several inputs at once for 37 taxa,
+while wQFM and the quantum runs were made on the server; the 200-taxon
+classical runs were made on a third machine (logs copied into
+`QWQFM/benchmark/work/200_*_n_gt_20/`).
+
+## Per-dataset figure with simulated annealing (`figure/running_time.pdf`)
+
+`graph.py` now draws three bars per group in each dataset panel: wQFM, QUANTA
+with the quantum annealer, and QUANTA with simulated annealing (from
+`result/classical_timing_per_file.csv`, run `classical_timing.py` first). Both
+QUANTA division-step bars are split into the solver itself (QPU access or
+simulated annealing), exhaustive search (partitions with at most 20 taxa), the
+classical part of D-Wave's hybrid solver (200 taxa only) and other overhead.
+`run.sh` draws it unchanged.

@@ -1,0 +1,3031 @@
+Picked up JAVA_TOOL_OPTIONS: -Xms4g -Xmx16g -XX:+UseG1GC
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/144-taxa-insect-single-gene-weighted-quartets/insect_gene_tree_0713.weighted_quartets> done.
+Initial-Num-Quartets = 17178876
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+144
+{Velia_caprai=90, Leuctra_sp=69, Bibio_marci=27, PEDICULUS_HUMANUS=85, Empusa_pennata=64, Cypridininae_sp=8, Epiophlebia_superstes=78, Glossina_morsitans=18, Planococcus_citri=82, Corydalus_cornutus=120, Nannochorista_philpotti=30, ZOOTERMOPSIS_NEVADENSIS=57, Ceuthophilus_sp=62, Anurida_maritima=96, Aedes_AEGYpti=16, Pogonognathellus_lon_fla=98, Chrysis_viridula=43, Blaberus_atropos=60, Carabus_granulatus=117, Aleochara_curtula=116, Stylops_melittae=80, Cercopis_vulnerata=94, Nemophora_deegerella=133, Occasjapyx_japonicus=104, DROSOPHILA_MELANOGASTER=22, Trichocera_fuscata=26, Ctenocephalides_felis=130, Eurylophella_sp=75, BOMBYX_MORI=137, Timema_cristinae=37, Xanthostigma_xanthostigma=124, Boreus_hyemalis=2, Baetis_pumilus=72, Mengenilla_moldrzyki=84, Ranatra_linearis=91, Parides_arcas=134, Symphylella_vulgaris=9, Atelura_formicaria=106, Gryllotalpa_sp=67, Cheumatopsyche_sp=140, Grylloblatta_bifratrilecta=33, Sialis_lutaria=121, Aretaon_asperrimus=35, Peruphasma_schultei=36, Apachyus_charteceus=66, Thrips_palmi=49, Prorhinotermes_simplex=58, Gynaikothrips_ficorum=87, Periplaneta_americana=61, Campodea_augens=105, Tipula_maxima=24, Euroleon_nostras=123, Panorpa_vulgaris=3, Tetrodontophora_bielanensis=99, Ectopsocus_briggsi=126, Cordulegaster_boltonii=76, Celuca_puligator=6, Yponomeuta_evonymella=136, Menopon_gallinae=83, Galloisiana_yuasai=34, Eriocrania_subpurpurella=59, Triodia_sylvina=141, Acanthocasuarina_muellerianae=81, Notostira_elongata=89, Archaeopsylla_erinacei=129, Acerentomon_sp=11, Metallyticus_splendidus=63, Sarcophaga_crassipalpis=19, Polyommatus_icarus=135, Triarthria_setipennis=20, Haploembia_palaui=39, APIS_MELLIFERA=52, Prosarthria_teretrirostris=110, Tanzaniophasma_sp=40, Zygaena_fausta=139, Rhagoletis_pomonella=21, NASONIA_VITRIPENNIS=48, Rhyacophila_fasciata=12, Zorotypus_caudelli=107, Ephemera_danica=73, Ceratophyllus_gallinae=131, ACYRTOSIPHON_PISUM=13, Stenobothrus_lineatus=111, ANOPHELES_GAMBIAE=17, Mastotermes_darwiniensis=56, Mantis_religiosa=65, Platycentropus_radiatus=132, Cotesia_vestalis=45, DAPHNIA_PULEX=103, Forficula_auricularia=68, Manduca_sexta=138, Exoneura_robusta=54, Dendroctonus_ponderosae=113, Bombus_terrestris=53, Calopteryx_splendens=77, Phlebotomus_papatasi=28, Perla_marginata=70, Trialeurodes_vaporariorum=101, Aphis_gossypii=14, Glomeris_pustulata=10, Philopotamus_ludificatus=142, Sarsinebalia_urgorii=7, Orussus_abietinus=51, Folsomia_candida=97, Bombylius_major=127, Essigella_californica=15, Leptopilina_clavipes=46, Nilaparvata_lugens=95, Okanagana_villosa=93, Tenthredo_koehleri=50, Frankliniella_cephalica=86, Thermobia_domestica=108, Gyrinus_marinus=118, Meinertellus_cundinamarcensis=32, Bittacus_pilicornis=0, Cosmioperla_kuna=71, Aposthonia_japonica=38, Litopenaeus_vannamei=5, Lepeophtheirus_salmonis=79, Meloe_violaceus=114, Conwentzia_psociformis=29, Tricholepidion_gertschi=109, Harpegnathos_SALTator=42, Xenophysella_greensladeae=88, Bemisia_tabaci=100, Liposcelis_bostrychophila=47, Tetrix_subulata=112, Sminthurus_vir_nig=122, Priacma_serrata=25, Lepicerus_sp=1, Inocellia_crassicornis=125, Dichochrysa_prasina=44, ACROMYRMEX_ECHINATIOR=41, Isonychia_bicolor=74, IXODES_SCAPULARIS=128, Micropterix_calthella=143, Machilis_hrabei=31, Cryptocercus_wrighti=55, Speleonectes_tulumensis=102, TRIBOLIUM_CASTANEUM=115, Lipara_lucens=23, Hydroptilidae_sp=4, Osmylus_fulvicephalus=119, Acanthosoma_haemorrhoidale=92}
+{0=Bittacus_pilicornis, 1=Lepicerus_sp, 2=Boreus_hyemalis, 3=Panorpa_vulgaris, 4=Hydroptilidae_sp, 5=Litopenaeus_vannamei, 6=Celuca_puligator, 7=Sarsinebalia_urgorii, 8=Cypridininae_sp, 9=Symphylella_vulgaris, 10=Glomeris_pustulata, 11=Acerentomon_sp, 12=Rhyacophila_fasciata, 13=ACYRTOSIPHON_PISUM, 14=Aphis_gossypii, 15=Essigella_californica, 16=Aedes_AEGYpti, 17=ANOPHELES_GAMBIAE, 18=Glossina_morsitans, 19=Sarcophaga_crassipalpis, 20=Triarthria_setipennis, 21=Rhagoletis_pomonella, 22=DROSOPHILA_MELANOGASTER, 23=Lipara_lucens, 24=Tipula_maxima, 25=Priacma_serrata, 26=Trichocera_fuscata, 27=Bibio_marci, 28=Phlebotomus_papatasi, 29=Conwentzia_psociformis, 30=Nannochorista_philpotti, 31=Machilis_hrabei, 32=Meinertellus_cundinamarcensis, 33=Grylloblatta_bifratrilecta, 34=Galloisiana_yuasai, 35=Aretaon_asperrimus, 36=Peruphasma_schultei, 37=Timema_cristinae, 38=Aposthonia_japonica, 39=Haploembia_palaui, 40=Tanzaniophasma_sp, 41=ACROMYRMEX_ECHINATIOR, 42=Harpegnathos_SALTator, 43=Chrysis_viridula, 44=Dichochrysa_prasina, 45=Cotesia_vestalis, 46=Leptopilina_clavipes, 47=Liposcelis_bostrychophila, 48=NASONIA_VITRIPENNIS, 49=Thrips_palmi, 50=Tenthredo_koehleri, 51=Orussus_abietinus, 52=APIS_MELLIFERA, 53=Bombus_terrestris, 54=Exoneura_robusta, 55=Cryptocercus_wrighti, 56=Mastotermes_darwiniensis, 57=ZOOTERMOPSIS_NEVADENSIS, 58=Prorhinotermes_simplex, 59=Eriocrania_subpurpurella, 60=Blaberus_atropos, 61=Periplaneta_americana, 62=Ceuthophilus_sp, 63=Metallyticus_splendidus, 64=Empusa_pennata, 65=Mantis_religiosa, 66=Apachyus_charteceus, 67=Gryllotalpa_sp, 68=Forficula_auricularia, 69=Leuctra_sp, 70=Perla_marginata, 71=Cosmioperla_kuna, 72=Baetis_pumilus, 73=Ephemera_danica, 74=Isonychia_bicolor, 75=Eurylophella_sp, 76=Cordulegaster_boltonii, 77=Calopteryx_splendens, 78=Epiophlebia_superstes, 79=Lepeophtheirus_salmonis, 80=Stylops_melittae, 81=Acanthocasuarina_muellerianae, 82=Planococcus_citri, 83=Menopon_gallinae, 84=Mengenilla_moldrzyki, 85=PEDICULUS_HUMANUS, 86=Frankliniella_cephalica, 87=Gynaikothrips_ficorum, 88=Xenophysella_greensladeae, 89=Notostira_elongata, 90=Velia_caprai, 91=Ranatra_linearis, 92=Acanthosoma_haemorrhoidale, 93=Okanagana_villosa, 94=Cercopis_vulnerata, 95=Nilaparvata_lugens, 96=Anurida_maritima, 97=Folsomia_candida, 98=Pogonognathellus_lon_fla, 99=Tetrodontophora_bielanensis, 100=Bemisia_tabaci, 101=Trialeurodes_vaporariorum, 102=Speleonectes_tulumensis, 103=DAPHNIA_PULEX, 104=Occasjapyx_japonicus, 105=Campodea_augens, 106=Atelura_formicaria, 107=Zorotypus_caudelli, 108=Thermobia_domestica, 109=Tricholepidion_gertschi, 110=Prosarthria_teretrirostris, 111=Stenobothrus_lineatus, 112=Tetrix_subulata, 113=Dendroctonus_ponderosae, 114=Meloe_violaceus, 115=TRIBOLIUM_CASTANEUM, 116=Aleochara_curtula, 117=Carabus_granulatus, 118=Gyrinus_marinus, 119=Osmylus_fulvicephalus, 120=Corydalus_cornutus, 121=Sialis_lutaria, 122=Sminthurus_vir_nig, 123=Euroleon_nostras, 124=Xanthostigma_xanthostigma, 125=Inocellia_crassicornis, 126=Ectopsocus_briggsi, 127=Bombylius_major, 128=IXODES_SCAPULARIS, 129=Archaeopsylla_erinacei, 130=Ctenocephalides_felis, 131=Ceratophyllus_gallinae, 132=Platycentropus_radiatus, 133=Nemophora_deegerella, 134=Parides_arcas, 135=Polyommatus_icarus, 136=Yponomeuta_evonymella, 137=BOMBYX_MORI, 138=Manduca_sexta, 139=Zygaena_fausta, 140=Cheumatopsyche_sp, 141=Triodia_sylvina, 142=Philopotamus_ludificatus, 143=Micropterix_calthella}
+Total Num-Taxa = 144
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=1 taxa=144 duration_ns=1275107765128
+Final Bipartition Map at level 1:
+Bittacus_pilicornis -> -1
+Lepicerus_sp -> -1
+Boreus_hyemalis -> -1
+Panorpa_vulgaris -> -1
+Hydroptilidae_sp -> -1
+Litopenaeus_vannamei -> -1
+Celuca_puligator -> -1
+Sarsinebalia_urgorii -> -1
+Cypridininae_sp -> -1
+Symphylella_vulgaris -> -1
+Glomeris_pustulata -> -1
+Acerentomon_sp -> -1
+Rhyacophila_fasciata -> -1
+ACYRTOSIPHON_PISUM -> -1
+Aphis_gossypii -> -1
+Essigella_californica -> -1
+Aedes_AEGYpti -> -1
+ANOPHELES_GAMBIAE -> -1
+Glossina_morsitans -> -1
+Sarcophaga_crassipalpis -> -1
+Triarthria_setipennis -> -1
+Rhagoletis_pomonella -> -1
+DROSOPHILA_MELANOGASTER -> -1
+Lipara_lucens -> -1
+Tipula_maxima -> -1
+Priacma_serrata -> -1
+Trichocera_fuscata -> -1
+Bibio_marci -> -1
+Phlebotomus_papatasi -> -1
+Conwentzia_psociformis -> -1
+Nannochorista_philpotti -> -1
+Machilis_hrabei -> -1
+Meinertellus_cundinamarcensis -> -1
+Grylloblatta_bifratrilecta -> 1
+Galloisiana_yuasai -> 1
+Aretaon_asperrimus -> 1
+Peruphasma_schultei -> 1
+Timema_cristinae -> 1
+Aposthonia_japonica -> 1
+Haploembia_palaui -> 1
+Tanzaniophasma_sp -> 1
+ACROMYRMEX_ECHINATIOR -> 1
+Harpegnathos_SALTator -> 1
+Chrysis_viridula -> 1
+Dichochrysa_prasina -> 1
+Cotesia_vestalis -> 1
+Leptopilina_clavipes -> 1
+Liposcelis_bostrychophila -> 1
+NASONIA_VITRIPENNIS -> 1
+Thrips_palmi -> 1
+Tenthredo_koehleri -> 1
+Orussus_abietinus -> 1
+APIS_MELLIFERA -> 1
+Bombus_terrestris -> 1
+Exoneura_robusta -> 1
+Cryptocercus_wrighti -> 1
+Mastotermes_darwiniensis -> 1
+ZOOTERMOPSIS_NEVADENSIS -> 1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+Blaberus_atropos -> 1
+Periplaneta_americana -> 1
+Ceuthophilus_sp -> 1
+Metallyticus_splendidus -> 1
+Empusa_pennata -> 1
+Mantis_religiosa -> 1
+Apachyus_charteceus -> 1
+Gryllotalpa_sp -> 1
+Forficula_auricularia -> 1
+Leuctra_sp -> 1
+Perla_marginata -> 1
+Cosmioperla_kuna -> 1
+Baetis_pumilus -> 1
+Ephemera_danica -> 1
+Isonychia_bicolor -> 1
+Eurylophella_sp -> 1
+Cordulegaster_boltonii -> 1
+Calopteryx_splendens -> 1
+Epiophlebia_superstes -> 1
+Lepeophtheirus_salmonis -> 1
+Stylops_melittae -> 1
+Acanthocasuarina_muellerianae -> 1
+Planococcus_citri -> 1
+Menopon_gallinae -> 1
+Mengenilla_moldrzyki -> 1
+PEDICULUS_HUMANUS -> 1
+Frankliniella_cephalica -> 1
+Gynaikothrips_ficorum -> 1
+Xenophysella_greensladeae -> 1
+Notostira_elongata -> 1
+Velia_caprai -> 1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+Okanagana_villosa -> 1
+Cercopis_vulnerata -> 1
+Nilaparvata_lugens -> 1
+Anurida_maritima -> 1
+Folsomia_candida -> 1
+Pogonognathellus_lon_fla -> 1
+Tetrodontophora_bielanensis -> 1
+Bemisia_tabaci -> 1
+Trialeurodes_vaporariorum -> 1
+Speleonectes_tulumensis -> 1
+DAPHNIA_PULEX -> 1
+Occasjapyx_japonicus -> 1
+Campodea_augens -> 1
+Atelura_formicaria -> 1
+Zorotypus_caudelli -> 1
+Thermobia_domestica -> -1
+Tricholepidion_gertschi -> -1
+Prosarthria_teretrirostris -> -1
+Stenobothrus_lineatus -> -1
+Tetrix_subulata -> -1
+Dendroctonus_ponderosae -> -1
+Meloe_violaceus -> -1
+TRIBOLIUM_CASTANEUM -> -1
+Aleochara_curtula -> -1
+Carabus_granulatus -> -1
+Gyrinus_marinus -> -1
+Osmylus_fulvicephalus -> -1
+Corydalus_cornutus -> -1
+Sialis_lutaria -> -1
+Sminthurus_vir_nig -> -1
+Euroleon_nostras -> -1
+Xanthostigma_xanthostigma -> -1
+Inocellia_crassicornis -> -1
+Ectopsocus_briggsi -> -1
+Bombylius_major -> -1
+IXODES_SCAPULARIS -> -1
+Archaeopsylla_erinacei -> -1
+Ctenocephalides_felis -> -1
+Ceratophyllus_gallinae -> -1
+Platycentropus_radiatus -> -1
+Nemophora_deegerella -> -1
+Parides_arcas -> -1
+Polyommatus_icarus -> -1
+Yponomeuta_evonymella -> -1
+BOMBYX_MORI -> -1
+Manduca_sexta -> -1
+Zygaena_fausta -> -1
+Cheumatopsyche_sp -> -1
+Triodia_sylvina -> -1
+Philopotamus_ludificatus -> -1
+Micropterix_calthella -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=1 taxa=144 duration_ns=1278220825330
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, Lepicerus_sp, Boreus_hyemalis, Panorpa_vulgaris, Hydroptilidae_sp, Litopenaeus_vannamei, Celuca_puligator, Sarsinebalia_urgorii, Cypridininae_sp, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, Essigella_californica, Aedes_AEGYpti, ANOPHELES_GAMBIAE, Glossina_morsitans, Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DROSOPHILA_MELANOGASTER, Lipara_lucens, Tipula_maxima, Priacma_serrata, Trichocera_fuscata, Bibio_marci, Phlebotomus_papatasi, Conwentzia_psociformis, Nannochorista_philpotti, Machilis_hrabei, Meinertellus_cundinamarcensis, Thermobia_domestica, Tricholepidion_gertschi, Prosarthria_teretrirostris, Stenobothrus_lineatus, Tetrix_subulata, Dendroctonus_ponderosae, Meloe_violaceus, TRIBOLIUM_CASTANEUM, Aleochara_curtula, Carabus_granulatus, Gyrinus_marinus, Osmylus_fulvicephalus, Corydalus_cornutus, Sialis_lutaria, Sminthurus_vir_nig, Euroleon_nostras, Xanthostigma_xanthostigma, Inocellia_crassicornis, Ectopsocus_briggsi, Bombylius_major, IXODES_SCAPULARIS, Archaeopsylla_erinacei, Ctenocephalides_felis, Ceratophyllus_gallinae, Platycentropus_radiatus, Nemophora_deegerella, Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, Cheumatopsyche_sp, Triodia_sylvina, Philopotamus_ludificatus, Micropterix_calthella, DUM_145}
+Number of Quartets in Qa: 916895
+Pb (Right Partition): {Grylloblatta_bifratrilecta, Galloisiana_yuasai, Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, Tanzaniophasma_sp, ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, Chrysis_viridula, Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, Liposcelis_bostrychophila, NASONIA_VITRIPENNIS, Thrips_palmi, Tenthredo_koehleri, Orussus_abietinus, APIS_MELLIFERA, Bombus_terrestris, Exoneura_robusta, Cryptocercus_wrighti, Mastotermes_darwiniensis, ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, Blaberus_atropos, Periplaneta_americana, Ceuthophilus_sp, Metallyticus_splendidus, Empusa_pennata, Mantis_religiosa, Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, Leuctra_sp, Perla_marginata, Cosmioperla_kuna, Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, Cordulegaster_boltonii, Calopteryx_splendens, Epiophlebia_superstes, Lepeophtheirus_salmonis, Stylops_melittae, Acanthocasuarina_muellerianae, Planococcus_citri, Menopon_gallinae, Mengenilla_moldrzyki, PEDICULUS_HUMANUS, Frankliniella_cephalica, Gynaikothrips_ficorum, Xenophysella_greensladeae, Notostira_elongata, Velia_caprai, Ranatra_linearis, Acanthosoma_haemorrhoidale, Okanagana_villosa, Cercopis_vulnerata, Nilaparvata_lugens, Anurida_maritima, Folsomia_candida, Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, Bemisia_tabaci, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DAPHNIA_PULEX, Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, DUM_145}
+Number of Quartets in Qb: 1282975
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=70 duration_ns=25953006878
+Final Bipartition Map at level 2:
+Bittacus_pilicornis -> -1
+IXODES_SCAPULARIS -> -1
+Lepicerus_sp -> -1
+Archaeopsylla_erinacei -> -1
+Boreus_hyemalis -> -1
+Ctenocephalides_felis -> -1
+Panorpa_vulgaris -> -1
+Ceratophyllus_gallinae -> -1
+Hydroptilidae_sp -> 1
+Platycentropus_radiatus -> -1
+Litopenaeus_vannamei -> 1
+Nemophora_deegerella -> -1
+Celuca_puligator -> 1
+Parides_arcas -> -1
+Sarsinebalia_urgorii -> 1
+Polyommatus_icarus -> -1
+Cypridininae_sp -> 1
+Yponomeuta_evonymella -> -1
+Symphylella_vulgaris -> 1
+BOMBYX_MORI -> -1
+Glomeris_pustulata -> 1
+Manduca_sexta -> -1
+Acerentomon_sp -> 1
+Zygaena_fausta -> -1
+Rhyacophila_fasciata -> 1
+Cheumatopsyche_sp -> -1
+ACYRTOSIPHON_PISUM -> 1
+Triodia_sylvina -> -1
+Aphis_gossypii -> 1
+Philopotamus_ludificatus -> -1
+Essigella_californica -> 1
+Micropterix_calthella -> -1
+Aedes_AEGYpti -> 1
+ANOPHELES_GAMBIAE -> 1
+DUM_145 -> 1
+Glossina_morsitans -> 1
+Sarcophaga_crassipalpis -> 1
+Triarthria_setipennis -> 1
+Rhagoletis_pomonella -> 1
+DROSOPHILA_MELANOGASTER -> 1
+Lipara_lucens -> 1
+Tipula_maxima -> 1
+Priacma_serrata -> 1
+Trichocera_fuscata -> 1
+Bibio_marci -> 1
+Phlebotomus_papatasi -> 1
+Conwentzia_psociformis -> 1
+Nannochorista_philpotti -> 1
+Machilis_hrabei -> 1
+Meinertellus_cundinamarcensis -> 1
+Thermobia_domestica -> 1
+Tricholepidion_gertschi -> 1
+Prosarthria_teretrirostris -> 1
+Stenobothrus_lineatus -> 1
+Tetrix_subulata -> 1
+Dendroctonus_ponderosae -> -1
+Meloe_violaceus -> -1
+TRIBOLIUM_CASTANEUM -> -1
+Aleochara_curtula -> -1
+Carabus_granulatus -> -1
+Gyrinus_marinus -> -1
+Osmylus_fulvicephalus -> -1
+Corydalus_cornutus -> -1
+Sialis_lutaria -> -1
+Sminthurus_vir_nig -> -1
+Euroleon_nostras -> -1
+Xanthostigma_xanthostigma -> -1
+Inocellia_crassicornis -> -1
+Ectopsocus_briggsi -> -1
+Bombylius_major -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=70 duration_ns=26132527344
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, IXODES_SCAPULARIS, Lepicerus_sp, Archaeopsylla_erinacei, Boreus_hyemalis, Ctenocephalides_felis, Panorpa_vulgaris, Ceratophyllus_gallinae, Platycentropus_radiatus, Nemophora_deegerella, Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, Cheumatopsyche_sp, Triodia_sylvina, Philopotamus_ludificatus, Micropterix_calthella, Dendroctonus_ponderosae, Meloe_violaceus, TRIBOLIUM_CASTANEUM, Aleochara_curtula, Carabus_granulatus, Gyrinus_marinus, Osmylus_fulvicephalus, Corydalus_cornutus, Sialis_lutaria, Sminthurus_vir_nig, Euroleon_nostras, Xanthostigma_xanthostigma, Inocellia_crassicornis, Ectopsocus_briggsi, Bombylius_major, DUM_146}
+Number of Quartets in Qa: 58905
+Pb (Right Partition): {Hydroptilidae_sp, Litopenaeus_vannamei, Celuca_puligator, Sarsinebalia_urgorii, Cypridininae_sp, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, Essigella_californica, Aedes_AEGYpti, ANOPHELES_GAMBIAE, DUM_145, Glossina_morsitans, Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DROSOPHILA_MELANOGASTER, Lipara_lucens, Tipula_maxima, Priacma_serrata, Trichocera_fuscata, Bibio_marci, Phlebotomus_papatasi, Conwentzia_psociformis, Nannochorista_philpotti, Machilis_hrabei, Meinertellus_cundinamarcensis, Thermobia_domestica, Tricholepidion_gertschi, Prosarthria_teretrirostris, Stenobothrus_lineatus, Tetrix_subulata, DUM_146}
+Number of Quartets in Qb: 58905
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=36 duration_ns=755398394
+Final Bipartition Map at level 3:
+Bittacus_pilicornis -> 1
+IXODES_SCAPULARIS -> -1
+Lepicerus_sp -> 1
+Archaeopsylla_erinacei -> -1
+Boreus_hyemalis -> 1
+Ctenocephalides_felis -> -1
+Panorpa_vulgaris -> 1
+Ceratophyllus_gallinae -> -1
+Platycentropus_radiatus -> -1
+Nemophora_deegerella -> -1
+Parides_arcas -> -1
+Polyommatus_icarus -> -1
+Yponomeuta_evonymella -> -1
+BOMBYX_MORI -> -1
+Manduca_sexta -> -1
+Zygaena_fausta -> -1
+Cheumatopsyche_sp -> -1
+Triodia_sylvina -> -1
+Philopotamus_ludificatus -> -1
+Micropterix_calthella -> -1
+DUM_146 -> 1
+Dendroctonus_ponderosae -> 1
+Meloe_violaceus -> 1
+TRIBOLIUM_CASTANEUM -> 1
+Aleochara_curtula -> 1
+Carabus_granulatus -> 1
+Gyrinus_marinus -> 1
+Osmylus_fulvicephalus -> 1
+Corydalus_cornutus -> 1
+Sialis_lutaria -> 1
+Sminthurus_vir_nig -> 1
+Euroleon_nostras -> 1
+Xanthostigma_xanthostigma -> 1
+Inocellia_crassicornis -> 1
+Ectopsocus_briggsi -> -1
+Bombylius_major -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=36 duration_ns=764774664
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {IXODES_SCAPULARIS, Archaeopsylla_erinacei, Ctenocephalides_felis, Ceratophyllus_gallinae, Platycentropus_radiatus, Nemophora_deegerella, Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, Cheumatopsyche_sp, Triodia_sylvina, Philopotamus_ludificatus, Micropterix_calthella, Ectopsocus_briggsi, Bombylius_major, DUM_147}
+Number of Quartets in Qa: 3876
+Pb (Right Partition): {Bittacus_pilicornis, Lepicerus_sp, Boreus_hyemalis, Panorpa_vulgaris, DUM_146, Dendroctonus_ponderosae, Meloe_violaceus, TRIBOLIUM_CASTANEUM, Aleochara_curtula, Carabus_granulatus, Gyrinus_marinus, Osmylus_fulvicephalus, Corydalus_cornutus, Sialis_lutaria, Sminthurus_vir_nig, Euroleon_nostras, Xanthostigma_xanthostigma, Inocellia_crassicornis, DUM_147}
+Number of Quartets in Qb: 3876
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=19 duration_ns=21310598
+Final Bipartition Map at level 4:
+IXODES_SCAPULARIS -> 1
+Archaeopsylla_erinacei -> 1
+Ctenocephalides_felis -> 1
+Ceratophyllus_gallinae -> 1
+Platycentropus_radiatus -> 1
+Nemophora_deegerella -> -1
+Parides_arcas -> -1
+Polyommatus_icarus -> -1
+Yponomeuta_evonymella -> -1
+BOMBYX_MORI -> -1
+Manduca_sexta -> -1
+Zygaena_fausta -> -1
+Cheumatopsyche_sp -> -1
+Triodia_sylvina -> -1
+Philopotamus_ludificatus -> 1
+Micropterix_calthella -> 1
+DUM_147 -> 1
+Ectopsocus_briggsi -> 1
+Bombylius_major -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=19 duration_ns=22512223
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Nemophora_deegerella, Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, Cheumatopsyche_sp, Triodia_sylvina, DUM_148}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {IXODES_SCAPULARIS, Archaeopsylla_erinacei, Ctenocephalides_felis, Ceratophyllus_gallinae, Platycentropus_radiatus, Philopotamus_ludificatus, Micropterix_calthella, DUM_147, Ectopsocus_briggsi, Bombylius_major, DUM_148}
+Number of Quartets in Qb: 330
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=10 duration_ns=1025094
+Final Bipartition Map at level 5:
+DUM_148 -> -1
+Nemophora_deegerella -> -1
+Parides_arcas -> 1
+Polyommatus_icarus -> 1
+Yponomeuta_evonymella -> 1
+BOMBYX_MORI -> 1
+Manduca_sexta -> 1
+Zygaena_fausta -> 1
+Cheumatopsyche_sp -> -1
+Triodia_sylvina -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=10 duration_ns=1201275
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Nemophora_deegerella, Cheumatopsyche_sp, Triodia_sylvina, DUM_149}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, DUM_149}
+Number of Quartets in Qb: 35
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=46321
+Final Bipartition Map at level 6:
+DUM_148 -> -1
+Cheumatopsyche_sp -> 1
+Nemophora_deegerella -> -1
+DUM_149 -> 1
+Triodia_sylvina -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=101290
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Nemophora_deegerella, DUM_150}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Cheumatopsyche_sp, DUM_149, Triodia_sylvina, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=282361
+Final Bipartition Map at level 7:
+Cheumatopsyche_sp -> -1
+DUM_149 -> -1
+Triodia_sylvina -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=334701
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cheumatopsyche_sp, DUM_149, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Triodia_sylvina, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=209710
+Final Bipartition Map at level 6:
+DUM_149 -> 1
+Parides_arcas -> -1
+Polyommatus_icarus -> -1
+Yponomeuta_evonymella -> -1
+BOMBYX_MORI -> 1
+Manduca_sexta -> 1
+Zygaena_fausta -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=312302
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Parides_arcas, Polyommatus_icarus, Yponomeuta_evonymella, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_149, BOMBYX_MORI, Manduca_sexta, Zygaena_fausta, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=20140
+Final Bipartition Map at level 7:
+Yponomeuta_evonymella -> 1
+Parides_arcas -> -1
+DUM_150 -> 1
+Polyommatus_icarus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=92571
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Parides_arcas, Polyommatus_icarus, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Yponomeuta_evonymella, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=79201
+Final Bipartition Map at level 7:
+BOMBYX_MORI -> -1
+Manduca_sexta -> -1
+Zygaena_fausta -> 1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=137681
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {BOMBYX_MORI, Manduca_sexta, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Zygaena_fausta, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=27490
+Final Bipartition Map at level 8:
+Zygaena_fausta -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=62101
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Zygaena_fausta, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=11 duration_ns=1264346
+Final Bipartition Map at level 5:
+IXODES_SCAPULARIS -> 1
+Archaeopsylla_erinacei -> -1
+Ctenocephalides_felis -> -1
+Ceratophyllus_gallinae -> -1
+DUM_147 -> 1
+Platycentropus_radiatus -> -1
+DUM_148 -> -1
+Philopotamus_ludificatus -> -1
+Ectopsocus_briggsi -> 1
+Micropterix_calthella -> -1
+Bombylius_major -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=11 duration_ns=1555457
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Archaeopsylla_erinacei, Ctenocephalides_felis, Ceratophyllus_gallinae, Platycentropus_radiatus, DUM_148, Philopotamus_ludificatus, Micropterix_calthella, DUM_149}
+Number of Quartets in Qa: 70
+Pb (Right Partition): {IXODES_SCAPULARIS, DUM_147, Ectopsocus_briggsi, Bombylius_major, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=292970
+Final Bipartition Map at level 6:
+Archaeopsylla_erinacei -> -1
+Ctenocephalides_felis -> -1
+Ceratophyllus_gallinae -> -1
+Platycentropus_radiatus -> 1
+DUM_148 -> 1
+DUM_149 -> -1
+Philopotamus_ludificatus -> 1
+Micropterix_calthella -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=423321
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Archaeopsylla_erinacei, Ctenocephalides_felis, Ceratophyllus_gallinae, DUM_149, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Platycentropus_radiatus, DUM_148, Philopotamus_ludificatus, Micropterix_calthella, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=36290
+Final Bipartition Map at level 7:
+Archaeopsylla_erinacei -> -1
+Ctenocephalides_felis -> -1
+Ceratophyllus_gallinae -> 1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=104401
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Archaeopsylla_erinacei, Ctenocephalides_felis, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Ceratophyllus_gallinae, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=31720
+Final Bipartition Map at level 8:
+Ceratophyllus_gallinae -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=81329
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Ceratophyllus_gallinae, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=30771
+Final Bipartition Map at level 7:
+Platycentropus_radiatus -> -1
+DUM_148 -> -1
+DUM_150 -> -1
+Philopotamus_ludificatus -> 1
+Micropterix_calthella -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=85161
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Platycentropus_radiatus, DUM_148, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Philopotamus_ludificatus, Micropterix_calthella, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=6390
+Final Bipartition Map at level 8:
+Platycentropus_radiatus -> -1
+DUM_148 -> 1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=39600
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Platycentropus_radiatus, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=28339
+Final Bipartition Map at level 6:
+IXODES_SCAPULARIS -> 1
+DUM_147 -> -1
+DUM_149 -> -1
+Ectopsocus_briggsi -> -1
+Bombylius_major -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=85510
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, DUM_149, Ectopsocus_briggsi, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {IXODES_SCAPULARIS, Bombylius_major, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=6641
+Final Bipartition Map at level 7:
+DUM_147 -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Ectopsocus_briggsi -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=38631
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Ectopsocus_briggsi, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_147, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=19 duration_ns=16729260
+Final Bipartition Map at level 4:
+Bittacus_pilicornis -> -1
+Lepicerus_sp -> -1
+Boreus_hyemalis -> -1
+Panorpa_vulgaris -> -1
+Dendroctonus_ponderosae -> -1
+DUM_146 -> -1
+Meloe_violaceus -> -1
+TRIBOLIUM_CASTANEUM -> -1
+DUM_147 -> -1
+Aleochara_curtula -> -1
+Carabus_granulatus -> -1
+Gyrinus_marinus -> -1
+Osmylus_fulvicephalus -> 1
+Corydalus_cornutus -> 1
+Sialis_lutaria -> 1
+Sminthurus_vir_nig -> 1
+Euroleon_nostras -> 1
+Xanthostigma_xanthostigma -> 1
+Inocellia_crassicornis -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=19 duration_ns=17777295
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, Lepicerus_sp, Boreus_hyemalis, Panorpa_vulgaris, Dendroctonus_ponderosae, DUM_146, Meloe_violaceus, TRIBOLIUM_CASTANEUM, DUM_147, Aleochara_curtula, Carabus_granulatus, Gyrinus_marinus, DUM_148}
+Number of Quartets in Qa: 715
+Pb (Right Partition): {Osmylus_fulvicephalus, Corydalus_cornutus, Sialis_lutaria, Sminthurus_vir_nig, Euroleon_nostras, Xanthostigma_xanthostigma, Inocellia_crassicornis, DUM_148}
+Number of Quartets in Qb: 70
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=13 duration_ns=2454221
+Final Bipartition Map at level 5:
+Bittacus_pilicornis -> -1
+Lepicerus_sp -> -1
+Boreus_hyemalis -> -1
+Panorpa_vulgaris -> -1
+Dendroctonus_ponderosae -> 1
+DUM_146 -> -1
+Meloe_violaceus -> 1
+TRIBOLIUM_CASTANEUM -> 1
+DUM_147 -> -1
+Aleochara_curtula -> 1
+DUM_148 -> 1
+Carabus_granulatus -> 1
+Gyrinus_marinus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=13 duration_ns=2735630
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, Lepicerus_sp, Boreus_hyemalis, Panorpa_vulgaris, DUM_146, DUM_147, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Dendroctonus_ponderosae, Meloe_violaceus, TRIBOLIUM_CASTANEUM, Aleochara_curtula, DUM_148, Carabus_granulatus, Gyrinus_marinus, DUM_149}
+Number of Quartets in Qb: 70
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=104781
+Final Bipartition Map at level 6:
+Bittacus_pilicornis -> -1
+Lepicerus_sp -> -1
+Boreus_hyemalis -> -1
+DUM_146 -> 1
+Panorpa_vulgaris -> 1
+DUM_147 -> 1
+DUM_149 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=167001
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, Lepicerus_sp, Boreus_hyemalis, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_146, Panorpa_vulgaris, DUM_147, DUM_149, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5690
+Final Bipartition Map at level 7:
+Bittacus_pilicornis -> -1
+Lepicerus_sp -> -1
+Boreus_hyemalis -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=37881
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bittacus_pilicornis, Lepicerus_sp, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Boreus_hyemalis, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=35570
+Final Bipartition Map at level 7:
+DUM_146 -> 1
+Panorpa_vulgaris -> -1
+DUM_147 -> -1
+DUM_149 -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=95731
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Panorpa_vulgaris, DUM_147, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_146, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=5489
+Final Bipartition Map at level 8:
+Panorpa_vulgaris -> -1
+DUM_147 -> 1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=33999
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Panorpa_vulgaris, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_147, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=203840
+Final Bipartition Map at level 6:
+Dendroctonus_ponderosae -> 1
+Meloe_violaceus -> 1
+TRIBOLIUM_CASTANEUM -> 1
+Aleochara_curtula -> 1
+DUM_148 -> -1
+Carabus_granulatus -> -1
+DUM_149 -> -1
+Gyrinus_marinus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=307142
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Carabus_granulatus, DUM_149, Gyrinus_marinus, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Dendroctonus_ponderosae, Meloe_violaceus, TRIBOLIUM_CASTANEUM, Aleochara_curtula, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=18240
+Final Bipartition Map at level 7:
+DUM_148 -> 1
+Carabus_granulatus -> -1
+DUM_149 -> 1
+Gyrinus_marinus -> -1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=61500
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Carabus_granulatus, Gyrinus_marinus, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_148, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4160
+Final Bipartition Map at level 8:
+Carabus_granulatus -> -1
+Gyrinus_marinus -> -1
+DUM_150 -> 1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=33990
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Carabus_granulatus, Gyrinus_marinus, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=20690
+Final Bipartition Map at level 7:
+Dendroctonus_ponderosae -> -1
+Meloe_violaceus -> 1
+TRIBOLIUM_CASTANEUM -> 1
+Aleochara_curtula -> -1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=72420
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Dendroctonus_ponderosae, Aleochara_curtula, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Meloe_violaceus, TRIBOLIUM_CASTANEUM, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4659
+Final Bipartition Map at level 8:
+Dendroctonus_ponderosae -> -1
+Aleochara_curtula -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=34250
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Dendroctonus_ponderosae, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Aleochara_curtula, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=8 duration_ns=186120
+Final Bipartition Map at level 5:
+DUM_148 -> 1
+Osmylus_fulvicephalus -> 1
+Corydalus_cornutus -> 1
+Sialis_lutaria -> 1
+Sminthurus_vir_nig -> -1
+Euroleon_nostras -> -1
+Xanthostigma_xanthostigma -> -1
+Inocellia_crassicornis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=264331
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sminthurus_vir_nig, Euroleon_nostras, Xanthostigma_xanthostigma, Inocellia_crassicornis, DUM_149}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {DUM_148, Osmylus_fulvicephalus, Corydalus_cornutus, Sialis_lutaria, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=18020
+Final Bipartition Map at level 6:
+Sminthurus_vir_nig -> -1
+Euroleon_nostras -> -1
+Xanthostigma_xanthostigma -> 1
+DUM_149 -> -1
+Inocellia_crassicornis -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=76461
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sminthurus_vir_nig, Euroleon_nostras, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Xanthostigma_xanthostigma, Inocellia_crassicornis, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4720
+Final Bipartition Map at level 7:
+Sminthurus_vir_nig -> -1
+Euroleon_nostras -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=34760
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sminthurus_vir_nig, Euroleon_nostras, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=33391
+Final Bipartition Map at level 6:
+Corydalus_cornutus -> 1
+Sialis_lutaria -> 1
+DUM_148 -> -1
+DUM_149 -> -1
+Osmylus_fulvicephalus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=81950
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, DUM_149, Osmylus_fulvicephalus, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Corydalus_cornutus, Sialis_lutaria, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=6800
+Final Bipartition Map at level 7:
+DUM_148 -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Osmylus_fulvicephalus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=39460
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Osmylus_fulvicephalus, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=36 duration_ns=865665602
+Final Bipartition Map at level 3:
+Hydroptilidae_sp -> 1
+Litopenaeus_vannamei -> 1
+Celuca_puligator -> 1
+Sarsinebalia_urgorii -> 1
+Cypridininae_sp -> 1
+Symphylella_vulgaris -> 1
+Glomeris_pustulata -> 1
+Acerentomon_sp -> 1
+Rhyacophila_fasciata -> -1
+ACYRTOSIPHON_PISUM -> -1
+Aphis_gossypii -> -1
+Essigella_californica -> -1
+Aedes_AEGYpti -> -1
+ANOPHELES_GAMBIAE -> -1
+DUM_145 -> 1
+Glossina_morsitans -> -1
+DUM_146 -> 1
+Sarcophaga_crassipalpis -> -1
+Triarthria_setipennis -> -1
+Rhagoletis_pomonella -> -1
+DROSOPHILA_MELANOGASTER -> -1
+Lipara_lucens -> -1
+Tipula_maxima -> -1
+Priacma_serrata -> -1
+Trichocera_fuscata -> -1
+Bibio_marci -> -1
+Phlebotomus_papatasi -> -1
+Conwentzia_psociformis -> 1
+Nannochorista_philpotti -> 1
+Machilis_hrabei -> 1
+Meinertellus_cundinamarcensis -> 1
+Thermobia_domestica -> 1
+Tricholepidion_gertschi -> 1
+Prosarthria_teretrirostris -> 1
+Stenobothrus_lineatus -> 1
+Tetrix_subulata -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=36 duration_ns=879483250
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, Essigella_californica, Aedes_AEGYpti, ANOPHELES_GAMBIAE, Glossina_morsitans, Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DROSOPHILA_MELANOGASTER, Lipara_lucens, Tipula_maxima, Priacma_serrata, Trichocera_fuscata, Bibio_marci, Phlebotomus_papatasi, DUM_147}
+Number of Quartets in Qa: 3060
+Pb (Right Partition): {Hydroptilidae_sp, Litopenaeus_vannamei, Celuca_puligator, Sarsinebalia_urgorii, Cypridininae_sp, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, DUM_145, DUM_146, Conwentzia_psociformis, Nannochorista_philpotti, Machilis_hrabei, Meinertellus_cundinamarcensis, Thermobia_domestica, Tricholepidion_gertschi, Prosarthria_teretrirostris, Stenobothrus_lineatus, Tetrix_subulata, DUM_147}
+Number of Quartets in Qb: 4845
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=18 duration_ns=11070725
+Final Bipartition Map at level 4:
+Rhyacophila_fasciata -> -1
+ACYRTOSIPHON_PISUM -> -1
+Aphis_gossypii -> -1
+Essigella_californica -> -1
+Aedes_AEGYpti -> 1
+ANOPHELES_GAMBIAE -> 1
+Glossina_morsitans -> 1
+Sarcophaga_crassipalpis -> 1
+DUM_147 -> -1
+Triarthria_setipennis -> 1
+Rhagoletis_pomonella -> 1
+DROSOPHILA_MELANOGASTER -> 1
+Lipara_lucens -> 1
+Tipula_maxima -> -1
+Priacma_serrata -> -1
+Trichocera_fuscata -> -1
+Bibio_marci -> -1
+Phlebotomus_papatasi -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=18 duration_ns=11759799
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, Essigella_californica, DUM_147, Tipula_maxima, Priacma_serrata, Trichocera_fuscata, Bibio_marci, Phlebotomus_papatasi, DUM_148}
+Number of Quartets in Qa: 330
+Pb (Right Partition): {Aedes_AEGYpti, ANOPHELES_GAMBIAE, Glossina_morsitans, Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DROSOPHILA_MELANOGASTER, Lipara_lucens, DUM_148}
+Number of Quartets in Qb: 126
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=11 duration_ns=884214
+Final Bipartition Map at level 5:
+DUM_147 -> -1
+DUM_148 -> 1
+Tipula_maxima -> 1
+Priacma_serrata -> 1
+Trichocera_fuscata -> 1
+Bibio_marci -> 1
+Rhyacophila_fasciata -> -1
+Phlebotomus_papatasi -> 1
+ACYRTOSIPHON_PISUM -> -1
+Aphis_gossypii -> -1
+Essigella_californica -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=11 duration_ns=1017725
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, Essigella_californica, DUM_149}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_148, Tipula_maxima, Priacma_serrata, Trichocera_fuscata, Bibio_marci, Phlebotomus_papatasi, DUM_149}
+Number of Quartets in Qb: 35
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=6 duration_ns=55261
+Final Bipartition Map at level 6:
+DUM_147 -> 1
+DUM_149 -> 1
+Rhyacophila_fasciata -> -1
+ACYRTOSIPHON_PISUM -> -1
+Aphis_gossypii -> -1
+Essigella_californica -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=101001
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, Aphis_gossypii, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_147, DUM_149, Essigella_californica, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5741
+Final Bipartition Map at level 7:
+Rhyacophila_fasciata -> -1
+ACYRTOSIPHON_PISUM -> -1
+DUM_150 -> 1
+Aphis_gossypii -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=32900
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Rhyacophila_fasciata, ACYRTOSIPHON_PISUM, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, Aphis_gossypii, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5869
+Final Bipartition Map at level 7:
+DUM_147 -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Essigella_californica -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=65540
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Essigella_californica, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_147, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=105801
+Final Bipartition Map at level 6:
+DUM_148 -> 1
+DUM_149 -> 1
+Tipula_maxima -> -1
+Priacma_serrata -> -1
+Trichocera_fuscata -> -1
+Bibio_marci -> 1
+Phlebotomus_papatasi -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=180202
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Tipula_maxima, Priacma_serrata, Trichocera_fuscata, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_148, DUM_149, Bibio_marci, Phlebotomus_papatasi, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4600
+Final Bipartition Map at level 7:
+Tipula_maxima -> -1
+Priacma_serrata -> -1
+Trichocera_fuscata -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=39600
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Tipula_maxima, Priacma_serrata, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Trichocera_fuscata, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=31750
+Final Bipartition Map at level 7:
+Bibio_marci -> -1
+DUM_148 -> 1
+Phlebotomus_papatasi -> -1
+DUM_149 -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=78881
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bibio_marci, Phlebotomus_papatasi, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_148, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=5090
+Final Bipartition Map at level 8:
+Bibio_marci -> -1
+Phlebotomus_papatasi -> 1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=37049
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bibio_marci, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Phlebotomus_papatasi, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=9 duration_ns=293101
+Final Bipartition Map at level 5:
+Aedes_AEGYpti -> -1
+ANOPHELES_GAMBIAE -> -1
+Glossina_morsitans -> 1
+Sarcophaga_crassipalpis -> 1
+Triarthria_setipennis -> 1
+DUM_148 -> -1
+Rhagoletis_pomonella -> 1
+DROSOPHILA_MELANOGASTER -> 1
+Lipara_lucens -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=9 duration_ns=382661
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aedes_AEGYpti, ANOPHELES_GAMBIAE, DUM_148, Lipara_lucens, DUM_149}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Glossina_morsitans, Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DROSOPHILA_MELANOGASTER, DUM_149}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=17029
+Final Bipartition Map at level 6:
+Aedes_AEGYpti -> -1
+ANOPHELES_GAMBIAE -> -1
+DUM_148 -> 1
+DUM_149 -> 1
+Lipara_lucens -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=74960
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aedes_AEGYpti, ANOPHELES_GAMBIAE, DUM_150}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_149, Lipara_lucens, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4610
+Final Bipartition Map at level 7:
+DUM_148 -> 1
+DUM_149 -> -1
+DUM_150 -> 1
+Lipara_lucens -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=33670
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_149, Lipara_lucens, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=6 duration_ns=58381
+Final Bipartition Map at level 6:
+Glossina_morsitans -> -1
+Sarcophaga_crassipalpis -> 1
+Triarthria_setipennis -> 1
+Rhagoletis_pomonella -> 1
+DUM_149 -> -1
+DROSOPHILA_MELANOGASTER -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=107541
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Glossina_morsitans, DUM_149, DROSOPHILA_MELANOGASTER, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Sarcophaga_crassipalpis, Triarthria_setipennis, Rhagoletis_pomonella, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4280
+Final Bipartition Map at level 7:
+Glossina_morsitans -> -1
+DUM_149 -> 1
+DROSOPHILA_MELANOGASTER -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=33520
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Glossina_morsitans, DUM_150, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DROSOPHILA_MELANOGASTER, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=12290
+Final Bipartition Map at level 7:
+Sarcophaga_crassipalpis -> -1
+Triarthria_setipennis -> 1
+Rhagoletis_pomonella -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=43589
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sarcophaga_crassipalpis, DUM_150, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Triarthria_setipennis, Rhagoletis_pomonella, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=20 duration_ns=24052620
+Final Bipartition Map at level 4:
+Meinertellus_cundinamarcensis -> -1
+Hydroptilidae_sp -> 1
+Litopenaeus_vannamei -> 1
+Celuca_puligator -> 1
+Sarsinebalia_urgorii -> 1
+Cypridininae_sp -> 1
+Symphylella_vulgaris -> 1
+Glomeris_pustulata -> 1
+Acerentomon_sp -> 1
+Thermobia_domestica -> -1
+Tricholepidion_gertschi -> -1
+Prosarthria_teretrirostris -> -1
+Stenobothrus_lineatus -> -1
+Tetrix_subulata -> -1
+DUM_145 -> -1
+DUM_146 -> -1
+DUM_147 -> 1
+Conwentzia_psociformis -> 1
+Nannochorista_philpotti -> -1
+Machilis_hrabei -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=20 duration_ns=25173735
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Meinertellus_cundinamarcensis, Thermobia_domestica, Tricholepidion_gertschi, Prosarthria_teretrirostris, Stenobothrus_lineatus, Tetrix_subulata, DUM_145, DUM_146, Nannochorista_philpotti, Machilis_hrabei, DUM_148}
+Number of Quartets in Qa: 330
+Pb (Right Partition): {Hydroptilidae_sp, Litopenaeus_vannamei, Celuca_puligator, Sarsinebalia_urgorii, Cypridininae_sp, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, DUM_147, Conwentzia_psociformis, DUM_148}
+Number of Quartets in Qb: 330
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=11 duration_ns=1050625
+Final Bipartition Map at level 5:
+Meinertellus_cundinamarcensis -> 1
+Tetrix_subulata -> -1
+DUM_145 -> 1
+DUM_146 -> -1
+DUM_148 -> -1
+Thermobia_domestica -> 1
+Tricholepidion_gertschi -> 1
+Prosarthria_teretrirostris -> -1
+Nannochorista_philpotti -> -1
+Stenobothrus_lineatus -> -1
+Machilis_hrabei -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=11 duration_ns=1190755
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Tetrix_subulata, DUM_146, DUM_148, Prosarthria_teretrirostris, Nannochorista_philpotti, Stenobothrus_lineatus, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Meinertellus_cundinamarcensis, DUM_145, Thermobia_domestica, Tricholepidion_gertschi, Machilis_hrabei, DUM_149}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=133451
+Final Bipartition Map at level 6:
+Tetrix_subulata -> 1
+DUM_146 -> -1
+DUM_148 -> -1
+DUM_149 -> -1
+Prosarthria_teretrirostris -> 1
+Nannochorista_philpotti -> -1
+Stenobothrus_lineatus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=189411
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_146, DUM_148, DUM_149, Nannochorista_philpotti, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Tetrix_subulata, Prosarthria_teretrirostris, Stenobothrus_lineatus, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=17030
+Final Bipartition Map at level 7:
+DUM_146 -> 1
+DUM_148 -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+Nannochorista_philpotti -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=58491
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Nannochorista_philpotti, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_146, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=5579
+Final Bipartition Map at level 8:
+DUM_146 -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=34001
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_146, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5200
+Final Bipartition Map at level 7:
+Tetrix_subulata -> 1
+DUM_150 -> 1
+Prosarthria_teretrirostris -> -1
+Stenobothrus_lineatus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=36961
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Prosarthria_teretrirostris, Stenobothrus_lineatus, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Tetrix_subulata, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=6 duration_ns=56840
+Final Bipartition Map at level 6:
+Meinertellus_cundinamarcensis -> -1
+DUM_145 -> 1
+DUM_149 -> -1
+Thermobia_domestica -> 1
+Tricholepidion_gertschi -> 1
+Machilis_hrabei -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=122411
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Meinertellus_cundinamarcensis, DUM_149, Machilis_hrabei, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_145, Thermobia_domestica, Tricholepidion_gertschi, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4440
+Final Bipartition Map at level 7:
+Meinertellus_cundinamarcensis -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+Machilis_hrabei -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=35550
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Meinertellus_cundinamarcensis, Machilis_hrabei, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4450
+Final Bipartition Map at level 7:
+DUM_145 -> 1
+Thermobia_domestica -> -1
+Tricholepidion_gertschi -> -1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=33460
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Thermobia_domestica, Tricholepidion_gertschi, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_145, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=11 duration_ns=971635
+Final Bipartition Map at level 5:
+DUM_147 -> -1
+Hydroptilidae_sp -> -1
+DUM_148 -> -1
+Litopenaeus_vannamei -> 1
+Celuca_puligator -> 1
+Sarsinebalia_urgorii -> 1
+Cypridininae_sp -> 1
+Symphylella_vulgaris -> -1
+Glomeris_pustulata -> -1
+Acerentomon_sp -> -1
+Conwentzia_psociformis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=11 duration_ns=1109024
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, Hydroptilidae_sp, DUM_148, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, Conwentzia_psociformis, DUM_149}
+Number of Quartets in Qa: 70
+Pb (Right Partition): {Litopenaeus_vannamei, Celuca_puligator, Sarsinebalia_urgorii, Cypridininae_sp, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=211921
+Final Bipartition Map at level 6:
+DUM_147 -> -1
+Hydroptilidae_sp -> -1
+DUM_148 -> -1
+DUM_149 -> 1
+Symphylella_vulgaris -> 1
+Glomeris_pustulata -> 1
+Acerentomon_sp -> 1
+Conwentzia_psociformis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=282312
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, Hydroptilidae_sp, DUM_148, Conwentzia_psociformis, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {DUM_149, Symphylella_vulgaris, Glomeris_pustulata, Acerentomon_sp, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=16670
+Final Bipartition Map at level 7:
+DUM_147 -> -1
+Hydroptilidae_sp -> -1
+DUM_148 -> 1
+Conwentzia_psociformis -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=50841
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, Hydroptilidae_sp, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_148, Conwentzia_psociformis, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=9139
+Final Bipartition Map at level 8:
+DUM_147 -> 1
+Hydroptilidae_sp -> -1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=40210
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Hydroptilidae_sp, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_147, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=18090
+Final Bipartition Map at level 7:
+Symphylella_vulgaris -> -1
+Glomeris_pustulata -> -1
+Acerentomon_sp -> 1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=52969
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Symphylella_vulgaris, Glomeris_pustulata, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Acerentomon_sp, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=6470
+Final Bipartition Map at level 8:
+Acerentomon_sp -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=34990
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Acerentomon_sp, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=17761
+Final Bipartition Map at level 6:
+Cypridininae_sp -> 1
+Litopenaeus_vannamei -> -1
+DUM_149 -> 1
+Celuca_puligator -> -1
+Sarsinebalia_urgorii -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=58291
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Litopenaeus_vannamei, Celuca_puligator, DUM_150}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Cypridininae_sp, DUM_149, Sarsinebalia_urgorii, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=3870
+Final Bipartition Map at level 7:
+Cypridininae_sp -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Sarsinebalia_urgorii -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=31620
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Sarsinebalia_urgorii, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Cypridininae_sp, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=76 duration_ns=49090398205
+Final Bipartition Map at level 2:
+DUM_145 -> -1
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> -1
+Aposthonia_japonica -> -1
+Haploembia_palaui -> -1
+Tanzaniophasma_sp -> -1
+ACROMYRMEX_ECHINATIOR -> -1
+Harpegnathos_SALTator -> -1
+Chrysis_viridula -> -1
+Dichochrysa_prasina -> -1
+Cotesia_vestalis -> -1
+Leptopilina_clavipes -> -1
+Liposcelis_bostrychophila -> -1
+NASONIA_VITRIPENNIS -> -1
+Thrips_palmi -> -1
+Tenthredo_koehleri -> -1
+Orussus_abietinus -> -1
+APIS_MELLIFERA -> -1
+Bombus_terrestris -> -1
+Exoneura_robusta -> -1
+Cryptocercus_wrighti -> -1
+Mastotermes_darwiniensis -> -1
+ZOOTERMOPSIS_NEVADENSIS -> -1
+Prorhinotermes_simplex -> -1
+Eriocrania_subpurpurella -> -1
+Blaberus_atropos -> -1
+Periplaneta_americana -> -1
+Ceuthophilus_sp -> -1
+Metallyticus_splendidus -> -1
+Empusa_pennata -> -1
+Mantis_religiosa -> -1
+Apachyus_charteceus -> -1
+Gryllotalpa_sp -> -1
+Forficula_auricularia -> -1
+Leuctra_sp -> -1
+Perla_marginata -> -1
+Cosmioperla_kuna -> -1
+Baetis_pumilus -> -1
+Ephemera_danica -> -1
+Isonychia_bicolor -> -1
+Eurylophella_sp -> -1
+Cordulegaster_boltonii -> 1
+Calopteryx_splendens -> 1
+Epiophlebia_superstes -> 1
+Lepeophtheirus_salmonis -> 1
+Stylops_melittae -> 1
+Acanthocasuarina_muellerianae -> 1
+Planococcus_citri -> 1
+Menopon_gallinae -> 1
+Mengenilla_moldrzyki -> 1
+PEDICULUS_HUMANUS -> 1
+Frankliniella_cephalica -> 1
+Gynaikothrips_ficorum -> 1
+Xenophysella_greensladeae -> 1
+Notostira_elongata -> 1
+Velia_caprai -> 1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+Okanagana_villosa -> 1
+Cercopis_vulnerata -> 1
+Nilaparvata_lugens -> 1
+Anurida_maritima -> 1
+Folsomia_candida -> 1
+Pogonognathellus_lon_fla -> 1
+Tetrodontophora_bielanensis -> 1
+Bemisia_tabaci -> 1
+Trialeurodes_vaporariorum -> 1
+Speleonectes_tulumensis -> 1
+DAPHNIA_PULEX -> 1
+Occasjapyx_japonicus -> 1
+Campodea_augens -> 1
+Atelura_formicaria -> 1
+Zorotypus_caudelli -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=76 duration_ns=49326951665
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_145, Grylloblatta_bifratrilecta, Galloisiana_yuasai, Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, Tanzaniophasma_sp, ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, Chrysis_viridula, Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, Liposcelis_bostrychophila, NASONIA_VITRIPENNIS, Thrips_palmi, Tenthredo_koehleri, Orussus_abietinus, APIS_MELLIFERA, Bombus_terrestris, Exoneura_robusta, Cryptocercus_wrighti, Mastotermes_darwiniensis, ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, Blaberus_atropos, Periplaneta_americana, Ceuthophilus_sp, Metallyticus_splendidus, Empusa_pennata, Mantis_religiosa, Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, Leuctra_sp, Perla_marginata, Cosmioperla_kuna, Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, DUM_146}
+Number of Quartets in Qa: 148995
+Pb (Right Partition): {Cordulegaster_boltonii, Calopteryx_splendens, Epiophlebia_superstes, Lepeophtheirus_salmonis, Stylops_melittae, Acanthocasuarina_muellerianae, Planococcus_citri, Menopon_gallinae, Mengenilla_moldrzyki, PEDICULUS_HUMANUS, Frankliniella_cephalica, Gynaikothrips_ficorum, Xenophysella_greensladeae, Notostira_elongata, Velia_caprai, Ranatra_linearis, Acanthosoma_haemorrhoidale, Okanagana_villosa, Cercopis_vulnerata, Nilaparvata_lugens, Anurida_maritima, Folsomia_candida, Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, Bemisia_tabaci, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DAPHNIA_PULEX, Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, DUM_146}
+Number of Quartets in Qb: 40920
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=45 duration_ns=4711475344
+Final Bipartition Map at level 3:
+Empusa_pennata -> 1
+Mantis_religiosa -> 1
+Apachyus_charteceus -> 1
+Gryllotalpa_sp -> 1
+Forficula_auricularia -> 1
+Leuctra_sp -> 1
+Perla_marginata -> 1
+Cosmioperla_kuna -> 1
+Baetis_pumilus -> 1
+Ephemera_danica -> 1
+Isonychia_bicolor -> 1
+Eurylophella_sp -> 1
+DUM_145 -> -1
+DUM_146 -> 1
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> -1
+Aposthonia_japonica -> -1
+Haploembia_palaui -> -1
+Tanzaniophasma_sp -> -1
+ACROMYRMEX_ECHINATIOR -> -1
+Harpegnathos_SALTator -> -1
+Chrysis_viridula -> -1
+Dichochrysa_prasina -> -1
+Cotesia_vestalis -> -1
+Leptopilina_clavipes -> -1
+Liposcelis_bostrychophila -> -1
+NASONIA_VITRIPENNIS -> -1
+Thrips_palmi -> -1
+Tenthredo_koehleri -> -1
+Orussus_abietinus -> -1
+APIS_MELLIFERA -> -1
+Bombus_terrestris -> -1
+Exoneura_robusta -> -1
+Cryptocercus_wrighti -> 1
+Mastotermes_darwiniensis -> 1
+ZOOTERMOPSIS_NEVADENSIS -> 1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+Blaberus_atropos -> 1
+Periplaneta_americana -> 1
+Ceuthophilus_sp -> 1
+Metallyticus_splendidus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=45 duration_ns=4740606074
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_145, Grylloblatta_bifratrilecta, Galloisiana_yuasai, Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, Tanzaniophasma_sp, ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, Chrysis_viridula, Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, Liposcelis_bostrychophila, NASONIA_VITRIPENNIS, Thrips_palmi, Tenthredo_koehleri, Orussus_abietinus, APIS_MELLIFERA, Bombus_terrestris, Exoneura_robusta, DUM_147}
+Number of Quartets in Qa: 10626
+Pb (Right Partition): {Empusa_pennata, Mantis_religiosa, Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, Leuctra_sp, Perla_marginata, Cosmioperla_kuna, Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, DUM_146, Cryptocercus_wrighti, Mastotermes_darwiniensis, ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, Blaberus_atropos, Periplaneta_americana, Ceuthophilus_sp, Metallyticus_splendidus, DUM_147}
+Number of Quartets in Qb: 8855
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=24 duration_ns=58617372
+Final Bipartition Map at level 4:
+DUM_145 -> -1
+DUM_147 -> -1
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> -1
+Aposthonia_japonica -> -1
+Haploembia_palaui -> -1
+Tanzaniophasma_sp -> -1
+ACROMYRMEX_ECHINATIOR -> 1
+Harpegnathos_SALTator -> 1
+Chrysis_viridula -> 1
+Dichochrysa_prasina -> 1
+Cotesia_vestalis -> 1
+Leptopilina_clavipes -> 1
+Liposcelis_bostrychophila -> 1
+NASONIA_VITRIPENNIS -> 1
+Thrips_palmi -> 1
+Tenthredo_koehleri -> 1
+Orussus_abietinus -> 1
+APIS_MELLIFERA -> -1
+Bombus_terrestris -> -1
+Exoneura_robusta -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=24 duration_ns=60998632
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_145, DUM_147, Grylloblatta_bifratrilecta, Galloisiana_yuasai, Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, Tanzaniophasma_sp, APIS_MELLIFERA, Bombus_terrestris, Exoneura_robusta, DUM_148}
+Number of Quartets in Qa: 1001
+Pb (Right Partition): {ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, Chrysis_viridula, Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, Liposcelis_bostrychophila, NASONIA_VITRIPENNIS, Thrips_palmi, Tenthredo_koehleri, Orussus_abietinus, DUM_148}
+Number of Quartets in Qb: 495
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=14 duration_ns=4870739
+Final Bipartition Map at level 5:
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> -1
+Aposthonia_japonica -> -1
+Haploembia_palaui -> -1
+Tanzaniophasma_sp -> 1
+DUM_145 -> 1
+DUM_147 -> 1
+APIS_MELLIFERA -> 1
+DUM_148 -> 1
+Bombus_terrestris -> 1
+Exoneura_robusta -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=14 duration_ns=5165571
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Grylloblatta_bifratrilecta, Galloisiana_yuasai, Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, DUM_149}
+Number of Quartets in Qa: 70
+Pb (Right Partition): {Tanzaniophasma_sp, DUM_145, DUM_147, APIS_MELLIFERA, DUM_148, Bombus_terrestris, Exoneura_robusta, DUM_149}
+Number of Quartets in Qb: 70
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=157471
+Final Bipartition Map at level 6:
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+Aretaon_asperrimus -> 1
+Peruphasma_schultei -> 1
+Timema_cristinae -> 1
+DUM_149 -> -1
+Aposthonia_japonica -> 1
+Haploembia_palaui -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=241310
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Grylloblatta_bifratrilecta, Galloisiana_yuasai, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, Aposthonia_japonica, Haploembia_palaui, DUM_150}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=22370
+Final Bipartition Map at level 7:
+Grylloblatta_bifratrilecta -> -1
+Galloisiana_yuasai -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=57730
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Grylloblatta_bifratrilecta, Galloisiana_yuasai, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=6 duration_ns=52500
+Final Bipartition Map at level 7:
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> -1
+Aposthonia_japonica -> 1
+DUM_150 -> 1
+Haploembia_palaui -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=6 duration_ns=101470
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aretaon_asperrimus, Peruphasma_schultei, Timema_cristinae, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Aposthonia_japonica, DUM_150, Haploembia_palaui, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=10920
+Final Bipartition Map at level 8:
+Aretaon_asperrimus -> -1
+Peruphasma_schultei -> -1
+Timema_cristinae -> 1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=51360
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aretaon_asperrimus, Peruphasma_schultei, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Timema_cristinae, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4550
+Final Bipartition Map at level 8:
+Aposthonia_japonica -> -1
+DUM_150 -> 1
+Haploembia_palaui -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=34731
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aposthonia_japonica, Haploembia_palaui, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=203730
+Final Bipartition Map at level 6:
+DUM_145 -> -1
+DUM_147 -> -1
+APIS_MELLIFERA -> 1
+DUM_148 -> 1
+Bombus_terrestris -> 1
+DUM_149 -> -1
+Exoneura_robusta -> 1
+Tanzaniophasma_sp -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=277251
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_145, DUM_147, DUM_149, Tanzaniophasma_sp, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {APIS_MELLIFERA, DUM_148, Bombus_terrestris, Exoneura_robusta, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=15490
+Final Bipartition Map at level 7:
+Tanzaniophasma_sp -> -1
+DUM_145 -> 1
+DUM_147 -> 1
+DUM_149 -> -1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=54650
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Tanzaniophasma_sp, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_145, DUM_147, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4949
+Final Bipartition Map at level 8:
+Tanzaniophasma_sp -> -1
+DUM_149 -> -1
+DUM_150 -> 1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=37551
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Tanzaniophasma_sp, DUM_149, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=17491
+Final Bipartition Map at level 7:
+APIS_MELLIFERA -> -1
+DUM_148 -> 1
+Bombus_terrestris -> -1
+Exoneura_robusta -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=61989
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {APIS_MELLIFERA, Bombus_terrestris, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, Exoneura_robusta, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4010
+Final Bipartition Map at level 8:
+DUM_148 -> 1
+Exoneura_robusta -> -1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=35791
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Exoneura_robusta, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=12 duration_ns=1258395
+Final Bipartition Map at level 5:
+ACROMYRMEX_ECHINATIOR -> -1
+Harpegnathos_SALTator -> -1
+Chrysis_viridula -> -1
+Dichochrysa_prasina -> 1
+Cotesia_vestalis -> 1
+Leptopilina_clavipes -> 1
+Liposcelis_bostrychophila -> 1
+NASONIA_VITRIPENNIS -> 1
+Thrips_palmi -> 1
+Tenthredo_koehleri -> -1
+Orussus_abietinus -> -1
+DUM_148 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=12 duration_ns=1458157
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, Chrysis_viridula, Tenthredo_koehleri, Orussus_abietinus, DUM_148, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, Liposcelis_bostrychophila, NASONIA_VITRIPENNIS, Thrips_palmi, DUM_149}
+Number of Quartets in Qb: 35
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=96391
+Final Bipartition Map at level 6:
+Tenthredo_koehleri -> 1
+Orussus_abietinus -> 1
+DUM_148 -> -1
+DUM_149 -> 1
+ACROMYRMEX_ECHINATIOR -> -1
+Harpegnathos_SALTator -> -1
+Chrysis_viridula -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=154841
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Tenthredo_koehleri, Orussus_abietinus, DUM_149, Chrysis_viridula, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5710
+Final Bipartition Map at level 7:
+ACROMYRMEX_ECHINATIOR -> -1
+Harpegnathos_SALTator -> -1
+DUM_148 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=36410
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACROMYRMEX_ECHINATIOR, Harpegnathos_SALTator, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=17950
+Final Bipartition Map at level 7:
+Tenthredo_koehleri -> 1
+Orussus_abietinus -> 1
+Chrysis_viridula -> -1
+DUM_149 -> -1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=60091
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Chrysis_viridula, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Tenthredo_koehleri, Orussus_abietinus, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3680
+Final Bipartition Map at level 8:
+Chrysis_viridula -> -1
+DUM_149 -> 1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=34361
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Chrysis_viridula, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=101401
+Final Bipartition Map at level 6:
+NASONIA_VITRIPENNIS -> 1
+Thrips_palmi -> 1
+DUM_149 -> 1
+Dichochrysa_prasina -> -1
+Cotesia_vestalis -> -1
+Leptopilina_clavipes -> -1
+Liposcelis_bostrychophila -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=163432
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Dichochrysa_prasina, Cotesia_vestalis, Leptopilina_clavipes, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {NASONIA_VITRIPENNIS, Thrips_palmi, DUM_149, Liposcelis_bostrychophila, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4770
+Final Bipartition Map at level 7:
+Dichochrysa_prasina -> -1
+Cotesia_vestalis -> -1
+DUM_150 -> 1
+Leptopilina_clavipes -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=39040
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Dichochrysa_prasina, Cotesia_vestalis, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, Leptopilina_clavipes, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=16301
+Final Bipartition Map at level 7:
+NASONIA_VITRIPENNIS -> -1
+Thrips_palmi -> 1
+DUM_149 -> 1
+DUM_150 -> 1
+Liposcelis_bostrychophila -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=57710
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {NASONIA_VITRIPENNIS, Liposcelis_bostrychophila, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Thrips_palmi, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4310
+Final Bipartition Map at level 8:
+Thrips_palmi -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=35320
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Thrips_palmi, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=23 duration_ns=48153029
+Final Bipartition Map at level 4:
+Empusa_pennata -> 1
+Mantis_religiosa -> 1
+Apachyus_charteceus -> -1
+Gryllotalpa_sp -> -1
+Forficula_auricularia -> -1
+Leuctra_sp -> -1
+Perla_marginata -> -1
+Cosmioperla_kuna -> -1
+Baetis_pumilus -> -1
+Ephemera_danica -> -1
+Isonychia_bicolor -> -1
+Eurylophella_sp -> -1
+DUM_146 -> -1
+DUM_147 -> -1
+Cryptocercus_wrighti -> 1
+Mastotermes_darwiniensis -> 1
+ZOOTERMOPSIS_NEVADENSIS -> 1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+Blaberus_atropos -> 1
+Periplaneta_americana -> 1
+Ceuthophilus_sp -> 1
+Metallyticus_splendidus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=23 duration_ns=49985687
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, Leuctra_sp, Perla_marginata, Cosmioperla_kuna, Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, DUM_146, DUM_147, DUM_148}
+Number of Quartets in Qa: 715
+Pb (Right Partition): {Empusa_pennata, Mantis_religiosa, Cryptocercus_wrighti, Mastotermes_darwiniensis, ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, Blaberus_atropos, Periplaneta_americana, Ceuthophilus_sp, Metallyticus_splendidus, DUM_148}
+Number of Quartets in Qb: 495
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=13 duration_ns=2073588
+Final Bipartition Map at level 5:
+Apachyus_charteceus -> -1
+Gryllotalpa_sp -> -1
+Forficula_auricularia -> -1
+Leuctra_sp -> -1
+Perla_marginata -> -1
+Cosmioperla_kuna -> -1
+Baetis_pumilus -> 1
+Ephemera_danica -> 1
+Isonychia_bicolor -> 1
+Eurylophella_sp -> 1
+DUM_146 -> 1
+DUM_147 -> 1
+DUM_148 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=13 duration_ns=2288700
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, Leuctra_sp, Perla_marginata, Cosmioperla_kuna, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, DUM_146, DUM_147, DUM_148, DUM_149}
+Number of Quartets in Qb: 70
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=90050
+Final Bipartition Map at level 6:
+Apachyus_charteceus -> -1
+Gryllotalpa_sp -> -1
+Forficula_auricularia -> -1
+Leuctra_sp -> 1
+DUM_149 -> 1
+Perla_marginata -> 1
+Cosmioperla_kuna -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=161660
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Apachyus_charteceus, Gryllotalpa_sp, Forficula_auricularia, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Leuctra_sp, DUM_149, Perla_marginata, Cosmioperla_kuna, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5370
+Final Bipartition Map at level 7:
+Apachyus_charteceus -> -1
+Gryllotalpa_sp -> -1
+Forficula_auricularia -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=35540
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Apachyus_charteceus, Gryllotalpa_sp, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Forficula_auricularia, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=27581
+Final Bipartition Map at level 7:
+Leuctra_sp -> -1
+DUM_149 -> 1
+Perla_marginata -> -1
+DUM_150 -> 1
+Cosmioperla_kuna -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=65930
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Leuctra_sp, Perla_marginata, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, Cosmioperla_kuna, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4650
+Final Bipartition Map at level 8:
+DUM_149 -> 1
+DUM_150 -> 1
+Cosmioperla_kuna -> -1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=35340
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cosmioperla_kuna, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=8 duration_ns=191531
+Final Bipartition Map at level 6:
+DUM_146 -> -1
+DUM_147 -> -1
+DUM_148 -> -1
+DUM_149 -> -1
+Baetis_pumilus -> 1
+Ephemera_danica -> 1
+Isonychia_bicolor -> 1
+Eurylophella_sp -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=8 duration_ns=261350
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_146, DUM_147, DUM_148, DUM_149, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Baetis_pumilus, Ephemera_danica, Isonychia_bicolor, Eurylophella_sp, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=13901
+Final Bipartition Map at level 7:
+DUM_146 -> -1
+DUM_147 -> -1
+DUM_148 -> 1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=52971
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_146, DUM_147, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=12120
+Final Bipartition Map at level 8:
+DUM_148 -> -1
+DUM_149 -> -1
+DUM_150 -> 1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=42480
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, DUM_149, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=14661
+Final Bipartition Map at level 7:
+Baetis_pumilus -> -1
+Ephemera_danica -> -1
+Isonychia_bicolor -> 1
+Eurylophella_sp -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=54300
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Baetis_pumilus, Ephemera_danica, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Isonychia_bicolor, Eurylophella_sp, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3290
+Final Bipartition Map at level 8:
+Baetis_pumilus -> -1
+Ephemera_danica -> 1
+DUM_150 -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=50179
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Baetis_pumilus, DUM_150, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Ephemera_danica, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=12 duration_ns=1318576
+Final Bipartition Map at level 5:
+Empusa_pennata -> -1
+Mantis_religiosa -> -1
+DUM_148 -> -1
+Cryptocercus_wrighti -> 1
+Mastotermes_darwiniensis -> 1
+ZOOTERMOPSIS_NEVADENSIS -> 1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+Blaberus_atropos -> 1
+Periplaneta_americana -> -1
+Ceuthophilus_sp -> -1
+Metallyticus_splendidus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=12 duration_ns=1513957
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Empusa_pennata, Mantis_religiosa, DUM_148, Periplaneta_americana, Ceuthophilus_sp, Metallyticus_splendidus, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Cryptocercus_wrighti, Mastotermes_darwiniensis, ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, Blaberus_atropos, DUM_149}
+Number of Quartets in Qb: 35
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=91021
+Final Bipartition Map at level 6:
+Empusa_pennata -> 1
+Mantis_religiosa -> 1
+DUM_148 -> -1
+DUM_149 -> -1
+Periplaneta_americana -> -1
+Ceuthophilus_sp -> -1
+Metallyticus_splendidus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=168500
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, DUM_149, Periplaneta_americana, Ceuthophilus_sp, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Empusa_pennata, Mantis_religiosa, Metallyticus_splendidus, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=16570
+Final Bipartition Map at level 7:
+DUM_148 -> 1
+DUM_149 -> -1
+Periplaneta_americana -> -1
+DUM_150 -> 1
+Ceuthophilus_sp -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=57960
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_149, Periplaneta_americana, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_150, Ceuthophilus_sp, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=4110
+Final Bipartition Map at level 8:
+DUM_148 -> 1
+DUM_150 -> -1
+Ceuthophilus_sp -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=33960
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Ceuthophilus_sp, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4230
+Final Bipartition Map at level 7:
+Empusa_pennata -> 1
+Mantis_religiosa -> 1
+DUM_150 -> -1
+Metallyticus_splendidus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=33880
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Metallyticus_splendidus, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Empusa_pennata, Mantis_religiosa, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=48310
+Final Bipartition Map at level 6:
+DUM_149 -> -1
+Cryptocercus_wrighti -> -1
+Mastotermes_darwiniensis -> -1
+ZOOTERMOPSIS_NEVADENSIS -> 1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+Blaberus_atropos -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=105541
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_149, Cryptocercus_wrighti, Mastotermes_darwiniensis, Blaberus_atropos, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {ZOOTERMOPSIS_NEVADENSIS, Prorhinotermes_simplex, Eriocrania_subpurpurella, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=15730
+Final Bipartition Map at level 7:
+Mastotermes_darwiniensis -> -1
+Blaberus_atropos -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Cryptocercus_wrighti -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=55570
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Mastotermes_darwiniensis, DUM_150, Cryptocercus_wrighti, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Blaberus_atropos, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3700
+Final Bipartition Map at level 8:
+Mastotermes_darwiniensis -> 1
+DUM_150 -> 1
+Cryptocercus_wrighti -> -1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=32179
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cryptocercus_wrighti, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Mastotermes_darwiniensis, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4270
+Final Bipartition Map at level 7:
+ZOOTERMOPSIS_NEVADENSIS -> -1
+Prorhinotermes_simplex -> 1
+Eriocrania_subpurpurella -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=43139
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {ZOOTERMOPSIS_NEVADENSIS, DUM_150, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Prorhinotermes_simplex, Eriocrania_subpurpurella, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=33 duration_ns=377636360
+Final Bipartition Map at level 3:
+Cordulegaster_boltonii -> -1
+Calopteryx_splendens -> -1
+Epiophlebia_superstes -> -1
+Lepeophtheirus_salmonis -> -1
+Stylops_melittae -> -1
+Acanthocasuarina_muellerianae -> -1
+Planococcus_citri -> -1
+DUM_146 -> -1
+Menopon_gallinae -> -1
+Mengenilla_moldrzyki -> -1
+PEDICULUS_HUMANUS -> -1
+Frankliniella_cephalica -> -1
+Gynaikothrips_ficorum -> -1
+Xenophysella_greensladeae -> 1
+Notostira_elongata -> 1
+Velia_caprai -> 1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+Okanagana_villosa -> 1
+Cercopis_vulnerata -> 1
+Nilaparvata_lugens -> 1
+Anurida_maritima -> 1
+Folsomia_candida -> 1
+Pogonognathellus_lon_fla -> 1
+Tetrodontophora_bielanensis -> 1
+Bemisia_tabaci -> 1
+Trialeurodes_vaporariorum -> 1
+Speleonectes_tulumensis -> 1
+DAPHNIA_PULEX -> 1
+Occasjapyx_japonicus -> -1
+Campodea_augens -> -1
+Atelura_formicaria -> -1
+Zorotypus_caudelli -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=33 duration_ns=386904678
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cordulegaster_boltonii, Calopteryx_splendens, Epiophlebia_superstes, Lepeophtheirus_salmonis, Stylops_melittae, Acanthocasuarina_muellerianae, Planococcus_citri, DUM_146, Menopon_gallinae, Mengenilla_moldrzyki, PEDICULUS_HUMANUS, Frankliniella_cephalica, Gynaikothrips_ficorum, Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, DUM_147}
+Number of Quartets in Qa: 3060
+Pb (Right Partition): {Xenophysella_greensladeae, Notostira_elongata, Velia_caprai, Ranatra_linearis, Acanthosoma_haemorrhoidale, Okanagana_villosa, Cercopis_vulnerata, Nilaparvata_lugens, Anurida_maritima, Folsomia_candida, Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, Bemisia_tabaci, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DAPHNIA_PULEX, DUM_147}
+Number of Quartets in Qb: 2380
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=18 duration_ns=12221451
+Final Bipartition Map at level 4:
+Occasjapyx_japonicus -> -1
+Campodea_augens -> -1
+Atelura_formicaria -> -1
+Zorotypus_caudelli -> -1
+Cordulegaster_boltonii -> -1
+Calopteryx_splendens -> -1
+Epiophlebia_superstes -> -1
+Lepeophtheirus_salmonis -> 1
+Stylops_melittae -> 1
+Acanthocasuarina_muellerianae -> 1
+Planococcus_citri -> 1
+DUM_146 -> -1
+Menopon_gallinae -> 1
+DUM_147 -> -1
+Mengenilla_moldrzyki -> 1
+PEDICULUS_HUMANUS -> 1
+Frankliniella_cephalica -> 1
+Gynaikothrips_ficorum -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=18 duration_ns=12949384
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, Cordulegaster_boltonii, Calopteryx_splendens, Epiophlebia_superstes, DUM_146, DUM_147, DUM_148}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {Lepeophtheirus_salmonis, Stylops_melittae, Acanthocasuarina_muellerianae, Planococcus_citri, Menopon_gallinae, Mengenilla_moldrzyki, PEDICULUS_HUMANUS, Frankliniella_cephalica, Gynaikothrips_ficorum, DUM_148}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=10 duration_ns=552353
+Final Bipartition Map at level 5:
+DUM_146 -> -1
+DUM_147 -> 1
+DUM_148 -> 1
+Occasjapyx_japonicus -> 1
+Campodea_augens -> 1
+Atelura_formicaria -> 1
+Zorotypus_caudelli -> 1
+Cordulegaster_boltonii -> -1
+Calopteryx_splendens -> -1
+Epiophlebia_superstes -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=10 duration_ns=674753
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_146, Cordulegaster_boltonii, Calopteryx_splendens, Epiophlebia_superstes, DUM_149}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {DUM_147, DUM_148, Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, DUM_149}
+Number of Quartets in Qb: 35
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=18160
+Final Bipartition Map at level 6:
+DUM_146 -> 1
+Cordulegaster_boltonii -> -1
+DUM_149 -> 1
+Calopteryx_splendens -> -1
+Epiophlebia_superstes -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=60281
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cordulegaster_boltonii, Calopteryx_splendens, DUM_150}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_146, DUM_149, Epiophlebia_superstes, DUM_150}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=6210
+Final Bipartition Map at level 7:
+DUM_146 -> 1
+DUM_149 -> 1
+DUM_150 -> -1
+Epiophlebia_superstes -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=35970
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, Epiophlebia_superstes, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_146, DUM_149, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=96259
+Final Bipartition Map at level 6:
+DUM_147 -> -1
+DUM_148 -> -1
+DUM_149 -> -1
+Occasjapyx_japonicus -> 1
+Campodea_augens -> 1
+Atelura_formicaria -> 1
+Zorotypus_caudelli -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=154120
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, DUM_148, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Occasjapyx_japonicus, Campodea_augens, Atelura_formicaria, Zorotypus_caudelli, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4100
+Final Bipartition Map at level 7:
+DUM_147 -> -1
+DUM_148 -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=32260
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, DUM_148, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=20781
+Final Bipartition Map at level 7:
+Occasjapyx_japonicus -> -1
+Campodea_augens -> -1
+Atelura_formicaria -> 1
+Zorotypus_caudelli -> 1
+DUM_150 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=63270
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Occasjapyx_japonicus, Campodea_augens, DUM_150, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Atelura_formicaria, Zorotypus_caudelli, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3680
+Final Bipartition Map at level 8:
+Occasjapyx_japonicus -> -1
+Campodea_augens -> -1
+DUM_150 -> 1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=32220
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Occasjapyx_japonicus, Campodea_augens, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=10 duration_ns=506123
+Final Bipartition Map at level 5:
+Stylops_melittae -> -1
+Acanthocasuarina_muellerianae -> -1
+Planococcus_citri -> 1
+Menopon_gallinae -> 1
+Mengenilla_moldrzyki -> 1
+DUM_148 -> -1
+PEDICULUS_HUMANUS -> 1
+Frankliniella_cephalica -> -1
+Gynaikothrips_ficorum -> -1
+Lepeophtheirus_salmonis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=10 duration_ns=621172
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Stylops_melittae, Acanthocasuarina_muellerianae, DUM_148, Frankliniella_cephalica, Gynaikothrips_ficorum, Lepeophtheirus_salmonis, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Planococcus_citri, Menopon_gallinae, Mengenilla_moldrzyki, PEDICULUS_HUMANUS, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=98641
+Final Bipartition Map at level 6:
+Stylops_melittae -> -1
+Acanthocasuarina_muellerianae -> -1
+DUM_148 -> 1
+DUM_149 -> 1
+Frankliniella_cephalica -> 1
+Gynaikothrips_ficorum -> 1
+Lepeophtheirus_salmonis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=154141
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Stylops_melittae, Acanthocasuarina_muellerianae, Lepeophtheirus_salmonis, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_148, DUM_149, Frankliniella_cephalica, Gynaikothrips_ficorum, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=3740
+Final Bipartition Map at level 7:
+Stylops_melittae -> -1
+Acanthocasuarina_muellerianae -> 1
+DUM_150 -> 1
+Lepeophtheirus_salmonis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=32330
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Stylops_melittae, Lepeophtheirus_salmonis, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Acanthocasuarina_muellerianae, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=15649
+Final Bipartition Map at level 7:
+DUM_148 -> 1
+DUM_149 -> 1
+Frankliniella_cephalica -> -1
+DUM_150 -> 1
+Gynaikothrips_ficorum -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=64029
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Frankliniella_cephalica, Gynaikothrips_ficorum, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3810
+Final Bipartition Map at level 8:
+DUM_148 -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+DUM_151 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=33411
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, DUM_151, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=23770
+Final Bipartition Map at level 6:
+Planococcus_citri -> -1
+Menopon_gallinae -> 1
+Mengenilla_moldrzyki -> 1
+PEDICULUS_HUMANUS -> -1
+DUM_149 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=68220
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Planococcus_citri, PEDICULUS_HUMANUS, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Menopon_gallinae, Mengenilla_moldrzyki, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=5210
+Final Bipartition Map at level 7:
+Planococcus_citri -> -1
+PEDICULUS_HUMANUS -> 1
+DUM_149 -> -1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=38650
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Planococcus_citri, DUM_149, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {PEDICULUS_HUMANUS, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=17 duration_ns=8149813
+Final Bipartition Map at level 4:
+Anurida_maritima -> -1
+Folsomia_candida -> -1
+Pogonognathellus_lon_fla -> -1
+Tetrodontophora_bielanensis -> -1
+Bemisia_tabaci -> -1
+Trialeurodes_vaporariorum -> -1
+Speleonectes_tulumensis -> -1
+DAPHNIA_PULEX -> -1
+DUM_147 -> -1
+Xenophysella_greensladeae -> 1
+Notostira_elongata -> 1
+Velia_caprai -> 1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+Okanagana_villosa -> 1
+Cercopis_vulnerata -> 1
+Nilaparvata_lugens -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=17 duration_ns=8733786
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anurida_maritima, Folsomia_candida, Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, Bemisia_tabaci, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DAPHNIA_PULEX, DUM_147, DUM_148}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {Xenophysella_greensladeae, Notostira_elongata, Velia_caprai, Ranatra_linearis, Acanthosoma_haemorrhoidale, Okanagana_villosa, Cercopis_vulnerata, Nilaparvata_lugens, DUM_148}
+Number of Quartets in Qb: 126
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=10 duration_ns=516702
+Final Bipartition Map at level 5:
+Anurida_maritima -> 1
+Folsomia_candida -> 1
+Pogonognathellus_lon_fla -> 1
+Tetrodontophora_bielanensis -> 1
+DUM_147 -> -1
+Bemisia_tabaci -> -1
+DUM_148 -> -1
+Trialeurodes_vaporariorum -> -1
+Speleonectes_tulumensis -> -1
+DAPHNIA_PULEX -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=10 duration_ns=629542
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_147, Bemisia_tabaci, DUM_148, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DAPHNIA_PULEX, DUM_149}
+Number of Quartets in Qa: 35
+Pb (Right Partition): {Anurida_maritima, Folsomia_candida, Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=7 duration_ns=93240
+Final Bipartition Map at level 6:
+DUM_147 -> 1
+Bemisia_tabaci -> -1
+DUM_148 -> 1
+Trialeurodes_vaporariorum -> -1
+DUM_149 -> 1
+Speleonectes_tulumensis -> -1
+DAPHNIA_PULEX -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=7 duration_ns=151850
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bemisia_tabaci, Trialeurodes_vaporariorum, Speleonectes_tulumensis, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_147, DUM_148, DUM_149, DAPHNIA_PULEX, DUM_150}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=4800
+Final Bipartition Map at level 7:
+Bemisia_tabaci -> -1
+Trialeurodes_vaporariorum -> -1
+Speleonectes_tulumensis -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=37089
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Bemisia_tabaci, Trialeurodes_vaporariorum, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Speleonectes_tulumensis, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=16230
+Final Bipartition Map at level 7:
+DUM_147 -> 1
+DUM_148 -> 1
+DUM_149 -> -1
+DUM_150 -> -1
+DAPHNIA_PULEX -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=53459
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_149, DUM_150, DAPHNIA_PULEX, DUM_151}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {DUM_147, DUM_148, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3570
+Final Bipartition Map at level 8:
+DUM_149 -> 1
+DUM_150 -> -1
+DAPHNIA_PULEX -> -1
+DUM_151 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=31160
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_150, DAPHNIA_PULEX, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=13870
+Final Bipartition Map at level 6:
+Anurida_maritima -> -1
+Folsomia_candida -> -1
+Pogonognathellus_lon_fla -> 1
+Tetrodontophora_bielanensis -> 1
+DUM_149 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=67871
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anurida_maritima, Folsomia_candida, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Pogonognathellus_lon_fla, Tetrodontophora_bielanensis, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=3600
+Final Bipartition Map at level 7:
+Anurida_maritima -> -1
+Folsomia_candida -> 1
+DUM_149 -> -1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=39011
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Anurida_maritima, DUM_149, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Folsomia_candida, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=5 taxa=9 duration_ns=286091
+Final Bipartition Map at level 5:
+DUM_148 -> -1
+Xenophysella_greensladeae -> -1
+Notostira_elongata -> 1
+Velia_caprai -> 1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+Okanagana_villosa -> -1
+Cercopis_vulnerata -> -1
+Nilaparvata_lugens -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=9 duration_ns=366842
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Xenophysella_greensladeae, Okanagana_villosa, Cercopis_vulnerata, Nilaparvata_lugens, DUM_149}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Notostira_elongata, Velia_caprai, Ranatra_linearis, Acanthosoma_haemorrhoidale, DUM_149}
+Number of Quartets in Qb: 5
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=6 duration_ns=24440
+Final Bipartition Map at level 6:
+DUM_148 -> -1
+DUM_149 -> -1
+Xenophysella_greensladeae -> -1
+Okanagana_villosa -> 1
+Cercopis_vulnerata -> 1
+Nilaparvata_lugens -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=69520
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, DUM_149, Xenophysella_greensladeae, Nilaparvata_lugens, DUM_150}
+Number of Quartets in Qa: 5
+Pb (Right Partition): {Okanagana_villosa, Cercopis_vulnerata, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=5 duration_ns=13180
+Final Bipartition Map at level 7:
+Xenophysella_greensladeae -> -1
+DUM_148 -> 1
+DUM_149 -> -1
+DUM_150 -> 1
+Nilaparvata_lugens -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=52850
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Xenophysella_greensladeae, DUM_149, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_148, DUM_150, Nilaparvata_lugens, DUM_151}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=8 taxa=4 duration_ns=3720
+Final Bipartition Map at level 8:
+DUM_148 -> -1
+DUM_150 -> 1
+DUM_151 -> 1
+Nilaparvata_lugens -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=32020
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_148, Nilaparvata_lugens, DUM_152}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_150, DUM_151, DUM_152}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=6 taxa=5 duration_ns=14410
+Final Bipartition Map at level 6:
+Notostira_elongata -> -1
+Velia_caprai -> -1
+Ranatra_linearis -> 1
+Acanthosoma_haemorrhoidale -> 1
+DUM_149 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=56800
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Notostira_elongata, Velia_caprai, DUM_149, DUM_150}
+Number of Quartets in Qa: 1
+Pb (Right Partition): {Ranatra_linearis, Acanthosoma_haemorrhoidale, DUM_150}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=7 taxa=4 duration_ns=3960
+Final Bipartition Map at level 7:
+Notostira_elongata -> -1
+Velia_caprai -> -1
+DUM_149 -> 1
+DUM_150 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=37141
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Notostira_elongata, Velia_caprai, DUM_151}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_149, DUM_150, DUM_151}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=1 merge_count=141 duration_ns=9574904
+
+
+[L 49.] FMRunner: final tree return
+(((Thermobia_domestica,Tricholepidion_gertschi),((Meinertellus_cundinamarcensis,Machilis_hrabei),((Tetrix_subulata,(Prosarthria_teretrirostris,Stenobothrus_lineatus)),((Nannochorista_philpotti,(Conwentzia_psociformis,((Hydroptilidae_sp,((Acerentomon_sp,(Symphylella_vulgaris,Glomeris_pustulata)),(Cypridininae_sp,(Sarsinebalia_urgorii,(Litopenaeus_vannamei,Celuca_puligator))))),((Essigella_californica,(Aphis_gossypii,(Rhyacophila_fasciata,ACYRTOSIPHON_PISUM))),((Phlebotomus_papatasi,(Bibio_marci,(Trichocera_fuscata,(Tipula_maxima,Priacma_serrata)))),((Aedes_AEGYpti,ANOPHELES_GAMBIAE),(Lipara_lucens,(DROSOPHILA_MELANOGASTER,(Glossina_morsitans,(Sarcophaga_crassipalpis,(Triarthria_setipennis,Rhagoletis_pomonella))))))))))),((((Carabus_granulatus,Gyrinus_marinus),(Aleochara_curtula,(Dendroctonus_ponderosae,(Meloe_violaceus,TRIBOLIUM_CASTANEUM)))),((Osmylus_fulvicephalus,(Corydalus_cornutus,Sialis_lutaria)),((Sminthurus_vir_nig,Euroleon_nostras),(Xanthostigma_xanthostigma,Inocellia_crassicornis)))),((Panorpa_vulgaris,(Boreus_hyemalis,(Bittacus_pilicornis,Lepicerus_sp))),((Ectopsocus_briggsi,(IXODES_SCAPULARIS,Bombylius_major)),((Ceratophyllus_gallinae,(Archaeopsylla_erinacei,Ctenocephalides_felis)),(Platycentropus_radiatus,((Philopotamus_ludificatus,Micropterix_calthella),(Nemophora_deegerella,(Triodia_sylvina,(Cheumatopsyche_sp,((Zygaena_fausta,(BOMBYX_MORI,Manduca_sexta)),(Yponomeuta_evonymella,(Parides_arcas,Polyommatus_icarus)))))))))))))))),(((Tanzaniophasma_sp,((Grylloblatta_bifratrilecta,Galloisiana_yuasai),((Aposthonia_japonica,Haploembia_palaui),(Timema_cristinae,(Aretaon_asperrimus,Peruphasma_schultei))))),((Exoneura_robusta,(APIS_MELLIFERA,Bombus_terrestris)),((ACROMYRMEX_ECHINATIOR,Harpegnathos_SALTator),(Chrysis_viridula,((Tenthredo_koehleri,Orussus_abietinus),((Thrips_palmi,(NASONIA_VITRIPENNIS,Liposcelis_bostrychophila)),(Leptopilina_clavipes,(Dichochrysa_prasina,Cotesia_vestalis)))))))),(((Baetis_pumilus,(Ephemera_danica,(Isonychia_bicolor,Eurylophella_sp))),(((Cosmioperla_kuna,(Leuctra_sp,Perla_marginata)),(Forficula_auricularia,(Apachyus_charteceus,Gryllotalpa_sp))),((Ceuthophilus_sp,(Metallyticus_splendidus,(Empusa_pennata,Mantis_religiosa))),(Periplaneta_americana,(Blaberus_atropos,(Cryptocercus_wrighti,(Mastotermes_darwiniensis,(ZOOTERMOPSIS_NEVADENSIS,(Prorhinotermes_simplex,Eriocrania_subpurpurella))))))))),((Epiophlebia_superstes,(Cordulegaster_boltonii,Calopteryx_splendens)),(((Occasjapyx_japonicus,Campodea_augens),(Atelura_formicaria,Zorotypus_caudelli)),(((Frankliniella_cephalica,Gynaikothrips_ficorum),((Acanthocasuarina_muellerianae,(Stylops_melittae,Lepeophtheirus_salmonis)),(Planococcus_citri,(PEDICULUS_HUMANUS,(Menopon_gallinae,Mengenilla_moldrzyki))))),(((DAPHNIA_PULEX,(Speleonectes_tulumensis,(Bemisia_tabaci,Trialeurodes_vaporariorum))),(Anurida_maritima,(Folsomia_candida,(Pogonognathellus_lon_fla,Tetrodontophora_bielanensis)))),(Nilaparvata_lugens,((Okanagana_villosa,Cercopis_vulnerata),(Xenophysella_greensladeae,((Notostira_elongata,Velia_caprai),(Ranatra_linearis,Acanthosoma_haemorrhoidale))))))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/insect_single_gene_144_taxa/insect_gene_tree_0713.weighted_quartets/wqfm.tre.tmp.954181
+
+Time taken = 1381358 ms ==> 23 minutes and 1 seconds.
+================= **** ======================== **** ====================
+No annotations used.

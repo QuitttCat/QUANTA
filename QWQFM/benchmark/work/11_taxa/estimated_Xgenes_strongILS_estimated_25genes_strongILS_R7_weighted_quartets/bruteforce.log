@@ -1,0 +1,209 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets/estimated_Xgenes_strongILS_estimated_25genes_strongILS_R7_weighted_quartets> done.
+Initial-Num-Quartets = 699
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+11
+{11=2, 1=0, 2=8, 3=9, 4=10, 5=3, 6=4, 7=5, 8=6, 9=7, 10=1}
+{0=1, 1=10, 2=11, 3=5, 4=6, 5=7, 6=8, 7=9, 8=2, 9=3, 10=4}
+Total Num-Taxa = 11
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+[QUBO] Number of taxa: 11
+[QUBO] Taxa mapping: {'1': 0, '10': 1, '11': 2, '5': 3, '6': 4, '7': 5, '8': 6, '9': 7, '2': 8, '3': 9, '4': 10}
+[QUBO] Number of quartets: 699
+QUANTUM_BRUTE_FORCE_TIME_NS n=11 duration_ns=31765118
+QAOA Left partition: [1, 11, 2, 3, 4]
+QAOA Right partition: [10, 5, 6, 7, 8, 9]
+Final Bipartition Map at level 1:
+1 -> -1
+10 -> 1
+11 -> -1
+5 -> 1
+6 -> 1
+7 -> 1
+8 -> 1
+9 -> 1
+2 -> -1
+3 -> -1
+4 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=11 duration_ns=1396180283
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {1, 11, 2, 3, 4, DUM_12}
+Number of Quartets in Qa: 38
+Pb (Right Partition): {10, 5, 6, 7, 8, 9, DUM_12}
+Number of Quartets in Qb: 104
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'1': 0, '11': 1, '2': 2, '3': 3, '4': 4, 'DUM_12': 5}
+[QUBO] Number of quartets: 38
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1904227
+QAOA Left partition: [11, DUM_12]
+QAOA Right partition: [1, 2, 3, 4]
+Final Bipartition Map at level 2:
+1 -> 1
+11 -> -1
+2 -> 1
+3 -> 1
+4 -> 1
+DUM_12 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=6 duration_ns=6074920
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {11, DUM_12, DUM_13}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {1, 2, 3, 4, DUM_13}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'1': 0, '2': 1, '3': 2, '4': 3, 'DUM_13': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=829527
+QAOA Left partition: [3, 4, DUM_13]
+QAOA Right partition: [1, 2]
+Final Bipartition Map at level 3:
+1 -> 1
+2 -> 1
+3 -> -1
+4 -> -1
+DUM_13 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=5 duration_ns=2524268
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {3, 4, DUM_13, DUM_14}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {1, 2, DUM_14}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'3': 0, '4': 1, 'DUM_13': 2, 'DUM_14': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=452135
+QAOA Left partition: [DUM_13, DUM_14]
+QAOA Right partition: [3, 4]
+Final Bipartition Map at level 4:
+3 -> 1
+4 -> 1
+DUM_13 -> -1
+DUM_14 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=2078242
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_13, DUM_14, DUM_15}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {3, 4, DUM_15}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 7
+[QUBO] Taxa mapping: {'10': 0, '5': 1, '6': 2, '7': 3, '9': 4, '8': 5, 'DUM_12': 6}
+[QUBO] Number of quartets: 104
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=4146985
+QAOA Left partition: [10, 5, 6, 9, DUM_12]
+QAOA Right partition: [7, 8]
+Final Bipartition Map at level 2:
+10 -> -1
+5 -> -1
+6 -> -1
+7 -> 1
+8 -> 1
+9 -> -1
+DUM_12 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=7 duration_ns=9274024
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {10, 5, 6, 9, DUM_12, DUM_13}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {7, 8, DUM_13}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'10': 0, '5': 1, '6': 2, '9': 3, 'DUM_12': 4, 'DUM_13': 5}
+[QUBO] Number of quartets: 45
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=1997202
+QAOA Left partition: [5, 6]
+QAOA Right partition: [10, 9, DUM_12, DUM_13]
+Final Bipartition Map at level 3:
+10 -> 1
+5 -> -1
+6 -> -1
+9 -> 1
+DUM_12 -> 1
+DUM_13 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=6 duration_ns=5509841
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {5, 6, DUM_14}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {10, 9, DUM_12, DUM_13, DUM_14}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'10': 0, '9': 1, 'DUM_12': 2, 'DUM_13': 3, 'DUM_14': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=943504
+QAOA Left partition: [DUM_13, DUM_14]
+QAOA Right partition: [10, 9, DUM_12]
+Final Bipartition Map at level 4:
+10 -> 1
+9 -> 1
+DUM_12 -> 1
+DUM_13 -> -1
+DUM_14 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=3766315
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_13, DUM_14, DUM_15}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {10, 9, DUM_12, DUM_15}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'10': 0, 'DUM_12': 1, '9': 2, 'DUM_15': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=263311
+QAOA Left partition: [9, DUM_15]
+QAOA Right partition: [10, DUM_12]
+Final Bipartition Map at level 5:
+10 -> 1
+9 -> -1
+DUM_12 -> 1
+DUM_15 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=1906046
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {9, DUM_15, DUM_16}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {10, DUM_12, DUM_16}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=2 merge_count=8 duration_ns=4583630
+
+
+[L 49.] FMRunner: final tree return
+((11,((3,4),(1,2))),(10,(9,((5,6),(7,8)))));
+>-> Successfully written to output-file /home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa/estimated_Xgenes_strongILS_estimated_25genes_strongILS_R7_weighted_quartets/bruteforce.tre.tmp.47452
+
+Time taken = 1512 ms ==> 0 minutes and 1 seconds.
+================= **** ======================== **** ====================
+No annotations used.

@@ -1,0 +1,14 @@
+# Run started: 2026-10-10T17:24:05Z
+# Working directory: /home/niloy/Downloads/dwave
+JAVA_TOOL_OPTIONS=-Xmx6g -Xms6g \
+INPUT_DIR=/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets \
+OUTPUT_CSV=/home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_11_taxa.csv \
+WORK_DIR=/home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa \
+bash /home/niloy/Downloads/dwave/QWQFM/benchmark/scripts/run_11_taxa_benchmark.sh 
+# Run started: 2026-10-10T17:29:50Z
+# Working directory: /home/niloy/Downloads/dwave
+JAVA_TOOL_OPTIONS=-Xmx6g -Xms6g \
+INPUT_DIR=/home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets \
+OUTPUT_CSV=/home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_11_taxa.csv \
+WORK_DIR=/home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa \
+bash /home/niloy/Downloads/dwave/QWQFM/benchmark/scripts/run_11_taxa_benchmark.sh 

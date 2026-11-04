@@ -1,0 +1,329 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx1g
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/biological_dataset_weigted_quartets/aminota-nt.weighted_quartets> done.
+Initial-Num-Quartets = 4736
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+16
+{Ornithorhynchus=4, Taeniopygia=5, Xenopus=6, alligator=7, python=15, Gallus=1, Homo=2, protopterus=14, emys=11, Monodelphis=3, phrynops=12, caretta=9, chelonoidis=10, caiman=8, Anolis=0, podarcis=13}
+{0=Anolis, 1=Gallus, 2=Homo, 3=Monodelphis, 4=Ornithorhynchus, 5=Taeniopygia, 6=Xenopus, 7=alligator, 8=caiman, 9=caretta, 10=chelonoidis, 11=emys, 12=phrynops, 13=podarcis, 14=protopterus, 15=python}
+Total Num-Taxa = 16
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+[QUBO] Solver: SIMULATED_ANNEALING (n > 20, reads=1000), brute force otherwise; QUBO A=1.0, B=0.4
+[QUBO] Number of taxa: 16
+[QUBO] Taxa mapping: {'Anolis': 0, 'Gallus': 1, 'Homo': 2, 'Monodelphis': 3, 'Ornithorhynchus': 4, 'Taeniopygia': 5, 'Xenopus': 6, 'alligator': 7, 'caiman': 8, 'caretta': 9, 'chelonoidis': 10, 'emys': 11, 'phrynops': 12, 'podarcis': 13, 'protopterus': 14, 'python': 15}
+[QUBO] Number of quartets: 4736
+QUANTUM_BRUTE_FORCE_TIME_NS n=16 duration_ns=1950440918
+QAOA Left partition: [Gallus, Taeniopygia, alligator, caiman, caretta, chelonoidis, emys, phrynops]
+QAOA Right partition: [Anolis, Homo, Monodelphis, Ornithorhynchus, Xenopus, podarcis, protopterus, python]
+Final Bipartition Map at level 1:
+Anolis -> 1
+Gallus -> -1
+Homo -> 1
+Monodelphis -> 1
+Ornithorhynchus -> 1
+Taeniopygia -> -1
+Xenopus -> 1
+alligator -> -1
+caiman -> -1
+caretta -> -1
+chelonoidis -> -1
+emys -> -1
+phrynops -> -1
+podarcis -> 1
+protopterus -> 1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=16 duration_ns=5432937147
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gallus, Taeniopygia, alligator, caiman, caretta, chelonoidis, emys, phrynops, DUM_17}
+Number of Quartets in Qa: 296
+Pb (Right Partition): {Anolis, Homo, Monodelphis, Ornithorhynchus, Xenopus, podarcis, protopterus, python, DUM_17}
+Number of Quartets in Qb: 352
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 9
+[QUBO] Taxa mapping: {'Gallus': 0, 'Taeniopygia': 1, 'alligator': 2, 'caiman': 3, 'caretta': 4, 'chelonoidis': 5, 'emys': 6, 'phrynops': 7, 'DUM_17': 8}
+[QUBO] Number of quartets: 296
+QUANTUM_BRUTE_FORCE_TIME_NS n=9 duration_ns=18610389
+QAOA Left partition: [Gallus, Taeniopygia, alligator, caiman, DUM_17]
+QAOA Right partition: [caretta, chelonoidis, emys, phrynops]
+Final Bipartition Map at level 2:
+Gallus -> -1
+DUM_17 -> -1
+Taeniopygia -> -1
+alligator -> -1
+caiman -> -1
+caretta -> 1
+chelonoidis -> 1
+emys -> 1
+phrynops -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=9 duration_ns=31051026
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gallus, DUM_17, Taeniopygia, alligator, caiman, DUM_18}
+Number of Quartets in Qa: 32
+Pb (Right Partition): {caretta, chelonoidis, emys, phrynops, DUM_18}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 6
+[QUBO] Taxa mapping: {'Gallus': 0, 'Taeniopygia': 1, 'alligator': 2, 'caiman': 3, 'DUM_17': 4, 'DUM_18': 5}
+[QUBO] Number of quartets: 32
+QUANTUM_BRUTE_FORCE_TIME_NS n=6 duration_ns=2243770
+QAOA Left partition: [alligator, caiman, DUM_17, DUM_18]
+QAOA Right partition: [Gallus, Taeniopygia]
+Final Bipartition Map at level 3:
+Gallus -> 1
+DUM_17 -> -1
+DUM_18 -> -1
+Taeniopygia -> 1
+alligator -> -1
+caiman -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=6 duration_ns=4632431
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, DUM_18, alligator, caiman, DUM_19}
+Number of Quartets in Qa: 9
+Pb (Right Partition): {Gallus, Taeniopygia, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'alligator': 0, 'caiman': 1, 'DUM_17': 2, 'DUM_18': 3, 'DUM_19': 4}
+[QUBO] Number of quartets: 9
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=683435
+QAOA Left partition: [DUM_17, DUM_18, DUM_19]
+QAOA Right partition: [alligator, caiman]
+Final Bipartition Map at level 4:
+DUM_17 -> -1
+DUM_18 -> -1
+DUM_19 -> -1
+alligator -> 1
+caiman -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=3220938
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, DUM_18, DUM_19, DUM_20}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {alligator, caiman, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'DUM_17': 0, 'DUM_18': 1, 'DUM_19': 2, 'DUM_20': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=380459
+QAOA Left partition: [DUM_19, DUM_20]
+QAOA Right partition: [DUM_17, DUM_18]
+Final Bipartition Map at level 5:
+DUM_17 -> 1
+DUM_18 -> 1
+DUM_19 -> -1
+DUM_20 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=2334983
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_19, DUM_20, DUM_21}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, DUM_18, DUM_21}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'caretta': 0, 'chelonoidis': 1, 'emys': 2, 'phrynops': 3, 'DUM_18': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=1197393
+QAOA Left partition: [phrynops, DUM_18]
+QAOA Right partition: [caretta, chelonoidis, emys]
+Final Bipartition Map at level 3:
+DUM_18 -> -1
+caretta -> 1
+chelonoidis -> 1
+emys -> 1
+phrynops -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=5 duration_ns=9008393
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, phrynops, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {caretta, chelonoidis, emys, DUM_19}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'caretta': 0, 'emys': 1, 'chelonoidis': 2, 'DUM_19': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=564229
+QAOA Left partition: [caretta, DUM_19]
+QAOA Right partition: [emys, chelonoidis]
+Final Bipartition Map at level 4:
+DUM_19 -> -1
+caretta -> -1
+chelonoidis -> 1
+emys -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=2440809
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_19, caretta, DUM_20}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {chelonoidis, emys, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 9
+[QUBO] Taxa mapping: {'Anolis': 0, 'Homo': 1, 'Monodelphis': 2, 'Ornithorhynchus': 3, 'Xenopus': 4, 'podarcis': 5, 'protopterus': 6, 'python': 7, 'DUM_17': 8}
+[QUBO] Number of quartets: 352
+QUANTUM_BRUTE_FORCE_TIME_NS n=9 duration_ns=19255752
+QAOA Left partition: [Homo, Monodelphis, Ornithorhynchus]
+QAOA Right partition: [Anolis, Xenopus, podarcis, protopterus, python, DUM_17]
+Final Bipartition Map at level 2:
+Anolis -> 1
+DUM_17 -> 1
+Homo -> -1
+Monodelphis -> -1
+Ornithorhynchus -> -1
+Xenopus -> 1
+podarcis -> 1
+protopterus -> 1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=9 duration_ns=29161036
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Homo, Monodelphis, Ornithorhynchus, DUM_18}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Anolis, DUM_17, Xenopus, podarcis, protopterus, python, DUM_18}
+Number of Quartets in Qb: 100
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'Homo': 0, 'Ornithorhynchus': 1, 'Monodelphis': 2, 'DUM_18': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=408938
+QAOA Left partition: [Ornithorhynchus, DUM_18]
+QAOA Right partition: [Homo, Monodelphis]
+Final Bipartition Map at level 3:
+Homo -> 1
+DUM_18 -> -1
+Monodelphis -> 1
+Ornithorhynchus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=4 duration_ns=2391506
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, Ornithorhynchus, DUM_19}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Homo, Monodelphis, DUM_19}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 7
+[QUBO] Taxa mapping: {'Anolis': 0, 'Xenopus': 1, 'podarcis': 2, 'protopterus': 3, 'python': 4, 'DUM_17': 5, 'DUM_18': 6}
+[QUBO] Number of quartets: 100
+QUANTUM_BRUTE_FORCE_TIME_NS n=7 duration_ns=5880731
+QAOA Left partition: [Xenopus, protopterus, DUM_17, DUM_18]
+QAOA Right partition: [Anolis, podarcis, python]
+Final Bipartition Map at level 3:
+Anolis -> 1
+DUM_17 -> -1
+DUM_18 -> -1
+Xenopus -> -1
+podarcis -> 1
+protopterus -> -1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=7 duration_ns=21126681
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_17, DUM_18, Xenopus, protopterus, DUM_19}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Anolis, podarcis, python, DUM_19}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 5
+[QUBO] Taxa mapping: {'Xenopus': 0, 'protopterus': 1, 'DUM_17': 2, 'DUM_18': 3, 'DUM_19': 4}
+[QUBO] Number of quartets: 15
+QUANTUM_BRUTE_FORCE_TIME_NS n=5 duration_ns=875505
+QAOA Left partition: [Xenopus, protopterus]
+QAOA Right partition: [DUM_17, DUM_18, DUM_19]
+Final Bipartition Map at level 4:
+DUM_17 -> 1
+DUM_18 -> 1
+DUM_19 -> 1
+Xenopus -> -1
+protopterus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=7313681
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Xenopus, protopterus, DUM_20}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, DUM_18, DUM_19, DUM_20}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'DUM_17': 0, 'DUM_18': 1, 'DUM_19': 2, 'DUM_20': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=428839
+QAOA Left partition: [DUM_18, DUM_20]
+QAOA Right partition: [DUM_17, DUM_19]
+Final Bipartition Map at level 5:
+DUM_17 -> 1
+DUM_18 -> -1
+DUM_19 -> 1
+DUM_20 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=4015399
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_18, DUM_20, DUM_21}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_17, DUM_19, DUM_21}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+[QUBO] Number of taxa: 4
+[QUBO] Taxa mapping: {'Anolis': 0, 'podarcis': 1, 'python': 2, 'DUM_19': 3}
+[QUBO] Number of quartets: 3
+QUANTUM_BRUTE_FORCE_TIME_NS n=4 duration_ns=392992
+QAOA Left partition: [podarcis, DUM_19]
+QAOA Right partition: [Anolis, python]
+Final Bipartition Map at level 4:
+Anolis -> 1
+DUM_19 -> -1
+podarcis -> -1
+python -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=2778356
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_19, podarcis, DUM_20}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Anolis, python, DUM_20}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=2 merge_count=13 duration_ns=11126685
+
+
+[L 49.] FMRunner: final tree return
+((((alligator,caiman),(Gallus,Taeniopygia)),(phrynops,(caretta,(chelonoidis,emys)))),((podarcis,(Anolis,python)),((Xenopus,protopterus),(Ornithorhynchus,(Homo,Monodelphis)))));
+>-> Successfully written to output-file /home/niloy/Downloads/dwave/QWQFM/benchmark/work/biological_simulated_annealing_n_gt_20/aminota-nt.weighted_quartets/quantum.tre.tmp
+
+Time taken = 5936 ms ==> 0 minutes and 5 seconds.
+================= **** ======================== **** ====================
+No annotations used.

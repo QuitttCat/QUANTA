@@ -1,0 +1,848 @@
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/biological_dataset_weigted_quartets/angiosperm.weighted_quartets> done.
+Initial-Num-Quartets = 434193
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+46
+{Cucumis=11, Camellia=6, Lactuca=19, Mimulus=24, Sesamum=38, Gossypium=16, Helianthus=17, Vitis=44, Liriodendron=20, Coffea=10, Pinus=33, Glycine=15, Aquilegia=1, Eucalyptus=13, Cannabis=7, Ipomoea=18, Amborella=0, Phalaenopsis=30, Phoenix=31, Populus=34, Solanum=40, Picea=32, Panax=28, Fragaria=14, Arabidopsis=2, Striga=42, Medicago=23, Sorghum=41, Nuphar=26, Citrus=9, Brassica=5, Carica=8, Musa=25, Oryza=27, Aristolochia=3, Quercus=35, Dioscorea=12, Persea=29, Silene=39, Manihot=22, Betula=4, Malus=21, Zamia=45, Selaginella=37, Theobroma=43, Ricinus=36}
+{0=Amborella, 1=Aquilegia, 2=Arabidopsis, 3=Aristolochia, 4=Betula, 5=Brassica, 6=Camellia, 7=Cannabis, 8=Carica, 9=Citrus, 10=Coffea, 11=Cucumis, 12=Dioscorea, 13=Eucalyptus, 14=Fragaria, 15=Glycine, 16=Gossypium, 17=Helianthus, 18=Ipomoea, 19=Lactuca, 20=Liriodendron, 21=Malus, 22=Manihot, 23=Medicago, 24=Mimulus, 25=Musa, 26=Nuphar, 27=Oryza, 28=Panax, 29=Persea, 30=Phalaenopsis, 31=Phoenix, 32=Picea, 33=Pinus, 34=Populus, 35=Quercus, 36=Ricinus, 37=Selaginella, 38=Sesamum, 39=Silene, 40=Solanum, 41=Sorghum, 42=Striga, 43=Theobroma, 44=Vitis, 45=Zamia}
+Total Num-Taxa = 46
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 1:
+Amborella -> -1
+Aquilegia -> -1
+Arabidopsis -> 1
+Aristolochia -> -1
+Betula -> 1
+Brassica -> 1
+Camellia -> 1
+Cannabis -> 1
+Carica -> 1
+Citrus -> 1
+Coffea -> 1
+Cucumis -> 1
+Dioscorea -> -1
+Eucalyptus -> 1
+Fragaria -> 1
+Glycine -> 1
+Gossypium -> 1
+Helianthus -> 1
+Ipomoea -> 1
+Lactuca -> 1
+Liriodendron -> -1
+Malus -> 1
+Manihot -> 1
+Medicago -> 1
+Mimulus -> 1
+Musa -> -1
+Nuphar -> -1
+Oryza -> -1
+Panax -> 1
+Persea -> -1
+Phalaenopsis -> -1
+Phoenix -> -1
+Picea -> -1
+Pinus -> -1
+Populus -> 1
+Quercus -> 1
+Ricinus -> 1
+Selaginella -> -1
+Sesamum -> 1
+Silene -> 1
+Solanum -> 1
+Sorghum -> -1
+Striga -> 1
+Theobroma -> 1
+Vitis -> 1
+Zamia -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=1 taxa=46 duration_ns=7233317167
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, Aquilegia, Aristolochia, Dioscorea, Liriodendron, Musa, Nuphar, Oryza, Persea, Phalaenopsis, Phoenix, Picea, Pinus, Selaginella, Sorghum, Zamia, DUM_47}
+Number of Quartets in Qa: 6132
+Pb (Right Partition): {Arabidopsis, Betula, Brassica, Camellia, Cannabis, Carica, Citrus, Coffea, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Helianthus, Ipomoea, Lactuca, Malus, Manihot, Medicago, Mimulus, Panax, Populus, Quercus, Ricinus, Sesamum, Silene, Solanum, Striga, Theobroma, Vitis, DUM_47}
+Number of Quartets in Qb: 85042
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+Amborella -> -1
+Picea -> -1
+Aquilegia -> 1
+Pinus -> -1
+Aristolochia -> 1
+Selaginella -> -1
+Sorghum -> 1
+Dioscorea -> 1
+Zamia -> -1
+DUM_47 -> 1
+Liriodendron -> 1
+Musa -> 1
+Nuphar -> -1
+Oryza -> 1
+Persea -> 1
+Phalaenopsis -> 1
+Phoenix -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=17 duration_ns=33558885
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, Picea, Pinus, Selaginella, Zamia, Nuphar, DUM_48}
+Number of Quartets in Qa: 81
+Pb (Right Partition): {Aquilegia, Aristolochia, Sorghum, Dioscorea, DUM_47, Liriodendron, Musa, Oryza, Persea, Phalaenopsis, Phoenix, DUM_48}
+Number of Quartets in Qb: 1296
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+Amborella -> -1
+Picea -> 1
+DUM_48 -> -1
+Pinus -> 1
+Selaginella -> -1
+Nuphar -> -1
+Zamia -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=7 duration_ns=383571
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, DUM_48, Selaginella, Nuphar, DUM_49}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Picea, Pinus, Zamia, DUM_49}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+Amborella -> -1
+DUM_48 -> -1
+DUM_49 -> 1
+Nuphar -> -1
+Selaginella -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=5 duration_ns=180440
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, DUM_48, Nuphar, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_49, Selaginella, DUM_50}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Amborella -> -1
+DUM_48 -> 1
+DUM_50 -> -1
+Nuphar -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=4 duration_ns=585222
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, DUM_50, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, Nuphar, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+Picea -> -1
+Pinus -> -1
+DUM_49 -> 1
+Zamia -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=4 duration_ns=98480
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Picea, Pinus, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, Zamia, DUM_50}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+Aquilegia -> 1
+Aristolochia -> 1
+Sorghum -> -1
+Dioscorea -> -1
+DUM_47 -> 1
+DUM_48 -> 1
+Liriodendron -> 1
+Musa -> -1
+Oryza -> -1
+Persea -> 1
+Phalaenopsis -> -1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=12 duration_ns=8743019
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sorghum, Dioscorea, Musa, Oryza, Phalaenopsis, Phoenix, DUM_49}
+Number of Quartets in Qa: 86
+Pb (Right Partition): {Aquilegia, Aristolochia, DUM_47, DUM_48, Liriodendron, Persea, DUM_49}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_49 -> -1
+Sorghum -> 1
+Musa -> -1
+Oryza -> 1
+Dioscorea -> -1
+Phalaenopsis -> -1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=7 duration_ns=359741
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Musa, Dioscorea, Phalaenopsis, Phoenix, DUM_50}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {Sorghum, Oryza, DUM_50}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_49 -> 1
+DUM_50 -> -1
+Musa -> -1
+Dioscorea -> 1
+Phalaenopsis -> 1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=203781
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, Musa, Phoenix, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_49, Dioscorea, Phalaenopsis, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+Musa -> -1
+DUM_50 -> 1
+DUM_51 -> 1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=55300
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Musa, Phoenix, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_51 -> 1
+Dioscorea -> -1
+Phalaenopsis -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=68531
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Dioscorea, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, Phalaenopsis, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_48 -> -1
+Aquilegia -> -1
+DUM_49 -> -1
+Aristolochia -> -1
+Liriodendron -> 1
+Persea -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=7 duration_ns=382571
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Aquilegia, DUM_49, Aristolochia, DUM_47, DUM_50}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {Liriodendron, Persea, DUM_50}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_48 -> -1
+Aquilegia -> 1
+DUM_49 -> -1
+DUM_50 -> -1
+Aristolochia -> -1
+DUM_47 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=291801
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_50, Aristolochia, DUM_51}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Aquilegia, DUM_47, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_50 -> 1
+Aristolochia -> 1
+DUM_51 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=202911
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_51, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, Aristolochia, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_51 -> 1
+DUM_52 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=51270
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 2:
+Arabidopsis -> -1
+Betula -> -1
+Brassica -> -1
+Camellia -> 1
+Cannabis -> -1
+Carica -> -1
+Citrus -> -1
+Coffea -> 1
+Cucumis -> -1
+Eucalyptus -> -1
+Fragaria -> -1
+Glycine -> -1
+Gossypium -> -1
+Helianthus -> 1
+Ipomoea -> 1
+Lactuca -> 1
+Malus -> -1
+Manihot -> -1
+Medicago -> -1
+Mimulus -> 1
+Panax -> 1
+Populus -> -1
+Quercus -> -1
+Ricinus -> -1
+Sesamum -> 1
+Silene -> 1
+Solanum -> 1
+Striga -> 1
+Theobroma -> -1
+Vitis -> 1
+DUM_47 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=31 duration_ns=1287074135
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Arabidopsis, Betula, Brassica, Cannabis, Carica, Citrus, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Malus, Manihot, Medicago, Populus, Quercus, Ricinus, Theobroma, DUM_48}
+Number of Quartets in Qa: 10673
+Pb (Right Partition): {Camellia, Coffea, Helianthus, Ipomoea, Lactuca, Mimulus, Panax, Sesamum, Silene, Solanum, Striga, Vitis, DUM_47, DUM_48}
+Number of Quartets in Qb: 2572
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+Arabidopsis -> 1
+Populus -> 1
+Quercus -> -1
+Betula -> -1
+Ricinus -> 1
+Brassica -> 1
+Cannabis -> -1
+Carica -> 1
+Citrus -> 1
+Cucumis -> -1
+Theobroma -> 1
+Eucalyptus -> -1
+Fragaria -> -1
+Glycine -> -1
+Gossypium -> 1
+DUM_48 -> -1
+Malus -> -1
+Manihot -> 1
+Medicago -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=19 duration_ns=68702725
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Quercus, Betula, Cannabis, Cucumis, Eucalyptus, Fragaria, Glycine, DUM_48, Malus, Medicago, DUM_49}
+Number of Quartets in Qa: 939
+Pb (Right Partition): {Arabidopsis, Populus, Ricinus, Brassica, Carica, Citrus, Theobroma, Gossypium, Manihot, DUM_49}
+Number of Quartets in Qb: 515
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_48 -> 1
+DUM_49 -> 1
+Quercus -> 1
+Betula -> 1
+Malus -> 1
+Cannabis -> 1
+Medicago -> -1
+Cucumis -> 1
+Eucalyptus -> 1
+Fragaria -> 1
+Glycine -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=11 duration_ns=3172642
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Medicago, Glycine, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, DUM_49, Quercus, Betula, Malus, Cannabis, Cucumis, Eucalyptus, Fragaria, DUM_50}
+Number of Quartets in Qb: 604
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_50 -> -1
+Quercus -> -1
+Betula -> -1
+Malus -> 1
+Cannabis -> -1
+Cucumis -> -1
+Eucalyptus -> -1
+Fragaria -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=10 duration_ns=2732510
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_50, Quercus, Betula, Cannabis, Cucumis, Eucalyptus, DUM_51}
+Number of Quartets in Qa: 365
+Pb (Right Partition): {Malus, Fragaria, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_48 -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+Quercus -> -1
+DUM_51 -> 1
+Betula -> -1
+Cannabis -> 1
+Cucumis -> 1
+Eucalyptus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=9 duration_ns=1115264
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Quercus, Betula, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, DUM_49, DUM_50, DUM_51, Cannabis, Cucumis, Eucalyptus, DUM_52}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+Cannabis -> 1
+Cucumis -> 1
+Eucalyptus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=8 duration_ns=615482
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, Eucalyptus, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52, Cannabis, Cucumis, DUM_53}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_48 -> -1
+DUM_49 -> 1
+DUM_53 -> 1
+Eucalyptus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=59820
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Eucalyptus, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_53, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+DUM_50 -> -1
+DUM_51 -> 1
+DUM_52 -> -1
+DUM_53 -> -1
+Cannabis -> 1
+Cucumis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=6 duration_ns=175360
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_52, DUM_53, Cucumis, DUM_54}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_51, Cannabis, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 9, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 9:
+DUM_50 -> 1
+Cucumis -> 1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=9 taxa=5 duration_ns=169610
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, DUM_53, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, Cucumis, DUM_54, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 10, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 10:
+DUM_50 -> 1
+Cucumis -> -1
+DUM_54 -> -1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=10 taxa=4 duration_ns=39430
+
+========== LEVEL 10 BIPARTITION RESULT ==========
+Pa (Left Partition): {Cucumis, DUM_54, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+Gossypium -> 1
+DUM_49 -> 1
+Arabidopsis -> 1
+Populus -> -1
+Ricinus -> -1
+Brassica -> 1
+Manihot -> -1
+Carica -> 1
+Citrus -> 1
+Theobroma -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=10 duration_ns=3134281
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Populus, Ricinus, Manihot, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Gossypium, DUM_49, Arabidopsis, Brassica, Carica, Citrus, Theobroma, DUM_50}
+Number of Quartets in Qb: 152
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Populus -> 1
+DUM_50 -> 1
+Ricinus -> -1
+Manihot -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=4 duration_ns=32631
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Ricinus, Manihot, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Populus, DUM_50, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Gossypium -> -1
+DUM_49 -> -1
+Arabidopsis -> 1
+DUM_50 -> -1
+Brassica -> 1
+Carica -> 1
+Citrus -> -1
+Theobroma -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=8 duration_ns=705162
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gossypium, DUM_49, DUM_50, Citrus, Theobroma, DUM_51}
+Number of Quartets in Qa: 33
+Pb (Right Partition): {Arabidopsis, Brassica, Carica, DUM_51}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+Gossypium -> -1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+Citrus -> 1
+Theobroma -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=6 duration_ns=155641
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gossypium, Theobroma, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_50, DUM_51, Citrus, DUM_52}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_49 -> 1
+Citrus -> -1
+DUM_50 -> 1
+DUM_51 -> -1
+DUM_52 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=5 duration_ns=114570
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {Citrus, DUM_51, DUM_52, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_49, DUM_50, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 8, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 8:
+Citrus -> -1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=8 taxa=4 duration_ns=30750
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {Citrus, DUM_53, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+Carica -> 1
+Arabidopsis -> -1
+DUM_51 -> 1
+Brassica -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=37309
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Arabidopsis, Brassica, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Carica, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 3:
+Camellia -> 1
+Sesamum -> -1
+Silene -> 1
+Solanum -> -1
+Coffea -> -1
+Striga -> -1
+Vitis -> 1
+DUM_47 -> 1
+DUM_48 -> 1
+Helianthus -> 1
+Ipomoea -> -1
+Lactuca -> 1
+Mimulus -> -1
+Panax -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=14 duration_ns=11612079
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sesamum, Solanum, Coffea, Striga, Ipomoea, Mimulus, DUM_49}
+Number of Quartets in Qa: 84
+Pb (Right Partition): {Camellia, Silene, Vitis, DUM_47, DUM_48, Helianthus, Lactuca, Panax, DUM_49}
+Number of Quartets in Qb: 336
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_49 -> -1
+Ipomoea -> -1
+Sesamum -> 1
+Solanum -> -1
+Mimulus -> 1
+Coffea -> -1
+Striga -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=7 duration_ns=186900
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Ipomoea, Solanum, Coffea, DUM_50}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Sesamum, Mimulus, Striga, DUM_50}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Solanum -> 1
+DUM_49 -> -1
+Ipomoea -> 1
+DUM_50 -> -1
+Coffea -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=5 duration_ns=54929
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, Coffea, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Solanum, Ipomoea, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_50 -> 1
+Coffea -> -1
+DUM_51 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=28310
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Coffea, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Mimulus -> -1
+DUM_50 -> 1
+Striga -> -1
+Sesamum -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=4 duration_ns=33870
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Mimulus, Striga, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, Sesamum, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 4:
+DUM_48 -> -1
+Helianthus -> 1
+DUM_49 -> 1
+Lactuca -> 1
+Camellia -> 1
+Silene -> -1
+Vitis -> -1
+Panax -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=9 duration_ns=1065363
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Silene, Vitis, DUM_47, DUM_50}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Helianthus, DUM_49, Lactuca, Camellia, Panax, DUM_50}
+Number of Quartets in Qb: 33
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+DUM_48 -> -1
+DUM_50 -> 1
+Vitis -> -1
+Silene -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=5 duration_ns=105471
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Vitis, DUM_47, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, Silene, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_48 -> -1
+DUM_51 -> 1
+Vitis -> -1
+DUM_47 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=4 duration_ns=27010
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Vitis, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_47, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 5, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 5:
+Helianthus -> -1
+DUM_49 -> 1
+DUM_50 -> 1
+Lactuca -> -1
+Camellia -> 1
+Panax -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=5 taxa=6 duration_ns=90230
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Helianthus, Lactuca, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_50, Camellia, Panax, DUM_51}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 6, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 6:
+DUM_49 -> 1
+DUM_50 -> -1
+DUM_51 -> 1
+Panax -> 1
+Camellia -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=6 taxa=5 duration_ns=72300
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, Camellia, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_51, Panax, DUM_52}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 7, ALPHA: 1.0, BETA: 1.0
+Final Bipartition Map at level 7:
+DUM_49 -> 1
+DUM_51 -> -1
+DUM_52 -> 1
+Panax -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=7 taxa=4 duration_ns=28240
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, Panax, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+((Aquilegia,((Aristolochia,(Liriodendron,Persea)),((Dioscorea,(Phalaenopsis,((Musa,Phoenix),(Sorghum,Oryza)))),(Nuphar,(Amborella,(Selaginella,(Zamia,(Picea,Pinus)))))))),((Silene,(Camellia,((Panax,(Helianthus,Lactuca)),(Coffea,((Solanum,Ipomoea),(Sesamum,(Mimulus,Striga))))))),(Vitis,(Eucalyptus,(((Quercus,Betula),((Cucumis,(Cannabis,(Malus,Fragaria))),(Medicago,Glycine))),((Citrus,((Gossypium,Theobroma),(Carica,(Arabidopsis,Brassica)))),(Populus,(Ricinus,Manihot))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/biological_fresh_20260724T220022Z_n_gt_12/angiosperm.weighted_quartets/wqfm.tre.tmp.679030
+
+Time taken = 9521 ms ==> 0 minutes and 9 seconds.
+================= **** ======================== **** ====================
+No annotations used.

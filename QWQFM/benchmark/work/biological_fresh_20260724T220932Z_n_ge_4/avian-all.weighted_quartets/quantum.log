@@ -1,0 +1,1185 @@
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/biological_dataset_weigted_quartets/avian-all.weighted_quartets> done.
+Initial-Num-Quartets = 583740
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+48
+{FULGL=20, ANAPL=1, COLLI=13, MESUN=31, GALGA=21, HALAL=24, PHALE=37, TAUER=45, BUCRH=5, TINMA=46, MELUN=29, PYGAD=42, MELGA=28, PHORU=38, TYTAL=47, COLST=14, CALAN=6, NESNO=32, STRCA=43, PODCR=40, TAEGU=44, GAVST=22, APAVI=2, MERNU=30, NIPNI=33, CAPCA=7, FALPE=19, BALRE=4, CHAPE=10, PELCR=35, PTEGU=41, CORBR=15, CATAU=9, CHAVO=11, PICPU=39, EGRGA=17, EURHE=18, CARCR=8, PHACA=36, OPHHO=34, CHLUN=12, GEOFO=23, LEPDI=26, MANVI=27, ACACH=0, APTFO=3, CUCCA=16, HALLE=25}
+{0=ACACH, 1=ANAPL, 2=APAVI, 3=APTFO, 4=BALRE, 5=BUCRH, 6=CALAN, 7=CAPCA, 8=CARCR, 9=CATAU, 10=CHAPE, 11=CHAVO, 12=CHLUN, 13=COLLI, 14=COLST, 15=CORBR, 16=CUCCA, 17=EGRGA, 18=EURHE, 19=FALPE, 20=FULGL, 21=GALGA, 22=GAVST, 23=GEOFO, 24=HALAL, 25=HALLE, 26=LEPDI, 27=MANVI, 28=MELGA, 29=MELUN, 30=MERNU, 31=MESUN, 32=NESNO, 33=NIPNI, 34=OPHHO, 35=PELCR, 36=PHACA, 37=PHALE, 38=PHORU, 39=PICPU, 40=PODCR, 41=PTEGU, 42=PYGAD, 43=STRCA, 44=TAEGU, 45=TAUER, 46=TINMA, 47=TYTAL}
+Total Num-Taxa = 48
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+QPU solver: Advantage_system4
+QPU problem ID: b7ce8581-54c3-429d-a5d0-9dc8e6dd2688
+QPU timing: {'qpu_sampling_time': 196500.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 155.92, 'qpu_access_time': 212262.36, 'qpu_access_overhead_time': 1669.64, 'qpu_programming_time': 15762.36, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 19 & 29
+QAOA Left partition: [ACACH, APAVI, BUCRH, CARCR, CATAU, COLST, CORBR, FALPE, GEOFO, HALAL, HALLE, LEPDI, MANVI, MELUN, MERNU, NESNO, PICPU, TAEGU, TYTAL]
+QAOA Right partition: [ANAPL, APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EGRGA, EURHE, FULGL, GALGA, GAVST, MELGA, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA]
+Final Bipartition Map at level 1:
+ACACH -> -1
+ANAPL -> 1
+APAVI -> -1
+APTFO -> 1
+BALRE -> 1
+BUCRH -> -1
+CALAN -> 1
+CAPCA -> 1
+CARCR -> -1
+CATAU -> -1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+COLST -> -1
+CORBR -> -1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FALPE -> -1
+FULGL -> 1
+GALGA -> 1
+GAVST -> 1
+GEOFO -> -1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> -1
+MANVI -> -1
+MELGA -> 1
+MELUN -> -1
+MERNU -> -1
+MESUN -> 1
+NESNO -> -1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> 1
+PICPU -> -1
+PODCR -> 1
+PTEGU -> 1
+PYGAD -> 1
+STRCA -> 1
+TAEGU -> -1
+TAUER -> 1
+TINMA -> 1
+TYTAL -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=48 duration_ns=13463100451
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, APAVI, BUCRH, CARCR, CATAU, COLST, CORBR, FALPE, GEOFO, HALAL, HALLE, LEPDI, MANVI, MELUN, MERNU, NESNO, PICPU, TAEGU, TYTAL, DUM_49}
+Number of Quartets in Qa: 14535
+Pb (Right Partition): {ANAPL, APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EGRGA, EURHE, FULGL, GALGA, GAVST, MELGA, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, STRCA, TAUER, TINMA, DUM_49}
+Number of Quartets in Qb: 82215
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 41cbcf1d-a67e-40aa-b741-8bdbe021460e
+QPU timing: {'qpu_sampling_time': 98960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 58.38, 'qpu_access_time': 114721.56, 'qpu_access_overhead_time': 978.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 15
+QAOA Left partition: [ACACH, CORBR, GEOFO, MANVI, TAEGU]
+QAOA Right partition: [APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, FALPE, HALAL, HALLE, LEPDI, MELUN, MERNU, NESNO, PICPU, TYTAL]
+Final Bipartition Map at level 2:
+ACACH -> -1
+NESNO -> 1
+APAVI -> 1
+BUCRH -> 1
+PICPU -> 1
+CARCR -> 1
+CATAU -> 1
+TAEGU -> -1
+COLST -> 1
+CORBR -> -1
+TYTAL -> 1
+DUM_49 -> 1
+FALPE -> 1
+GEOFO -> -1
+HALAL -> 1
+HALLE -> 1
+LEPDI -> 1
+MANVI -> -1
+MELUN -> 1
+MERNU -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=20 duration_ns=1316176126
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, TAEGU, CORBR, GEOFO, MANVI, DUM_50}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {NESNO, APAVI, BUCRH, PICPU, CARCR, CATAU, COLST, TYTAL, DUM_49, FALPE, HALAL, HALLE, LEPDI, MELUN, MERNU, DUM_50}
+Number of Quartets in Qb: 5460
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 84045960-42fb-4a5c-ba02-f1963beb94ea
+QPU timing: {'qpu_sampling_time': 86580.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 46.0, 'qpu_access_time': 102341.56, 'qpu_access_overhead_time': 572.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 3
+QAOA Left partition: [CORBR, GEOFO, TAEGU]
+QAOA Right partition: [ACACH, DUM_50, MANVI]
+Final Bipartition Map at level 3:
+ACACH -> 1
+DUM_50 -> 1
+GEOFO -> -1
+MANVI -> 1
+TAEGU -> -1
+CORBR -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=6 duration_ns=853684106
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {GEOFO, TAEGU, CORBR, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ACACH, DUM_50, MANVI, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 3845a520-a4c3-42b5-9d6b-48939fd31b8f
+QPU timing: {'qpu_sampling_time': 108920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 68.34, 'qpu_access_time': 124681.16, 'qpu_access_overhead_time': 1002.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [CORBR, DUM_51]
+QAOA Right partition: [GEOFO, TAEGU]
+Final Bipartition Map at level 4:
+DUM_51 -> -1
+GEOFO -> 1
+TAEGU -> 1
+CORBR -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=844981778
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, CORBR, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {GEOFO, TAEGU, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: c1f3586c-26de-44e3-b0b7-83e8131f0b52
+QPU timing: {'qpu_sampling_time': 92120.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 51.54, 'qpu_access_time': 107881.16, 'qpu_access_overhead_time': 654.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [ACACH, DUM_50]
+QAOA Right partition: [DUM_51, MANVI]
+Final Bipartition Map at level 4:
+ACACH -> -1
+DUM_50 -> -1
+DUM_51 -> 1
+MANVI -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=846063360
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {ACACH, DUM_50, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, MANVI, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 52b61dd7-05f3-45b4-b483-4463a45a0757
+QPU timing: {'qpu_sampling_time': 174200.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 133.62, 'qpu_access_time': 189961.16, 'qpu_access_overhead_time': 1228.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 4; skipped invalid samples: 3; partition sizes: 2 & 14
+QAOA Left partition: [HALAL, HALLE]
+QAOA Right partition: [APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, DUM_50, FALPE, LEPDI, MELUN, MERNU, NESNO, PICPU, TYTAL]
+Final Bipartition Map at level 3:
+NESNO -> 1
+APAVI -> 1
+BUCRH -> 1
+PICPU -> 1
+CARCR -> 1
+CATAU -> 1
+COLST -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+FALPE -> 1
+HALAL -> -1
+HALLE -> -1
+LEPDI -> 1
+MELUN -> 1
+MERNU -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=16 duration_ns=1161880177
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {HALAL, HALLE, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NESNO, APAVI, BUCRH, PICPU, CARCR, CATAU, COLST, TYTAL, DUM_49, DUM_50, FALPE, LEPDI, MELUN, MERNU, DUM_51}
+Number of Quartets in Qb: 4095
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 52eaafe6-c10c-4154-a051-9edf4129d3e4
+QPU timing: {'qpu_sampling_time': 157640.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 117.06, 'qpu_access_time': 173401.16, 'qpu_access_overhead_time': 961.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 13
+QAOA Left partition: [MELUN, NESNO]
+QAOA Right partition: [APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, DUM_50, DUM_51, FALPE, LEPDI, MERNU, PICPU, TYTAL]
+Final Bipartition Map at level 4:
+NESNO -> -1
+APAVI -> 1
+BUCRH -> 1
+PICPU -> 1
+CARCR -> 1
+CATAU -> 1
+COLST -> 1
+TYTAL -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+FALPE -> 1
+DUM_51 -> 1
+LEPDI -> 1
+MELUN -> -1
+MERNU -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=15 duration_ns=1039532247
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {NESNO, MELUN, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {APAVI, BUCRH, PICPU, CARCR, CATAU, COLST, TYTAL, DUM_49, DUM_50, FALPE, DUM_51, LEPDI, MERNU, DUM_52}
+Number of Quartets in Qb: 3003
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e541e1ef-9460-470e-b5b4-1911645b0b74
+QPU timing: {'qpu_sampling_time': 128840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 88.26, 'qpu_access_time': 144600.76, 'qpu_access_overhead_time': 987.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 7 & 7
+QAOA Left partition: [APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, DUM_50]
+QAOA Right partition: [DUM_51, DUM_52, FALPE, LEPDI, MERNU, PICPU, TYTAL]
+Final Bipartition Map at level 5:
+APAVI -> -1
+BUCRH -> -1
+PICPU -> 1
+CARCR -> -1
+CATAU -> -1
+COLST -> -1
+TYTAL -> 1
+DUM_49 -> -1
+DUM_50 -> -1
+FALPE -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+LEPDI -> 1
+MERNU -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=14 duration_ns=940525781
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BUCRH, CARCR, CATAU, COLST, DUM_49, DUM_50, DUM_53}
+Number of Quartets in Qa: 210
+Pb (Right Partition): {PICPU, TYTAL, FALPE, DUM_51, DUM_52, LEPDI, MERNU, DUM_53}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 0106c0ea-bb1e-4102-b30d-aae3e03b285e
+QPU timing: {'qpu_sampling_time': 114520.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 73.94, 'qpu_access_time': 130281.96, 'qpu_access_overhead_time': 1063.04, 'qpu_programming_time': 15761.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 4 & 4
+QAOA Left partition: [APAVI, BUCRH, CARCR, CATAU]
+QAOA Right partition: [COLST, DUM_49, DUM_50, DUM_53]
+Final Bipartition Map at level 6:
+DUM_49 -> 1
+APAVI -> -1
+DUM_50 -> 1
+BUCRH -> -1
+DUM_53 -> 1
+CARCR -> -1
+CATAU -> -1
+COLST -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=8 duration_ns=875384265
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {APAVI, BUCRH, CARCR, CATAU, DUM_54}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {DUM_49, DUM_50, DUM_53, COLST, DUM_54}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 3ca12618-b531-46c9-8437-873fa4b54558
+QPU timing: {'qpu_sampling_time': 99760.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 59.18, 'qpu_access_time': 115521.16, 'qpu_access_overhead_time': 817.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 3 & 2
+QAOA Left partition: [CARCR, CATAU, DUM_54]
+QAOA Right partition: [APAVI, BUCRH]
+Final Bipartition Map at level 7:
+APAVI -> 1
+BUCRH -> 1
+DUM_54 -> -1
+CARCR -> -1
+CATAU -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=5 duration_ns=850435342
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_54, CARCR, CATAU, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {APAVI, BUCRH, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: f70c46de-4331-43d1-bab8-c347d458e648
+QPU timing: {'qpu_sampling_time': 105320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 64.74, 'qpu_access_time': 121081.16, 'qpu_access_overhead_time': 822.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [CARCR, CATAU]
+QAOA Right partition: [DUM_54, DUM_55]
+Final Bipartition Map at level 8:
+DUM_54 -> 1
+DUM_55 -> 1
+CARCR -> -1
+CATAU -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=817288385
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {CARCR, CATAU, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 110ae5c2-e33b-4c57-a01f-2919488a607a
+QPU timing: {'qpu_sampling_time': 90160.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 49.58, 'qpu_access_time': 105921.56, 'qpu_access_overhead_time': 729.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 3
+QAOA Left partition: [COLST, DUM_49]
+QAOA Right partition: [DUM_50, DUM_53, DUM_54]
+Final Bipartition Map at level 7:
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+COLST -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=5 duration_ns=847155878
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, COLST, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 80273545-2e39-4805-a041-f2ed0d5e65f5
+QPU timing: {'qpu_sampling_time': 86760.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 46.18, 'qpu_access_time': 102521.16, 'qpu_access_overhead_time': 890.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 52.0, 'post_processing_overhead_time': 52.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_50, DUM_53]
+QAOA Right partition: [DUM_54, DUM_55]
+Final Bipartition Map at level 8:
+DUM_50 -> -1
+DUM_53 -> -1
+DUM_54 -> 1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=837521590
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_53, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: c2008a44-0558-4eab-bb83-b62ea1afd65d
+QPU timing: {'qpu_sampling_time': 105160.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 64.58, 'qpu_access_time': 120921.16, 'qpu_access_overhead_time': 419.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 6 & 2
+QAOA Left partition: [DUM_51, DUM_52, DUM_53, FALPE, LEPDI, TYTAL]
+QAOA Right partition: [MERNU, PICPU]
+Final Bipartition Map at level 6:
+FALPE -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+PICPU -> 1
+LEPDI -> -1
+MERNU -> 1
+TYTAL -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=8 duration_ns=858436768
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {FALPE, DUM_51, DUM_52, DUM_53, LEPDI, TYTAL, DUM_54}
+Number of Quartets in Qa: 105
+Pb (Right Partition): {PICPU, MERNU, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 4a311a67-7c7a-476f-ba6f-808a9028c394
+QPU timing: {'qpu_sampling_time': 78800.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 38.22, 'qpu_access_time': 94561.56, 'qpu_access_overhead_time': 960.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 3 & 4
+QAOA Left partition: [DUM_51, DUM_52, DUM_53]
+QAOA Right partition: [DUM_54, FALPE, LEPDI, TYTAL]
+Final Bipartition Map at level 7:
+FALPE -> 1
+DUM_51 -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> 1
+LEPDI -> 1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=7 duration_ns=838950596
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, DUM_52, DUM_53, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {FALPE, DUM_54, LEPDI, TYTAL, DUM_55}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 3ecc3f78-5e66-4892-97e0-f4942eeaa144
+QPU timing: {'qpu_sampling_time': 88840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.26, 'qpu_access_time': 104601.16, 'qpu_access_overhead_time': 992.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_51, DUM_52]
+QAOA Right partition: [DUM_53, DUM_55]
+Final Bipartition Map at level 8:
+DUM_51 -> -1
+DUM_52 -> -1
+DUM_53 -> 1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=870149499
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, DUM_52, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 12c2bf1f-a8d7-4baa-8b47-adc97d6ca66f
+QPU timing: {'qpu_sampling_time': 101200.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 60.62, 'qpu_access_time': 116961.16, 'qpu_access_overhead_time': 1223.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 21.0, 'post_processing_overhead_time': 21.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 3
+QAOA Left partition: [DUM_54, LEPDI]
+QAOA Right partition: [DUM_55, FALPE, TYTAL]
+Final Bipartition Map at level 8:
+FALPE -> 1
+DUM_54 -> -1
+DUM_55 -> 1
+LEPDI -> -1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=5 duration_ns=841379753
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_54, LEPDI, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {FALPE, DUM_55, TYTAL, DUM_56}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 9, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: cc97d38f-ebec-4bec-87e3-5bd0e022afae
+QPU timing: {'qpu_sampling_time': 83720.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 43.14, 'qpu_access_time': 99481.16, 'qpu_access_overhead_time': 676.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_55, DUM_56]
+QAOA Right partition: [FALPE, TYTAL]
+Final Bipartition Map at level 9:
+FALPE -> 1
+DUM_55 -> -1
+DUM_56 -> -1
+TYTAL -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=9 taxa=4 duration_ns=800825742
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_55, DUM_56, DUM_57}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {FALPE, TYTAL, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: c1bd1907-3552-45fc-b53a-c09c9e520ce2
+QPU timing: {'qpu_sampling_time': 164940.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 124.36, 'qpu_access_time': 180701.96, 'qpu_access_overhead_time': 1156.04, 'qpu_programming_time': 15761.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 40.0, 'post_processing_overhead_time': 40.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 25
+QAOA Left partition: [ANAPL, GALGA, MELGA, STRCA, TINMA]
+QAOA Right partition: [APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, EGRGA, EURHE, FULGL, GAVST, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, TAUER]
+Final Bipartition Map at level 2:
+ANAPL -> -1
+APTFO -> 1
+BALRE -> 1
+CALAN -> 1
+CAPCA -> 1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+CUCCA -> 1
+EGRGA -> 1
+EURHE -> 1
+FULGL -> 1
+GALGA -> -1
+GAVST -> 1
+MELGA -> -1
+MESUN -> 1
+NIPNI -> 1
+OPHHO -> 1
+PELCR -> 1
+PHACA -> 1
+PHALE -> 1
+PHORU -> 1
+PODCR -> 1
+PTEGU -> 1
+PYGAD -> 1
+STRCA -> -1
+TAUER -> 1
+TINMA -> -1
+DUM_49 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=30 duration_ns=2393474735
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, GALGA, MELGA, STRCA, TINMA, DUM_50}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {APTFO, BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EGRGA, EURHE, FULGL, GAVST, MESUN, NIPNI, OPHHO, PELCR, PHACA, PHALE, PHORU, PODCR, PTEGU, PYGAD, TAUER, DUM_49, DUM_50}
+Number of Quartets in Qb: 44850
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 7ae87b55-835f-4f02-9efd-6b21796bff9d
+QPU timing: {'qpu_sampling_time': 124840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 84.26, 'qpu_access_time': 140601.16, 'qpu_access_overhead_time': 992.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 3
+QAOA Left partition: [DUM_50, STRCA, TINMA]
+QAOA Right partition: [ANAPL, GALGA, MELGA]
+Final Bipartition Map at level 3:
+ANAPL -> 1
+DUM_50 -> -1
+GALGA -> 1
+STRCA -> -1
+MELGA -> 1
+TINMA -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=6 duration_ns=874760211
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, STRCA, TINMA, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {ANAPL, GALGA, MELGA, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 4970a05d-e10d-4ff6-a071-90f06268fd7d
+QPU timing: {'qpu_sampling_time': 92680.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 52.1, 'qpu_access_time': 108440.76, 'qpu_access_overhead_time': 1128.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_50, DUM_51]
+QAOA Right partition: [STRCA, TINMA]
+Final Bipartition Map at level 4:
+DUM_50 -> -1
+DUM_51 -> -1
+STRCA -> 1
+TINMA -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=836027892
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {STRCA, TINMA, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: bccfdddb-c482-4eb8-8fb2-42ca05f85a2e
+QPU timing: {'qpu_sampling_time': 103160.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 62.58, 'qpu_access_time': 118921.16, 'qpu_access_overhead_time': 1330.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 14.0, 'post_processing_overhead_time': 14.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [ANAPL, DUM_51]
+QAOA Right partition: [GALGA, MELGA]
+Final Bipartition Map at level 4:
+ANAPL -> -1
+DUM_51 -> -1
+GALGA -> 1
+MELGA -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=839878865
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {ANAPL, DUM_51, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {GALGA, MELGA, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 33f7f61d-8a16-41a5-a92f-e5e83753e75e
+QPU timing: {'qpu_sampling_time': 87660.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 47.08, 'qpu_access_time': 103421.16, 'qpu_access_overhead_time': 1478.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 8 & 18
+QAOA Left partition: [APTFO, EGRGA, FULGL, GAVST, NIPNI, PELCR, PHACA, PYGAD]
+QAOA Right partition: [BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_50, EURHE, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER]
+Final Bipartition Map at level 3:
+APTFO -> -1
+BALRE -> 1
+CALAN -> 1
+CAPCA -> 1
+CHAPE -> 1
+CHAVO -> 1
+CHLUN -> 1
+COLLI -> 1
+CUCCA -> 1
+EGRGA -> -1
+EURHE -> 1
+FULGL -> -1
+GAVST -> -1
+MESUN -> 1
+NIPNI -> -1
+OPHHO -> 1
+PELCR -> -1
+PHACA -> -1
+PHALE -> 1
+PHORU -> 1
+PODCR -> 1
+PTEGU -> 1
+PYGAD -> -1
+TAUER -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=26 duration_ns=1729401451
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {APTFO, EGRGA, FULGL, GAVST, NIPNI, PELCR, PHACA, PYGAD, DUM_51}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, EURHE, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER, DUM_49, DUM_50, DUM_51}
+Number of Quartets in Qb: 11628
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 16551e11-f029-4de6-b23d-f1786acf2f32
+QPU timing: {'qpu_sampling_time': 105120.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 64.54, 'qpu_access_time': 120881.16, 'qpu_access_overhead_time': 753.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 7
+QAOA Left partition: [APTFO, PYGAD]
+QAOA Right partition: [DUM_51, EGRGA, FULGL, GAVST, NIPNI, PELCR, PHACA]
+Final Bipartition Map at level 4:
+EGRGA -> 1
+NIPNI -> 1
+APTFO -> -1
+PELCR -> 1
+DUM_51 -> 1
+FULGL -> 1
+PHACA -> 1
+GAVST -> 1
+PYGAD -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=9 duration_ns=854067601
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {APTFO, PYGAD, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {EGRGA, NIPNI, PELCR, DUM_51, FULGL, PHACA, GAVST, DUM_52}
+Number of Quartets in Qb: 210
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 5710c498-748c-4d5e-95ee-8ef41808023b
+QPU timing: {'qpu_sampling_time': 113560.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 72.98, 'qpu_access_time': 129321.16, 'qpu_access_overhead_time': 859.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 4 & 4
+QAOA Left partition: [DUM_51, DUM_52, FULGL, GAVST]
+QAOA Right partition: [EGRGA, NIPNI, PELCR, PHACA]
+Final Bipartition Map at level 5:
+EGRGA -> 1
+NIPNI -> 1
+PELCR -> 1
+DUM_51 -> -1
+FULGL -> -1
+PHACA -> 1
+DUM_52 -> -1
+GAVST -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=8 duration_ns=861344457
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, FULGL, DUM_52, GAVST, DUM_53}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {EGRGA, NIPNI, PELCR, PHACA, DUM_53}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 53ca1049-8e98-43ec-90ca-8656d7bfdd90
+QPU timing: {'qpu_sampling_time': 84960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 44.38, 'qpu_access_time': 100721.16, 'qpu_access_overhead_time': 661.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 3 & 2
+QAOA Left partition: [DUM_52, DUM_53, FULGL]
+QAOA Right partition: [DUM_51, GAVST]
+Final Bipartition Map at level 6:
+DUM_51 -> 1
+FULGL -> -1
+DUM_52 -> -1
+DUM_53 -> -1
+GAVST -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=5 duration_ns=821864676
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {FULGL, DUM_52, DUM_53, DUM_54}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_51, GAVST, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 8366af78-5017-4dcf-aba1-59111f814499
+QPU timing: {'qpu_sampling_time': 96920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 56.34, 'qpu_access_time': 112681.16, 'qpu_access_overhead_time': 378.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [DUM_53, DUM_54]
+QAOA Right partition: [DUM_52, FULGL]
+Final Bipartition Map at level 7:
+FULGL -> 1
+DUM_52 -> 1
+DUM_53 -> -1
+DUM_54 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=4 duration_ns=840753776
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {FULGL, DUM_52, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 9f104a57-e34f-486a-9533-004921a9f50a
+QPU timing: {'qpu_sampling_time': 93760.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.18, 'qpu_access_time': 109521.16, 'qpu_access_overhead_time': 796.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 3
+QAOA Left partition: [DUM_53, PHACA]
+QAOA Right partition: [EGRGA, NIPNI, PELCR]
+Final Bipartition Map at level 6:
+EGRGA -> 1
+NIPNI -> 1
+PELCR -> 1
+PHACA -> -1
+DUM_53 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=5 duration_ns=860957298
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {PHACA, DUM_53, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {EGRGA, NIPNI, PELCR, DUM_54}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 27e09ef2-0959-48ac-a87f-52b96639c77b
+QPU timing: {'qpu_sampling_time': 83720.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 43.14, 'qpu_access_time': 99481.16, 'qpu_access_overhead_time': 515.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_54, EGRGA]
+QAOA Right partition: [NIPNI, PELCR]
+Final Bipartition Map at level 7:
+EGRGA -> -1
+NIPNI -> 1
+PELCR -> 1
+DUM_54 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=4 duration_ns=827978939
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {EGRGA, DUM_54, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {NIPNI, PELCR, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 4317a38c-dafd-4c88-addd-4e6b9137889b
+QPU timing: {'qpu_sampling_time': 89280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.7, 'qpu_access_time': 105040.36, 'qpu_access_overhead_time': 1427.64, 'qpu_programming_time': 15760.36, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 9 & 10
+QAOA Left partition: [BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49]
+QAOA Right partition: [DUM_50, DUM_51, EURHE, MESUN, OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER]
+Final Bipartition Map at level 4:
+OPHHO -> 1
+BALRE -> -1
+PHALE -> 1
+CALAN -> -1
+PHORU -> 1
+CAPCA -> -1
+PODCR -> 1
+PTEGU -> 1
+CHAPE -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+TAUER -> 1
+CUCCA -> -1
+DUM_49 -> -1
+EURHE -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+MESUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=19 duration_ns=1230355612
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {BALRE, CALAN, CAPCA, CHAPE, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_52}
+Number of Quartets in Qa: 630
+Pb (Right Partition): {OPHHO, PHALE, PHORU, PODCR, PTEGU, TAUER, EURHE, DUM_50, DUM_51, MESUN, DUM_52}
+Number of Quartets in Qb: 990
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: c14efc7b-b7e1-4fd4-a84a-a6ef3437057f
+QPU timing: {'qpu_sampling_time': 104240.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 63.66, 'qpu_access_time': 120001.16, 'qpu_access_overhead_time': 572.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 23.0, 'post_processing_overhead_time': 23.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 8 & 2
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN, COLLI, CUCCA, DUM_49, DUM_52]
+QAOA Right partition: [CALAN, CHAPE]
+Final Bipartition Map at level 5:
+CUCCA -> -1
+DUM_49 -> -1
+BALRE -> -1
+DUM_52 -> -1
+CALAN -> 1
+CAPCA -> -1
+CHAPE -> 1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=10 duration_ns=905493428
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_49, BALRE, DUM_52, CAPCA, CHAVO, CHLUN, COLLI, DUM_53}
+Number of Quartets in Qa: 378
+Pb (Right Partition): {CALAN, CHAPE, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 4a657e4a-f31a-4993-ba02-e168e0047bd6
+QPU timing: {'qpu_sampling_time': 139120.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 98.54, 'qpu_access_time': 154880.76, 'qpu_access_overhead_time': 651.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 4 & 5
+QAOA Left partition: [BALRE, CAPCA, CHAVO, CHLUN]
+QAOA Right partition: [COLLI, CUCCA, DUM_49, DUM_52, DUM_53]
+Final Bipartition Map at level 6:
+CUCCA -> 1
+DUM_49 -> 1
+BALRE -> -1
+DUM_52 -> 1
+DUM_53 -> 1
+CAPCA -> -1
+CHAVO -> -1
+CHLUN -> -1
+COLLI -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=9 duration_ns=927887960
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {BALRE, CAPCA, CHAVO, CHLUN, DUM_54}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {CUCCA, DUM_49, DUM_52, DUM_53, COLLI, DUM_54}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 19d5d112-fbaa-43bc-aeb9-02b307e2da42
+QPU timing: {'qpu_sampling_time': 89200.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.62, 'qpu_access_time': 104961.16, 'qpu_access_overhead_time': 1071.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 7.0, 'post_processing_overhead_time': 7.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 3
+QAOA Left partition: [BALRE, CAPCA]
+QAOA Right partition: [CHAVO, CHLUN, DUM_54]
+Final Bipartition Map at level 7:
+BALRE -> -1
+DUM_54 -> 1
+CAPCA -> -1
+CHAVO -> 1
+CHLUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=5 duration_ns=820042570
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {BALRE, CAPCA, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_54, CHAVO, CHLUN, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 78b75c9f-0b7c-43e6-817d-f69d6d1f5301
+QPU timing: {'qpu_sampling_time': 87080.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 46.5, 'qpu_access_time': 102841.16, 'qpu_access_overhead_time': 798.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 48.0, 'post_processing_overhead_time': 48.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [CHAVO, CHLUN]
+QAOA Right partition: [DUM_54, DUM_55]
+Final Bipartition Map at level 8:
+DUM_54 -> 1
+DUM_55 -> 1
+CHAVO -> -1
+CHLUN -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=815203731
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {CHAVO, CHLUN, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 91ead028-86ee-461e-8fe5-819ae58c411a
+QPU timing: {'qpu_sampling_time': 113640.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 73.06, 'qpu_access_time': 129401.16, 'qpu_access_overhead_time': 898.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 23.0, 'post_processing_overhead_time': 23.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 3 & 3
+QAOA Left partition: [COLLI, CUCCA, DUM_49]
+QAOA Right partition: [DUM_52, DUM_53, DUM_54]
+Final Bipartition Map at level 7:
+CUCCA -> -1
+DUM_49 -> -1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> 1
+COLLI -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=6 duration_ns=871041527
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, DUM_49, COLLI, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_52, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: eb23e3a8-a0bd-4745-b955-985aa5ad3ffc
+QPU timing: {'qpu_sampling_time': 72040.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 31.46, 'qpu_access_time': 87801.16, 'qpu_access_overhead_time': 478.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [COLLI, CUCCA]
+QAOA Right partition: [DUM_49, DUM_55]
+Final Bipartition Map at level 8:
+CUCCA -> -1
+DUM_49 -> 1
+DUM_55 -> 1
+COLLI -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=843801259
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {CUCCA, COLLI, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 2d7c72b7-6206-41c5-a85a-916dfb9bf9cf
+QPU timing: {'qpu_sampling_time': 100200.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 59.62, 'qpu_access_time': 115961.16, 'qpu_access_overhead_time': 553.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 12.0, 'post_processing_overhead_time': 12.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_52, DUM_53]
+QAOA Right partition: [DUM_54, DUM_55]
+Final Bipartition Map at level 8:
+DUM_52 -> -1
+DUM_53 -> -1
+DUM_54 -> 1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=838851070
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_52, DUM_53, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 7c71f769-a5f6-47ed-b613-50bcf52809d2
+QPU timing: {'qpu_sampling_time': 102400.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 61.82, 'qpu_access_time': 118160.76, 'qpu_access_overhead_time': 1008.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 47.0, 'post_processing_overhead_time': 47.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 9 & 2
+QAOA Left partition: [DUM_50, DUM_51, DUM_52, EURHE, MESUN, OPHHO, PHALE, PTEGU, TAUER]
+QAOA Right partition: [PHORU, PODCR]
+Final Bipartition Map at level 5:
+OPHHO -> -1
+EURHE -> -1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+PHALE -> -1
+PHORU -> 1
+PODCR -> 1
+PTEGU -> -1
+TAUER -> -1
+MESUN -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=11 duration_ns=893518726
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, EURHE, DUM_50, DUM_51, DUM_52, PHALE, PTEGU, TAUER, MESUN, DUM_53}
+Number of Quartets in Qa: 630
+Pb (Right Partition): {PHORU, PODCR, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 1a2b6e48-1a32-4927-97cf-5518f628a3df
+QPU timing: {'qpu_sampling_time': 125100.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 84.52, 'qpu_access_time': 140860.76, 'qpu_access_overhead_time': 794.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 5 & 5
+QAOA Left partition: [DUM_50, DUM_51, DUM_52, DUM_53, EURHE]
+QAOA Right partition: [MESUN, OPHHO, PHALE, PTEGU, TAUER]
+Final Bipartition Map at level 6:
+OPHHO -> 1
+EURHE -> -1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+PHALE -> 1
+DUM_53 -> -1
+PTEGU -> 1
+TAUER -> 1
+MESUN -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=10 duration_ns=960213553
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {EURHE, DUM_50, DUM_51, DUM_52, DUM_53, DUM_54}
+Number of Quartets in Qa: 45
+Pb (Right Partition): {OPHHO, PHALE, PTEGU, TAUER, MESUN, DUM_54}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 91a6f159-3ac5-4d92-92cc-3e86bdd29217
+QPU timing: {'qpu_sampling_time': 147960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 107.38, 'qpu_access_time': 163721.96, 'qpu_access_overhead_time': 648.04, 'qpu_programming_time': 15761.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 3 & 3
+QAOA Left partition: [DUM_50, DUM_51, DUM_52]
+QAOA Right partition: [DUM_53, DUM_54, EURHE]
+Final Bipartition Map at level 7:
+EURHE -> 1
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_52 -> -1
+DUM_53 -> 1
+DUM_54 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=6 duration_ns=869383636
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_51, DUM_52, DUM_55}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {EURHE, DUM_53, DUM_54, DUM_55}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 04601862-b64a-4ee4-83df-5bc1d7f5aa21
+QPU timing: {'qpu_sampling_time': 99000.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 58.42, 'qpu_access_time': 114761.56, 'qpu_access_overhead_time': 1088.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_50, DUM_51]
+QAOA Right partition: [DUM_52, DUM_55]
+Final Bipartition Map at level 8:
+DUM_50 -> -1
+DUM_51 -> -1
+DUM_52 -> 1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=825494879
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_51, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: bc6a752e-80fe-494a-a5ce-c38c6ccce137
+QPU timing: {'qpu_sampling_time': 83640.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 43.06, 'qpu_access_time': 99401.16, 'qpu_access_overhead_time': 647.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 32.0, 'post_processing_overhead_time': 32.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_53, DUM_54]
+QAOA Right partition: [DUM_55, EURHE]
+Final Bipartition Map at level 8:
+EURHE -> 1
+DUM_53 -> -1
+DUM_54 -> -1
+DUM_55 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=836011796
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_53, DUM_54, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {EURHE, DUM_55, DUM_56}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: ede7e23a-3917-4682-bfa9-264578de04bf
+QPU timing: {'qpu_sampling_time': 81000.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 40.42, 'qpu_access_time': 96761.16, 'qpu_access_overhead_time': 892.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 4
+QAOA Left partition: [MESUN, PTEGU]
+QAOA Right partition: [DUM_54, OPHHO, PHALE, TAUER]
+Final Bipartition Map at level 7:
+OPHHO -> 1
+PHALE -> 1
+DUM_54 -> 1
+PTEGU -> -1
+TAUER -> 1
+MESUN -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=6 duration_ns=819810312
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {PTEGU, MESUN, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, PHALE, DUM_54, TAUER, DUM_55}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 1ec4464c-c6ef-4c4b-a379-ca2ce489ad7d
+QPU timing: {'qpu_sampling_time': 93680.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.1, 'qpu_access_time': 109441.56, 'qpu_access_overhead_time': 552.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 3
+QAOA Left partition: [DUM_54, DUM_55]
+QAOA Right partition: [OPHHO, PHALE, TAUER]
+Final Bipartition Map at level 8:
+OPHHO -> 1
+PHALE -> 1
+DUM_54 -> -1
+DUM_55 -> -1
+TAUER -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=5 duration_ns=846281657
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_54, DUM_55, DUM_56}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {OPHHO, PHALE, TAUER, DUM_56}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 9, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 7dddbe29-e9bb-4b99-9d92-d131805d2083
+QPU timing: {'qpu_sampling_time': 94040.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.46, 'qpu_access_time': 109801.16, 'qpu_access_overhead_time': 682.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_56, OPHHO]
+QAOA Right partition: [PHALE, TAUER]
+Final Bipartition Map at level 9:
+OPHHO -> -1
+PHALE -> 1
+DUM_56 -> -1
+TAUER -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=9 taxa=4 duration_ns=841365688
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {OPHHO, DUM_56, DUM_57}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {PHALE, TAUER, DUM_57}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+((COLST,(((CARCR,CATAU),(APAVI,BUCRH)),((((FALPE,TYTAL),(LEPDI,(PICPU,MERNU))),((NESNO,MELUN),(HALAL,HALLE))),(ACACH,(MANVI,(CORBR,(GEOFO,TAEGU))))))),((CUCCA,COLLI),(((CHAVO,CHLUN),(BALRE,CAPCA)),((CALAN,CHAPE),((EURHE,(((OPHHO,(PHALE,TAUER)),(PTEGU,MESUN)),(PHORU,PODCR))),((GAVST,((PHACA,(EGRGA,(NIPNI,PELCR))),(FULGL,(APTFO,PYGAD)))),((STRCA,TINMA),(ANAPL,(GALGA,MELGA)))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/biological_fresh_20260724T220932Z_n_ge_4/avian-all.weighted_quartets/quantum.tre.tmp.682548
+
+Time taken = 56058 ms ==> 0 minutes and 56 seconds.
+================= **** ======================== **** ====================
+No annotations used.

@@ -1,0 +1,165 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+mode = Command line [1.0*ws - 1.0*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets/simulated_Xgenes_strongILS_simulated_15genes_strongILS_R6_weighted_quartets> done.
+Initial-Num-Quartets = 451
+Running with partition score mode = Command line [1.0*ws - 1.0*wv]
+11
+{7.7=7, 8.8=8, 1.1=0, 9.9=9, 2.2=2, 10.10=1, 11.11=10, 3.3=4, 4.4=3, 5.5=5, 6.6=6}
+{0=1.1, 1=10.10, 2=2.2, 3=4.4, 4=3.3, 5=5.5, 6=6.6, 7=7.7, 8=8.8, 9=9.9, 10=11.11}
+Total Num-Taxa = 11
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 1, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=1 taxa=11 duration_ns=64067437
+Final Bipartition Map at level 1:
+1.1 -> -1
+10.10 -> 1
+2.2 -> -1
+4.4 -> -1
+3.3 -> -1
+5.5 -> 1
+6.6 -> 1
+7.7 -> 1
+8.8 -> 1
+9.9 -> 1
+11.11 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=1 taxa=11 duration_ns=84417952
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {1.1, 2.2, 4.4, 3.3, 11.11, DUM_12}
+Number of Quartets in Qa: 28
+Pb (Right Partition): {10.10, 5.5, 6.6, 7.7, 8.8, 9.9, DUM_12}
+Number of Quartets in Qb: 57
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=6 duration_ns=2916357
+Final Bipartition Map at level 2:
+1.1 -> -1
+2.2 -> -1
+11.11 -> 1
+4.4 -> 1
+3.3 -> -1
+DUM_12 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=6 duration_ns=3743309
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {1.1, 2.2, 3.3, DUM_13}
+Number of Quartets in Qa: 2
+Pb (Right Partition): {11.11, 4.4, DUM_12, DUM_13}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=4 duration_ns=1464682
+Final Bipartition Map at level 3:
+1.1 -> -1
+2.2 -> -1
+3.3 -> 1
+DUM_13 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=4 duration_ns=2223690
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {1.1, 2.2, DUM_14}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {3.3, DUM_13, DUM_14}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=4 duration_ns=161968
+Final Bipartition Map at level 3:
+11.11 -> 1
+4.4 -> -1
+DUM_12 -> 1
+DUM_13 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=4 duration_ns=972521
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {4.4, DUM_13, DUM_14}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {11.11, DUM_12, DUM_14}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 2, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=2 taxa=7 duration_ns=5147574
+Final Bipartition Map at level 2:
+10.10 -> -1
+5.5 -> -1
+6.6 -> -1
+7.7 -> 1
+8.8 -> 1
+9.9 -> 1
+DUM_12 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=2 taxa=7 duration_ns=7139749
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {10.10, 5.5, 6.6, DUM_12, DUM_13}
+Number of Quartets in Qa: 7
+Pb (Right Partition): {7.7, 8.8, 9.9, DUM_13}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=5 duration_ns=1332807
+Final Bipartition Map at level 3:
+10.10 -> -1
+DUM_12 -> -1
+5.5 -> 1
+DUM_13 -> -1
+6.6 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=5 duration_ns=2667203
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {10.10, DUM_12, DUM_13, DUM_14}
+Number of Quartets in Qa: 2
+Pb (Right Partition): {5.5, 6.6, DUM_14}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 4, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=4 taxa=4 duration_ns=346583
+Final Bipartition Map at level 4:
+10.10 -> -1
+DUM_12 -> -1
+DUM_13 -> 1
+DUM_14 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=4 taxa=4 duration_ns=955227
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {10.10, DUM_12, DUM_15}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_13, DUM_14, DUM_15}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 1.0*wv] LEVEL: 3, ALPHA: 1.0, BETA: 1.0
+BENCHMARK_CORE_DIVISION_TIME_NS algorithm=1 solver=fm level=3 taxa=4 duration_ns=218647
+Final Bipartition Map at level 3:
+8.8 -> -1
+9.9 -> 1
+DUM_13 -> 1
+7.7 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=1 level=3 taxa=4 duration_ns=632377
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {8.8, 7.7, DUM_14}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {9.9, DUM_13, DUM_14}
+Number of Quartets in Qb: 0
+=============================================
+
+BENCHMARK_CONQUER_TOTAL_TIME_NS algorithm=1 merge_count=8 duration_ns=4785471
+
+
+[L 49.] FMRunner: final tree return
+((11.11,(4.4,(3.3,(1.1,2.2)))),(10.10,((5.5,6.6),(9.9,(8.8,7.7)))));
+>-> Successfully written to output-file /home/niloy/Downloads/dwave/QWQFM/benchmark/work/results_11_taxa/simulated_Xgenes_strongILS_simulated_15genes_strongILS_R6_weighted_quartets/wqfm.tre.tmp.81297
+
+Time taken = 212 ms ==> 0 minutes and 0 seconds.
+================= **** ======================== **** ====================
+No annotations used.

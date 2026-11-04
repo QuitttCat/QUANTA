@@ -25,3 +25,9 @@ baselines/results/*.lock
 writing/
 
 paper/
+
+# VeloxQ solver runs (separate experiment)
+veloxQ-solver/
+
+# # wQFM-TREE + QUBO experiment
+wqfm-tree/

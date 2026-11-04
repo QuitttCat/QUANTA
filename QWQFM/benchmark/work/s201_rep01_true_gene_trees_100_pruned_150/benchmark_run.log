@@ -1,0 +1,216 @@
+Input directory: /root/dwave/QWQFM/WQFM/input_files/150-taxa-s201-rep01-true-gene-trees-weighted-quartets
+Quartet files selected: 1 of 1
+  1. s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets
+Algorithm order: all 2 (quantum), then all 1 (WQFM)
+CSV output: /root/dwave/QWQFM/benchmark/output_csv/true_gene_tree/results_s201_rep01_true_gene_trees_100_pruned_150.csv
+Checkpoint directory: /root/dwave/QWQFM/benchmark/work/s201_rep01_true_gene_trees_100_pruned_150/results
+D-Wave token: available from /root/dwave/.env
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xms4g -Xmx22g -XX:+UseG1GC
+Buildfile: /root/dwave/QWQFM/WQFM/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /root/dwave/QWQFM/WQFM/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /root/dwave/QWQFM/WQFM/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-jar:
+
+-pre-pre-jar:
+
+-do-jar-create-manifest:
+
+-do-jar-copy-manifest:
+     [copy] Copying 1 file to /root/dwave/QWQFM/WQFM/build
+
+-do-jar-set-mainclass:
+
+-do-jar-set-profile:
+
+-do-jar-set-splashscreen:
+
+-do-jar-jar:
+     [echo] To run this application from the command line without Ant, try:
+     [echo] /usr/lib/jvm/java-17-openjdk-amd64/bin/java -cp /root/dwave/QWQFM/WQFM/main.jar:/root/dwave/QWQFM/WQFM/D:/Personal-Projects-Data/picocli-4.6.1.jar:/root/dwave/QWQFM/lib/picocli-4.6.1.jar:/root/dwave/QWQFM/lib/main.jar:/root/dwave/QWQFM/WQFM/dist/wQFM.jar wqfm.main.Main
+
+-init-macrodef-copylibs:
+
+-do-jar-copylibs:
+
+-do-jar-delete-manifest:
+
+-do-jar-without-libraries:
+
+-do-jar-with-libraries:
+
+-post-jar:
+
+-do-jar:
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Quantum phase: running Algorithm 2 for all selected files
+[quantum 1/1] s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets
+  Running Algorithm 2 (quantum)...
+Classical phase: running Algorithm 1 and scoring each file
+[wqfm 1/1] s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets
+  Running Algorithm 1 (wqfm)...
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 1,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 2,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 3,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 4,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 5,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 6,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 7,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 8,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 9,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 10,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 11,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 12,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 13,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 14,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 15,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 16,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 17,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 18,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 19,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 20,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 21,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 22,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 23,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 24,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 25,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 26,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 27,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 28,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 29,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 30,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 31,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 32,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 33,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 34,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 35,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 36,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 37,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 38,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 39,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 40,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 41,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 42,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 43,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 44,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 45,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 46,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 47,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 48,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 49,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 50,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 51,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 52,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 53,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 54,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 55,000,000 quartets
+    s201_rep01_true_gene_trees_100_pruned_150.weighted_quartets: 56,000,000 quartets
+  CSV row: taxa=150, quartets=56,713,973, total_weight=2026027500, WQFM=1456684958, quantum=1456676328, better=-1
+Benchmark complete: /root/dwave/QWQFM/benchmark/output_csv/true_gene_tree/results_s201_rep01_true_gene_trees_100_pruned_150.csv

@@ -1,0 +1,1101 @@
+mode = Command line [1.0*ws - 0.4*wv]
+Using no annotations for branches
+Python Engine: python3
+FM Algorithm: run_FM_Algorithm_Whole2
+Quartet Score level: 0
+================= **** ========== Running wQFM v1.3 ============== **** ====================
+Reading from file </root/dwave/QWQFM/WQFM/input_files/biological_dataset_weigted_quartets/angiosperm.weighted_quartets> done.
+Initial-Num-Quartets = 434193
+Running with partition score mode = Command line [1.0*ws - 0.4*wv]
+46
+{Cucumis=11, Camellia=6, Lactuca=19, Mimulus=24, Sesamum=38, Gossypium=16, Helianthus=17, Vitis=44, Liriodendron=20, Coffea=10, Pinus=33, Glycine=15, Aquilegia=1, Eucalyptus=13, Cannabis=7, Ipomoea=18, Amborella=0, Phalaenopsis=30, Phoenix=31, Populus=34, Solanum=40, Picea=32, Panax=28, Fragaria=14, Arabidopsis=2, Striga=42, Medicago=23, Sorghum=41, Nuphar=26, Citrus=9, Brassica=5, Carica=8, Musa=25, Oryza=27, Aristolochia=3, Quercus=35, Dioscorea=12, Persea=29, Silene=39, Manihot=22, Betula=4, Malus=21, Zamia=45, Selaginella=37, Theobroma=43, Ricinus=36}
+{0=Amborella, 1=Aquilegia, 2=Arabidopsis, 3=Aristolochia, 4=Betula, 5=Brassica, 6=Camellia, 7=Cannabis, 8=Carica, 9=Citrus, 10=Coffea, 11=Cucumis, 12=Dioscorea, 13=Eucalyptus, 14=Fragaria, 15=Glycine, 16=Gossypium, 17=Helianthus, 18=Ipomoea, 19=Lactuca, 20=Liriodendron, 21=Malus, 22=Manihot, 23=Medicago, 24=Mimulus, 25=Musa, 26=Nuphar, 27=Oryza, 28=Panax, 29=Persea, 30=Phalaenopsis, 31=Phoenix, 32=Picea, 33=Pinus, 34=Populus, 35=Quercus, 36=Ricinus, 37=Selaginella, 38=Sesamum, 39=Silene, 40=Solanum, 41=Sorghum, 42=Striga, 43=Theobroma, 44=Vitis, 45=Zamia}
+Total Num-Taxa = 46
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 1, ALPHA: 1.0, BETA: 0.4
+QAOA process started (PID reused across levels).
+QPU solver: Advantage_system4
+QPU problem ID: ba95fa8e-f2f8-4585-a9bd-791354b4b5a4
+QPU timing: {'qpu_sampling_time': 132640.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 92.06, 'qpu_access_time': 148402.76, 'qpu_access_overhead_time': 1336.24, 'qpu_programming_time': 15762.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 27.0, 'post_processing_overhead_time': 27.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 30 & 16
+QAOA Left partition: [Arabidopsis, Betula, Brassica, Camellia, Cannabis, Carica, Citrus, Coffea, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Helianthus, Ipomoea, Lactuca, Malus, Manihot, Medicago, Mimulus, Panax, Populus, Quercus, Ricinus, Sesamum, Silene, Solanum, Striga, Theobroma, Vitis]
+QAOA Right partition: [Amborella, Aquilegia, Aristolochia, Dioscorea, Liriodendron, Musa, Nuphar, Oryza, Persea, Phalaenopsis, Phoenix, Picea, Pinus, Selaginella, Sorghum, Zamia]
+Final Bipartition Map at level 1:
+Amborella -> 1
+Aquilegia -> 1
+Arabidopsis -> -1
+Aristolochia -> 1
+Betula -> -1
+Brassica -> -1
+Camellia -> -1
+Cannabis -> -1
+Carica -> -1
+Citrus -> -1
+Coffea -> -1
+Cucumis -> -1
+Dioscorea -> 1
+Eucalyptus -> -1
+Fragaria -> -1
+Glycine -> -1
+Gossypium -> -1
+Helianthus -> -1
+Ipomoea -> -1
+Lactuca -> -1
+Liriodendron -> 1
+Malus -> -1
+Manihot -> -1
+Medicago -> -1
+Mimulus -> -1
+Musa -> 1
+Nuphar -> 1
+Oryza -> 1
+Panax -> -1
+Persea -> 1
+Phalaenopsis -> 1
+Phoenix -> 1
+Picea -> 1
+Pinus -> 1
+Populus -> -1
+Quercus -> -1
+Ricinus -> -1
+Selaginella -> 1
+Sesamum -> -1
+Silene -> -1
+Solanum -> -1
+Sorghum -> 1
+Striga -> -1
+Theobroma -> -1
+Vitis -> -1
+Zamia -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=1 taxa=46 duration_ns=7154437226
+
+========== LEVEL 1 BIPARTITION RESULT ==========
+Pa (Left Partition): {Arabidopsis, Betula, Brassica, Camellia, Cannabis, Carica, Citrus, Coffea, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Helianthus, Ipomoea, Lactuca, Malus, Manihot, Medicago, Mimulus, Panax, Populus, Quercus, Ricinus, Sesamum, Silene, Solanum, Striga, Theobroma, Vitis, DUM_47}
+Number of Quartets in Qa: 85042
+Pb (Right Partition): {Amborella, Aquilegia, Aristolochia, Dioscorea, Liriodendron, Musa, Nuphar, Oryza, Persea, Phalaenopsis, Phoenix, Picea, Pinus, Selaginella, Sorghum, Zamia, DUM_47}
+Number of Quartets in Qb: 6132
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e4256231-3968-4534-a50e-a21488eea8f3
+QPU timing: {'qpu_sampling_time': 118320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 77.74, 'qpu_access_time': 134081.96, 'qpu_access_overhead_time': 1420.04, 'qpu_programming_time': 15761.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 13 & 18
+QAOA Left partition: [Camellia, Coffea, DUM_47, Helianthus, Ipomoea, Lactuca, Mimulus, Panax, Sesamum, Silene, Solanum, Striga, Vitis]
+QAOA Right partition: [Arabidopsis, Betula, Brassica, Cannabis, Carica, Citrus, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Malus, Manihot, Medicago, Populus, Quercus, Ricinus, Theobroma]
+Final Bipartition Map at level 2:
+Arabidopsis -> 1
+Betula -> 1
+Brassica -> 1
+Camellia -> -1
+Cannabis -> 1
+Carica -> 1
+Citrus -> 1
+Coffea -> -1
+Cucumis -> 1
+Eucalyptus -> 1
+Fragaria -> 1
+Glycine -> 1
+Gossypium -> 1
+Helianthus -> -1
+Ipomoea -> -1
+Lactuca -> -1
+Malus -> 1
+Manihot -> 1
+Medicago -> 1
+Mimulus -> -1
+Panax -> -1
+Populus -> 1
+Quercus -> 1
+Ricinus -> 1
+Sesamum -> -1
+Silene -> -1
+Solanum -> -1
+Striga -> -1
+Theobroma -> 1
+Vitis -> -1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=31 duration_ns=2583320433
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Camellia, Coffea, Helianthus, Ipomoea, Lactuca, Mimulus, Panax, Sesamum, Silene, Solanum, Striga, Vitis, DUM_47, DUM_48}
+Number of Quartets in Qa: 2572
+Pb (Right Partition): {Arabidopsis, Betula, Brassica, Cannabis, Carica, Citrus, Cucumis, Eucalyptus, Fragaria, Glycine, Gossypium, Malus, Manihot, Medicago, Populus, Quercus, Ricinus, Theobroma, DUM_48}
+Number of Quartets in Qb: 10673
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: d7aafec5-de63-4745-abf8-6de7ef97521f
+QPU timing: {'qpu_sampling_time': 105640.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 65.06, 'qpu_access_time': 121401.16, 'qpu_access_overhead_time': 1467.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 79.0, 'post_processing_overhead_time': 79.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 8 & 6
+QAOA Left partition: [Camellia, DUM_47, DUM_48, Helianthus, Lactuca, Panax, Silene, Vitis]
+QAOA Right partition: [Coffea, Ipomoea, Mimulus, Sesamum, Solanum, Striga]
+Final Bipartition Map at level 3:
+Camellia -> -1
+Sesamum -> 1
+Silene -> -1
+Solanum -> 1
+Coffea -> 1
+Striga -> 1
+Vitis -> -1
+DUM_47 -> -1
+DUM_48 -> -1
+Helianthus -> -1
+Ipomoea -> 1
+Lactuca -> -1
+Mimulus -> 1
+Panax -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=14 duration_ns=963168148
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Camellia, Silene, Vitis, DUM_47, DUM_48, Helianthus, Lactuca, Panax, DUM_49}
+Number of Quartets in Qa: 336
+Pb (Right Partition): {Sesamum, Solanum, Coffea, Striga, Ipomoea, Mimulus, DUM_49}
+Number of Quartets in Qb: 84
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 089ccfcd-670c-44f1-9f61-39e2ad8a7d4c
+QPU timing: {'qpu_sampling_time': 112320.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 71.74, 'qpu_access_time': 128081.16, 'qpu_access_overhead_time': 1063.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 57.0, 'post_processing_overhead_time': 57.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 4
+QAOA Left partition: [Camellia, DUM_49, Helianthus, Lactuca, Panax]
+QAOA Right partition: [DUM_47, DUM_48, Silene, Vitis]
+Final Bipartition Map at level 4:
+DUM_48 -> 1
+Helianthus -> -1
+DUM_49 -> -1
+Lactuca -> -1
+Camellia -> -1
+Silene -> 1
+Vitis -> 1
+Panax -> -1
+DUM_47 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=9 duration_ns=879071931
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Helianthus, DUM_49, Lactuca, Camellia, Panax, DUM_50}
+Number of Quartets in Qa: 33
+Pb (Right Partition): {DUM_48, Silene, Vitis, DUM_47, DUM_50}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 9a3a9876-a83d-41df-9284-5d2c0cd8c3e5
+QPU timing: {'qpu_sampling_time': 124440.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 83.86, 'qpu_access_time': 140201.56, 'qpu_access_overhead_time': 1047.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 4 & 2
+QAOA Left partition: [Camellia, DUM_49, DUM_50, Panax]
+QAOA Right partition: [Helianthus, Lactuca]
+Final Bipartition Map at level 5:
+Helianthus -> 1
+DUM_49 -> -1
+DUM_50 -> -1
+Lactuca -> 1
+Camellia -> -1
+Panax -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=6 duration_ns=855047434
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, Camellia, Panax, DUM_51}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Helianthus, Lactuca, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 02ef20f4-c0b3-482a-96f8-7d4025b11f53
+QPU timing: {'qpu_sampling_time': 78400.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 37.82, 'qpu_access_time': 94161.16, 'qpu_access_overhead_time': 704.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 40.0, 'post_processing_overhead_time': 40.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 2
+QAOA Left partition: [DUM_49, DUM_51, Panax]
+QAOA Right partition: [Camellia, DUM_50]
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_51 -> -1
+Camellia -> 1
+Panax -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=5 duration_ns=792656666
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_51, Panax, DUM_52}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, Camellia, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 6176480b-af51-4b1e-a062-59e332e9580f
+QPU timing: {'qpu_sampling_time': 97240.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 56.66, 'qpu_access_time': 113001.16, 'qpu_access_overhead_time': 385.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 25.0, 'post_processing_overhead_time': 25.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_51, Panax]
+QAOA Right partition: [DUM_49, DUM_52]
+Final Bipartition Map at level 7:
+DUM_49 -> 1
+DUM_51 -> -1
+DUM_52 -> 1
+Panax -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=4 duration_ns=839330581
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, Panax, DUM_53}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 8c4d6032-2dbf-4e3c-9826-902ff6d219c2
+QPU timing: {'qpu_sampling_time': 87280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 46.7, 'qpu_access_time': 103041.56, 'qpu_access_overhead_time': 1363.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 3
+QAOA Left partition: [DUM_50, Silene]
+QAOA Right partition: [DUM_47, DUM_48, Vitis]
+Final Bipartition Map at level 5:
+DUM_48 -> 1
+DUM_50 -> -1
+Silene -> -1
+Vitis -> 1
+DUM_47 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=798783164
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, Silene, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, Vitis, DUM_47, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 11a59799-d50b-42f5-9628-864cbfcc4fa2
+QPU timing: {'qpu_sampling_time': 89720.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 49.14, 'qpu_access_time': 105481.16, 'qpu_access_overhead_time': 782.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [DUM_47, DUM_51]
+QAOA Right partition: [DUM_48, Vitis]
+Final Bipartition Map at level 6:
+DUM_48 -> 1
+DUM_51 -> -1
+Vitis -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=809233918
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, DUM_47, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, Vitis, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: d7d2e974-ee44-4ecc-94cc-37af5bdd982d
+QPU timing: {'qpu_sampling_time': 88880.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.3, 'qpu_access_time': 104641.56, 'qpu_access_overhead_time': 786.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 4
+QAOA Left partition: [Mimulus, Sesamum, Striga]
+QAOA Right partition: [Coffea, DUM_49, Ipomoea, Solanum]
+Final Bipartition Map at level 4:
+DUM_49 -> 1
+Ipomoea -> 1
+Sesamum -> -1
+Solanum -> 1
+Mimulus -> -1
+Coffea -> 1
+Striga -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=7 duration_ns=804917901
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sesamum, Mimulus, Striga, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_49, Ipomoea, Solanum, Coffea, DUM_50}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 48d96e05-f14e-4af6-b703-0cd155cd6b77
+QPU timing: {'qpu_sampling_time': 89000.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 48.42, 'qpu_access_time': 104761.16, 'qpu_access_overhead_time': 413.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Mimulus, Striga]
+QAOA Right partition: [DUM_50, Sesamum]
+Final Bipartition Map at level 5:
+DUM_50 -> 1
+Sesamum -> 1
+Mimulus -> -1
+Striga -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=891082409
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Mimulus, Striga, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, Sesamum, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e24cdeff-aa1d-4bf7-96e8-9d01f9fe4c34
+QPU timing: {'qpu_sampling_time': 83280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 42.7, 'qpu_access_time': 99041.16, 'qpu_access_overhead_time': 1005.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 47.0, 'post_processing_overhead_time': 47.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 2
+QAOA Left partition: [Coffea, DUM_49, DUM_50]
+QAOA Right partition: [Ipomoea, Solanum]
+Final Bipartition Map at level 5:
+DUM_49 -> -1
+Ipomoea -> 1
+DUM_50 -> -1
+Solanum -> 1
+Coffea -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=841514731
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, Coffea, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Ipomoea, Solanum, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 20c362c4-25b9-475e-85fa-2f92ff6570bb
+QPU timing: {'qpu_sampling_time': 102840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 62.26, 'qpu_access_time': 118601.16, 'qpu_access_overhead_time': 725.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [Coffea, DUM_49]
+QAOA Right partition: [DUM_50, DUM_51]
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_51 -> 1
+Coffea -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=818175603
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Coffea, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: d76a5b5d-9028-47da-a024-f6a36816bb5f
+QPU timing: {'qpu_sampling_time': 119360.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 78.78, 'qpu_access_time': 135121.16, 'qpu_access_overhead_time': 1369.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 10 & 9
+QAOA Left partition: [Betula, Cannabis, Cucumis, DUM_48, Eucalyptus, Fragaria, Glycine, Malus, Medicago, Quercus]
+QAOA Right partition: [Arabidopsis, Brassica, Carica, Citrus, Gossypium, Manihot, Populus, Ricinus, Theobroma]
+Final Bipartition Map at level 3:
+Arabidopsis -> 1
+Populus -> 1
+Quercus -> -1
+Betula -> -1
+Ricinus -> 1
+Brassica -> 1
+Cannabis -> -1
+Carica -> 1
+Citrus -> 1
+Cucumis -> -1
+Theobroma -> 1
+Eucalyptus -> -1
+Fragaria -> -1
+Glycine -> -1
+Gossypium -> 1
+DUM_48 -> -1
+Malus -> -1
+Manihot -> 1
+Medicago -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=19 duration_ns=1231163591
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Quercus, Betula, Cannabis, Cucumis, Eucalyptus, Fragaria, Glycine, DUM_48, Malus, Medicago, DUM_49}
+Number of Quartets in Qa: 939
+Pb (Right Partition): {Arabidopsis, Populus, Ricinus, Brassica, Carica, Citrus, Theobroma, Gossypium, Manihot, DUM_49}
+Number of Quartets in Qb: 515
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 3050727a-759c-41a7-a957-13f53b6859d1
+QPU timing: {'qpu_sampling_time': 77060.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 36.48, 'qpu_access_time': 92821.56, 'qpu_access_overhead_time': 1166.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 9
+QAOA Left partition: [Glycine, Medicago]
+QAOA Right partition: [Betula, Cannabis, Cucumis, DUM_48, DUM_49, Eucalyptus, Fragaria, Malus, Quercus]
+Final Bipartition Map at level 4:
+DUM_48 -> 1
+DUM_49 -> 1
+Quercus -> 1
+Betula -> 1
+Malus -> 1
+Cannabis -> 1
+Medicago -> -1
+Cucumis -> 1
+Eucalyptus -> 1
+Fragaria -> 1
+Glycine -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=11 duration_ns=870576134
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Medicago, Glycine, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, DUM_49, Quercus, Betula, Malus, Cannabis, Cucumis, Eucalyptus, Fragaria, DUM_50}
+Number of Quartets in Qb: 604
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: daaecd60-4546-425f-a3c8-feecec681cd8
+QPU timing: {'qpu_sampling_time': 134840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 94.26, 'qpu_access_time': 150601.16, 'qpu_access_overhead_time': 2001.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 54.0, 'post_processing_overhead_time': 54.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 7
+QAOA Left partition: [Cannabis, Fragaria, Malus]
+QAOA Right partition: [Betula, Cucumis, DUM_48, DUM_49, DUM_50, Eucalyptus, Quercus]
+Final Bipartition Map at level 5:
+DUM_48 -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+Quercus -> 1
+Betula -> 1
+Malus -> -1
+Cannabis -> -1
+Cucumis -> 1
+Eucalyptus -> 1
+Fragaria -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=10 duration_ns=902612212
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Malus, Cannabis, Fragaria, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_48, DUM_49, DUM_50, Quercus, Betula, Cucumis, Eucalyptus, DUM_51}
+Number of Quartets in Qb: 202
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: b464190d-3de3-49fb-b8f8-bce625ff5ea7
+QPU timing: {'qpu_sampling_time': 78920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 38.34, 'qpu_access_time': 94681.16, 'qpu_access_overhead_time': 779.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Cannabis, DUM_51]
+QAOA Right partition: [Fragaria, Malus]
+Final Bipartition Map at level 6:
+DUM_51 -> -1
+Malus -> 1
+Cannabis -> -1
+Fragaria -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=842860412
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, Cannabis, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Malus, Fragaria, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 285f8620-1440-4580-b91c-9e2209bc57c3
+QPU timing: {'qpu_sampling_time': 108280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 67.7, 'qpu_access_time': 124041.16, 'qpu_access_overhead_time': 808.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 6
+QAOA Left partition: [Betula, Quercus]
+QAOA Right partition: [Cucumis, DUM_48, DUM_49, DUM_50, DUM_51, Eucalyptus]
+Final Bipartition Map at level 6:
+DUM_48 -> 1
+DUM_49 -> 1
+DUM_50 -> 1
+Quercus -> -1
+DUM_51 -> 1
+Betula -> -1
+Cucumis -> 1
+Eucalyptus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=8 duration_ns=839140396
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Quercus, Betula, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, DUM_49, DUM_50, DUM_51, Cucumis, Eucalyptus, DUM_52}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: c1ff27e9-fed8-4c3e-a079-cb8f8cc2d011
+QPU timing: {'qpu_sampling_time': 112220.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 71.64, 'qpu_access_time': 127980.76, 'qpu_access_overhead_time': 791.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 4
+QAOA Left partition: [DUM_48, DUM_49, Eucalyptus]
+QAOA Right partition: [Cucumis, DUM_50, DUM_51, DUM_52]
+Final Bipartition Map at level 7:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_51 -> 1
+DUM_52 -> 1
+Cucumis -> 1
+Eucalyptus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=7 duration_ns=863213152
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, Eucalyptus, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52, Cucumis, DUM_53}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 77475f9d-3e76-4d0f-88ad-0c01637eacc1
+QPU timing: {'qpu_sampling_time': 86440.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 45.86, 'qpu_access_time': 102200.76, 'qpu_access_overhead_time': 770.24, 'qpu_programming_time': 15760.76, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_48, DUM_49]
+QAOA Right partition: [DUM_53, Eucalyptus]
+Final Bipartition Map at level 8:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_53 -> 1
+Eucalyptus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=808343660
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, Eucalyptus, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 1eafa8e6-4729-43fe-9288-2d50f5f3bca4
+QPU timing: {'qpu_sampling_time': 106960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 66.38, 'qpu_access_time': 122721.16, 'qpu_access_overhead_time': 661.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 3
+QAOA Left partition: [Cucumis, DUM_50]
+QAOA Right partition: [DUM_51, DUM_52, DUM_53]
+Final Bipartition Map at level 8:
+DUM_50 -> -1
+DUM_51 -> 1
+DUM_52 -> 1
+DUM_53 -> 1
+Cucumis -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=5 duration_ns=829906755
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, Cucumis, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, DUM_52, DUM_53, DUM_54}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 9, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: fd2e3e20-3f54-4907-8d04-1ee30346ec82
+QPU timing: {'qpu_sampling_time': 94920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 54.34, 'qpu_access_time': 110681.16, 'qpu_access_overhead_time': 926.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [DUM_51, DUM_54]
+QAOA Right partition: [DUM_52, DUM_53]
+Final Bipartition Map at level 9:
+DUM_51 -> -1
+DUM_52 -> 1
+DUM_53 -> 1
+DUM_54 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=9 taxa=4 duration_ns=813249818
+
+========== LEVEL 9 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, DUM_54, DUM_55}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_52, DUM_53, DUM_55}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 464108af-39cb-45b7-a96b-365029e5c7a4
+QPU timing: {'qpu_sampling_time': 107000.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 66.42, 'qpu_access_time': 122760.36, 'qpu_access_overhead_time': 1062.64, 'qpu_programming_time': 15760.36, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 7
+QAOA Left partition: [Manihot, Populus, Ricinus]
+QAOA Right partition: [Arabidopsis, Brassica, Carica, Citrus, DUM_49, Gossypium, Theobroma]
+Final Bipartition Map at level 4:
+Gossypium -> 1
+DUM_49 -> 1
+Arabidopsis -> 1
+Populus -> -1
+Ricinus -> -1
+Brassica -> 1
+Manihot -> -1
+Carica -> 1
+Citrus -> 1
+Theobroma -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=10 duration_ns=872614226
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Populus, Ricinus, Manihot, DUM_50}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {Gossypium, DUM_49, Arabidopsis, Brassica, Carica, Citrus, Theobroma, DUM_50}
+Number of Quartets in Qb: 152
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 6942e031-a942-4f8a-b3eb-677a05b6f54c
+QPU timing: {'qpu_sampling_time': 113400.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 72.82, 'qpu_access_time': 129161.16, 'qpu_access_overhead_time': 719.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_50, Populus]
+QAOA Right partition: [Manihot, Ricinus]
+Final Bipartition Map at level 5:
+Populus -> -1
+DUM_50 -> -1
+Ricinus -> 1
+Manihot -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=903825934
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Populus, DUM_50, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Ricinus, Manihot, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e7f71a23-13c2-41db-8c7a-9f62664212bd
+QPU timing: {'qpu_sampling_time': 126280.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 85.7, 'qpu_access_time': 142039.96, 'qpu_access_overhead_time': 1057.04, 'qpu_programming_time': 15759.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 5 & 3
+QAOA Left partition: [Citrus, DUM_49, DUM_50, Gossypium, Theobroma]
+QAOA Right partition: [Arabidopsis, Brassica, Carica]
+Final Bipartition Map at level 5:
+Gossypium -> -1
+DUM_49 -> -1
+Arabidopsis -> 1
+DUM_50 -> -1
+Brassica -> 1
+Carica -> 1
+Citrus -> -1
+Theobroma -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=8 duration_ns=888034807
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gossypium, DUM_49, DUM_50, Citrus, Theobroma, DUM_51}
+Number of Quartets in Qa: 33
+Pb (Right Partition): {Arabidopsis, Brassica, Carica, DUM_51}
+Number of Quartets in Qb: 1
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 35a0306c-8fdc-4c80-b718-9dd2b87e5f08
+QPU timing: {'qpu_sampling_time': 110520.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 69.94, 'qpu_access_time': 126281.16, 'qpu_access_overhead_time': 703.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 4
+QAOA Left partition: [Gossypium, Theobroma]
+QAOA Right partition: [Citrus, DUM_49, DUM_50, DUM_51]
+Final Bipartition Map at level 6:
+Gossypium -> -1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_51 -> 1
+Citrus -> 1
+Theobroma -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=6 duration_ns=851597278
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {Gossypium, Theobroma, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, DUM_50, DUM_51, Citrus, DUM_52}
+Number of Quartets in Qb: 15
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 7, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: dab5e61f-bc45-4dd7-9eb7-16b68faeeff4
+QPU timing: {'qpu_sampling_time': 120880.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 80.3, 'qpu_access_time': 136641.16, 'qpu_access_overhead_time': 713.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 3 & 2
+QAOA Left partition: [Citrus, DUM_49, DUM_50]
+QAOA Right partition: [DUM_51, DUM_52]
+Final Bipartition Map at level 7:
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_51 -> 1
+DUM_52 -> 1
+Citrus -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=7 taxa=5 duration_ns=917545556
+
+========== LEVEL 7 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, Citrus, DUM_53}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_51, DUM_52, DUM_53}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 8, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 069d6220-e0ec-4e17-af0e-53b1594952f6
+QPU timing: {'qpu_sampling_time': 88520.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 47.94, 'qpu_access_time': 104281.16, 'qpu_access_overhead_time': 713.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [DUM_49, DUM_50]
+QAOA Right partition: [Citrus, DUM_53]
+Final Bipartition Map at level 8:
+DUM_49 -> -1
+DUM_50 -> -1
+DUM_53 -> 1
+Citrus -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=8 taxa=4 duration_ns=791245006
+
+========== LEVEL 8 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, DUM_50, DUM_54}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_53, Citrus, DUM_54}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 8c5d2f87-667b-40eb-a066-62141f0fa12a
+QPU timing: {'qpu_sampling_time': 96920.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 56.34, 'qpu_access_time': 112681.16, 'qpu_access_overhead_time': 386.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Carica, DUM_51]
+QAOA Right partition: [Arabidopsis, Brassica]
+Final Bipartition Map at level 6:
+Arabidopsis -> 1
+DUM_51 -> -1
+Brassica -> 1
+Carica -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=829426445
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_51, Carica, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Arabidopsis, Brassica, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 2, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 6403811e-c3fb-427b-9020-a47d1bed8d8c
+QPU timing: {'qpu_sampling_time': 192840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 152.26, 'qpu_access_time': 208601.56, 'qpu_access_overhead_time': 1278.44, 'qpu_programming_time': 15761.56, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 23.0, 'post_processing_overhead_time': 23.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 11 & 6
+QAOA Left partition: [Aquilegia, Aristolochia, DUM_47, Dioscorea, Liriodendron, Musa, Oryza, Persea, Phalaenopsis, Phoenix, Sorghum]
+QAOA Right partition: [Amborella, Nuphar, Picea, Pinus, Selaginella, Zamia]
+Final Bipartition Map at level 2:
+Amborella -> 1
+Picea -> 1
+Aquilegia -> -1
+Pinus -> 1
+Aristolochia -> -1
+Selaginella -> 1
+Sorghum -> -1
+Dioscorea -> -1
+Zamia -> 1
+DUM_47 -> -1
+Liriodendron -> -1
+Musa -> -1
+Nuphar -> 1
+Oryza -> -1
+Persea -> -1
+Phalaenopsis -> -1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=2 taxa=17 duration_ns=1082789592
+
+========== LEVEL 2 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aquilegia, Aristolochia, Sorghum, Dioscorea, DUM_47, Liriodendron, Musa, Oryza, Persea, Phalaenopsis, Phoenix, DUM_48}
+Number of Quartets in Qa: 1296
+Pb (Right Partition): {Amborella, Picea, Pinus, Selaginella, Zamia, Nuphar, DUM_48}
+Number of Quartets in Qb: 81
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 25673e9f-2775-42a7-9d7c-dad16142cc70
+QPU timing: {'qpu_sampling_time': 184440.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 143.86, 'qpu_access_time': 200201.16, 'qpu_access_overhead_time': 536.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 28.0, 'post_processing_overhead_time': 28.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 6 & 6
+QAOA Left partition: [Dioscorea, Musa, Oryza, Phalaenopsis, Phoenix, Sorghum]
+QAOA Right partition: [Aquilegia, Aristolochia, DUM_47, DUM_48, Liriodendron, Persea]
+Final Bipartition Map at level 3:
+DUM_48 -> 1
+Aquilegia -> 1
+Aristolochia -> 1
+Liriodendron -> 1
+Sorghum -> -1
+Musa -> -1
+Oryza -> -1
+Dioscorea -> -1
+Persea -> 1
+Phalaenopsis -> -1
+DUM_47 -> 1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=12 duration_ns=1028578101
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sorghum, Musa, Oryza, Dioscorea, Phalaenopsis, Phoenix, DUM_49}
+Number of Quartets in Qa: 86
+Pb (Right Partition): {DUM_48, Aquilegia, Aristolochia, Liriodendron, Persea, DUM_47, DUM_49}
+Number of Quartets in Qb: 105
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: df631b7c-a770-440a-b72f-5b5eafb5e2b1
+QPU timing: {'qpu_sampling_time': 117440.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 76.86, 'qpu_access_time': 133201.16, 'qpu_access_overhead_time': 1354.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 5
+QAOA Left partition: [Oryza, Sorghum]
+QAOA Right partition: [DUM_49, Dioscorea, Musa, Phalaenopsis, Phoenix]
+Final Bipartition Map at level 4:
+DUM_49 -> 1
+Sorghum -> -1
+Musa -> 1
+Oryza -> -1
+Dioscorea -> 1
+Phalaenopsis -> 1
+Phoenix -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=7 duration_ns=898265456
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {Sorghum, Oryza, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_49, Musa, Dioscorea, Phalaenopsis, Phoenix, DUM_50}
+Number of Quartets in Qb: 45
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e01dcce0-f3bd-4793-a9df-e1b014506038
+QPU timing: {'qpu_sampling_time': 97080.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 56.5, 'qpu_access_time': 112841.16, 'qpu_access_overhead_time': 795.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 71.0, 'post_processing_overhead_time': 71.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 3 & 3
+QAOA Left partition: [DUM_50, Musa, Phoenix]
+QAOA Right partition: [DUM_49, Dioscorea, Phalaenopsis]
+Final Bipartition Map at level 5:
+DUM_49 -> 1
+DUM_50 -> -1
+Musa -> -1
+Dioscorea -> 1
+Phalaenopsis -> 1
+Phoenix -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=6 duration_ns=915817905
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, Musa, Phoenix, DUM_51}
+Number of Quartets in Qa: 3
+Pb (Right Partition): {DUM_49, Dioscorea, Phalaenopsis, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 5a64aec7-9a85-4641-bcce-d887a1f87895
+QPU timing: {'qpu_sampling_time': 86360.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 45.78, 'qpu_access_time': 102121.16, 'qpu_access_overhead_time': 1027.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 67.0, 'post_processing_overhead_time': 67.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_50, DUM_51]
+QAOA Right partition: [Musa, Phoenix]
+Final Bipartition Map at level 6:
+DUM_50 -> -1
+DUM_51 -> -1
+Musa -> 1
+Phoenix -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=830428095
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Musa, Phoenix, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 07b0ff86-ba94-4989-853b-de1d2fe24faa
+QPU timing: {'qpu_sampling_time': 80120.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 39.54, 'qpu_access_time': 95881.16, 'qpu_access_overhead_time': 545.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 52.0, 'post_processing_overhead_time': 52.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [DUM_49, Dioscorea]
+QAOA Right partition: [DUM_51, Phalaenopsis]
+Final Bipartition Map at level 6:
+DUM_49 -> -1
+DUM_51 -> 1
+Dioscorea -> -1
+Phalaenopsis -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=854791962
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Dioscorea, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_51, Phalaenopsis, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: fb1ada02-04bd-43b4-8af0-3d7ca3310d94
+QPU timing: {'qpu_sampling_time': 125840.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 85.26, 'qpu_access_time': 141601.16, 'qpu_access_overhead_time': 905.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 66.0, 'post_processing_overhead_time': 66.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 4 & 3
+QAOA Left partition: [Aquilegia, DUM_47, DUM_48, DUM_49]
+QAOA Right partition: [Aristolochia, Liriodendron, Persea]
+Final Bipartition Map at level 4:
+DUM_48 -> -1
+Aquilegia -> -1
+DUM_49 -> -1
+Aristolochia -> 1
+Liriodendron -> 1
+Persea -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=7 duration_ns=921048937
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, Aquilegia, DUM_49, DUM_47, DUM_50}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Aristolochia, Liriodendron, Persea, DUM_50}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: e96195e3-d139-46f0-b664-725bb47142e8
+QPU timing: {'qpu_sampling_time': 102880.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 62.3, 'qpu_access_time': 118641.16, 'qpu_access_overhead_time': 500.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 3
+QAOA Left partition: [Aquilegia, DUM_47]
+QAOA Right partition: [DUM_48, DUM_49, DUM_50]
+Final Bipartition Map at level 5:
+DUM_48 -> 1
+Aquilegia -> -1
+DUM_49 -> 1
+DUM_50 -> 1
+DUM_47 -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=5 duration_ns=841385418
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Aquilegia, DUM_47, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, DUM_49, DUM_50, DUM_51}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 6, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 7ce738a9-ac35-44a6-b285-1fa850d6c8a0
+QPU timing: {'qpu_sampling_time': 103960.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 63.38, 'qpu_access_time': 119721.16, 'qpu_access_overhead_time': 503.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU returned no valid sampled partition; using deterministic balanced fallback: 2 & 2
+QAOA Left partition: [DUM_48, DUM_49]
+QAOA Right partition: [DUM_50, DUM_51]
+Final Bipartition Map at level 6:
+DUM_48 -> -1
+DUM_49 -> -1
+DUM_50 -> 1
+DUM_51 -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=6 taxa=4 duration_ns=855968414
+
+========== LEVEL 6 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_48, DUM_49, DUM_52}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, DUM_51, DUM_52}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 61f0efbd-a77c-45e9-8076-f8b1adfb39f9
+QPU timing: {'qpu_sampling_time': 82760.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 42.18, 'qpu_access_time': 98521.16, 'qpu_access_overhead_time': 838.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 37.0, 'post_processing_overhead_time': 37.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [Liriodendron, Persea]
+QAOA Right partition: [Aristolochia, DUM_50]
+Final Bipartition Map at level 5:
+DUM_50 -> 1
+Aristolochia -> 1
+Liriodendron -> -1
+Persea -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=836262884
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Liriodendron, Persea, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_50, Aristolochia, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 3, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 7ce3c3e7-7277-490b-82c0-7d5ea566a10d
+QPU timing: {'qpu_sampling_time': 100160.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 59.58, 'qpu_access_time': 115921.96, 'qpu_access_overhead_time': 1050.04, 'qpu_programming_time': 15761.96, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 4 & 3
+QAOA Left partition: [Amborella, DUM_48, Nuphar, Selaginella]
+QAOA Right partition: [Picea, Pinus, Zamia]
+Final Bipartition Map at level 3:
+Amborella -> -1
+Picea -> 1
+DUM_48 -> -1
+Pinus -> 1
+Selaginella -> -1
+Nuphar -> -1
+Zamia -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=3 taxa=7 duration_ns=845592041
+
+========== LEVEL 3 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, DUM_48, Selaginella, Nuphar, DUM_49}
+Number of Quartets in Qa: 15
+Pb (Right Partition): {Picea, Pinus, Zamia, DUM_49}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 529c648f-b793-4c51-9296-4fa2766e7594
+QPU timing: {'qpu_sampling_time': 93360.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 52.78, 'qpu_access_time': 109121.16, 'qpu_access_overhead_time': 798.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 26.0, 'post_processing_overhead_time': 26.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 3
+QAOA Left partition: [DUM_49, Selaginella]
+QAOA Right partition: [Amborella, DUM_48, Nuphar]
+Final Bipartition Map at level 4:
+Amborella -> 1
+DUM_48 -> 1
+DUM_49 -> -1
+Selaginella -> -1
+Nuphar -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=5 duration_ns=841978403
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Selaginella, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Amborella, DUM_48, Nuphar, DUM_50}
+Number of Quartets in Qb: 3
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 5, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 59a30cde-b842-4a37-b08c-2e7c6b52b531
+QPU timing: {'qpu_sampling_time': 94040.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 53.46, 'qpu_access_time': 109801.16, 'qpu_access_overhead_time': 1454.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 3; skipped invalid samples: 2; partition sizes: 2 & 2
+QAOA Left partition: [Amborella, DUM_50]
+QAOA Right partition: [DUM_48, Nuphar]
+Final Bipartition Map at level 5:
+Amborella -> -1
+DUM_48 -> 1
+DUM_50 -> -1
+Nuphar -> 1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=5 taxa=4 duration_ns=858528671
+
+========== LEVEL 5 BIPARTITION RESULT ==========
+Pa (Left Partition): {Amborella, DUM_50, DUM_51}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {DUM_48, Nuphar, DUM_51}
+Number of Quartets in Qb: 0
+=============================================
+
+mode = Command line [1.0*ws - 0.4*wv] LEVEL: 4, ALPHA: 1.0, BETA: 0.4
+QPU solver: Advantage_system4
+QPU problem ID: 70f3def0-b89d-4202-8c2b-0e2b150143ad
+QPU timing: {'qpu_sampling_time': 77160.0, 'qpu_anneal_time_per_sample': 20.0, 'qpu_readout_time_per_sample': 36.58, 'qpu_access_time': 92921.16, 'qpu_access_overhead_time': 667.84, 'qpu_programming_time': 15761.16, 'qpu_delay_time_per_sample': 20.58, 'total_post_processing_time': 1.0, 'post_processing_overhead_time': 1.0}
+QPU selected sample rank: 1; skipped invalid samples: 0; partition sizes: 2 & 2
+QAOA Left partition: [DUM_49, Zamia]
+QAOA Right partition: [Picea, Pinus]
+Final Bipartition Map at level 4:
+Picea -> 1
+Pinus -> 1
+DUM_49 -> -1
+Zamia -> -1
+BENCHMARK_BIPARTITION_TIME_NS algorithm=2 level=4 taxa=4 duration_ns=817750535
+
+========== LEVEL 4 BIPARTITION RESULT ==========
+Pa (Left Partition): {DUM_49, Zamia, DUM_50}
+Number of Quartets in Qa: 0
+Pb (Right Partition): {Picea, Pinus, DUM_50}
+Number of Quartets in Qb: 0
+=============================================
+
+
+
+[L 49.] FMRunner: final tree return
+(((Silene,(Camellia,((Panax,(Helianthus,Lactuca)),(Coffea,((Ipomoea,Solanum),(Sesamum,(Mimulus,Striga))))))),(Vitis,((Eucalyptus,((Quercus,Betula),((Cannabis,(Malus,Fragaria)),(Cucumis,(Medicago,Glycine))))),((Citrus,((Gossypium,Theobroma),(Carica,(Arabidopsis,Brassica)))),(Populus,(Ricinus,Manihot)))))),(Aquilegia,((Aristolochia,(Liriodendron,Persea)),((Dioscorea,(Phalaenopsis,((Musa,Phoenix),(Sorghum,Oryza)))),(Nuphar,(Amborella,(Selaginella,(Zamia,(Picea,Pinus)))))))));
+>-> Successfully written to output-file /root/dwave/QWQFM/benchmark/work/biological_fresh_20260724T220932Z_n_ge_4/angiosperm.weighted_quartets/quantum.tre.tmp.682548
+
+Time taken = 46384 ms ==> 0 minutes and 46 seconds.
+================= **** ======================== **** ====================
+No annotations used.

@@ -1,0 +1,1360 @@
+Input directory: /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets
+Quartet files selected: 200 of 200
+CSV output: /home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_11_taxa_bruteforce.csv
+Checkpoint directory: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa_bruteforce
+Algorithm order: 1 (wqfm), then 2 (bruteforce)
+Estimated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/true_tree_trimmed
+Simulated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/model_tree
+JVM options: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+Buildfile: /home/niloy/Downloads/dwave/QWQFM/WQFM/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-jar:
+
+-pre-pre-jar:
+
+-do-jar-create-manifest:
+
+-do-jar-copy-manifest:
+     [copy] Copying 1 file to /home/niloy/Downloads/dwave/QWQFM/WQFM/build
+
+-do-jar-set-mainclass:
+
+-do-jar-set-profile:
+
+-do-jar-set-splashscreen:
+
+-do-jar-jar:
+     [echo] To run this application from the command line without Ant, try:
+     [echo] /usr/lib/jvm/java-21-openjdk-amd64/bin/java -cp /home/niloy/Downloads/dwave/QWQFM/WQFM/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/D:/Personal-Projects-Data/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/dist/wQFM.jar wqfm.main.Main
+
+-init-macrodef-copylibs:
+
+-do-jar-copylibs:
+
+-do-jar-delete-manifest:
+
+-do-jar-without-libraries:
+
+-do-jar-with-libraries:
+
+-post-jar:
+
+-do-jar:
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[2/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[3/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[4/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[5/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[6/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[7/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[8/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[9/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[10/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[11/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[12/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[13/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[14/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[15/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[16/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R5_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[17/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R6_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[18/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R7_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[19/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R8_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[20/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R9_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[21/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[22/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[23/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[24/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[25/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[26/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[27/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[28/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[29/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[30/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[31/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[32/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[33/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[34/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[35/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[36/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R5_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[37/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R6_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[38/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R7_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[39/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R8_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[40/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R9_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[41/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.125000
+[42/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[43/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[44/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[45/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[46/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[47/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[48/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[49/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[50/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[51/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[52/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[53/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[54/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[55/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[56/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R5_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[57/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R6_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[58/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R7_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[59/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R8_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[60/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R9_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[61/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[62/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[63/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[64/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[65/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[66/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[67/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[68/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[69/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[70/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[71/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[72/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[73/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[74/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[75/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[76/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R5_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[77/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R6_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[78/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R7_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[79/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R8_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[80/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R9_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[81/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.625000, RF bruteforce=0.625000
+[82/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[83/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[84/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.500000
+[85/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.375000
+[86/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[87/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[88/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[89/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[90/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.125000
+[91/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[92/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[93/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.375000
+[94/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.625000, RF bruteforce=0.625000
+[95/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.250000
+[96/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R5_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+Error: dendropy library is required. Please install it with:
+pip install dendropy
+Input directory: /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets
+Quartet files selected: 200 of 200
+CSV output: /home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_11_taxa_bruteforce.csv
+Checkpoint directory: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa_bruteforce
+Algorithm order: 1 (wqfm), then 2 (bruteforce)
+Estimated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/true_tree_trimmed
+Simulated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/model_tree
+JVM options: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+Buildfile: /home/niloy/Downloads/dwave/QWQFM/WQFM/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-jar:
+
+-pre-pre-jar:
+
+-do-jar-create-manifest:
+
+-do-jar-copy-manifest:
+     [copy] Copying 1 file to /home/niloy/Downloads/dwave/QWQFM/WQFM/build
+
+-do-jar-set-mainclass:
+
+-do-jar-set-profile:
+
+-do-jar-set-splashscreen:
+
+-do-jar-jar:
+     [echo] To run this application from the command line without Ant, try:
+     [echo] /usr/lib/jvm/java-21-openjdk-amd64/bin/java -cp /home/niloy/Downloads/dwave/QWQFM/WQFM/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/D:/Personal-Projects-Data/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/dist/wQFM.jar wqfm.main.Main
+
+-init-macrodef-copylibs:
+
+-do-jar-copylibs:
+
+-do-jar-delete-manifest:
+
+-do-jar-without-libraries:
+
+-do-jar-with-libraries:
+
+-post-jar:
+
+-do-jar:
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[2/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[3/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[4/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[5/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[6/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[7/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[8/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[9/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[10/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[11/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[12/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[13/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[14/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+Error: dendropy library is required. Please install it with:
+pip install dendropy
+Input directory: /home/niloy/Downloads/dwave/QWQFM/WQFM/input_files/11-taxa-weighted-quartets
+Quartet files selected: 200 of 200
+CSV output: /home/niloy/Downloads/dwave/QWQFM/benchmark/output_csv/results_11_taxa_bruteforce.csv
+Checkpoint directory: /home/niloy/Downloads/dwave/QWQFM/benchmark/work/11_taxa_bruteforce
+Algorithm order: 1 (wqfm), then 2 (bruteforce)
+Estimated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/true_tree_trimmed
+Simulated-mode model tree: /home/niloy/Downloads/dwave/dataset/11-taxon/model_tree
+JVM options: -Xmx6g -Xms6g
+Building wQFM...
+Picked up JAVA_TOOL_OPTIONS: -Xmx6g -Xms6g
+Buildfile: /home/niloy/Downloads/dwave/QWQFM/WQFM/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/niloy/Downloads/dwave/QWQFM/WQFM/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-jar:
+
+-pre-pre-jar:
+
+-do-jar-create-manifest:
+
+-do-jar-copy-manifest:
+     [copy] Copying 1 file to /home/niloy/Downloads/dwave/QWQFM/WQFM/build
+
+-do-jar-set-mainclass:
+
+-do-jar-set-profile:
+
+-do-jar-set-splashscreen:
+
+-do-jar-jar:
+     [echo] To run this application from the command line without Ant, try:
+     [echo] /usr/lib/jvm/java-21-openjdk-amd64/bin/java -cp /home/niloy/Downloads/dwave/QWQFM/WQFM/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/D:/Personal-Projects-Data/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/picocli-4.6.1.jar:/home/niloy/Downloads/dwave/QWQFM/lib/main.jar:/home/niloy/Downloads/dwave/QWQFM/WQFM/dist/wQFM.jar wqfm.main.Main
+
+-init-macrodef-copylibs:
+
+-do-jar-copylibs:
+
+-do-jar-delete-manifest:
+
+-do-jar-without-libraries:
+
+-do-jar-with-libraries:
+
+-post-jar:
+
+-do-jar:
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[1/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[2/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[3/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[4/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[5/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[6/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[7/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[8/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[9/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[10/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[11/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[12/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[13/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[14/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[15/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R4_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[16/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R5_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[17/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R6_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[18/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R7_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[19/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R8_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[20/200] estimated_Xgenes_strongILS_estimated_100genes_strongILS_R9_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[21/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[22/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[23/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[24/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[25/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[26/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[27/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[28/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[29/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[30/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[31/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[32/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[33/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[34/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[35/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R4_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[36/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R5_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[37/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R6_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[38/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R7_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[39/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R8_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[40/200] estimated_Xgenes_strongILS_estimated_15genes_strongILS_R9_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[41/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.125000
+[42/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[43/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[44/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[45/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[46/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[47/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[48/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[49/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[50/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[51/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[52/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[53/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[54/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[55/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R4_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[56/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R5_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[57/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R6_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[58/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R7_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[59/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R8_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[60/200] estimated_Xgenes_strongILS_estimated_25genes_strongILS_R9_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[61/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[62/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[63/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[64/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[65/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[66/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[67/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[68/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[69/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[70/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[71/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[72/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[73/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[74/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[75/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R4_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[76/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R5_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[77/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R6_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[78/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R7_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[79/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R8_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[80/200] estimated_Xgenes_strongILS_estimated_50genes_strongILS_R9_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[81/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R10_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.625000, RF bruteforce=0.625000
+[82/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R11_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[83/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R12_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[84/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R13_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.500000
+[85/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R14_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.375000
+[86/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R15_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[87/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R16_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.375000, RF bruteforce=0.375000
+[88/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R17_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[89/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R18_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.125000
+[90/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R19_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.125000
+[91/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R1_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[92/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R20_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[93/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R2_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.500000, RF bruteforce=0.375000
+[94/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R3_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.625000, RF bruteforce=0.625000
+[95/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R4_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.125000, RF bruteforce=0.250000
+[96/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R5_weighted_quartets
+  Reusing completed Algorithm 1 (wqfm)
+  Reusing completed Algorithm 2 (bruteforce)
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[97/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R6_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[98/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R7_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.375000
+[99/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R8_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[100/200] estimated_Xgenes_strongILS_estimated_5genes_strongILS_R9_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.250000, RF bruteforce=0.250000
+[101/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R10_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[102/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R11_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[103/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R12_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[104/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R13_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[105/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R14_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[106/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R15_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[107/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R16_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[108/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R17_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[109/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R18_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[110/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R19_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[111/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R1_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[112/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R20_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[113/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R2_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[114/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R3_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
+  CSV row: RF WQFM=0.000000, RF bruteforce=0.000000
+[115/200] simulated_Xgenes_strongILS_simulated_100genes_strongILS_R4_weighted_quartets
+  Running Algorithm 1 (wqfm)...
+  Running Algorithm 2 (bruteforce)...
