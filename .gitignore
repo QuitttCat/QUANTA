@@ -29,5 +29,8 @@ paper/
 # VeloxQ solver runs (separate experiment)
 veloxQ-solver/
 
-# # wQFM-TREE + QUBO experiment
-wqfm-tree/
+# wQFM-TREE + QUBO experiment: datasets, cloned official repo, run outputs, compiled classes
+wqfm-tree/data/
+wqfm-tree/official/
+wqfm-tree/runs/
+wqfm-tree/quanta-tree/build/

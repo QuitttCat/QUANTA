@@ -93,11 +93,13 @@ def mean_se(values):
     return mean, math.sqrt(variance / n)
 
 
-def plot(groups, series, out, extra_panel=None, replicate_labels=True):
-    """Draw the two bar panels; extra_panel(ax), if given, draws a third, narrower one.
-    replicate_labels=False leaves only the condition name under each tick."""
-    widths = PANEL_WIDTHS + ([3.4] if extra_panel else [])
-    fig, axes = plt.subplots(1, len(widths), figsize=(15 + (6.5 if extra_panel else 0), 5.8),
+def plot(groups, series, out, extra_panel=None, replicate_labels=True, extra_width=3.4, extra_fig_width=6.5,
+         equal_bars=False):
+    """Draw the two bar panels; extra_panel(ax), if given, draws a third, narrower one
+    of relative width extra_width. replicate_labels=False leaves only the condition
+    name under each tick. equal_bars=True gives each group of bars the same room."""
+    widths = PANEL_WIDTHS + ([extra_width] if extra_panel else [])
+    fig, axes = plt.subplots(1, len(widths), figsize=(15 + (extra_fig_width if extra_panel else 0), 5.8),
                              gridspec_kw={"width_ratios": widths})
     bar_width = 0.8 / len(series)
 
@@ -129,6 +131,8 @@ def plot(groups, series, out, extra_panel=None, replicate_labels=True):
 
         first = series[0][2]
         ax.set_ylim(0, y_top * 1.12)
+        if equal_bars:
+            ax.set_xlim(-0.5, len(conditions) - 0.5)
         ax.set_xticks(list(positions))
         ax.set_xticklabels([f"{tick}\navg. over\n{len(groups[key][first])} replicates" if replicate_labels
                             else tick for tick, key in conditions], fontsize=12, color=INK)

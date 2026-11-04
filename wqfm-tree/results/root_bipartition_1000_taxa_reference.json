@@ -1,0 +1,27 @@
+{
+  "taxa": 1000,
+  "genes": 200,
+  "qubo_variables": 1000,
+  "qubo_nonzero_couplings": 499500,
+  "qubo_build_seconds": 28.38,
+  "species_tree_splits": 997,
+  "best_true_split": {
+    "energy": -4093183331406.4004,
+    "sizes": [
+      483,
+      517
+    ],
+    "satisfied": 3088534044288.0,
+    "deferred": 4141723293400.0,
+    "violated": 16772067312.0,
+    "s_minus_v": 3071761976976.0,
+    "satisfied_fraction_of_2_2": 0.9945989004918557
+  },
+  "best_true_split_by_s_minus_v": {
+    "satisfied": 3088534044288.0,
+    "deferred": 4141723293400.0,
+    "violated": 16772067312.0,
+    "s_minus_v": 3071761976976.0,
+    "satisfied_fraction_of_2_2": 0.9945989004918557
+  }
+}

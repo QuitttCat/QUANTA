@@ -1,0 +1,2 @@
+taxa,model,rep,genes,method,rf,wall_s,core_s,peak_mem_mb,subproblems,qubo_build_s,sa_s,exhaustive_s,sa_calls,fallbacks
+500,model.500.2000000.0.000001,01,1000,QUANTA in wQFM-TREE (QUBO: SA / exhaustive),0.0341,194.0200,193.8300,615.4102,498,26.770,65.6440,76.9100,41,0

@@ -1,0 +1,4 @@
+taxa,genes,qubo_build_seconds,best_true_split_energy,best_true_split_sizes,best_true_split_satisfied_fraction,solver_energy,solver_sizes,solver_is_true_split,solver_taxa_from_nearest_true_split,solver_energy_minus_best_true_split,solver_satisfied_fraction,solver_wall_s,solver_time_s
+200,200,3.57,-6420140299.2,92/108,0.9981,-6420140299.2,92/108,True,0,0.0,0.9981,6.766,4.505788461
+500,200,10.69,-255080111216.0,250/250,0.9936,-255080111216.0,250/250,True,0,0.0,0.9936,20.08,20.075523469
+1000,200,26.21,-4093183331406.4,483/517,0.9946,-4093183331406.1,483/517,True,0,0.3,0.9946,92.75,88.827552108

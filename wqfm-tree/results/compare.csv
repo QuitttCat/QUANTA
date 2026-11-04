@@ -1,0 +1,6 @@
+taxa,method,rf,wall_s,core_s,peak_mem_mb,subproblems,qubo_build_s,sa_s,exhaustive_s,sa_calls,fallbacks,note
+200,QUANTA in wQFM-TREE (QUBO: SA / exhaustive),0.0102,29.5000,29.3550,221.7617,197,1.171,9.7300,13.4230,16,0,wall = Java + Python solver process (peak memory of the Java process)
+200,wQFM-TREE (FM),0.0102,89.5700,88.8450,586.0430,,,,,,,wall = cleaning + PAUP* consensus + Java; core = Java (FM divide and conquer)
+500,QUANTA in wQFM-TREE (QUBO: SA / exhaustive),0.0201,127.1600,126.9020,686.5117,497,6.414,50.0820,57.7000,40,0,wall = Java + Python solver process (peak memory of the Java process)
+500,wQFM-TREE (FM),0.0201,665.6100,664.1610,991.3477,,,,,,,wall = cleaning + PAUP* consensus + Java; core = Java (FM divide and conquer)
+1000,QUANTA in wQFM-TREE (QUBO: SA / exhaustive),0.0241,455.0400,454.7320,1162.6562,997,16.889,197.4300,196.6830,81,0,wall = Java + Python solver process (peak memory of the Java process)

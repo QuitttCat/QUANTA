@@ -1,0 +1,42 @@
+
+=== 1000 taxa: sa ===
+SIMULATED_ANNEALING_TIME_NS n=1000 duration_ns=88827552108
+SIMULATED_ANNEALING selected sample rank: 1; skipped invalid samples: 0; partition sizes: 483 & 517
+{
+  "taxa": 1000,
+  "qubo_build_seconds": 26.21,
+  "best_true_split": {
+    "energy": -4093183331406.4004,
+    "sizes": [
+      483,
+      517
+    ],
+    "satisfied": 3088534044288.0,
+    "deferred": 4141723293400.0,
+    "violated": 16772067312.0,
+    "s_minus_v": 3071761976976.0,
+    "satisfied_fraction_of_2_2": 0.9945989004918557
+  },
+  "solver": {
+    "solver": "simulated annealing (qaoa_classical.classical_annealing, dwave-samplers, 1000 reads, 1000 sweeps)",
+    "energy": -4093183331406.1465,
+    "energy_recomputed": -4093183331406.4004,
+    "sizes": [
+      483,
+      517
+    ],
+    "is_true_species_split": true,
+    "taxa_from_nearest_true_split": 0,
+    "energy_minus_best_true_split": 0.25390625,
+    "satisfied": 3088534044288.0,
+    "deferred": 4141723293400.0,
+    "violated": 16772067312.0,
+    "s_minus_v": 3071761976976.0,
+    "satisfied_fraction_of_2_2": 0.9945989004918557,
+    "wall_s": 92.75,
+    "sampler_s": 88.827552108,
+    "selected_sample_rank": 1,
+    "fallback": false
+  }
+}
+Saved /home/niloy/Downloads/dwave/wqfm-tree/results/summary_sa.csv (3 datasets)

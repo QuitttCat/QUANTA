@@ -1,0 +1,2 @@
+taxa,method,rf_to_astral3,wall_s,core_s,peak_mem_mb,subproblems,qubo_build_s,sa_s,exhaustive_s,sa_calls,fallbacks,note
+2001,QUANTA in wQFM-TREE (QUBO: SA / exhaustive),0.0015,2092.1700,2090.8410,2532.4805,1998,338.904,977.3880,460.8340,158,0,wall = Java + Python solver process (peak memory of the Java process)
